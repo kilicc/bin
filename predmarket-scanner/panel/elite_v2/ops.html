@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MEGA 9007 — Sistem İzleme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/panel-assets/css/paper.css">
+  <link rel="stylesheet" href="/panel-assets/css/admin.css">
+  <link rel="stylesheet" href="/panel-assets/css/control-hub.css">
+</head>
+<body class="hub-shell ops-shell">
+  <div id="conn-alert-bar"></div>
+  <header class="hub-header">
+    <div class="hub-header-inner">
+      <div class="hub-brand">
+        <span class="hub-logo">MEGA Control Hub</span>
+        <span id="hub-conn-pill" class="hub-conn-pill ok">Bağlantı kontrol…</span>
+      </div>
+      <nav class="hub-nav" id="hub-nav"></nav>
+    </div>
+  </header>
+
+  <main class="hub-main">
+    <h1 class="hub-page-title">Sistem &amp; AI İzleme</h1>
+    <p class="hub-page-sub">Bot bağlantıları, motor hızı, Binance durumu — otomatik yenileme açıkken kopukluk anında üst bantta görünür.
+      <strong>Ping</strong> = hafif heartbeat (&lt;80 ms localhost normal).
+      <strong>Conn</strong> = ağır bağlantı özeti (200–800 ms olabilir).</p>
+    <div id="hub-context-strip" class="hub-context-strip"></div>
+
+    <div id="login-gate" class="hub-login">
+      <h2>Giriş</h2>
+      <p>İzleme paneli için admin şifresi</p>
+      <input type="password" id="admin-password" class="hub-input" placeholder="Şifre" autocomplete="current-password" />
+      <button type="button" id="btn-admin-login" class="btn mega-btn-primary hub-btn-block">Giriş yap</button>
+    </div>
+
+    <div id="app-root" class="hidden">
+      <div id="ops-summary" class="hub-grid-3 hub-summary-row"></div>
+
+      <div class="hub-info-box tip">
+        <strong>Binance IP ban (-1003):</strong> Çok fazla REST isteği GCP IP'yi geçici banlar.
+        <strong>demo.binance.com</strong> API'lerinde IP whitelist alanı yok — canlı işlem için
+        <strong>binance.com → API Management</strong> mainnet anahtarı + GCP IP (<code>34.146.107.66</code>) ekleyin.
+      </div>
+
+      <div class="hub-toolbar">
+        <label><input type="checkbox" id="ops-auto" checked /> Otomatik yenile (8 sn)</label>
+        <label><input type="checkbox" id="ops-fresh-llm" /> LLM canlı ping</label>
+        <button type="button" id="btn-ops-refresh" class="btn mega-btn-primary">Şimdi yenile</button>
+        <span id="ops-ts" class="hub-muted"></span>
+      </div>
+
+      <h2 class="ops-section-title">Bağlantı uyarıları</h2>
+      <div id="ops-alerts" class="hub-grid-auto hub-section-block"></div>
+
+      <h2 class="ops-section-title">Botlar (9005 / 9006 / 9007)</h2>
+      <div id="ops-bots" class="hub-grid-3"></div>
+
+      <h2 class="ops-section-title">Yapay zeka</h2>
+      <div id="ops-llm" class="hub-grid-2"></div>
+
+      <h2 class="ops-section-title">Lab bilgi tabanı</h2>
+      <div id="ops-knowledge" class="hub-card hub-card-glow"></div>
+
+      <h2 class="ops-section-title">Health strip (9007)</h2>
+      <div id="ops-strip" class="hub-card"></div>
+    </div>
+  </main>
+
+  <script src="/panel-assets/js/control-nav.js"></script>
+  <script src="/panel-assets/js/connection-banner.js"></script>
+  <script src="/panel-assets/js/hub-context.js"></script>
+  <script src="/panel-assets/js/admin-gate.js"></script>
+  <script src="/panel-assets/js/ops.js"></script>
+  <script>EliteControlNav.render(document.getElementById("hub-nav"));</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+[Unit]
+Description=Elite 9005 health supervisor (auto-restart)
+After=binance-elite-9005-mainnet.service
+Wants=binance-elite-9005-mainnet.service
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/binancex/predmarket-scanner
+Environment=ELITE_9005_MAINNET=1
+Environment=NO_PROXY=*
+ExecStart=/bin/bash /opt/binancex/predmarket-scanner/scripts/elite_9005_supervisor.sh run
+Restart=always
+RestartSec=15
+
+StandardOutput=append:/opt/binancex/predmarket-scanner/logs/elite_9005_supervisor.log
+StandardError=append:/opt/binancex/predmarket-scanner/logs/elite_9005_supervisor.log
+
+[Install]
+WantedBy=multi-user.target

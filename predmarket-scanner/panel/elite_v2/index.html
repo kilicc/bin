@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elite Pro — Binance Demo Command Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/panel-assets/css/dashboard.css">
+  <script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div id="conn-alert-bar" role="alert" aria-live="assertive"></div>
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="loader" aria-label="Yükleniyor"></div>
+  </div>
+
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo-mark">E</div>
+        <div>
+          <h1>Elite Pro Command Center</h1>
+          <p id="display-note">Binance Futures Demo · berserk2 canlı motor</p>
+        </div>
+      </div>
+      <div class="badges">
+        <span id="badge-live" class="badge live">CANLI</span>
+        <span id="badge-mode" class="badge mode">BERSERK2</span>
+        <span id="badge-view" class="badge">LIVE</span>
+      </div>
+      <div class="topbar-right">
+        <a href="http://127.0.0.1:9006/paper" class="btn nav-paper">MEGA Canlı</a>
+        <span id="poll-latency" class="lat-pill">—ms</span>
+        <div id="live-clock" class="clock">00:00:00</div>
+      </div>
+    </header>
+
+    <section class="conn-grid" aria-label="Bağlantı durumu">
+      <div id="conn-api" class="conn-card"><div class="conn-label">Demo API</div></div>
+      <div id="conn-mark" class="conn-card"><div class="conn-label">Mark WS</div></div>
+      <div id="conn-book" class="conn-card"><div class="conn-label">BookTicker</div></div>
+      <div id="conn-rest" class="conn-card"><div class="conn-label">REST</div></div>
+    </section>
+
+    <section class="kpi-grid" aria-label="Özet metrikler">
+      <div class="kpi">
+        <div class="kpi-label">Bakiye</div>
+        <div id="kpi-balance" class="kpi-value neutral">—</div>
+        <div id="kpi-balance-sub" class="kpi-sub"></div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Session PnL</div>
+        <div id="kpi-pnl" class="kpi-value neutral">—</div>
+        <div id="kpi-pnl-sub" class="kpi-sub"></div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">uPnL (açık)</div>
+        <div id="kpi-upnl" class="kpi-value neutral">—</div>
+        <div id="kpi-upnl-sub" class="kpi-sub"></div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Açık pozisyon</div>
+        <div id="kpi-open" class="kpi-value neutral">—</div>
+        <div id="kpi-open-sub" class="kpi-sub"></div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Win rate</div>
+        <div id="kpi-winrate" class="kpi-value neutral">—</div>
+        <div id="kpi-winrate-sub" class="kpi-sub"></div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Motor kuyruk</div>
+        <div id="kpi-queue" class="kpi-value neutral">—</div>
+        <div id="kpi-queue-sub" class="kpi-sub"></div>
+      </div>
+    </section>
+
+    <section class="hero-theater panel">
+      <div class="panel-head hero-head">
+        <div>
+          <h2 class="panel-title">Canlı <span>performans</span></h2>
+          <p id="hero-subtitle" class="hero-sub">Equity &amp; TP'ye yakın pozisyonlar</p>
+        </div>
+        <div class="hero-controls">
+          <div class="view-toggle" role="tablist">
+            <button type="button" class="view-btn active" data-view="carousel">Tek grafik</button>
+            <button type="button" class="view-btn" data-view="grid">Grid</button>
+            <button type="button" class="view-btn" data-view="combo">Karma</button>
+            <button type="button" class="view-btn" data-view="equity">Equity</button>
+          </div>
+          <button type="button" id="hero-prev" class="btn icon-btn" aria-label="Önceki">‹</button>
+          <span id="hero-index" class="hero-index">—</span>
+          <button type="button" id="hero-next" class="btn icon-btn" aria-label="Sonraki">›</button>
+        </div>
+      </div>
+      <div id="hero-meta" class="hero-meta">
+        <div class="hero-stat"><span class="lbl">uPnL</span><span id="hero-upnl" class="val">—</span></div>
+        <div class="hero-stat"><span class="lbl">TP mesafe</span><span id="hero-tp-pct" class="val">—</span></div>
+        <div class="hero-stat"><span class="lbl">Net hedef</span><span id="hero-tp-usd" class="val">—</span></div>
+        <div class="tp-progress-wrap"><div id="hero-tp-bar" class="tp-progress-bar"></div></div>
+      </div>
+      <div id="chart-ohlc-bar" class="chart-ohlc-bar hidden">
+        <div class="ohlc-left">
+          <span id="ohlc-symbol" class="ohlc-symbol">—</span>
+          <span class="ohlc-item">O <b id="ohlc-o">—</b></span>
+          <span class="ohlc-item">H <b id="ohlc-h">—</b></span>
+          <span class="ohlc-item">L <b id="ohlc-l">—</b></span>
+          <span class="ohlc-item">C <b id="ohlc-c">—</b></span>
+          <span id="ohlc-chg" class="ohlc-chg">—</span>
+          <span class="ohlc-mark-wrap">Mark <b id="ohlc-mark" class="ohlc-mark">—</b></span>
+        </div>
+        <div class="ohlc-ma-legend">
+          <span class="ma-tag ma7">MA(7) <b id="ma7-val">—</b></span>
+          <span class="ma-tag ma25">MA(25) <b id="ma25-val">—</b></span>
+          <span class="ma-tag ma99">MA(99) <b id="ma99-val">—</b></span>
+        </div>
+      </div>
+      <div id="chart-equity-strip" class="chart-equity-strip hidden"></div>
+      <div id="chart-hero" class="chart-hero"></div>
+      <div id="hero-thumbs" class="hero-thumbs"></div>
+      <div id="hero-grid" class="hero-grid hidden"></div>
+    </section>
+
+    <section class="positions-row">
+      <div class="panel positions-main">
+        <div class="panel-head">
+          <h2 class="panel-title">Açık <span>pozisyonlar</span></h2>
+          <span id="scanner-meta" class="kpi-sub"></span>
+        </div>
+        <div id="positions-grid" class="pos-grid">
+          <div class="empty-state" style="grid-column:1/-1">
+            <div class="icon">◎</div>
+            <p>Pozisyonlar yükleniyor…</p>
+          </div>
+        </div>
+      </div>
+      <aside class="reject-widget panel" aria-label="Motor red sebepleri">
+        <div class="panel-head reject-head">
+          <h2 class="panel-title">Motor <span>red</span></h2>
+          <span id="reject-total" class="reject-total">—</span>
+        </div>
+        <div class="reject-body">
+          <div class="reject-donut-wrap"><canvas id="chart-rejects"></canvas></div>
+          <ul id="reject-legend" class="reject-legend"></ul>
+        </div>
+      </aside>
+    </section>
+
+    <section class="ticker-wrap">
+      <div class="ticker-head">Canlı sinyaller &amp; yaklaşan girişler</div>
+      <div id="signal-track" class="ticker-track"></div>
+    </section>
+
+    <section class="two-col">
+      <div class="panel">
+        <div class="panel-head">
+          <h2 class="panel-title">Watchlist <span>heatmap</span></h2>
+        </div>
+        <div id="heat-grid" class="heat-grid"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head">
+          <h2 class="panel-title">Sistem <span>health</span></h2>
+        </div>
+        <div id="health-grid" class="health-grid"></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2 class="panel-title">Son <span>kapanışlar</span></h2>
+      </div>
+      <div class="table-wrap closed-table-wrap">
+        <table class="data closed-table">
+          <thead>
+            <tr>
+              <th class="col-sticky-left">Sembol</th>
+              <th>Yön</th>
+              <th>Kald.</th>
+              <th>Stake</th>
+              <th>Giriş zamanı</th>
+              <th>Çıkış zamanı</th>
+              <th>Süre</th>
+              <th>Giriş fiyat</th>
+              <th>Çıkış fiyat</th>
+              <th>Sinyal fill</th>
+              <th>Brüt PnL</th>
+              <th>Net PnL</th>
+              <th>Cüzdan PnL</th>
+              <th>Borsa PnL</th>
+              <th>Vergi</th>
+              <th>Giriş fee</th>
+              <th>Çıkış fee</th>
+              <th>Toplam fee</th>
+              <th>ACK ms</th>
+              <th>Settle ms</th>
+              <th>Kapanış ms</th>
+              <th>Giriş emir</th>
+              <th>Çıkış emir</th>
+              <th>Kaynak</th>
+              <th>Sebep</th>
+              <th class="col-sticky-right">Sil</th>
+            </tr>
+          </thead>
+          <tbody id="closed-body">
+            <tr><td colspan="26" style="text-align:center;color:var(--dim);padding:24px">—</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Son güncelleme: <span id="footer-ts">—</span> · Elite 9005 V2</span>
+      <div class="footer-actions">
+        <button type="button" id="btn-refresh" class="btn">Yenile</button>
+        <button type="button" id="btn-reconnect" class="btn primary">WS Yeniden Bağlan</button>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/panel-assets/js/closed-trade-utils.js"></script>
+  <script src="/panel-assets/js/trading-charts.js"></script>
+  <script src="/panel-assets/js/connection-banner.js"></script>
+  <script src="/panel-assets/js/dashboard.js"></script>
+</body>
+</html>

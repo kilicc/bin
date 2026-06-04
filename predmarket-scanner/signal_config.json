@@ -1,0 +1,63 @@
+{
+  "binance": {
+    "api_key": "3qLjlfUeLyGgtB8p4oKTD6YsP5M8bWb67tUemJRc7YOxuC1hJYI4fWOqupZj1Idb",
+    "api_secret": "RBuo1px4L5uF2n7plOtPPoZ0VXWAfULnDwbdzS5WxGfGTXxqGxZrLsBwlu34ONeX",
+    "testnet": true
+  },
+  "signal_sources": [
+    {
+      "id": "telegram_crypto_signals",
+      "type": "telegram",
+      "enabled": true,
+      "webhook_url": "http://localhost:8000/webhook/telegram",
+      "description": "Telegram crypto signal channels (Binance Killers, Crypto VIP, etc)"
+    },
+    {
+      "id": "tradingview_alerts",
+      "type": "tradingview",
+      "enabled": false,
+      "webhook_url": "http://localhost:8000/webhook/tradingview",
+      "description": "TradingView custom alerts"
+    },
+    {
+      "id": "stockapi_signals",
+      "type": "stockapi",
+      "enabled": false,
+      "api_key": "YOUR_STOCKAPI_KEY_HERE",
+      "description": "StockAPI Telegram parser (https://stockapis.com)"
+    }
+  ],
+  "trading": {
+    "allowed_symbols": [
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT",
+      "SOLUSDT",
+      "ADAUSDT",
+      "DOGEUSDT",
+      "XRPUSDT"
+    ],
+    "min_confidence": 70.0,
+    "max_positions": 5,
+    "check_interval_seconds": 60,
+    "risk_per_trade": 0.02,
+    "max_leverage": 10,
+    "default_leverage": 5
+  },
+  "notes": {
+    "setup_instructions": [
+      "1. Copygram (Recommended): Go to https://copygram.app and connect your Binance API",
+      "2. 3Commas (TradingView): Go to https://3commas.io and create Signal Bot",
+      "3. Python System: Run 'python3 scripts/run_signal_trading.py run'",
+      "4. For Telegram signals: Join channels like @binancekillers @cryptovip_signals",
+      "5. For TradingView: Create alerts and send to webhook",
+      "6. For StockAPI: Get API key from https://stockapis.com"
+    ],
+    "telegram_channels": [
+      "@binancekillers - Binance Killers",
+      "@cryptovip_signals - Crypto VIP Signals",
+      "@futures_trading_signals - Futures Trading Signals",
+      "@binance_futures_free - Binance Futures Signals"
+    ]
+  }
+}

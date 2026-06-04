@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MEGA 9007 — Develop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/panel-assets/css/paper.css">
+  <link rel="stylesheet" href="/panel-assets/css/admin.css">
+  <link rel="stylesheet" href="/panel-assets/css/control-hub.css">
+</head>
+<body class="hub-shell develop-shell">
+  <div id="conn-alert-bar"></div>
+  <header class="hub-header">
+    <div class="hub-header-inner">
+      <div class="hub-brand">
+        <span class="hub-logo">MEGA Control Hub</span>
+        <span id="hub-conn-pill" class="hub-conn-pill ok">Bağlantı kontrol…</span>
+      </div>
+      <nav class="hub-nav" id="hub-nav"></nav>
+    </div>
+  </header>
+
+  <main class="hub-main">
+    <h1 class="hub-page-title">Develop</h1>
+    <p class="hub-page-sub">RAG bootstrap, öneri onayı, restart ve log — operasyonel geliştirme masası.</p>
+    <div id="hub-context-strip" class="hub-context-strip"></div>
+
+    <div id="login-gate" class="hub-login">
+      <h2>Giriş</h2>
+      <p>Develop modu — admin şifresi</p>
+      <input type="password" id="admin-password" class="hub-input" placeholder="Şifre" autocomplete="current-password" />
+      <button type="button" id="btn-admin-login" class="btn mega-btn-primary hub-btn-block">Giriş yap</button>
+    </div>
+
+    <div id="app-root" class="hidden">
+      <div class="hub-info-box warn">
+        <strong>Geliştirme modu</strong> — Kod deploy Mac sync ile; buradan bootstrap, restart ve log operasyonları.
+      </div>
+      <div class="hub-grid-2 develop-grid">
+        <section class="hub-card hub-card-glow">
+          <h3>Durum</h3>
+          <pre id="dev-status" class="hub-pre">Yükleniyor…</pre>
+          <button type="button" id="btn-refresh-status" class="btn">Yenile</button>
+        </section>
+        <section class="hub-card">
+          <h3>RAG bootstrap</h3>
+          <p class="hub-muted">9005 lessons + proposals → lab hafızası</p>
+          <div class="dev-row">
+            <button type="button" id="btn-bootstrap" class="btn mega-btn-primary">Bootstrap</button>
+            <button type="button" id="btn-bootstrap-force" class="btn">Force yenile</button>
+          </div>
+          <p id="bootstrap-msg" class="hub-muted"></p>
+        </section>
+        <section class="hub-card">
+          <h3>Self-check</h3>
+          <button type="button" id="btn-self-check" class="btn">LLM + bilgi testi</button>
+          <pre id="self-check-out" class="hub-pre"></pre>
+        </section>
+        <section class="hub-card">
+          <h3>Restart</h3>
+          <div class="dev-row">
+            <button type="button" id="btn-restart-ctl" class="btn mega-btn-warn">9007 ctl restart</button>
+            <button type="button" id="btn-restart-systemd" class="btn">systemd restart</button>
+          </div>
+          <p id="restart-msg" class="hub-muted"></p>
+        </section>
+        <section class="hub-card hub-card-wide hub-card-glow">
+          <h3>9005 Öneriler</h3>
+          <div class="dev-row">
+            <select id="proposal-filter">
+              <option value="">Tümü</option>
+              <option value="pending" selected>Bekleyen</option>
+              <option value="approved">Onaylı</option>
+              <option value="rejected">Red</option>
+            </select>
+            <button type="button" id="btn-load-proposals" class="btn">Yükle</button>
+            <a href="/lab" class="btn">Lab →</a>
+          </div>
+          <div id="proposal-list"></div>
+        </section>
+        <section class="hub-card hub-card-wide">
+          <h3>Senaryo (maskeli)</h3>
+          <pre id="scenario-out" class="hub-pre"></pre>
+        </section>
+        <section class="hub-card hub-card-wide">
+          <h3>Süreç logu</h3>
+          <div class="dev-row">
+            <button type="button" id="btn-tail-log" class="btn">Log tail</button>
+            <a href="/ops" class="btn">İzleme →</a>
+          </div>
+          <pre id="log-out" class="hub-pre log-pre"></pre>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <script src="/panel-assets/js/control-nav.js"></script>
+  <script src="/panel-assets/js/connection-banner.js"></script>
+  <script src="/panel-assets/js/hub-context.js"></script>
+  <script src="/panel-assets/js/admin-gate.js"></script>
+  <script src="/panel-assets/js/develop.js"></script>
+  <script>EliteControlNav.render(document.getElementById("hub-nav"));</script>
+</body>
+</html>

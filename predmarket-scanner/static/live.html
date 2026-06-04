@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PredMarket — LIVE</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f1419;--card:#1a2332;--bdr:#2d3a4f;--text:#e8eef7;--muted:#8b9cb3;--up:#22c55e;--dn:#ef4444;--acc:#f59e0b;--live:#ef4444;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+header{display:flex;align-items:center;gap:16px;padding:16px 24px;border-bottom:1px solid var(--bdr);background:var(--card)}
+.badge{background:var(--live);color:#fff;font-size:11px;font-weight:700;padding:4px 10px;border-radius:6px;letter-spacing:.06em}
+h1{font-size:18px;font-weight:700}
+.sub{font-size:12px;color:var(--muted);margin-left:auto}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;padding:20px 24px}
+.kpi{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:14px 16px}
+.kpi-l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.kpi-v{font-size:22px;font-weight:700;margin-top:4px;font-family:'JetBrains Mono',monospace}
+.kpi-v.up{color:var(--up)}.kpi-v.dn{color:var(--dn)}.kpi-v.acc{color:var(--acc)}
+main{padding:0 24px 32px;display:grid;gap:20px}
+.panel{background:var(--card);border:1px solid var(--bdr);border-radius:12px;overflow:hidden}
+.panel-h{padding:12px 16px;border-bottom:1px solid var(--bdr);font-weight:600;font-size:13px;display:flex;justify-content:space-between;align-items:center}
+.rule{font-size:11px;color:var(--acc);font-weight:500}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--bdr)}
+th{color:var(--muted);font-weight:500;font-size:10px;text-transform:uppercase}
+tr:last-child td{border-bottom:none}
+.side-yes{color:var(--up)}.side-no{color:var(--dn)}
+.pnl-up{color:var(--up)}.pnl-dn{color:var(--dn)}
+.empty{padding:32px;text-align:center;color:var(--muted);font-size:13px}
+#chart{height:220px}
+.ws{font-size:11px;color:var(--muted)}.ws.ok{color:var(--up)}
+a{color:var(--acc);text-decoration:none;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <span class="badge">LIVE</span>
+  <h1>Polymarket — Gerçek İşlemler</h1>
+  <span class="sub"><span id="wsLbl" class="ws">bağlanıyor…</span> · <a href="http://127.0.0.1:8000/">Paper panel</a></span>
+</header>
+
+<div class="kpis">
+  <div class="kpi"><div class="kpi-l">USDC (CLOB)</div><div id="kUsdc" class="kpi-v acc">—</div></div>
+  <div class="kpi"><div class="kpi-l">Realized P&amp;L</div><div id="kPnl" class="kpi-v">—</div></div>
+  <div class="kpi"><div class="kpi-l">Açık</div><div id="kOpen" class="kpi-v">0</div></div>
+  <div class="kpi"><div class="kpi-l">Kapalı</div><div id="kClosed" class="kpi-v">0</div></div>
+  <div class="kpi"><div class="kpi-l">Max pozisyon</div><div id="kMax" class="kpi-v">$2</div></div>
+</div>
+
+<main>
+  <div class="panel"><div class="panel-h">Kümülatif P&amp;L (live.db)<span id="exitRule" class="rule">±2% stake TP/SL</span></div><div id="chart"></div></div>
+  <div class="panel"><div class="panel-h">Açık pozisyonlar<span id="openN">0</span></div>
+    <div style="overflow-x:auto"><table><thead><tr>
+      <th>#</th><th>Market</th><th>Yön</th><th>Stake</th><th>Giriş</th><th>Canlı</th><th>P&amp;L</th><th>TP hedef</th><th>SL hedef</th>
+    </tr></thead><tbody id="openBody"><tr><td colspan="9" class="empty">Açık pozisyon yok</td></tr></tbody></table></div>
+  </div>
+  <div class="panel"><div class="panel-h">Son kapanışlar</div>
+    <div style="overflow-x:auto"><table><thead><tr>
+      <th>#</th><th>Market</th><th>Yön</th><th>Stake</th><th>P&amp;L</th><th>%</th><th>Çıkış</th><th>Zaman</th>
+    </tr></thead><tbody id="closedBody"><tr><td colspan="8" class="empty">Henüz kapanış yok</td></tr></tbody></table></div>
+  </div>
+</main>
+
+<script>
+function fmt(n){if(n==null||isNaN(n))return'—';return Math.abs(n)>=100?n.toFixed(0):n.toFixed(2);}
+function render(data){
+  const w=data.wallet||{},s=data.summary||{},p=data.portfolio||{},st=p.stats||{};
+  document.getElementById('kUsdc').textContent=w.usdc!=null?'$'+fmt(w.usdc):'—';
+  const pnl=st.realized_pnl||0;
+  const pel=document.getElementById('kPnl');
+  pel.textContent=(pnl>=0?'+':'')+'$'+fmt(Math.abs(pnl));
+  pel.className='kpi-v '+(pnl>=0?'up':'dn');
+  document.getElementById('kOpen').textContent=String(st.open_trades||0);
+  document.getElementById('kClosed').textContent=String(st.closed_trades||0);
+  document.getElementById('kMax').textContent='$'+fmt(s.max_position_usd||2);
+  const er=p.exit_rule||{};
+  if(er.label)document.getElementById('exitRule').textContent=er.label;
+  document.getElementById('openN').textContent=String((p.open_positions||[]).length);
+  const ob=document.getElementById('openBody');
+  const opens=p.open_positions||[];
+  if(!opens.length)ob.innerHTML='<tr><td colspan="9" class="empty">Açık pozisyon yok — ./run_live_scanner.sh</td></tr>';
+  else ob.innerHTML=opens.map(x=>{
+    const u=x.unrealized_pnl, cls=u==null?'':(u>=0?'pnl-up':'pnl-dn');
+    const side=x.side==='YES'?'side-yes':'side-no';
+    return `<tr><td>${x.id}</td><td>${x.question}</td><td class="${side}">${x.side}</td>
+      <td>$${fmt(x.stake_usd)}</td><td>${fmt(x.entry_price)}</td>
+      <td>${x.live_price!=null?fmt(x.live_price):'…'}</td>
+      <td class="${cls}">${u!=null?((u>=0?'+':'')+'$'+fmt(u)):'—'}</td>
+      <td>+$${fmt(x.tp_target_usd)}</td><td>-$${fmt(x.sl_target_usd)}</td></tr>`;
+  }).join('');
+  const cb=document.getElementById('closedBody');
+  const closed=(p.closed_positions||[]).filter(x=>Math.abs(Number(x.pnl_usd)||0)>1e-4).slice(0,40);
+  if(!closed.length)cb.innerHTML='<tr><td colspan="8" class="empty">Henüz kapanış yok</td></tr>';
+  else cb.innerHTML=closed.map(x=>{
+    const pnl=x.pnl_usd, cls=pnl>=0?'pnl-up':'pnl-dn';
+    return `<tr><td>${x.id}</td><td>${x.question}</td><td>${x.side}</td>
+      <td>$${fmt(x.stake_usd)}</td><td class="${cls}">${pnl>=0?'+':''}$${fmt(pnl)}</td>
+      <td class="${cls}">${fmt(x.pnl_pct)}%</td><td>${x.exit_reason||'—'}</td>
+      <td>${(x.closed_at||'').slice(0,16)}</td></tr>`;
+  }).join('');
+  const eq=p.equity||[], ts=p.timestamps||[];
+  if(eq.length)Plotly.react('chart',[{x:ts,y:eq,type:'scatter',mode:'lines',line:{color:'#f59e0b',width:2},fill:'tozeroy',fillcolor:'rgba(245,158,11,.12)'}],{margin:{l:48,r:16,t:8,b:32},paper_bgcolor:'#1a2332',plot_bgcolor:'#1a2332',font:{color:'#8b9cb3',size:11},xaxis:{gridcolor:'#2d3a4f'},yaxis:{gridcolor:'#2d3a4f',tickprefix:'$'}},{responsive:true});
+}
+const ws=new WebSocket((location.protocol==='https:'?'wss:':'ws:')+'//'+location.host+'/ws');
+ws.onopen=()=>{document.getElementById('wsLbl').textContent='canlı';document.getElementById('wsLbl').className='ws ok';};
+ws.onclose=()=>{document.getElementById('wsLbl').textContent='kopuk';document.getElementById('wsLbl').className='ws';};
+ws.onmessage=e=>{try{render(JSON.parse(e.data));}catch(err){console.error(err);}};
+fetch('/api/live').then(r=>r.json()).then(render).catch(()=>{});
+</script>
+</body>
+</html>

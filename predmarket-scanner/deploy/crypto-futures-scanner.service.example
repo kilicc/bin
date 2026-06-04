@@ -1,0 +1,17 @@
+# Örnek systemd unit — yolları düzenleyin:
+#   sudo cp deploy/crypto-futures-scanner.service.example /etc/systemd/system/crypto-futures-scanner.service
+#   sudo systemctl daemon-reload && sudo systemctl enable --now crypto-futures-scanner.service
+[Unit]
+Description=Hyperliquid paper futures scanner (crypto_futures_scanner.py)
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/ABS/PATH/TO/predmarket-scanner
+ExecStart=/ABS/PATH/TO/predmarket-scanner/.venv/bin/python /ABS/PATH/TO/predmarket-scanner/crypto_futures_scanner.py
+Restart=always
+RestartSec=15
+User=YOUR_USER
+
+[Install]
+WantedBy=multi-user.target

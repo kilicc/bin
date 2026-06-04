@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MEGA 9007 — Eğitim Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/panel-assets/css/paper.css">
+  <link rel="stylesheet" href="/panel-assets/css/admin.css">
+  <link rel="stylesheet" href="/panel-assets/css/control-hub.css">
+</head>
+<body class="hub-shell lab-shell">
+  <div id="conn-alert-bar"></div>
+  <header class="hub-header">
+    <div class="hub-header-inner">
+      <div class="hub-brand">
+        <span class="hub-logo">MEGA Control Hub</span>
+        <span id="hub-conn-pill" class="hub-conn-pill ok">Bağlantı kontrol…</span>
+      </div>
+      <nav class="hub-nav" id="hub-nav"></nav>
+    </div>
+  </header>
+
+  <main class="hub-main">
+    <h1 class="hub-page-title">Eğitim Lab</h1>
+    <p class="hub-page-sub">Motor bilgisi, dersler ve RAG — Binance kopukken üst bant uyarı verir.</p>
+    <div id="hub-context-strip" class="hub-context-strip"></div>
+    <div id="health-strip" class="mega-health-strip" aria-label="Lab sağlık"></div>
+    <div id="lab-banner" class="lab-banner hidden"></div>
+
+    <div class="lab-layout">
+      <aside class="lab-sidebar hub-card hub-card-glow">
+        <h3>Oturumlar</h3>
+        <div id="lab-sessions"></div>
+        <button type="button" id="btn-new-session" class="btn mega-btn-primary hub-btn-block">+ Yeni oturum</button>
+        <h3>Motor test</h3>
+        <button type="button" class="btn" data-motor="scan_summary">Scan özeti</button>
+        <button type="button" class="btn" data-motor="snapshot_light">Snapshot</button>
+        <button type="button" class="btn" data-motor="regime">Regime</button>
+        <pre id="motor-out" class="hub-pre"></pre>
+        <button type="button" id="btn-export" class="btn hub-btn-block">Export ZIP</button>
+      </aside>
+      <main class="hub-card">
+        <div id="lab-chat-log" class="lab-chat-log"></div>
+        <div class="lab-chat-input">
+          <textarea id="lab-message" placeholder="Motor, stake veya çıkış stratejisi hakkında sor…" rows="3"></textarea>
+          <button type="button" id="btn-lab-send" class="btn mega-btn-primary">Gönder</button>
+        </div>
+        <div class="lab-dropzone" id="lab-dropzone">
+          Görsel / PDF sürükle veya
+          <label><input type="file" id="lab-file" accept="image/*,.pdf" hidden /> dosya seç</label>
+        </div>
+      </main>
+      <aside class="lab-right hub-card">
+        <h3>Dersler</h3>
+        <div id="lab-lessons"></div>
+        <button type="button" id="btn-save-lesson" class="btn hub-btn-block">Son cevabı ders yap</button>
+        <h3>Dokümanlar</h3>
+        <div id="lab-documents"></div>
+        <textarea id="lab-doc-text" rows="4" placeholder="Metin yapıştır ve ingest et…"></textarea>
+        <button type="button" id="btn-lab-ingest" class="btn mega-btn-primary hub-btn-block">Metin ingest</button>
+        <p id="lab-ingest-status" class="hub-muted"></p>
+        <h3>Simülasyon</h3>
+        <pre id="lab-sim-out" class="hub-pre"></pre>
+      </aside>
+    </div>
+  </main>
+
+  <script src="/panel-assets/js/control-nav.js"></script>
+  <script src="/panel-assets/js/connection-banner.js"></script>
+  <script src="/panel-assets/js/hub-context.js"></script>
+  <script src="/panel-assets/js/lab.js"></script>
+  <script>EliteControlNav.render(document.getElementById("hub-nav"));</script>
+</body>
+</html>

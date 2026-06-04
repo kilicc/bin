@@ -1,0 +1,29 @@
+.DS_Store
+.pids/
+*.pyc
+__pycache__/
+
+# Secrets — asla commit etme
+**/.env
+**/.env.*
+!**/.env.*.example
+predmarket-scanner/scenarios/.env.mega_*
+predmarket-scanner/scenarios/.env.telegram*
+
+# Python / IDE
+**/.venv/
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Runtime veri (GB+; GCP/Mac yerel)
+predmarket-scanner/data/
+predmarket-scanner/data1/
+predmarket-scanner/logs/
+**/*.db
+**/*.db-journal
+**/*.db-wal
+**/*.db-shm
+
+# Geçici / deploy cache
+**/tmp/
+**/.pids/

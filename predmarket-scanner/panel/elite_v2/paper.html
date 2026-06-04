@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <title>MEGA Canlı — Büyük Scalp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/panel-assets/css/dashboard.css?v=20260604h">
+  <link rel="stylesheet" href="/panel-assets/css/paper.css?v=20260604h">
+  <link rel="stylesheet" href="/panel-assets/css/admin.css?v=20260604h">
+</head>
+<body class="paper-page mega-live-page mega-desk-9006 mega-no-charts">
+  <div id="conn-alert-bar" role="alert" aria-live="assertive"></div>
+  <div id="panel-fatal-banner" class="panel-fatal-banner hidden" role="alert"></div>
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="loader" aria-label="Yükleniyor"></div>
+    <p class="loader-caption">MEGA canlı veri yükleniyor… (port <strong>9086</strong> · giriş <strong>x</strong> / <strong>x369</strong>)</p>
+  </div>
+
+  <div class="app mega-app">
+    <header class="topbar mega-topbar">
+      <div class="mega-brand-row">
+        <div class="brand">
+          <div class="logo-mark paper-mark">M</div>
+          <div>
+            <h1>MEGA <span class="mega-title-accent">Live Desk</span></h1>
+            <p id="display-note">Demo-fapi canlı MEGA · $5k cüzdan · TP-only çıkış</p>
+          </div>
+        </div>
+        <div id="motor-timing-strip" class="mega-motor-strip" aria-label="Motor süreleri"></div>
+      </div>
+      <div class="badges mega-badges">
+        <span id="badge-live" class="badge live">CANLI</span>
+        <span id="badge-mode" class="badge mode">MEGA</span>
+        <span id="badge-control" class="badge mega-badge-muted">RUNNING</span>
+        <span id="badge-sl" class="badge mega-badge-muted">SL kapalı</span>
+      </div>
+      <div class="topbar-right">
+        <a href="http://127.0.0.1:9005/" class="btn nav-live">← Berserk2</a>
+        <span id="snapshot-latency" class="snapshot-lat-pill off" title="Panel snapshot + heartbeat API">
+          <span class="lbl">Snapshot</span>
+          <span id="poll-latency" class="val">—</span>
+        </span>
+        <span id="binance-conn-pill" class="snapshot-lat-pill off" title="demo-fapi REST bağlantısı">
+          <span class="lbl">API</span>
+          <span id="binance-conn-val" class="val">—</span>
+        </span>
+        <div id="live-clock" class="clock">00:00:00</div>
+      </div>
+    </header>
+
+    <section class="mega-control-bar" aria-label="Desk kontrol">
+      <div class="mega-control-left">
+        <span id="control-state-label" class="mega-control-state">RUNNING</span>
+        <span id="control-pause-hint" class="mega-control-hint muted"></span>
+      </div>
+      <div class="mega-control-actions">
+        <button type="button" id="btn-pause" class="btn mega-btn-warn">Durdur</button>
+        <button type="button" id="btn-start" class="btn mega-btn-primary" disabled>Başlat</button>
+        <button type="button" id="btn-wipe-data" class="btn mega-btn-danger">Kayıtlı verileri sil</button>
+      </div>
+    </section>
+    <p id="panel-api-status" class="mega-api-status muted" aria-live="polite"></p>
+
+    <section class="mega-kpi-grid" aria-label="MEGA özet">
+      <article class="mega-kpi" data-tone="balance">
+        <div class="mega-kpi-head"><span class="mega-kpi-label">Equity</span><span class="mega-kpi-icon">◆</span></div>
+        <div id="kpi-balance" class="mega-kpi-value num-usd neutral">—</div>
+        <div id="kpi-balance-sub" class="mega-kpi-sub"></div>
+      </article>
+      <article class="mega-kpi" data-tone="pnl">
+        <div class="mega-kpi-head"><span class="mega-kpi-label">Oturum PnL</span><span class="mega-kpi-icon">△</span></div>
+        <div id="kpi-pnl" class="mega-kpi-value num-usd neutral">—</div>
+        <div id="kpi-pnl-sub" class="mega-kpi-sub"></div>
+      </article>
+      <article class="mega-kpi" data-tone="upnl">
+        <div class="mega-kpi-head"><span class="mega-kpi-label">API uPnL</span><span class="mega-kpi-icon">◎</span></div>
+        <div id="kpi-upnl" class="mega-kpi-value num-usd neutral">—</div>
+        <div id="kpi-upnl-sub" class="mega-kpi-sub"></div>
+      </article>
+      <article class="mega-kpi" data-tone="open">
+        <div class="mega-kpi-head"><span class="mega-kpi-label">Açık slot</span><span class="mega-kpi-icon">▣</span></div>
+        <div id="kpi-open" class="mega-kpi-value num-slot neutral">—</div>
+        <div id="kpi-open-sub" class="mega-kpi-sub"></div>
+      </article>
+      <article class="mega-kpi" data-tone="win">
+        <div class="mega-kpi-head"><span class="mega-kpi-label">Win rate</span><span class="mega-kpi-icon">%</span></div>
+        <div id="kpi-winrate" class="mega-kpi-value num-pct neutral">—</div>
+        <div id="kpi-winrate-sub" class="mega-kpi-sub"></div>
+      </article>
+      <article class="mega-kpi" data-tone="queue">
+        <div class="mega-kpi-head"><span class="mega-kpi-label">Motor</span><span class="mega-kpi-icon">⏱</span></div>
+        <div id="kpi-stake" class="mega-kpi-value num-queue neutral">—</div>
+        <div id="kpi-stake-sub" class="mega-kpi-sub">Berserk2 → MEGA</div>
+      </article>
+    </section>
+
+    <section class="mega-main-grid">
+      <div class="mega-positions-col panel mega-panel">
+        <div class="panel-head mega-panel-head">
+          <div>
+            <h2 class="panel-title">Açık <span>pozisyonlar</span></h2>
+            <p class="hero-sub">Canlı uPnL — Binance positionRisk</p>
+          </div>
+          <span id="open-count-pill" class="mega-count-pill">0 / 4</span>
+        </div>
+        <div class="table-wrap mega-table-wrap mega-open-table-wrap">
+          <table class="data-table mega-table" id="open-table">
+            <colgroup>
+              <col class="col-sym" />
+              <col class="col-side" />
+              <col class="col-lev" />
+              <col class="col-stake" />
+              <col class="col-entry" />
+              <col class="col-mark" />
+              <col class="col-upnl-api" />
+              <col class="col-upnl-roi" />
+              <col class="col-tp" />
+              <col class="col-dur" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Sembol</th>
+                <th>Yön</th>
+                <th>Lev</th>
+                <th>Stake</th>
+                <th>Giriş</th>
+                <th>Mark</th>
+                <th title="positionRisk unRealizedProfit">API uPnL</th>
+                <th title="isolatedMargin × percentage (Binance tablo)">ROI $</th>
+                <th>TP</th>
+                <th>Süre</th>
+              </tr>
+            </thead>
+            <tbody id="open-body">
+              <tr><td colspan="10" class="mega-empty-cell">Henüz açık MEGA pozisyon yok</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="position-hero" class="mega-position-hero hidden">
+          <div class="mega-hero-left">
+            <span id="hero-symbol" class="mega-hero-symbol">—</span>
+            <span id="hero-side" class="mega-hero-side">—</span>
+          </div>
+          <div class="mega-hero-stats">
+            <div class="mega-hero-stat">
+              <span class="lbl">uPnL</span>
+              <span id="hero-upnl" class="val">—</span>
+            </div>
+            <div class="mega-hero-stat">
+              <span class="lbl">TP ilerleme</span>
+              <span id="hero-tp-pct" class="val">—</span>
+            </div>
+            <div class="mega-hero-stat">
+              <span class="lbl">Net TP hedef</span>
+              <span id="hero-tp-usd" class="val">—</span>
+            </div>
+            <div class="mega-hero-stat">
+              <span class="lbl">Süre</span>
+              <span id="hero-duration" class="val">—</span>
+            </div>
+          </div>
+          <div class="mega-tp-track" aria-hidden="true"><div id="hero-tp-bar" class="mega-tp-fill"></div></div>
+        </div>
+        <div id="position-detail" class="mega-position-detail hidden"></div>
+      </div>
+    </section>
+
+    <section class="mega-bottom-grid mega-scan-only-row">
+      <div class="panel mega-panel mega-scan-panel">
+        <div class="panel-head mega-panel-head">
+          <div>
+            <h2 class="panel-title">Tarama <span>&amp; adaylar</span></h2>
+            <p id="scan-meta" class="hero-sub">Berserk2 motor → MEGA giriş filtresi</p>
+          </div>
+        </div>
+        <div id="scan-stats" class="mega-scan-stats"></div>
+        <div class="mega-flash-watch-head">
+          <span class="mega-vol-title">Flash reversal izleme</span>
+          <span id="flash-watch-meta" class="mega-vol-meta">marjin · $1000 veya $100–700</span>
+        </div>
+        <div id="flash-watch-chips" class="mega-flash-watch-chips">
+          <span class="mega-scan-empty">Flash adayı taranıyor…</span>
+        </div>
+        <div class="mega-vol-head">
+          <span class="mega-vol-title">Volatil coinler</span>
+          <span id="vol-meta" class="mega-vol-meta">hot / warm tier</span>
+        </div>
+        <div id="vol-chips" class="mega-vol-chips">
+          <span class="mega-scan-empty">Volatilite taraması bekleniyor…</span>
+        </div>
+        <div id="scan-chips" class="mega-scan-chips">
+          <span class="mega-scan-empty">Tarama bekleniyor…</span>
+        </div>
+        <div class="table-wrap mega-table-wrap mega-scan-table-wrap">
+          <table class="data-table mega-table" id="scan-table">
+            <thead>
+              <tr>
+                <th>Saat</th>
+                <th>Sembol</th>
+                <th>Yön</th>
+                <th>Δ%</th>
+                <th>Skor</th>
+                <th>Durum</th>
+                <th>Not</th>
+              </tr>
+            </thead>
+            <tbody id="scan-body">
+              <tr><td colspan="7" class="mega-empty-cell">Henüz tarama kaydı yok</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="mega-closed-full-row" aria-label="Kapanan işlemler">
+      <div class="panel mega-panel mega-closed-panel">
+        <div class="panel-head mega-panel-head">
+          <div>
+            <h2 class="panel-title">Kapanan <span>işlemler</span></h2>
+            <p class="hero-sub">Bu oturum — tam genişlik</p>
+          </div>
+          <span id="closed-count-pill" class="mega-count-pill muted">0</span>
+        </div>
+        <div class="table-wrap mega-table-wrap mega-closed-table-wrap">
+          <table class="data-table mega-table mega-closed-table" id="closed-table">
+            <colgroup>
+              <col class="col-c-idx" />
+              <col class="col-c-sym" />
+              <col class="col-c-side" />
+              <col class="col-c-lev" />
+              <col class="col-c-size" />
+              <col class="col-c-stake" />
+              <col class="col-c-entry" />
+              <col class="col-c-exit" />
+              <col class="col-c-gross" />
+              <col class="col-c-gpct" />
+              <col class="col-c-fee" />
+              <col class="col-c-net" />
+              <col class="col-c-npct" />
+              <col class="col-c-tp" />
+              <col class="col-c-max" />
+              <col class="col-c-min" />
+              <col class="col-c-sig" />
+              <col class="col-c-src" />
+              <col class="col-c-reason" />
+              <col class="col-c-open" />
+              <col class="col-c-close" />
+              <col class="col-c-dur" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Sembol</th>
+                <th>Yön</th>
+                <th>Lev</th>
+                <th>Boyut</th>
+                <th>Stake</th>
+                <th>Giriş</th>
+                <th>Çıkış</th>
+                <th>Brüt</th>
+                <th>Brüt%</th>
+                <th>Ücret</th>
+                <th>Net</th>
+                <th>Net%</th>
+                <th>TP</th>
+                <th>Max u</th>
+                <th>Min u</th>
+                <th>Sinyal</th>
+                <th>Kaynak</th>
+                <th>Sebep</th>
+                <th>Açılış (TR)</th>
+                <th>Kapanış (TR)</th>
+                <th>Süre</th>
+              </tr>
+            </thead>
+            <tbody id="closed-body">
+              <tr><td colspan="22" class="mega-empty-cell">Bu oturumda kapanan işlem yok</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="mega-live-log-panel" id="mega-live-log-panel">
+          <div class="mega-live-log-head">
+            <div>
+              <h3 class="mega-live-log-title">Canlı <span>log</span></h3>
+              <p class="mega-live-log-sub mono" id="mega-log-path">—</p>
+            </div>
+            <div class="mega-live-log-actions">
+              <span id="mega-log-count" class="mega-log-count muted">0 satır</span>
+              <label class="mega-log-toggle">
+                <input type="checkbox" id="mega-log-autoscroll" checked />
+                <span>Otomatik kaydır</span>
+              </label>
+              <button type="button" id="mega-log-pause" class="btn mega-log-btn">Duraklat</button>
+              <button type="button" id="mega-log-clear" class="btn mega-log-btn">Temizle</button>
+            </div>
+          </div>
+          <div class="mega-live-log-view-wrap" id="mega-log-view-wrap">
+            <pre id="mega-log-view" class="mega-live-log-view" aria-live="polite"></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer mega-footer">
+      <span>Son sync <span id="footer-ts" class="mono">—</span> · MEGA · port 9006</span>
+      <div class="footer-actions">
+        <button type="button" id="btn-refresh" class="btn mega-btn-primary">↻ Yenile</button>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var ASSET_V = "20260606e";
+      window.__MEGA_PANEL_ASSET_V = ASSET_V;
+
+      function hideOverlay() {
+        var o = document.getElementById("loading-overlay");
+        if (o) o.classList.add("hidden");
+      }
+      function showFatal(msg) {
+        var b = document.getElementById("panel-fatal-banner");
+        if (!b) return;
+        b.textContent = msg;
+        b.classList.remove("hidden");
+      }
+      function fmtUsd(n) {
+        var v = Number(n);
+        if (!isFinite(v)) return "—";
+        var s = v < 0 ? "-" : "";
+        return s + "$" + Math.abs(v).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      }
+      function setTxt(id, t) {
+        var el = document.getElementById(id);
+        if (el) el.textContent = t;
+      }
+
+      setTimeout(hideOverlay, 12000);
+      window.addEventListener(
+        "error",
+        function (e) {
+          if (!e.target || e.target.tagName !== "SCRIPT") return;
+          showFatal(
+            "Panel JS yüklenemedi (önbellek/401). Cmd+Shift+R ile yenileyin veya gizli pencerede açın. Giriş: x / x369"
+          );
+          hideOverlay();
+        },
+        true
+      );
+
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("/api/paper/mega/snapshot?light=1", { credentials: "include", cache: "no-store" })
+          .then(function (r) {
+            if (r.status === 401 || r.status === 403) {
+              showFatal("Giriş gerekli — kullanıcı x, şifre x369 (port 9086). İptal ettiyseniz sayfa boş kalır.");
+              hideOverlay();
+              return null;
+            }
+            if (!r.ok) {
+              showFatal("Snapshot HTTP " + r.status + " — bot yeniden başlıyor olabilir, 30 sn sonra yenileyin.");
+              hideOverlay();
+              return null;
+            }
+            return r.json();
+          })
+          .then(function (d) {
+            if (!d || !d.ok) return;
+            var s = d.summary || {};
+            var w = d.wallet || {};
+            var eq = s.equity != null ? s.equity : w.total_margin_balance != null ? w.total_margin_balance : s.current_capital;
+            if (eq != null) setTxt("kpi-balance", fmtUsd(eq));
+            var openN = (d.open || []).length;
+            var sc = d.scan || {};
+            var maxO = sc.max_open != null ? sc.max_open : sc.slot_base != null ? sc.slot_base : 4;
+            setTxt("kpi-open", openN + " / " + maxO);
+            setTxt("open-count-pill", openN + " / " + maxO);
+            if (openN > 0) {
+              var body = document.getElementById("open-body");
+              if (body) {
+                body.innerHTML =
+                  "<tr><td colspan=\"9\" class=\"mega-empty-cell\">" +
+                  openN +
+                  " pozisyon — tablo yükleniyor…</td></tr>";
+              }
+            }
+            hideOverlay();
+          })
+          .catch(function () {
+            showFatal("Ağ hatası — 9086 ve giriş (x/x369) kontrol edin.");
+            hideOverlay();
+          });
+      });
+    })();
+  </script>
+  <script src="/panel-assets/js/closed-trade-utils.js?v=20260604h"></script>
+  <script src="/panel-assets/js/connection-banner.js?v=20260604h"></script>
+  <script src="/panel-assets/js/paper-dashboard.js?v=20260606i"></script>
+</body>
+</html>

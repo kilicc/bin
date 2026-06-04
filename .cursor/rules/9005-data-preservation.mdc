@@ -1,0 +1,13 @@
+---
+description: 9005 Elite demo — geçmiş veriyi koru; silme yalnızca kullanıcı emri + arşiv
+globs:
+  - predmarket-scanner/**
+alwaysApply: true
+---
+
+# 9005 veri koruma
+
+- **Asla** `binance_elite_8300_9005_state.db`, lessons, learner registry, proposals, SL registry veya postmortem dosyalarını kullanıcı açıkça silmeden silme/sıfırlama.
+- `./scripts/reset_binance_elite_9005.sh` varsayılanı veri **korur**; `--wipe-data --reason "..."` olmadan DB silme.
+- Kullanıcı sil dediğinde: `scripts/delete_9005_history.py --reason "..."` (önce `data/deleted_archives/` + `manifest.json`).
+- Detay: `predmarket-scanner/DATA_PRESERVATION_9005.md`
