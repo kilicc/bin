@@ -229,6 +229,7 @@
   const state = {
     snap: null,
     lastGoodSnap: null,
+    panelDegraded: false,
     selectedIdx: 0,
     open: [],
     lastHeroKey: "",
@@ -1638,10 +1639,36 @@
       .join("");
   }
 
-  function renderOpenTable(openList) {
+  function renderFromLastGoodSnap() {
+    const g = state.lastGoodSnap;
+    if (!g || !g.ok) return false;
+    try {
+      const openUi =
+        g.open && g.open.length
+          ? mergeHybridCharts(g.open.slice())
+          : g.open || [];
+      renderKpis(g);
+      renderScan(g.scan);
+      renderOpenTable(openUi, { allowEmpty: false });
+      renderClosed(dedupeClosedRows(g.closed || []));
+      schedulePoll((state.open && state.open.length) > 0);
+      const conn = resolvePanelConn(state.lastHb, state.connLive, state.open);
+      renderMotorStrip(state.lastHb, conn);
+      renderBinanceConn(conn, state.open);
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function renderOpenTable(openList, opts) {
     const body = document.getElementById("open-body");
     if (!body) return;
+    const allowEmpty = !opts || opts.allowEmpty !== false;
     const rows = openList || [];
+    if (!rows.length && !allowEmpty && state.open && state.open.length) {
+      return;
+    }
     state.open = rows;
     if (!rows.length) {
       state.lastHeroKey = "";
@@ -2099,6 +2126,9 @@
       state.snap = snap;
       if (snap && snap.ok) {
         state.lastGoodSnap = snap;
+        state.panelDegraded = false;
+      } else if (statusMsg) {
+        state.panelDegraded = true;
       }
       const displaySnap =
         snap && snap.ok ? snap : statusMsg && state.lastGoodSnap ? state.lastGoodSnap : snap;
@@ -2111,9 +2141,11 @@
               : displaySnap.open || [];
           renderKpis(displaySnap);
           renderScan(displaySnap.scan);
-          renderOpenTable(openUi);
+          renderOpenTable(openUi, {
+            allowEmpty: !(statusMsg && !snap?.ok),
+          });
           renderClosed(dedupeClosedRows(displaySnap.closed || []));
-          schedulePoll(openUi.length > 0);
+          schedulePoll((state.open && state.open.length) > 0);
           const conn = resolvePanelConn(hb, state.connLive, state.open);
           renderMotorStrip(hb, conn);
           renderBinanceConn(conn, state.open);
@@ -2147,11 +2179,16 @@
       setText("footer-ts", String(ts).slice(0, 19).replace("T", " "));
     } catch (err) {
       const aborted = err && err.name === "AbortError";
-      const errMsg = aborted
+      let errMsg = aborted
         ? "Snapshot " + Math.round(SNAP_FETCH_MS / 1000) + "s zaman aşımı — bot yoğun veya restart"
         : snapshotErrorMessage(0) + (err && err.message ? " (" + err.message + ")" : "");
+      state.panelDegraded = true;
+      if (state.lastGoodSnap && renderFromLastGoodSnap()) {
+        errMsg = errMsg + " (son iyi veri gösteriliyor)";
+      }
       setText("kpi-balance-sub", errMsg);
-      setPanelApiStatus(null, null, errMsg);
+      setPanelApiStatus(state.lastGoodSnap, null, errMsg);
+      if (errMsg) showFatalBanner(errMsg);
     } finally {
       hideLoadingOverlay();
     }
