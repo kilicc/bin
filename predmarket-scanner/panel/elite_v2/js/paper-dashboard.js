@@ -228,6 +228,7 @@
 
   const state = {
     snap: null,
+    lastGoodSnap: null,
     selectedIdx: 0,
     open: [],
     lastHeroKey: "",
@@ -2096,17 +2097,22 @@
       setSnapshotLatency(lat);
       state.lastHb = hb;
       state.snap = snap;
-
       if (snap && snap.ok) {
+        state.lastGoodSnap = snap;
+      }
+      const displaySnap =
+        snap && snap.ok ? snap : statusMsg && state.lastGoodSnap ? state.lastGoodSnap : snap;
+
+      if (displaySnap && displaySnap.ok) {
         try {
           const openUi =
-            snap.open && snap.open.length
-              ? mergeHybridCharts(snap.open.slice())
-              : snap.open || [];
-          renderKpis(snap);
-          renderScan(snap.scan);
+            displaySnap.open && displaySnap.open.length
+              ? mergeHybridCharts(displaySnap.open.slice())
+              : displaySnap.open || [];
+          renderKpis(displaySnap);
+          renderScan(displaySnap.scan);
           renderOpenTable(openUi);
-          renderClosed(dedupeClosedRows(snap.closed || []));
+          renderClosed(dedupeClosedRows(displaySnap.closed || []));
           schedulePoll(openUi.length > 0);
           const conn = resolvePanelConn(hb, state.connLive, state.open);
           renderMotorStrip(hb, conn);
@@ -2127,14 +2133,17 @@
       } else if (!snap && !statusMsg) {
         statusMsg = "Snapshot boş yanıt — sunucu meşgul olabilir";
       }
+      if (statusMsg && state.lastGoodSnap) {
+        statusMsg = statusMsg + " (son iyi veri gösteriliyor)";
+      }
       if (statusMsg) {
         setText("kpi-balance-sub", statusMsg);
         showFatalBanner(statusMsg);
       } else {
         showFatalBanner("");
       }
-      setPanelApiStatus(snap, lat, statusMsg);
-      const ts = (snap && snap.ts) || new Date().toISOString();
+      setPanelApiStatus(displaySnap || snap, lat, statusMsg);
+      const ts = (displaySnap && displaySnap.ts) || (snap && snap.ts) || new Date().toISOString();
       setText("footer-ts", String(ts).slice(0, 19).replace("T", " "));
     } catch (err) {
       const aborted = err && err.name === "AbortError";

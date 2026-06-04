@@ -479,13 +479,60 @@ def get_mega_hub() -> MegaAsyncHub | None:
 
 
 def start_mega_async_hub() -> None:
+    ensure_mega_async_hub()
+
+
+def ensure_mega_async_hub() -> None:
+    """Hub thread ölü veya mark WS baygınsa yeniden başlat (mega-rest zaten çalışıyor olsa bile)."""
     global _hub
     if not mega_hub_enabled():
         return
     with _hub_lock:
+        need_start = False
+        force_restart = False
         if _hub is None:
             _hub = MegaAsyncHub()
-        _hub.start()
+            need_start = True
+        else:
+            st = _hub.status()
+            if not bool(st.get("alive")):
+                need_start = True
+            elif bool(st.get("ready")):
+                mark = st.get("mark") or {}
+                cache = st.get("cache") or {}
+                recv_lag = cache.get("lag_ms")
+                mark_connected = bool(mark.get("connected"))
+                stale_ms = max(
+                    5000.0, _env_float("MEGA_HUB_STALE_RESTART_MS", 12000.0)
+                )
+                has_pos = False
+                coins: list[str] = []
+                try:
+                    from elite_trader.mega_live import (
+                        mega_open_coins_for_hub,
+                        mega_positions_cache_nonempty,
+                    )
+
+                    has_pos = mega_positions_cache_nonempty()
+                    coins = mega_open_coins_for_hub()
+                except Exception:
+                    pass
+                if has_pos and coins and (
+                    not mark_connected
+                    or (
+                        recv_lag is not None and float(recv_lag) >= stale_ms
+                    )
+                ):
+                    force_restart = True
+                    need_start = True
+        if force_restart and _hub:
+            try:
+                _hub.stop()
+            except Exception:
+                pass
+            _hub = MegaAsyncHub()
+        if need_start and _hub:
+            _hub.start()
 
 
 def stop_mega_async_hub() -> None:

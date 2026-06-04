@@ -573,6 +573,29 @@ def mega_profit_fill_verify_fast(
     if est.get("source") == "api_fee_missing":
         return False, "giriş fee API yok — kapanış yok", snap
 
+    soft = max(2.0, _env_float("MEGA_SPIKE_FILL_SOFT_NET", 2.5))
+    spike = _is_mega_spike_reason(exit_reason)
+    take = _mega_spike_take_gross_env()
+    if (
+        at_send
+        and spike
+        and _env_bool("MEGA_SPIKE_TRUST_MARK_SEND", True)
+        and mark_u >= take
+        and fill_g > 0
+        and mark_u >= floor
+    ):
+        mark_tol = max(
+            0.28, min(0.55, _env_float("MEGA_SPIKE_SEND_MARK_RATIO", 0.38))
+        )
+        if fill_g >= mark_u * mark_tol or fill_g >= soft:
+            pos["fill_gross_unreal"] = fill_g
+            pos["fill_net_est"] = max(final, mark_u * 0.85)
+            pos["fill_verify_ok"] = True
+            pos["fill_verify_detail"] = "spike_mark_send"
+            pos["fill_verify_at_ms"] = snap["signal_at_ms"]
+            pos["close_signal"] = snap
+            return True, "", snap
+
     slip_strict = at_send and not pos.get("demo_fast_close")
     if fill_slippage_reject(mark_u, fill_g, pre_send_gross=pre_g, strict=slip_strict):
         detail = (
@@ -646,10 +669,7 @@ def mega_profit_fill_verify_fast(
         pos["close_signal"] = snap
         return True, "", snap
 
-    soft = max(2.0, _env_float("MEGA_SPIKE_FILL_SOFT_NET", 2.5))
-    spike = _is_mega_spike_reason(exit_reason)
-    take = _mega_spike_take_gross_env()
-    if not at_send and spike and mark_u >= take * 0.72 and fill_g > 0:
+    if spike and mark_u >= take * 0.72 and fill_g > 0:
         try:
             from elite_trader.mega_live import (
                 _mega_estimated_wallet_net,

@@ -140,6 +140,9 @@ _mega_last_exit_eval_ms: float = 0.0
 _mega_last_close_settle_ms: float = 0.0
 _mega_last_exit_eval_ts: float = 0.0
 _mega_exit_eval_cursor: int = 0
+_mega_exchange_fast_cursor: int = 0
+_mega_exchange_fast_stop = threading.Event()
+_mega_exchange_fast_thread: threading.Thread | None = None
 _mega_last_touch_tick_ms: float = 0.0
 _mega_snapshot_busy: int = 0
 _mega_last_full_snapshot_ts: float = 0.0
@@ -245,6 +248,29 @@ def mega_sl_exit_disabled() -> bool:
     return _env_bool("MEGA_DISABLE_SL_EXIT", True)
 
 
+_MEGA_SL_CLOSE_OPS_ALLOW = frozenset(
+    {
+        "SYNC-EXCHANGE",
+        "EXCHANGE-SYNC",
+        "MODE-RESET",
+        "MANUAL",
+        "MANUAL CLOSE",
+    }
+)
+
+
+def mega_blocks_sl_close(exit_reason: str) -> bool:
+    """True → bot bu nedenle kapanış emri göndermemeli (SL/TIME-STOP/NET-LOSS vb.)."""
+    if not mega_sl_exit_disabled():
+        return False
+    r = str(exit_reason or "").strip().upper()
+    if not r or r in _MEGA_SL_CLOSE_OPS_ALLOW or r.startswith("RESCUE-"):
+        return False
+    from elite_trader.fee_economics import is_stop_loss_exit
+
+    return is_stop_loss_exit(exit_reason) or r.startswith("SL")
+
+
 def mega_underwater_cut_enabled() -> bool:
     return _env_bool("MEGA_UNDERWATER_CUT", False)
 
@@ -317,6 +343,35 @@ def _mega_exchange_require_bid_fill() -> bool:
     return _env_bool("MEGA_EXCHANGE_REQUIRE_BID_FILL", True)
 
 
+def _mega_exchange_arm_require_bid_fill() -> bool:
+    """Borsa TP/kilit kurulumu — kapanış emrindeki book doğrulamasından ayrı."""
+    raw = os.getenv("MEGA_EXCHANGE_ARM_REQUIRE_BID_FILL", "").strip().lower()
+    if raw in ("1", "true", "yes", "on"):
+        return True
+    if raw in ("0", "false", "no", "off"):
+        return False
+    return _mega_exchange_require_bid_fill()
+
+
+def _mega_exchange_mark_arm_ok(pos: dict[str, Any]) -> tuple[bool, str]:
+    """Arm için positionRisk mark — küçük scalp tepe (ask spread blokunu aş)."""
+    peak = _mega_peak_gross(pos)
+    arm_g = _mega_exchange_arm_gross()
+    unreal = float(
+        pos.get("exchange_unrealized_pnl")
+        or pos.get("unrealized_pnl")
+        or 0
+    )
+    if peak < arm_g * 0.92 and unreal < arm_g * 0.85:
+        return (
+            False,
+            f"mark arm tepe ${peak:.2f} / anlık ${unreal:.2f} < ${arm_g:.2f}",
+        )
+    if unreal <= 0 and peak < arm_g:
+        return False, f"mark arm uPnL≤0 tepe ${peak:.2f}"
+    return True, ""
+
+
 def _mega_exchange_skip_flash_algos() -> bool:
     return _env_bool("MEGA_EXCHANGE_SKIP_FLASH_REV", True)
 
@@ -343,6 +398,12 @@ def _mega_exchange_algo_safe(pos: dict[str, Any], mc: Any) -> bool:
         return True
     if _mega_exchange_skip_flash_algos() and _mega_is_flash_reversal_position(pos):
         _mega_disarm_exchange_algos(pos, mc, reason="flash reversal — yalnızca bot+book")
+        return False
+    if not _mega_exchange_arm_require_bid_fill():
+        ok_m, detail_m = _mega_exchange_mark_arm_ok(pos)
+        if ok_m:
+            return True
+        _mega_disarm_exchange_algos(pos, mc, reason=detail_m or "mark arm")
         return False
     if not _mega_exchange_require_bid_fill():
         return True
@@ -458,7 +519,79 @@ def _mega_peak_bump_usd() -> float:
 
 
 def _mega_exchange_replace_min_sec() -> float:
-    return max(1.0, _env_float("MEGA_EXCHANGE_TP_REPLACE_MIN_SEC", 8.0))
+    return _mega_exchange_replace_min_sec_for(None)
+
+
+def _mega_exchange_replace_min_sec_for(pos: dict[str, Any] | None) -> float:
+    if pos and _mega_exchange_velocity_hot(pos):
+        return max(0.05, _env_float("MEGA_EXCHANGE_TP_REPLACE_FAST_SEC", 0.08))
+    if pos and _mega_hub_mark_hot():
+        return max(0.12, _env_float("MEGA_EXCHANGE_TP_REPLACE_HUB_SEC", 0.30))
+    return max(0.35, _env_float("MEGA_EXCHANGE_TP_REPLACE_MIN_SEC", 1.2))
+
+
+def _mega_exchange_velocity_tick_sec() -> float:
+    return max(0.02, _env_float("MEGA_EXCHANGE_VELOCITY_TICK_SEC", 0.05))
+
+
+def _mega_exchange_tp_update_interval_sec(*, fast: bool = False) -> float:
+    if fast:
+        return max(0.02, _env_float("MEGA_EXCHANGE_TP_UPDATE_FAST_SEC", 0.05))
+    return max(0.05, _env_float("MEGA_EXCHANGE_TP_UPDATE_SEC", 0.08))
+
+
+def _mega_exchange_velocity_min_usd_per_sec() -> float:
+    return max(1.0, _env_float("MEGA_EXCHANGE_VELOCITY_MIN_USD_PER_SEC", 10.0))
+
+
+def _mega_exchange_velocity_min_bump_usd() -> float:
+    return max(0.05, _env_float("MEGA_EXCHANGE_VELOCITY_MIN_BUMP_USD", 0.20))
+
+
+def _mega_track_mark_velocity(
+    pos: dict[str, Any], mark_px: float, mark_gross: float
+) -> float:
+    """Hub mark tick hızı ($/s) — borsa TP kilidi tetikleyici."""
+    now = time.monotonic()
+    prev_ts = float(pos.get("hub_mark_tick_ts") or 0)
+    prev_g = float(pos.get("hub_mark_tick_gross") or 0)
+    prev_px = float(pos.get("hub_mark_tick_px") or 0)
+    if mark_px > 0:
+        pos["hub_mark_tick_px"] = mark_px
+    pos["hub_mark_tick_ts"] = now
+    pos["hub_mark_tick_gross"] = mark_gross
+    vel = 0.0
+    if prev_ts > 0 and now > prev_ts:
+        dt = now - prev_ts
+        if 0 < dt < 3.0:
+            vel = abs(mark_gross - prev_g) / dt
+            size = float(pos.get("size") or 0)
+            if mark_px > 0 and prev_px > 0 and size > 0:
+                vel = max(vel, abs(mark_px - prev_px) * size / dt)
+    pos["hub_mark_velocity_usd_s"] = round(vel, 2)
+    return vel
+
+
+def _mega_exchange_velocity_hot(pos: dict[str, Any]) -> bool:
+    if not _env_bool("MEGA_EXCHANGE_VELOCITY_TICK", True):
+        return False
+    vel = float(pos.get("hub_mark_velocity_usd_s") or 0)
+    if vel >= _mega_exchange_velocity_min_usd_per_sec():
+        return True
+    peak = _mega_peak_gross(pos)
+    last_tick = float(pos.get("exchange_last_tick_peak_gross") or 0)
+    return (peak - last_tick) >= _mega_exchange_velocity_min_bump_usd()
+
+
+def _mega_exchange_tick_due(pos: dict[str, Any], *, kind: str = "tp") -> bool:
+    pid = int(pos.get("id") or 0)
+    if not pid:
+        return True
+    now = time.time()
+    store = _mega_tp_update_ts if kind == "tp" else _mega_lock_update_ts
+    fast = _mega_exchange_velocity_hot(pos)
+    iv = _mega_exchange_tp_update_interval_sec(fast=fast)
+    return (now - float(store.get(pid) or 0)) >= iv
 
 
 def _mega_stop_price_bump_pct(kind: str = "tp") -> float:
@@ -813,7 +946,7 @@ def _mega_lock_update_allowed(pos: dict[str, Any], *, now: float | None = None) 
     last_peak = float(pos.get("exchange_peak_lock_gross") or 0)
     if peak > last_peak + _mega_peak_bump_usd():
         return True
-    return (ts - last) >= _mega_exchange_replace_min_sec()
+    return (ts - last) >= _mega_exchange_replace_min_sec_for(pos)
 
 
 def _mega_tp_update_allowed(pos: dict[str, Any], *, now: float | None = None) -> bool:
@@ -828,7 +961,7 @@ def _mega_tp_update_allowed(pos: dict[str, Any], *, now: float | None = None) ->
     last_peak = float(pos.get("exchange_peak_tp_gross") or 0)
     if peak > last_peak + _mega_peak_bump_usd():
         return True
-    return (ts - last) >= _mega_exchange_replace_min_sec()
+    return (ts - last) >= _mega_exchange_replace_min_sec_for(pos)
 
 
 def _mega_sanitize_ceiling_stop(pos: dict[str, Any], stop: float, mc: Any) -> float:
@@ -886,12 +1019,13 @@ def _refresh_pos_mark_from_cache(pos: dict[str, Any]) -> None:
         if es != sym or str(ep.get("side") or "LONG").upper() != side:
             continue
         mark = float(ep.get("mark_price") or 0)
-        if mark > 0:
+        if mark > 0 and not _mega_panel_exchange_only():
             pos["current_price"] = mark
         unreal = float(ep.get("unrealized_pnl") or 0)
-        pos["unrealized_pnl"] = unreal
-        pos["max_unreal_seen"] = max(float(pos.get("max_unreal_seen") or unreal), unreal)
+        if not _mega_panel_exchange_only():
+            pos["unrealized_pnl"] = unreal
         pos["min_unreal_seen"] = min(float(pos.get("min_unreal_seen", unreal)), unreal)
+        _mega_record_profit_peaks(pos, rest_gross=unreal, mark_px=mark if mark > 0 else None)
         return
 
 
@@ -1576,13 +1710,11 @@ def _update_exchange_tp_dynamic(pos: dict[str, Any], mc: Any) -> None:
 def _maybe_update_exchange_tp(pos: dict[str, Any], mc: Any) -> None:
     if not mega_exchange_dual_tp_enabled() or not mc or mc.paper:
         return
-    pid = int(pos.get("id") or 0)
-    now = time.time()
-    iv = max(0.5, _env_float("MEGA_EXCHANGE_TP_UPDATE_SEC", 2.0))
-    if pid and (now - float(_mega_tp_update_ts.get(pid) or 0)) < iv:
+    if not _mega_exchange_tick_due(pos, kind="tp"):
         return
+    pid = int(pos.get("id") or 0)
     if pid:
-        _mega_tp_update_ts[pid] = now
+        _mega_tp_update_ts[pid] = time.time()
     _update_exchange_tp_dynamic(pos, mc)
 
 
@@ -1595,13 +1727,11 @@ def _maybe_update_exchange_dual_tp(pos: dict[str, Any], mc: Any) -> None:
 def _maybe_update_exchange_trail_lock(pos: dict[str, Any], mc: Any) -> None:
     if not mega_exchange_trail_lock_enabled() or not mc or mc.paper:
         return
-    pid = int(pos.get("id") or 0)
-    now = time.time()
-    iv = max(0.5, _env_float("MEGA_TRAIL_LOCK_UPDATE_SEC", 2.0))
-    if pid and (now - float(_mega_lock_update_ts.get(pid) or 0)) < iv:
+    if not _mega_exchange_tick_due(pos, kind="lock"):
         return
+    pid = int(pos.get("id") or 0)
     if pid:
-        _mega_lock_update_ts[pid] = now
+        _mega_lock_update_ts[pid] = time.time()
     _update_exchange_trail_lock(pos, mc)
 
 
@@ -2100,9 +2230,7 @@ def _mega_exchange_profit_at_send_ok(
     if r in ("MANUAL", "MANUAL CLOSE"):
         return True, ""
     if not is_profit_tp_exit(exit_reason):
-        if is_stop_loss_exit(exit_reason) and mega_sl_exit_disabled():
-            if r.startswith("SL-COIN25") or r.startswith("SWAP-FREE-SLOT"):
-                return True, ""
+        if mega_blocks_sl_close(exit_reason):
             return False, "SL çıkış kapalı"
         return True, ""
     from elite_trader.panel_strategy import position_age_seconds
@@ -2182,6 +2310,194 @@ def _mega_open_upnl_exchange_first() -> bool:
     return _env_bool("MEGA_OPEN_UPNL_EXCHANGE_FIRST", True)
 
 
+def _mega_peak_track_hub_mark_enabled() -> bool:
+    """Spike/tepe/TP kilidi — hub mark (~ms); panel uPnL REST (positionRisk) kalır."""
+    if not mega_live_enabled():
+        return False
+    if not _env_bool("MEGA_PEAK_TRACK_HUB_MARK", True):
+        return False
+    try:
+        from elite_trader.mega_async_hub import mega_hub_enabled
+
+        return mega_hub_enabled()
+    except Exception:
+        return False
+
+
+def _mega_hub_mark_for_pos(
+    pos: dict[str, Any], marks: dict[str, float] | None = None
+) -> float:
+    sym = str(pos.get("symbol") or "").upper()
+    coin = sym.replace("USDT", "")
+    pool = marks
+    if pool is None:
+        try:
+            from elite_trader.mega_async_hub import hub_marks_snapshot
+
+            pool, _ = hub_marks_snapshot(max_recv_age_sec=1.2)
+        except Exception:
+            pool = {}
+    px = float(pool.get(coin) or pool.get(sym) or 0)
+    if px <= 0:
+        px = float(pos.get("current_price") or pos.get("mark_price") or 0)
+    return px
+
+
+def _mega_record_profit_peaks(
+    pos: dict[str, Any],
+    *,
+    rest_gross: float | None = None,
+    mark_px: float | None = None,
+    marks: dict[str, float] | None = None,
+    mc: Any = None,
+) -> None:
+    """
+    REST ve hub mark tepelerini ayır; max_unreal_seen = max(ikisi).
+    unrealized_pnl / exchange_unrealized_pnl (panel) bu fonksiyonda değişmez.
+    """
+    if not pos.get("on_exchange"):
+        return
+    stake = float(pos.get("stake_usd") or 1)
+    lev = max(int(pos.get("leverage") or 2), 1)
+    if rest_gross is not None:
+        rg = float(rest_gross)
+    else:
+        rg = float(
+            pos.get("exchange_unrealized_pnl") or pos.get("unrealized_pnl") or 0
+        )
+    pos["max_exchange_unreal_seen"] = max(
+        float(pos.get("max_exchange_unreal_seen") or 0), rg
+    )
+    mark_g = 0.0
+    if _mega_peak_track_hub_mark_enabled():
+        px = float(mark_px or 0)
+        if px <= 0:
+            px = _mega_hub_mark_for_pos(pos, marks)
+        if px > 0:
+            mark_g = _mega_gross_unreal_from_mark(pos, px)
+            pos["mark_derived_unreal"] = mark_g
+            if not _mega_panel_exchange_only():
+                pos["current_price"] = px
+            pos["max_mark_unreal_seen"] = max(
+                float(pos.get("max_mark_unreal_seen") or 0), mark_g
+            )
+            _mega_track_mark_velocity(pos, px, mark_g)
+    peak_gross = max(
+        float(pos.get("max_exchange_unreal_seen") or 0),
+        float(pos.get("max_mark_unreal_seen") or 0),
+        mark_g,
+    )
+    prev_peak = float(pos.get("max_unreal_seen") or 0)
+    if peak_gross > prev_peak + 1e-6:
+        pos["max_unreal_seen"] = peak_gross
+        _mega_touch_peak_net(pos, stake=stake, lev=lev, mc=mc)
+
+
+def _refresh_pos_mark_from_hub(
+    pos: dict[str, Any], marks: dict[str, float]
+) -> None:
+    coin = str(pos.get("symbol") or "").replace("USDT", "").upper()
+    px = float(marks.get(coin) or 0)
+    if px <= 0:
+        return
+    pos["mark_price"] = px
+    if not _mega_panel_exchange_only():
+        pos["current_price"] = px
+    mg = _mega_gross_unreal_from_mark(pos, px)
+    pos["mark_derived_unreal"] = mg
+    _mega_track_mark_velocity(pos, px, mg)
+
+
+def _mega_exchange_hub_tick(
+    mc: Any | None = None,
+    *,
+    marks: dict[str, float] | None = None,
+    positions: list[dict[str, Any]] | None = None,
+) -> None:
+    """Hub mark — fiyat hızına göre borsa TP/kilit kontrolü (hedef <100ms)."""
+    if not _env_bool("MEGA_EXCHANGE_VELOCITY_TICK", True):
+        return
+    if not mega_exchange_dual_tp_enabled() or not mega_live_enabled():
+        return
+    mc = mc or get_mega_client()
+    if not mc or mc.paper:
+        return
+    rows = positions if positions is not None else list(_mega_positions)
+    if not rows:
+        return
+    pool = marks
+    if pool is None:
+        try:
+            from elite_trader.mega_async_hub import hub_marks_snapshot
+
+            pool, meta = hub_marks_snapshot(
+                max_recv_age_sec=max(0.08, _mega_exchange_velocity_tick_sec() * 2.5)
+            )
+            if not meta.get("alive") and not pool:
+                return
+        except Exception:
+            return
+    if not pool and not _mega_hub_mark_hot():
+        return
+    arm = _mega_exchange_arm_gross() * 0.80
+    batch = max(1, int(_env_float("MEGA_EXCHANGE_FAST_BATCH", 3)))
+    global _mega_exchange_fast_cursor
+    n = len(rows)
+    if n <= 0:
+        return
+    start = _mega_exchange_fast_cursor % n
+    done = 0
+    for i in range(n):
+        pos = rows[(start + i) % n]
+        if not pos.get("on_exchange"):
+            continue
+        if pool:
+            _refresh_pos_mark_from_hub(pos, pool)
+        peak = _mega_peak_gross(pos)
+        if peak < arm and not (
+            pos.get("exchange_tp_order_id") or pos.get("exchange_lock_order_id")
+        ):
+            continue
+        if not _mega_exchange_tick_due(pos, kind="tp") and not _mega_exchange_tick_due(
+            pos, kind="lock"
+        ):
+            continue
+        _maybe_update_exchange_dual_tp(pos, mc)
+        pos["exchange_last_tick_peak_gross"] = peak
+        done += 1
+        if done >= batch:
+            _mega_exchange_fast_cursor = (start + i + 1) % n
+            break
+
+
+def _mega_touch_open_peaks_from_hub(
+    positions: list[dict[str, Any]] | None = None,
+    *,
+    marks: dict[str, float] | None = None,
+    mc: Any = None,
+) -> bool:
+    """Açık pozisyonlar — hub mark ile tepe güncelle (REST uPnL dokunulmaz)."""
+    if not _mega_peak_track_hub_mark_enabled():
+        return False
+    rows = positions if positions is not None else _mega_positions
+    if not rows:
+        return False
+    pool = marks
+    if pool is None:
+        pool, _ = _panel_hub_marks()
+    if not pool:
+        return False
+    touched = False
+    for pos in rows:
+        if not pos.get("on_exchange"):
+            continue
+        _mega_record_profit_peaks(pos, marks=pool, mc=mc)
+        touched = True
+    if touched and _env_bool("MEGA_EXCHANGE_VELOCITY_TICK", True):
+        _mega_exchange_hub_tick(mc=mc, marks=pool)
+    return touched
+
+
 def _panel_api_unreal(pos: dict[str, Any]) -> float | None:
     """Panel uPnL — yalnızca positionRisk / exchange_display (motor mark hesabı yok)."""
     ex = pos.get("exchange_display") or {}
@@ -2218,7 +2534,10 @@ def _mega_refresh_unreal_from_mark(
     rest = float(
         pos.get("exchange_unrealized_pnl") or pos.get("unrealized_pnl") or 0
     )
-    if not _mega_mark_unreal_blend_enabled() or not pos.get("on_exchange"):
+    if not pos.get("on_exchange"):
+        return rest
+    if not _mega_mark_unreal_blend_enabled():
+        _mega_record_profit_peaks(pos, rest_gross=rest, mark_px=mark_px)
         return rest
     px = float(
         mark_px
@@ -2227,29 +2546,26 @@ def _mega_refresh_unreal_from_mark(
         or 0
     )
     if px <= 0:
+        _mega_record_profit_peaks(pos, rest_gross=rest)
         return rest
     mark_g = _mega_gross_unreal_from_mark(pos, px)
     pos["mark_derived_unreal"] = mark_g
     pos["current_price"] = px
-    if _mega_open_upnl_exchange_first() and pos.get("on_exchange"):
+    if _mega_open_upnl_exchange_first():
         display = rest
         pos["exchange_unrealized_pnl"] = rest
         pos["unrealized_pnl"] = display
-        pos["max_exchange_unreal_seen"] = max(
-            float(pos.get("max_exchange_unreal_seen") or 0), rest
-        )
-        pos["max_unreal_seen"] = pos["max_exchange_unreal_seen"]
         prev_min = float(
             pos.get("min_unreal_seen") if pos.get("min_unreal_seen") is not None else display
         )
         pos["min_unreal_seen"] = min(prev_min, rest)
-        effective = display
-    else:
-        effective = max(rest, mark_g)
-        pos["unrealized_pnl"] = effective
-        pos["exchange_unrealized_pnl"] = effective
-        pos["max_unreal_seen"] = max(float(pos.get("max_unreal_seen") or 0), effective)
-        pos["min_unreal_seen"] = min(float(pos.get("min_unreal_seen", effective)), effective)
+        _mega_record_profit_peaks(pos, rest_gross=rest, mark_px=px)
+        return display
+    effective = max(rest, mark_g)
+    pos["unrealized_pnl"] = effective
+    pos["exchange_unrealized_pnl"] = effective
+    pos["min_unreal_seen"] = min(float(pos.get("min_unreal_seen", effective)), effective)
+    _mega_record_profit_peaks(pos, rest_gross=rest, mark_px=px)
     stake = float(pos.get("stake_usd") or 1)
     lev = max(int(pos.get("leverage") or 2), 1)
     net = _mega_wallet_net_from_gross(pos, effective, stake=stake, lev=lev)
@@ -2767,7 +3083,7 @@ def _mega_demo_fast_close_enabled() -> bool:
 
 
 def _mega_demo_fast_close_gross_usd() -> float:
-    return max(0.0, _env_float("MEGA_DEMO_FAST_CLOSE_GROSS_USD", 30.0))
+    return max(0.0, _env_float("MEGA_DEMO_FAST_CLOSE_GROSS_USD", 8.0))
 
 
 def _mega_demo_fast_close_market() -> bool:
@@ -3708,6 +4024,27 @@ def run_mega_position_sync_tick(*, force: bool = False) -> None:
     _persist_open_meta_throttled()
 
 
+_mega_hub_watchdog_ts = 0.0
+
+
+def _mega_hub_watchdog_tick() -> None:
+    global _mega_hub_watchdog_ts
+    if not mega_live_enabled():
+        return
+    iv = max(15.0, _env_float("MEGA_HUB_WATCHDOG_SEC", 45.0))
+    now = time.time()
+    if now - _mega_hub_watchdog_ts < iv:
+        return
+    _mega_hub_watchdog_ts = now
+    try:
+        from elite_trader.mega_async_hub import ensure_mega_async_hub, mega_hub_enabled
+
+        if mega_hub_enabled():
+            ensure_mega_async_hub()
+    except Exception as exc:
+        print(f"  ⚠ MEGA hub watchdog: {exc}")
+
+
 def _mega_rest_worker_loop() -> None:
     global _mega_rest_force_sync
     while not _mega_rest_stop.is_set():
@@ -3715,6 +4052,7 @@ def _mega_rest_worker_loop() -> None:
         _mega_rest_force_sync = False
         _mega_rest_wake.clear()
         try:
+            _mega_hub_watchdog_tick()
             _mega_rest_tick(force_sync=force)
         except Exception as exc:
             print(f"  ⚠ MEGA REST: {exc}")
@@ -3733,6 +4071,12 @@ def start_mega_rest_worker() -> None:
     if not mega_live_enabled():
         return
     if _mega_rest_thread and _mega_rest_thread.is_alive():
+        try:
+            from elite_trader.mega_async_hub import ensure_mega_async_hub
+
+            ensure_mega_async_hub()
+        except Exception as exc:
+            print(f"  ⚠ MEGA async hub ensure: {exc}")
         return
     _mega_rest_stop.clear()
     _mega_rest_thread = threading.Thread(
@@ -3744,6 +4088,7 @@ def start_mega_rest_worker() -> None:
 
     start_mega_position_sync_motor()
     start_mega_close_sync_motor()
+    start_mega_exchange_fast_loop()
     try:
         from elite_trader.mega_async_hub import start_mega_async_hub
 
@@ -3778,7 +4123,41 @@ def start_mega_rest_worker() -> None:
     _wake_mega_rest(force_sync=True)
 
 
+def _mega_exchange_fast_loop() -> None:
+    while not _mega_exchange_fast_stop.is_set():
+        try:
+            _mega_exchange_hub_tick()
+        except Exception as exc:
+            print(f"  ⚠ MEGA exchange fast: {exc}")
+        _mega_exchange_fast_stop.wait(timeout=_mega_exchange_velocity_tick_sec())
+
+
+def start_mega_exchange_fast_loop() -> None:
+    """Hub mark hızına göre borsa TP/kilit — ~50ms kontrol (emir yalnızca tepe/hız tetik)."""
+    global _mega_exchange_fast_thread
+    if not _env_bool("MEGA_EXCHANGE_FAST_LOOP", True):
+        return
+    if not mega_exchange_dual_tp_enabled() or not mega_live_enabled():
+        return
+    if _mega_exchange_fast_thread and _mega_exchange_fast_thread.is_alive():
+        return
+    _mega_exchange_fast_stop.clear()
+    _mega_exchange_fast_thread = threading.Thread(
+        target=_mega_exchange_fast_loop,
+        name="mega-exchange-fast",
+        daemon=True,
+    )
+    _mega_exchange_fast_thread.start()
+
+
+def stop_mega_exchange_fast_loop() -> None:
+    _mega_exchange_fast_stop.set()
+    if _mega_exchange_fast_thread and _mega_exchange_fast_thread.is_alive():
+        _mega_exchange_fast_thread.join(timeout=2.0)
+
+
 def stop_mega_rest_worker() -> None:
+    stop_mega_exchange_fast_loop()
     _mega_rest_stop.set()
     _mega_rest_wake.set()
     if _mega_rest_thread and _mega_rest_thread.is_alive():
@@ -6970,6 +7349,9 @@ def touch_mega_cache_from_hub_marks() -> bool:
     """Mark WS tick — uPnL overlay (pozisyon listesi zaman damgasını değiştirme)."""
     global _mega_mark_overlay_ts, _mega_cache_source
     if _mega_panel_exchange_only():
+        if _mega_touch_open_peaks_from_hub():
+            _mega_mark_overlay_ts = time.time()
+            return True
         return False
     if not _mega_positions_cache:
         return False
@@ -6990,6 +7372,8 @@ def touch_mega_cache_from_hub_marks() -> bool:
             if _mega_cache_source == "rest":
                 _mega_cache_source = "hub_mark"
             note_hub_mark_touch()
+            if _mega_peak_track_hub_mark_enabled():
+                _mega_touch_open_peaks_from_hub()
             return True
     except Exception:
         pass
@@ -8713,7 +9097,17 @@ def _sync_pos_from_exchange(
     ep = exchange_map_by_symbol_side(exch).get((sym, side))
     if ep:
         apply_exchange_snapshot(pos, ep, mode_id)
-        if not _mega_panel_exchange_only():
+        if _mega_panel_exchange_only():
+            _mega_record_profit_peaks(
+                pos,
+                rest_gross=float(
+                    pos.get("exchange_unrealized_pnl")
+                    or pos.get("unrealized_pnl")
+                    or 0
+                ),
+                mark_px=float(pos.get("current_price") or pos.get("mark_price") or 0),
+            )
+        else:
             _mega_refresh_unreal_from_mark(
                 pos,
                 mark_px=float(pos.get("current_price") or pos.get("mark_price") or 0),
@@ -8798,24 +9192,31 @@ def close_mega_position(position_id: int, exit_reason: str = "Manual") -> bool:
                 is_stop_loss_exit,
                 report_exit_gate_block,
             )
-            from elite_trader.mega_live import mega_sl_exit_disabled
-
             ex_mid = "mega"
+            if mega_blocks_sl_close(exit_reason):
+                report_exit_gate_block(
+                    kind="blocked_non_tp",
+                    symbol=sym,
+                    reason=exit_reason,
+                    detail="SL çıkış kapalı (MEGA_DISABLE_SL_EXIT)",
+                )
+                _audit_mega_close(
+                    "close_blocked",
+                    position_id=position_id,
+                    symbol=sym,
+                    exit_reason=exit_reason,
+                    detail="SL çıkış kapalı",
+                )
+                return False
             gross = _mega_api_gross_unreal(pos)
             pos["unrealized_pnl"] = gross
             _mega_arm_demo_fast_close(pos, mc)
             r_upper = str(exit_reason).upper()
-            sl_ok = is_stop_loss_exit(exit_reason) and not mega_sl_exit_disabled()
             uw_ok = (
                 r_upper == "TIME-STOP" and mega_underwater_cut_enabled()
             )
-            star_sl_ok = r_upper.startswith("SL-COIN25") or r_upper.startswith(
-                "SWAP-FREE-SLOT"
-            )
             if exit_tp_only(ex_mid) and not (
                 is_profit_tp_exit(exit_reason)
-                or sl_ok
-                or star_sl_ok
                 or uw_ok
                 or r_upper in ("MODE-RESET", "MANUAL", "MANUAL CLOSE")
             ):
@@ -9209,7 +9610,7 @@ def close_mega_position(position_id: int, exit_reason: str = "Manual") -> bool:
                     settled_exit_record_reason,
                 )
 
-                force_sl = is_stop_loss_exit(exit_reason)
+                force_sl = is_stop_loss_exit(exit_reason) and not mega_sl_exit_disabled()
                 if force_sl:
                     record_reason = (
                         settled_exit_record_reason(
@@ -9464,6 +9865,8 @@ def _touch_live_positions_from_cache() -> bool:
         if pos.get("on_exchange") or pos.get("exchange_synced"):
             _sync_pos_from_exchange(pos, exch, mode_id="mega")
             touched = True
+    if touched and _mega_panel_exchange_only():
+        _mega_touch_open_peaks_from_hub(mc=mc)
     return touched
 
 
@@ -9490,12 +9893,14 @@ def _apply_panel_hub_marks_to_positions(marks: dict[str, float]) -> None:
     mc = get_mega_client()
     live_desk = mega_live_enabled() and mc and not mc.paper
     if live_desk and _mega_panel_exchange_only():
+        marks, _ = _panel_hub_marks()
         refresh_mega_positions_cache(
             force=_mega_panel_positions_stale(),
             skip_wallet=True,
             panel_critical=True,
         )
         _touch_live_positions_from_cache()
+        _mega_touch_open_peaks_from_hub(marks=marks)
         return
     if not _mega_panel_exchange_only():
         touch_mega_cache_from_hub_marks()
@@ -9522,6 +9927,7 @@ def open_ticks_for_ui() -> dict[str, Any]:
             skip_wallet=True,
             panel_critical=False,
         )
+        _mega_touch_open_peaks_from_hub(marks=marks, mc=mc)
         if not _mega_positions_cache:
             return {"ok": True, "ts": ts, "open": [], "marks": {}, "hub": hub_meta}
         rows = _open_ticks_rows_fast(hub_meta=hub_meta)
@@ -9622,11 +10028,7 @@ def _apply_cache_unreal(pos: dict[str, Any], exch: list[dict[str, Any]]) -> None
         eu = float(ep.get("unrealized_pnl") or pos.get("unrealized_pnl") or 0)
         pos["exchange_unrealized_pnl"] = eu
         pos["unrealized_pnl"] = eu
-        pos["max_unreal_seen"] = max(float(pos.get("max_unreal_seen", eu)), eu)
-        stake = float(pos.get("stake_usd") or 1)
-        lev = max(int(pos.get("leverage") or 2), 1)
-        net = _mega_wallet_net_from_gross(pos, eu, stake=stake, lev=lev)
-        pos["max_net_seen"] = max(float(pos.get("max_net_seen") or 0), net)
+        _mega_record_profit_peaks(pos, rest_gross=eu)
         return
 
 
@@ -9686,6 +10088,7 @@ def evaluate_mega_exits(bulk: dict[str, float]) -> None:
     max_closes = max(1, int(_env_float("MEGA_EXIT_MAX_CLOSES_PER_TICK", 1)))
     _mega_last_exit_eval_ts = time.time()
     mc = get_mega_client()
+    _mega_touch_open_peaks_from_hub(mc=mc)
     if not _mega_positions:
         return
     hub_fresh = False
@@ -9828,7 +10231,7 @@ def evaluate_mega_exits(bulk: dict[str, float]) -> None:
                     continue
 
         uw_reason = _mega_underwater_time_stop_reason(pos)
-        if uw_reason:
+        if uw_reason and not mega_blocks_sl_close(uw_reason):
             pos["mega_underwater_close"] = True
             if _try_close_mega(int(pos["id"]), uw_reason):
                 continue
@@ -9864,6 +10267,8 @@ def evaluate_mega_exits(bulk: dict[str, float]) -> None:
             client_paper=False,
             api_client=mc,
         )
+        if exit_reason and mega_blocks_sl_close(exit_reason):
+            exit_reason = None
         if exit_reason:
             if str(exit_reason).upper() == "SPIKE-FLASH" and _mega_spike_close_ready(
                 pos, stake=stake, lev=lev, mc=mc

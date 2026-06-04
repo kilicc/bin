@@ -1355,6 +1355,39 @@ class MegaTrailLockTests(unittest.TestCase):
             stop = mega_live._mega_sanitize_lock_stop(pos, 2.001, FakeMc())
         self.assertGreaterEqual(stop, 2.0 * 1.0025)
 
+    def test_mega_exchange_mark_arm_ok_small_peak(self) -> None:
+        from elite_trader.mega_live import _mega_exchange_mark_arm_ok
+
+        with patch.dict(
+            os.environ,
+            {"MEGA_EXCHANGE_ARM_GROSS_USD": "0.8"},
+            clear=False,
+        ):
+            pos = {
+                "max_unreal_seen": 1.2,
+                "exchange_unrealized_pnl": 1.0,
+                "unrealized_pnl": 1.0,
+            }
+            ok, _ = _mega_exchange_mark_arm_ok(pos)
+            self.assertTrue(ok)
+            pos2 = {"max_unreal_seen": 0.3, "exchange_unrealized_pnl": 0.2}
+            ok2, _ = _mega_exchange_mark_arm_ok(pos2)
+            self.assertFalse(ok2)
+
+    def test_mega_blocks_sl_close_reasons(self) -> None:
+        from elite_trader.mega_live import mega_blocks_sl_close
+
+        with patch.dict(os.environ, {"MEGA_DISABLE_SL_EXIT": "1"}, clear=False):
+            self.assertTrue(mega_blocks_sl_close("SL"))
+            self.assertTrue(mega_blocks_sl_close("SL-EMERGENCY"))
+            self.assertTrue(mega_blocks_sl_close("NET-LOSS"))
+            self.assertTrue(mega_blocks_sl_close("TIME-STOP"))
+            self.assertFalse(mega_blocks_sl_close("TP"))
+            self.assertFalse(mega_blocks_sl_close("SPIKE-FLASH"))
+            self.assertFalse(mega_blocks_sl_close("MANUAL"))
+        with patch.dict(os.environ, {"MEGA_DISABLE_SL_EXIT": "0"}, clear=False):
+            self.assertFalse(mega_blocks_sl_close("SL"))
+
     def test_mega_sl_exit_disabled_by_default(self) -> None:
         from elite_trader.panel_strategy import evaluate_position_exit
 
@@ -1482,6 +1515,42 @@ class MegaExchangeUpnlSyncTests(unittest.TestCase):
         self.assertAlmostEqual(float(pos["current_price"]), 8.957)
 
 
+class MegaPeakTrackHubMarkTests(unittest.TestCase):
+    def test_hub_mark_peak_without_changing_display_upnl(self) -> None:
+        env = {
+            "MEGA_LIVE_ORDERS": "1",
+            "MEGA_BINANCE_API_KEY": "k",
+            "MEGA_BINANCE_API_SECRET": "s",
+            "MEGA_PANEL_EXCHANGE_ONLY": "1",
+            "MEGA_PEAK_TRACK_HUB_MARK": "1",
+            "MEGA_ASYNC_HUB": "1",
+        }
+        with patch.dict(os.environ, env, clear=False):
+            from elite_trader import mega_live
+
+            pos = {
+                "symbol": "ETHUSDT",
+                "side": "SHORT",
+                "on_exchange": True,
+                "entry_price": 1761.0,
+                "size": 5.642,
+                "stake_usd": 1000.0,
+                "leverage": 10,
+                "exchange_unrealized_pnl": 120.0,
+                "unrealized_pnl": 120.0,
+                "max_unreal_seen": 120.0,
+                "max_exchange_unreal_seen": 120.0,
+            }
+            marks = {"ETH": 1720.0}
+            with patch.object(mega_live, "_mega_peak_track_hub_mark_enabled", return_value=True):
+                mega_live._mega_record_profit_peaks(pos, rest_gross=120.0, marks=marks)
+            self.assertAlmostEqual(float(pos["unrealized_pnl"]), 120.0)
+            self.assertAlmostEqual(float(pos["exchange_unrealized_pnl"]), 120.0)
+            self.assertGreater(float(pos["max_mark_unreal_seen"]), 200.0)
+            self.assertGreater(float(pos["max_unreal_seen"]), 200.0)
+            self.assertAlmostEqual(float(pos["max_exchange_unreal_seen"]), 120.0)
+
+
 class MegaSlClosedRecordTests(unittest.TestCase):
     def test_infer_exchange_sl_from_lock_order(self) -> None:
         from elite_trader import mega_live
@@ -1511,6 +1580,71 @@ class MegaSlClosedRecordTests(unittest.TestCase):
         row_tp = dict(row, exit_reason="TP", wallet_pnl=8.0, sl_close=False)
         with patch.object(mega_live, "mega_live_bot_only_closed", return_value=True):
             self.assertFalse(mega_live._mega_closed_persist_allowed(row_tp))
+
+
+class MegaExchangeVelocityTests(unittest.TestCase):
+    def test_mark_velocity_hot_on_fast_move(self) -> None:
+        from elite_trader.mega_live import (
+            _mega_exchange_velocity_hot,
+            _mega_track_mark_velocity,
+        )
+
+        pos: dict = {
+            "symbol": "SOLUSDT",
+            "side": "LONG",
+            "entry_price": 100.0,
+            "size": 10.0,
+            "stake_usd": 1000,
+            "leverage": 10,
+        }
+        with patch.dict(
+            os.environ,
+            {
+                "MEGA_EXCHANGE_VELOCITY_TICK": "1",
+                "MEGA_EXCHANGE_VELOCITY_MIN_USD_PER_SEC": "8",
+            },
+            clear=False,
+        ):
+            _mega_track_mark_velocity(pos, 100.0, 0.0)
+            time.sleep(0.06)
+            _mega_track_mark_velocity(pos, 100.5, 5.0)
+            self.assertGreaterEqual(float(pos.get("hub_mark_velocity_usd_s") or 0), 8.0)
+            self.assertTrue(_mega_exchange_velocity_hot(pos))
+
+    def test_exchange_tick_interval_fast(self) -> None:
+        from elite_trader.mega_live import _mega_exchange_tp_update_interval_sec
+
+        with patch.dict(
+            os.environ,
+            {"MEGA_EXCHANGE_TP_UPDATE_FAST_SEC": "0.05"},
+            clear=False,
+        ):
+            self.assertLessEqual(_mega_exchange_tp_update_interval_sec(fast=True), 0.06)
+
+
+class MegaAsyncHubEnsureTests(unittest.TestCase):
+    def test_ensure_starts_when_hub_missing(self) -> None:
+        import elite_trader.mega_async_hub as hub_mod
+
+        with patch.dict(os.environ, {"MEGA_ASYNC_HUB": "1"}, clear=False):
+            hub_mod.stop_mega_async_hub()
+            fake = object()
+            with patch.object(hub_mod, "MegaAsyncHub") as MockHub:
+                inst = MockHub.return_value
+                inst.status.return_value = {"alive": False, "ready": False}
+                hub_mod._hub = None
+                hub_mod.ensure_mega_async_hub()
+                MockHub.assert_called_once()
+                inst.start.assert_called_once()
+            hub_mod._hub = None
+
+    def test_ensure_skipped_when_disabled(self) -> None:
+        import elite_trader.mega_async_hub as hub_mod
+
+        with patch.dict(os.environ, {"MEGA_ASYNC_HUB": "0"}, clear=False):
+            with patch.object(hub_mod, "MegaAsyncHub") as MockHub:
+                hub_mod.ensure_mega_async_hub()
+                MockHub.assert_not_called()
 
 
 if __name__ == "__main__":

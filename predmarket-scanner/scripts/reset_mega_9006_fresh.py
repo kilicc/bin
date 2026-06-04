@@ -10,6 +10,30 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+_GCP_ROOT_PREFIX = "/opt/binancex/predmarket-scanner"
+
+
+def _require_gcp_host() -> None:
+    """Flatten+wipe yalnızca GCP VM'de — Mac'te yanlışlıkla çalışmasın."""
+    if os.getenv("MEGA_RESET_ALLOW_LOCAL", "").strip().lower() in (
+        "1",
+        "yes",
+        "true",
+        "evet",
+    ):
+        return
+    root = str(ROOT.resolve())
+    if root.startswith(_GCP_ROOT_PREFIX):
+        return
+    print(
+        "HATA: reset_mega_9006_fresh yalnızca GCP üzerinde çalıştırılmalı.\n"
+        f"  cwd={root}\n"
+        "  Mac: deploy/gcp_9006_peak_track_fresh_deploy.sh veya gcloud ssh …\n"
+        "  Yerel test: MEGA_RESET_ALLOW_LOCAL=1 (bilinçli override)",
+        file=sys.stderr,
+    )
+    sys.exit(2)
+
 
 def _load_env() -> None:
     os.environ["BINANCE_ELITE_PORT"] = "9006"
@@ -42,6 +66,7 @@ def main() -> None:
     )
     p.add_argument("--yes", action="store_true")
     args = p.parse_args()
+    _require_gcp_host()
     reason = args.reason.strip()
     if not args.yes:
         ans = input(
