@@ -1,0 +1,20 @@
+binanx369sontest — MEGA 9008 LIVE son yedek
+Tarih: 2026-06-05T20:28Z
+Sunucu: elite-full-mainnet (34.146.107.66) /opt/binancex/predmarket-scanner
+Servis: binance-elite-9008-live → port 9008, panel nginx 9086
+
+Aktif dosyalar (sunucuya deploy edilen):
+  binance_elite_pro.py
+  binance_elite_pro_9008_live.py
+  binance_futures_trader/client.py
+  deploy/binance-elite-9008-live.service
+  elite_trader/binance_rest_budget.py
+  elite_trader/connection_alerts.py
+  elite_trader/mega_close_sync.py
+  elite_trader/mega_live.py
+  elite_trader/network_guard.py
+  panel/elite_v2/js/connection-banner.js
+  panel/elite_v2/js/paper-dashboard.js
+  panel/elite_v2/paper.html
+  run_binance_elite_mega_9008_live.sh
+  scenarios/binance_elite_mega_9008_live.env
