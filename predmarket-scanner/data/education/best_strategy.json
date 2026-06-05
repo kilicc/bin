@@ -1,0 +1,12 @@
+{
+  "variant_id": "adv_alpha_max",
+  "selected_at": "2026-05-17T23:39:15.085678+00:00",
+  "source": "education_backtest_6m",
+  "report_summary": {
+    "variant_id": "adv_alpha_max",
+    "total_return_pct": 273.69,
+    "win_rate": 0.4732,
+    "profit_factor": 1.078,
+    "engine": "portfolio"
+  }
+}

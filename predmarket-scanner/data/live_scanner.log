@@ -1,0 +1,168 @@
+LIVE CLOB | MAX_POSITION_USD=5 | MAX_OPEN=1 | DB=data/live.db
+Paper panel: ayrı terminalde ./run_paper_stack.sh veya dashboard.py
+Tek örnek: ikinci ./run_live_scanner.sh başlamaz (data/polymarket_scanner.lock).
+  📚 Paper öğrenmesi yüklendi (salt-okunur — live.db pkl güncellemez)
+  💰 Kelly bankroll = CLOB bakiye ≈$1.79
+  TP/SL canlı: +1.00% / -2.00% stake  ×1.000
+=================================================================
+ Calibration Momentum Scanner — LIVE CLOB (gerçek emir) + live.db
+ DB: data/live.db
+ Live profil: mirror  |  max giriş ≤1.00 (min 5 pay × fiyat ≤ $5.0)
+ Edge threshold: 0.06  Kelly: 0.25  Max pos: $5.0
+ Pozisyon kontrolü: 5s  Market tarama: 40s
+ Zaman penceresi: 2h – 48h  TP katmanları: taban +1.0% | ≤288h → min 1.0% | ≤10h → min 1.0% | |edge|≥0.13 → min 1.0%  (örnek: 1.0% / 1.0% / 1.0%)
+  nano ≤5h → 1.0% stake
+ SL: -2% stake  MaxSpread: 4%  Stale: 30dk
+ Mom: düz çizgi ≤48h  |  CLOB eğimi yok ≤18h  |  veto NRVT/EURO/UPDN: 1/1/1
+=================================================================
+
+[18:17:54] Kontrol #1
+  ▼ [ 1] NO  stake=$2.55  P&L=-0.03$  TP +$0.03 / SL -$0.05  Games Total: O/U 2.5
+  [tarama #1] market aranıyor...
+  [scan] 2426 aktif market tarandı (vol>$5,000)
+  🚫 LCRY canlı crypto strike (whipsaw), atla: Will the price of Bitcoin be above $78,000 on May 16?
+  🚫 LCRY canlı crypto strike (whipsaw), atla: Will the price of Ethereum be above $2,200 on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 40-64 tweets from May 14 to May 16,
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 LESP canlı esports outright, atla: Will Spirit win PGL Astana 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland win Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Bulgaria be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Italy be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Ukraine be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will France be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Australia be the Jury Winner in the Eurovision 202
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Australia be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  📊 CANLI HUNİ (mirror)
+     Taranan: 2426  |  Kalibrasyon sinyali: 61  |  Veto öncesi: 52  |  Son havuz: 24  |  Açılan: 0
+     Elendi (üst nedenler):
+       · fiyat_bandı: 2100
+       · zaman_penceresi: 250
+       · slot_dolu: 23
+       · veto_eurovision: 17
+       · kalibrasyon_sinyal_yok: 13
+       · veto_tek_oyun: 6
+       · son_islem_fiyat: 4
+       · spread_geniş: 4
+       · veto_crypto: 2
+       · veto_anlatı: 2
+       · zaten_pozisyon: 1
+       · aynı_event: 1
+  Açık: 1  Kapalı: 0  P&L: $+0.00
+
+[18:18:51] Kontrol #2
+  ▼ [ 1] NO  stake=$2.55  P&L=-0.03$  TP +$0.03 / SL -$0.05  Games Total: O/U 2.5
+  Açık: 1  Kapalı: 0  P&L: $+0.00
+
+[18:18:56] Kontrol #3
+  ▼ [ 1] NO  stake=$2.55  P&L=-0.03$  TP +$0.03 / SL -$0.05  Games Total: O/U 2.5
+  Açık: 1  Kapalı: 0  P&L: $+0.00
+LIVE CLOB | MAX_POSITION_USD=5 | MAX_OPEN=1 | DB=data/live.db
+Paper panel: ayrı terminalde ./run_paper_stack.sh veya dashboard.py
+Tek örnek: ikinci ./run_live_scanner.sh başlamaz (data/polymarket_scanner.lock).
+  📚 Paper öğrenmesi yüklendi (salt-okunur — live.db pkl güncellemez)
+  💰 Kelly bankroll = CLOB bakiye ≈$1.79
+  TP/SL canlı: +1.00% / -2.00% stake  ×1.000
+=================================================================
+ Calibration Momentum Scanner — LIVE CLOB (gerçek emir) + live.db
+ DB: data/live.db
+ Live profil: mirror  |  max giriş ≤1.00 (min 5 pay × fiyat ≤ $5.0)
+ Edge threshold: 0.06  Kelly: 0.25  Max pos: $5.0
+ Pozisyon kontrolü: 5s  Market tarama: 40s
+ Zaman penceresi: 2h – 48h  TP katmanları: taban +1.0% | ≤288h → min 1.0% | ≤10h → min 1.0% | |edge|≥0.13 → min 1.0%  (örnek: 1.0% / 1.0% / 1.0%)
+  nano ≤5h → 1.0% stake
+ SL: -2% stake  MaxSpread: 4%  Stale: 30dk
+ Mom: düz çizgi ≤48h  |  CLOB eğimi yok ≤18h  |  veto NRVT/EURO/UPDN: 1/1/1
+=================================================================
+
+[18:19:00] Kontrol #1
+  ▼ [ 1] NO  stake=$2.55  P&L=-0.03$  TP +$0.03 / SL -$0.05  Games Total: O/U 2.5
+  [tarama #1] market aranıyor...
+  [scan] 2426 aktif market tarandı (vol>$5,000)
+  🚫 LCRY canlı crypto strike (whipsaw), atla: Will the price of Bitcoin be above $78,000 on May 16?
+  🚫 LCRY canlı crypto strike (whipsaw), atla: Will the price of Ethereum be above $2,200 on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 40-64 tweets from May 14 to May 16,
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 LESP canlı esports outright, atla: Will Spirit win PGL Astana 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland win Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Bulgaria be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Italy be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Ukraine be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will France be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Australia be the Jury Winner in the Eurovision 202
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Australia be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  📊 CANLI HUNİ (mirror)
+     Taranan: 2426  |  Kalibrasyon sinyali: 61  |  Veto öncesi: 52  |  Son havuz: 24  |  Açılan: 0
+     Elendi (üst nedenler):
+       · fiyat_bandı: 2100
+       · zaman_penceresi: 250
+       · slot_dolu: 23
+       · veto_eurovision: 17
+       · kalibrasyon_sinyal_yok: 13
+       · veto_tek_oyun: 6
+       · son_islem_fiyat: 4
+       · spread_geniş: 4
+       · veto_crypto: 2
+       · veto_anlatı: 2
+       · zaten_pozisyon: 1
+       · aynı_event: 1
+  Açık: 1  Kapalı: 0  P&L: $+0.00
+
+[18:19:58] Kontrol #2
+  ▼ [ 1] NO  stake=$2.55  P&L=-0.05$  TP +$0.03 / SL -$0.05  Games Total: O/U 2.5
+  Açık: 1  Kapalı: 0  P&L: $+0.00
+
+[18:20:03] Kontrol #3
+  ▼ [ 1] NO  stake=$2.55  P&L=-0.05$  TP +$0.03 / SL -$0.05  Games Total: O/U 2.5
+  Açık: 1  Kapalı: 0  P&L: $+0.00
+
+[18:20:08] Kontrol #4
+  ▼ [ 1] NO  stake=$2.55  P&L=-0.05$  TP +$0.03 / SL -$0.05  Games Total: O/U 2.5
+  Açık: 1  Kapalı: 0  P&L: $+0.00
+
+[18:20:13] Kontrol #5
+  ▼ [ 1] NO  stake=$2.55  P&L=-0.05$  TP +$0.03 / SL -$0.05  Games Total: O/U 2.5
+  Açık: 1  Kapalı: 0  P&L: $+0.00
+
+[18:20:18] Kontrol #6
+  ▼ [ 1] NO  stake=$2.55  P&L=-0.05$  TP +$0.03 / SL -$0.05  Games Total: O/U 2.5
+  Açık: 1  Kapalı: 0  P&L: $+0.00
+
+[18:20:23] Kontrol #7
+  ▼ [ 1] NO  stake=$2.55  P&L=-0.05$  TP +$0.03 / SL -$0.05  Games Total: O/U 2.5
+  Açık: 1  Kapalı: 0  P&L: $+0.00
+
+[18:20:28] Kontrol #8
+  ▼ [ 1] NO  stake=$2.55  P&L=-0.05$  TP +$0.03 / SL -$0.05  Games Total: O/U 2.5
+  Açık: 1  Kapalı: 0  P&L: $+0.00
+
+[18:20:33] Kontrol #9
+  ▼ [ 1] NO  stake=$2.55  P&L=-0.05$  TP +$0.03 / SL -$0.05  Games Total: O/U 2.5
+  Açık: 1  Kapalı: 0  P&L: $+0.00
+
+[18:20:38] Kontrol #10
+  ─ [ 1] NO  stake=$2.55  P&L=+0.00$  TP +$0.03 / SL -$0.05  Games Total: O/U 2.5
+  [tarama #2] market aranıyor...
+  [scan] 2429 aktif market tarandı (vol>$5,000)
+  🚫 LCRY canlı crypto strike (whipsaw), atla: Will the price of Bitcoin be above $78,000 on May 16?
+  🚫 LCRY canlı crypto strike (whipsaw), atla: Will the price of Ethereum be above $2,200 on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 40-64 tweets from May 14 to May 16,

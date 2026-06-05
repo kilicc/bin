@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "fetched_at": "2026-05-18",
+  "note": "En çok yıldız alan açık kaynak kripto trading projeleri — strateji kalıpları eğitime dahil",
+  "projects": [
+    {
+      "repo": "freqtrade/freqtrade",
+      "stars": 50449,
+      "lang": "Python",
+      "focus": ["backtest", "hyperopt", "multi-exchange", "TA strategies"],
+      "patterns": ["RSI+BB+ATR entries", "EMA crossover", "ADX trend filter", "custom stoploss via ATR"],
+      "url": "https://github.com/freqtrade/freqtrade"
+    },
+    {
+      "repo": "ccxt/ccxt",
+      "stars": 42485,
+      "lang": "JS/Python",
+      "focus": ["unified exchange API", "OHLCV fetch"],
+      "patterns": ["exchange abstraction", "rate limit handling"],
+      "url": "https://github.com/ccxt/ccxt"
+    },
+    {
+      "repo": "hummingbot/hummingbot",
+      "stars": 18578,
+      "lang": "Python",
+      "focus": ["market making", "arbitrage", "HFT-style"],
+      "patterns": ["order book liquidity", "spread capture", "inventory risk"],
+      "url": "https://github.com/hummingbot/hummingbot"
+    },
+    {
+      "repo": "jesse-ai/jesse",
+      "stars": 7900,
+      "lang": "Python",
+      "focus": ["backtest", "optimize", "futures"],
+      "patterns": ["isolated routes per symbol", "metric-based optimization", "candle pipeline"],
+      "url": "https://github.com/jesse-ai/jesse"
+    },
+    {
+      "repo": "Drakkar-Software/OctoBot",
+      "stars": 5935,
+      "lang": "Python",
+      "focus": ["grid", "DCA", "TradingView signals"],
+      "patterns": ["multi-strategy portfolio", "paper trading", "TV webhook"],
+      "url": "https://github.com/Drakkar-Software/OctoBot"
+    },
+    {
+      "repo": "Superalgos/Superalgos",
+      "stars": 5469,
+      "lang": "JS",
+      "focus": ["visual strategy design", "multi-timeframe"],
+      "patterns": ["indicator stacks", "signal bots", "data mines"],
+      "url": "https://github.com/Superalgos/Superalgos"
+    },
+    {
+      "repo": "iterativv/NostalgiaForInfinity",
+      "stars": 3215,
+      "lang": "Python",
+      "focus": ["freqtrade strategy", "high confluence"],
+      "patterns": ["many indicator confirmations", "selective entries", "protections"],
+      "url": "https://github.com/iterativv/NostalgiaForInfinity"
+    },
+    {
+      "repo": "freqtrade/freqtrade-strategies",
+      "stars": 5000,
+      "lang": "Python",
+      "focus": ["community strategies"],
+      "patterns": ["Strategy003 Stoch+RSI+EMA", "BB_RSI_ATR", "EMABBRSI"],
+      "url": "https://github.com/freqtrade/freqtrade-strategies"
+    },
+    {
+      "repo": "Janis174756/Binance-Futures-Trading-Bot",
+      "stars": 800,
+      "lang": "Python",
+      "focus": ["Binance futures", "multi-strategy GUI"],
+      "patterns": ["Triple EMA", "Stoch RSI", "ATR SL", "Golden Cross", "Breakout", "Heikin Ashi"],
+      "url": "https://github.com/Janis174756/Binance-Futures-Trading-Bot"
+    },
+    {
+      "repo": "6551-Team/bybit-trading-bot",
+      "stars": 107,
+      "lang": "TypeScript",
+      "focus": ["Bybit perps", "trend"],
+      "patterns": ["EMA crossover", "ATR position sizing", "isolated margin"],
+      "url": "https://github.com/6551-Team/bybit-trading-bot"
+    },
+    {
+      "repo": "thrasher-corp/gocryptotrader",
+      "stars": 3434,
+      "lang": "Go",
+      "focus": ["multi-exchange framework"],
+      "patterns": ["pluggable strategies", "REST+WS"],
+      "url": "https://github.com/thrasher-corp/gocryptotrader"
+    },
+    {
+      "repo": "enarjord/passivbot",
+      "stars": 1997,
+      "lang": "Python",
+      "focus": ["market making", "perps"],
+      "patterns": ["grid-like", "position skew", "funding aware"],
+      "url": "https://github.com/enarjord/passivbot"
+    }
+  ],
+  "synthesized_rules": [
+    {
+      "id": "gh_adx_trend",
+      "source": ["freqtrade", "Strategy004", "Binance-Futures-Trading-Bot"],
+      "rule": "ADX > 20-25 iken trend işlemi; düşük ADX = yatay piyasa, işlem azalt"
+    },
+    {
+      "id": "gh_ema200_regime",
+      "source": ["freqtrade Strategy001", "NostalgiaForInfinity"],
+      "rule": "Fiyat EMA200 üstünde → long bias; altında → short bias"
+    },
+    {
+      "id": "gh_bb_rsi_atr",
+      "source": ["freqtrade-strategies BB_RSI_ATR"],
+      "rule": "BB alt band + RSI aşırı satım + ATR tabanlı SL/TP (R:R ~1.5-2.5)"
+    },
+    {
+      "id": "gh_triple_ema",
+      "source": ["Binance-Futures-Trading-Bot"],
+      "rule": "EMA9 > EMA21 > EMA50 hizalı → güçlü uptrend teyidi"
+    },
+    {
+      "id": "gh_stoch_rsi",
+      "source": ["freqtrade Strategy003"],
+      "rule": "Stochastic + RSI aynı yönde aşırı bölge → giriş teyidi"
+    },
+    {
+      "id": "gh_high_confluence",
+      "source": ["NostalgiaForInfinity"],
+      "rule": "4+ bağımsız sinyal ailesi — düşük frekans, daha yüksek WR hedefi"
+    }
+  ]
+}

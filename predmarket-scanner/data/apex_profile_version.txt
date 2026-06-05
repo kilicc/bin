@@ -1,0 +1,5 @@
+apex_2x_24h
+version=2
+updated=2026-05-16
+target=2x STARTING_BALANCE in 24h (not guaranteed)
+layers=insane_24h + daily_2x_stack + hybrid_tp + sports_exits + self_improver

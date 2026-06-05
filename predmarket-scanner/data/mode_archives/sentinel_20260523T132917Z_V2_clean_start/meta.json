@@ -1,0 +1,26 @@
+{
+  "archive_id": "sentinel_20260523T132917Z_V2_clean_start",
+  "mode_id": "sentinel",
+  "mode_label": "Sentinel",
+  "is_live": false,
+  "archived_at": "2026-05-23T13:29:17.235231+00:00",
+  "reason": "V2 clean start",
+  "trigger": "preserve_reset",
+  "path": "data/mode_archives/sentinel_20260523T132917Z_V2_clean_start",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 2430,
+      "open_n": 0,
+      "closed_n": 2
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 2335398
+    }
+  ],
+  "closed_trades_count": 2,
+  "open_trades_count": 0
+}

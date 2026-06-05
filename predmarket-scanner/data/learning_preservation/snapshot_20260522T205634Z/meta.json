@@ -1,0 +1,52 @@
+{
+  "exported_at": "2026-05-22T20:56:54.466040+00:00",
+  "reason": "Sifirdan baslangic - ogrenme korundu",
+  "closed_trades_total": 1344,
+  "closed_by_mode": {
+    "evrim": 40,
+    "berserk": 758,
+    "hunter": 266,
+    "chop_master": 266,
+    "sentinel": 14
+  },
+  "bootstrap": {
+    "ingested": 1344,
+    "by_mode": {
+      "evrim": 40,
+      "berserk": 758,
+      "hunter": 266,
+      "chop_master": 266,
+      "sentinel": 14
+    },
+    "lessons": {
+      "n": 1304,
+      "win_rate": 0.5076687116564417,
+      "avg_win": 1.8315449157043935,
+      "avg_loss": -4.822903176428265,
+      "best_exit": "SL",
+      "spike_share": 0.032975460122699383
+    }
+  },
+  "snapshot_dir": "data/learning_preservation/snapshot_20260522T205634Z",
+  "files": [
+    {
+      "label": "learning_registry",
+      "file": "elite_9005_learning_registry.json",
+      "bytes": 368282
+    },
+    {
+      "label": "evrim_adaptive_state",
+      "file": "evrim_adaptive_state.json",
+      "bytes": 750
+    },
+    {
+      "label": "proposals",
+      "file": "elite_9005_proposals.json",
+      "bytes": 4166
+    },
+    {
+      "label": "all_closed_trades",
+      "file": "all_closed_trades.json"
+    }
+  ]
+}

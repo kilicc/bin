@@ -1,0 +1,137 @@
+{
+  "proposals": [
+    {
+      "id": "8d6b736d",
+      "rule_id": "spike_quick_scalp",
+      "status": "pending",
+      "created_at": "2026-05-22T20:57:00.127732+00:00",
+      "title": "Spike hızlı scalp (ücret+marj sonrası erken çıkış)",
+      "detail": "Fee sonrası kısa yeşil pencerede SPIKE-QUICK ile çık; pozisyon kontrolü 0.5sn.",
+      "suggested_env": {
+        "ELITE_SPIKE_QUICK_TP_ENABLED": "1",
+        "ELITE_SPIKE_QUICK_TP_MIN_AGE_SEC": "40",
+        "ELITE_SPIKE_QUICK_TP_FEE_MULT": "1.08",
+        "ELITE_SPIKE_QUICK_TP_MAX_FRAC": "0.72",
+        "ELITE_POSITION_CHECK_SEC": "0.5",
+        "ELITE_STALE_TP_ENABLED": "1",
+        "ELITE_STALE_TP_MIN_AGE_MIN": "0.75",
+        "ELITE_STALE_MODE": "flat_release"
+      },
+      "evidence": {
+        "source": "user_spike_scalp_request"
+      },
+      "priority": 9,
+      "auto_apply": true
+    },
+    {
+      "id": "aa5cf77f",
+      "rule_id": "sl_instant_no_emergency",
+      "status": "pending",
+      "created_at": "2026-05-22T20:57:14.616131+00:00",
+      "title": "Plan SL anında kapat (SL-EMERGENCY yok)",
+      "detail": "DODOXUSDT: zarar $-3.48 plan SL $1.10 katı (3.2×). Acil çıkış yolu kaybı büyütüyor.",
+      "suggested_env": {
+        "ELITE_SL_EMERGENCY_MULT": "1.0"
+      },
+      "evidence": {
+        "symbol": "DODOXUSDT",
+        "pnl": -3.4768,
+        "ratio": 3.16,
+        "exit": "SL"
+      },
+      "priority": 10,
+      "auto_apply": false
+    },
+    {
+      "id": "c5afd5fa",
+      "rule_id": "stake_cap_450",
+      "status": "pending",
+      "created_at": "2026-05-22T20:57:26.981631+00:00",
+      "title": "Tek işlem stake tavanı (~$450)",
+      "detail": "SKYAIUSDT: stake $1000 ile zarar $-23.16. Büyük stake + küçük TP = tail risk.",
+      "suggested_env": {
+        "ELITE_MAX_STAKE_USD": "450"
+      },
+      "evidence": {
+        "symbol": "SKYAIUSDT",
+        "stake": 1000.0,
+        "pnl": -23.16
+      },
+      "priority": 8,
+      "auto_apply": false
+    },
+    {
+      "id": "7f8f2077",
+      "rule_id": "stake_cap_449",
+      "status": "pending",
+      "created_at": "2026-05-22T20:57:27.104619+00:00",
+      "title": "Tek işlem stake tavanı (~$449)",
+      "detail": "VELVETUSDT: stake $998 ile zarar $-23.56. Büyük stake + küçük TP = tail risk.",
+      "suggested_env": {
+        "ELITE_MAX_STAKE_USD": "449"
+      },
+      "evidence": {
+        "symbol": "VELVETUSDT",
+        "stake": 998.0,
+        "pnl": -23.56
+      },
+      "priority": 8,
+      "auto_apply": false
+    },
+    {
+      "id": "cfdaa63e",
+      "rule_id": "stake_cap_500",
+      "status": "pending",
+      "created_at": "2026-05-22T20:57:27.132758+00:00",
+      "title": "Tek işlem stake tavanı (~$500)",
+      "detail": "JTOUSDT: stake $1207 ile zarar $-23.46. Büyük stake + küçük TP = tail risk.",
+      "suggested_env": {
+        "ELITE_MAX_STAKE_USD": "500"
+      },
+      "evidence": {
+        "symbol": "JTOUSDT",
+        "stake": 1207.0,
+        "pnl": -23.46
+      },
+      "priority": 8,
+      "auto_apply": false
+    },
+    {
+      "id": "ab7e9e1a",
+      "rule_id": "stake_cap_418",
+      "status": "pending",
+      "created_at": "2026-05-22T20:57:27.166697+00:00",
+      "title": "Tek işlem stake tavanı (~$418)",
+      "detail": "XNYUSDT: stake $930 ile zarar $-16.55. Büyük stake + küçük TP = tail risk.",
+      "suggested_env": {
+        "ELITE_MAX_STAKE_USD": "418"
+      },
+      "evidence": {
+        "symbol": "XNYUSDT",
+        "stake": 930.0,
+        "pnl": -16.55
+      },
+      "priority": 8,
+      "auto_apply": false
+    },
+    {
+      "id": "ca6ab217",
+      "rule_id": "stake_cap_405",
+      "status": "pending",
+      "created_at": "2026-05-22T20:57:27.184549+00:00",
+      "title": "Tek işlem stake tavanı (~$405)",
+      "detail": "PORT3USDT: stake $901 ile zarar $-124.95. Büyük stake + küçük TP = tail risk.",
+      "suggested_env": {
+        "ELITE_MAX_STAKE_USD": "405"
+      },
+      "evidence": {
+        "symbol": "PORT3USDT",
+        "stake": 901.0,
+        "pnl": -124.95
+      },
+      "priority": 8,
+      "auto_apply": false
+    }
+  ],
+  "updated_at": "2026-05-22T21:01:21.793406+00:00"
+}

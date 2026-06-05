@@ -1,0 +1,26 @@
+{
+  "archive_id": "berserk2_20260524T160632Z_v3",
+  "mode_id": "berserk2",
+  "mode_label": "Brk2",
+  "is_live": false,
+  "archived_at": "2026-05-24T16:06:32.070570+00:00",
+  "reason": "v3",
+  "trigger": "preserve_reset",
+  "path": "data/mode_archives/berserk2_20260524T160632Z_v3",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 23891,
+      "open_n": 6,
+      "closed_n": 4
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 33519
+    }
+  ],
+  "closed_trades_count": 4,
+  "open_trades_count": 6
+}

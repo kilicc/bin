@@ -1,0 +1,52 @@
+{
+  "exported_at": "2026-05-22T21:02:47.947651+00:00",
+  "reason": "Tam sifir - sifirdan baslangic",
+  "closed_trades_total": 1381,
+  "closed_by_mode": {
+    "evrim": 40,
+    "berserk": 779,
+    "hunter": 274,
+    "chop_master": 274,
+    "sentinel": 14
+  },
+  "bootstrap": {
+    "ingested": 1381,
+    "by_mode": {
+      "berserk": 779,
+      "hunter": 274,
+      "chop_master": 274,
+      "sentinel": 14,
+      "evrim": 40
+    },
+    "lessons": {
+      "n": 1341,
+      "win_rate": 0.511558538404176,
+      "avg_win": 1.803560837020857,
+      "avg_loss": -4.780051663002973,
+      "best_exit": "SL",
+      "spike_share": 0.035048471290082026
+    }
+  },
+  "snapshot_dir": "data/learning_preservation/snapshot_20260522T210233Z",
+  "files": [
+    {
+      "label": "learning_registry",
+      "file": "elite_9005_learning_registry.json",
+      "bytes": 193158
+    },
+    {
+      "label": "evrim_adaptive_state",
+      "file": "evrim_adaptive_state.json",
+      "bytes": 21985
+    },
+    {
+      "label": "proposals",
+      "file": "elite_9005_proposals.json",
+      "bytes": 4170
+    },
+    {
+      "label": "all_closed_trades",
+      "file": "all_closed_trades.json"
+    }
+  ]
+}

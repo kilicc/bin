@@ -1,0 +1,26 @@
+{
+  "archive_id": "berserk2_20260524T144524Z_S_f_rdan_ba_lang_renme_korundu_demo",
+  "mode_id": "berserk2",
+  "mode_label": "Brk2",
+  "is_live": false,
+  "archived_at": "2026-05-24T14:45:24.772146+00:00",
+  "reason": "Sıfırdan başlangıç — öğrenme korundu, demo canlı emir açık",
+  "trigger": "preserve_reset",
+  "path": "data/mode_archives/berserk2_20260524T144524Z_S_f_rdan_ba_lang_renme_korundu_demo",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 486642,
+      "open_n": 17,
+      "closed_n": 302
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 559403
+    }
+  ],
+  "closed_trades_count": 302,
+  "open_trades_count": 17
+}

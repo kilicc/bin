@@ -1,0 +1,229 @@
+{
+  "enabled": true,
+  "mtf_enabled": true,
+  "mtf_prompt_ingested": false,
+  "pa_enabled": true,
+  "pa_prompt_ingested": false,
+  "pa_weights": {
+    "breakout": 1.0,
+    "fake_breakout": 1.0,
+    "micro_hh_hl": 1.0,
+    "micro_ll_lh": 1.0,
+    "momentum_candle": 1.0,
+    "engulfing": 1.0,
+    "volume_breakout": 1.0,
+    "volume_breakdown": 1.0,
+    "strong_close_long": 1.0,
+    "strong_close_short": 1.0
+  },
+  "vo_enabled": true,
+  "vo_prompt_ingested": false,
+  "vo_weights": {
+    "volume_spike": 1.0,
+    "relative_volume": 1.0,
+    "buy_sell_imbalance": 1.0,
+    "bid_wall": 1.0,
+    "ask_wall": 1.0,
+    "liquidity_pull": 1.0,
+    "orderbook_sweep": 1.0,
+    "aggressive_market_buy": 1.0,
+    "aggressive_market_sell": 1.0
+  },
+  "regime_enabled": true,
+  "regime_prompt_ingested": false,
+  "regime_stats": {
+    "chop": {
+      "pnl": 2198.18,
+      "trades": 285,
+      "wins": 285
+    }
+  },
+  "regime_overrides": {},
+  "dynamic_exit_enabled": true,
+  "dynamic_exit_prompt_ingested": false,
+  "dynamic_exit_stats": {},
+  "dynamic_exit_overrides": {},
+  "expectancy_enabled": true,
+  "expectancy_prompt_ingested": false,
+  "expectancy_metrics": {
+    "trades_n": 285,
+    "wins_n": 285,
+    "losses_n": 0,
+    "gross_profit_usd": 5600.249866668554,
+    "gross_loss_usd": 0.0,
+    "total_fees_usd": 3402.0040174,
+    "net_pnl_usd": 2198.2462999999993,
+    "spread_cost_usd": 0.0,
+    "slippage_cost_usd": 0.0,
+    "funding_cost_usd": 0.0,
+    "maker_fills": 0,
+    "taker_fills": 570,
+    "expectancy_vetoes": 0,
+    "pre_trade_checks": 0,
+    "protection_mode": "cautious",
+    "fee_to_gross_profit_pct": 60.75,
+    "gross_profit_to_fee_ratio": 1.646,
+    "net_pnl_per_trade": 7.7131,
+    "avg_slippage_bps": 0.0,
+    "avg_spread_pct": 0.0,
+    "maker_taker_ratio": 0.0,
+    "profit_factor": 999.0,
+    "win_rate_pct": 100.0,
+    "avg_win_usd": 19.65,
+    "avg_loss_usd": 0.0,
+    "expectancy_usd": 7.7131
+  },
+  "expectancy_overrides": {},
+  "trade_learning_enabled": true,
+  "trade_learning_prompt_ingested": false,
+  "trade_journal_count": 285,
+  "last_learning_analysis": {
+    "trades_n": 50,
+    "win_rate_pct": 100.0,
+    "profitable_signals": [],
+    "losing_signals": [],
+    "best_symbols": [
+      [
+        "RENDERUSDT",
+        50.419
+      ],
+      [
+        "ORDIUSDT",
+        35.992999999999995
+      ],
+      [
+        "WLDUSDT",
+        21.313200000000002
+      ],
+      [
+        "FETUSDT",
+        21.2226
+      ],
+      [
+        "FILUSDT",
+        19.2273
+      ]
+    ],
+    "worst_symbols": [
+      [
+        "ETHUSDT",
+        0.9687
+      ],
+      [
+        "XRPUSDT",
+        2.0157
+      ],
+      [
+        "ZECUSDT",
+        3.6051
+      ],
+      [
+        "BCHUSDT",
+        3.6234
+      ],
+      [
+        "ADAUSDT",
+        3.7936
+      ]
+    ],
+    "best_hours": [
+      [
+        "18",
+        264.78800000000007
+      ],
+      [
+        "19",
+        38.680099999999996
+      ],
+      [
+        "17",
+        9.8073
+      ]
+    ],
+    "worst_hours": [
+      [
+        "17",
+        9.8073
+      ],
+      [
+        "19",
+        38.680099999999996
+      ],
+      [
+        "18",
+        264.78800000000007
+      ]
+    ],
+    "regime_pnl": {
+      "chop": 313.27539999999993
+    },
+    "harmful_regimes": [],
+    "tp_sl_ratio": 1.0,
+    "tp_sl_ok": true,
+    "edge_threshold_low": false,
+    "avg_edge_win": 0.054,
+    "avg_edge_loss": 0,
+    "net_pnl_sum": 313.28
+  },
+  "last_learning_analysis_at": "2026-06-04T19:50:35.087686+00:00",
+  "pending_parameter_patch": {
+    "evrim_min_total_score": 51
+  },
+  "pending_patch_requires_backtest": true,
+  "profile_backup_paths": [],
+  "param_auto_test_enabled": true,
+  "param_auto_test_prompt_ingested": false,
+  "last_param_validation": null,
+  "param_validation_history": [],
+  "prompt_history": [],
+  "prompt_rules": [],
+  "risk_symbols": [],
+  "boost_symbols": [],
+  "component_weight_overrides": {},
+  "indicator_weights": {
+    "trend_alignment": 1.0,
+    "macd": 1.0,
+    "bollinger": 1.0,
+    "vwap": 1.0,
+    "rsi_penalty": 1.0
+  },
+  "last_backtest_at": null,
+  "last_backtest_summary": null,
+  "updated_at": "2026-06-05T19:00:43.409119+00:00",
+  "last_risk_report": {
+    "generated_at": "2026-06-05T19:00:43.409078+00:00",
+    "trading_mode": "demo",
+    "live_trading_enabled": false,
+    "live_ready": false,
+    "warnings": [
+      "backtest_wr_low",
+      "still_demo_mode"
+    ],
+    "expected": {
+      "pnl_per_trade_usd": 7.713,
+      "est_trades_per_day": 5,
+      "est_net_pnl_day_usd": 38.57,
+      "win_rate_pct_bt": 0.0,
+      "enter_rate_pct_bt": 0.0
+    },
+    "fees": {
+      "fee_to_gross_profit_pct": 60.75,
+      "protection_mode": "cautious"
+    },
+    "drawdown": {
+      "radar_day_pnl_pct": 0.0,
+      "est_max_intraday_dd_pct": 22.0,
+      "halt_threshold_pct": 12,
+      "half_risk_threshold_pct": 8
+    },
+    "backtest_summary": {
+      "total_trades": 0,
+      "total_signals": 0,
+      "dominant_regime": null,
+      "radar_veto_count": null
+    },
+    "journal_trades": 285,
+    "recommendation": "Demo/paper devam — canlı kapalı. Backtest + journal iyileşsin."
+  },
+  "pending_patch_created_at": "2026-06-04T19:50:35.087693+00:00"
+}

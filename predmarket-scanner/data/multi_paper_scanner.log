@@ -1,0 +1,621 @@
+=================================================================
+ Multi Paper Scanner — senkron 3 senaryo (TP 1% / SL 5% stake)
+  Paper $110      $110  hedef≈$5/pos  port :8010  → paper_110.db
+  Paper $220      $220  hedef≈$10/pos  port :8020  → paper_220.db
+  Paper $2200     $2,200  hedef≈$100/pos  port :8030  → paper_2200.db
+=================================================================
+
+[19:11:55] Multi kontrol #1
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ─ [ 4] NO  giriş=0.555  şimdi=0.560  Δ=+0.005  P&L=+0.05$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [ 5] YES giriş=0.832  şimdi=0.834  Δ=+0.002  P&L=+0.01$  kalan=23.8h  Will the price of Bitcoin be above $78,0
+  💰 TP  [7] YES  +2.2% stake (tp≈0.95% stake)  PnL=$+0.11  Will the price of Ethereum be above $2,2
+  💰 TP  [8] YES  +2.0% stake (tp≈0.95% stake)  PnL=$+0.10  Games Total: O/U 2.5
+  [paper_110] 2 pozisyon kapatıldı
+  ─ [ 1] YES giriş=0.832  şimdi=0.832  Δ=+0.000  P&L=+0.01$  kalan=23.8h  Will the price of Bitcoin be above $78,0
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 4] NO  giriş=0.555  şimdi=0.560  Δ=+0.005  P&L=+0.09$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ▲ [ 5] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.06$  kalan=7.8h  Will Finland be the best Nordic country 
+  ▲ [ 1] YES giriş=0.832  şimdi=0.832  Δ=+0.000  P&L=+0.06$  kalan=23.8h  Will the price of Bitcoin be above $78,0
+  ─ [ 4] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 5] NO  giriş=0.555  şimdi=0.560  Δ=+0.005  P&L=+0.90$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ▲ [ 6] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.60$  kalan=7.8h  Will Finland be the best Nordic country 
+  [tarama #1] 2437 market — 3 senaryoya uygulanıyor…
+  [scan] 2437 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  ➕ [9] YES @0.690  edge=+0.217  mom=+0.0354  stake=$5.0  Will the price of Ethereum be above $2,200 on May 
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  ➕ [10] YES @0.505  edge=+0.345  mom=+0.0058  stake=$5.0  Games Total: O/U 2.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland win Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  ➕ [11] YES @0.840  edge=+0.122  mom=+0.0062  stake=$5.0  Will Finland be the best Nordic country at Eurovis
+  [paper_110] +3 yeni pozisyon
+  [scan] 2437 market (senkron çoklu paper)
+  ➕ [6] YES @0.690  edge=+0.217  mom=+0.0354  stake=$10.0  Will the price of Ethereum be above $2,200 on May 
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  ➕ [7] YES @0.505  edge=+0.345  mom=+0.0108  stake=$10.0  Games Total: O/U 2.5
+  ➕ [8] YES @0.735  edge=+0.225  mom=+0.0162  stake=$10.0  Pistons vs. Cavaliers: O/U 201.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland win Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  [paper_220] +3 yeni pozisyon
+  [scan] 2437 market (senkron çoklu paper)
+  ➕ [7] YES @0.690  edge=+0.217  mom=+0.0481  stake=$100.0  Will the price of Ethereum be above $2,200 on May 
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  ➕ [8] YES @0.505  edge=+0.345  mom=+0.0108  stake=$100.0  Games Total: O/U 2.5
+  ➕ [9] YES @0.735  edge=+0.225  mom=+0.0162  stake=$100.0  Pistons vs. Cavaliers: O/U 201.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland win Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  [paper_2200] +3 yeni pozisyon
+  paper_110: açık=6  P&L=$+0.88
+  paper_220: açık=7  P&L=$+0.58
+  paper_2200: açık=7  P&L=$+7.27
+
+[19:13:49] Multi kontrol #2
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  💰 TP  [4] NO  +1.8% stake (tp≈0.95% stake)  PnL=$+0.09  Will Spirit win PGL Astana 2026?
+  💰 TP  [5] YES  +1.6% stake (tp≈0.95% stake)  PnL=$+0.08  Will the price of Bitcoin be above $78,0
+  💰 TP  [9] YES  +2.2% stake (tp≈0.95% stake)  PnL=$+0.11  Will the price of Ethereum be above $2,2
+  💰 TP  [10] YES  +2.0% stake (tp≈0.95% stake)  PnL=$+0.10  Games Total: O/U 2.5
+  ─ [11] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.03$  kalan=7.8h  Will Finland be the best Nordic country 
+  [paper_110] 4 pozisyon kapatıldı
+  💰 TP  [1] YES  +1.6% stake (tp≈0.95% stake)  PnL=$+0.16  Will the price of Bitcoin be above $78,0
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  💰 TP  [4] NO  +1.8% stake (tp≈0.95% stake)  PnL=$+0.18  Will Spirit win PGL Astana 2026?
+  ▲ [ 5] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.06$  kalan=7.8h  Will Finland be the best Nordic country 
+  💰 TP  [6] YES  +2.2% stake (tp≈0.95% stake)  PnL=$+0.22  Will the price of Ethereum be above $2,2
+  💰 TP  [7] YES  +2.0% stake (tp≈0.95% stake)  PnL=$+0.20  Games Total: O/U 2.5
+  💰 TP  [8] YES  +2.7% stake (tp≈0.95% stake)  PnL=$+0.27  Pistons vs. Cavaliers: O/U 201.5
+  [paper_220] 5 pozisyon kapatıldı
+  💰 TP  [1] YES  +1.5% stake (tp≈0.95% stake)  PnL=$+1.50  Will the price of Bitcoin be above $78,0
+  ─ [ 4] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  💰 TP  [5] NO  +1.8% stake (tp≈0.95% stake)  PnL=$+1.80  Will Spirit win PGL Astana 2026?
+  ▲ [ 6] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.60$  kalan=7.8h  Will Finland be the best Nordic country 
+  💰 TP  [7] YES  +2.2% stake (tp≈0.95% stake)  PnL=$+2.17  Will the price of Ethereum be above $2,2
+  💰 TP  [8] YES  +2.0% stake (tp≈0.95% stake)  PnL=$+1.98  Games Total: O/U 2.5
+  💰 TP  [9] YES  +2.7% stake (tp≈0.95% stake)  PnL=$+2.72  Pistons vs. Cavaliers: O/U 201.5
+  [paper_2200] 5 pozisyon kapatıldı
+  [tarama #2] 2437 market — 3 senaryoya uygulanıyor…
+  [scan] 2437 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 16?
+  ➕ [12] YES @0.779  edge=+0.181  mom=+0.0179  stake=$5.0  Will the price of Bitcoin be above $78,000 on May 
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 17?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  ➕ [13] YES @0.745  edge=+0.215  mom=+0.0162  stake=$5.0  Pistons vs. Cavaliers: O/U 201.5
+  ➕ [14] NO  @0.560  edge=+0.257  mom=-0.0104  stake=$5.0  Will Spirit win PGL Astana 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_110] +3 yeni pozisyon
+  [scan] 2437 market (senkron çoklu paper)
+  ➕ [9] YES @0.779  edge=+0.181  mom=+0.0112  stake=$10.0  Will the price of Bitcoin be above $78,000 on May 
+  ➕ [10] YES @0.732  edge=+0.228  mom=+0.0334  stake=$10.0  Will the price of Ethereum be above $2,200 on May 
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  ➕ [11] YES @0.515  edge=+0.335  mom=+0.0133  stake=$10.0  Games Total: O/U 2.5
+  ➕ [12] YES @0.745  edge=+0.215  mom=+0.0217  stake=$10.0  Pistons vs. Cavaliers: O/U 201.5
+  ➕ [13] NO  @0.560  edge=+0.257  mom=-0.0104  stake=$10.0  Will Spirit win PGL Astana 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_220] +5 yeni pozisyon
+  [scan] 2437 market (senkron çoklu paper)
+  ➕ [10] YES @0.779  edge=+0.181  mom=+0.0112  stake=$100.0  Will the price of Bitcoin be above $78,000 on May 
+  ➕ [11] YES @0.732  edge=+0.228  mom=+0.0334  stake=$100.0  Will the price of Ethereum be above $2,200 on May 
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  ➕ [12] YES @0.745  edge=+0.215  mom=+0.0217  stake=$100.0  Pistons vs. Cavaliers: O/U 201.5
+  ➕ [13] NO  @0.560  edge=+0.257  mom=-0.0104  stake=$100.0  Will Spirit win PGL Astana 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_2200] +4 yeni pozisyon
+  paper_110: açık=5  P&L=$+1.25
+  paper_220: açık=7  P&L=$+1.61
+  paper_2200: açık=6  P&L=$+17.45
+
+[19:15:52] Multi kontrol #3
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ─ [11] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.03$  kalan=7.7h  Will Finland be the best Nordic country 
+  ─ [12] YES giriş=0.779  şimdi=0.781  Δ=+0.002  P&L=+0.01$  kalan=2.0g  Will the price of Bitcoin be above $78,0
+  ─ [13] YES giriş=0.745  şimdi=0.750  Δ=+0.005  P&L=+0.03$  kalan=6.7h  Pistons vs. Cavaliers: O/U 201.5
+  ─ [14] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.04$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 5] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.06$  kalan=7.7h  Will Finland be the best Nordic country 
+  ─ [ 9] YES giriş=0.779  şimdi=0.781  Δ=+0.002  P&L=+0.03$  kalan=2.0g  Will the price of Bitcoin be above $78,0
+  💰 TP  [10] YES  +3.3% stake (tp≈0.95% stake)  PnL=$+0.33  Will the price of Ethereum be above $2,2
+  ─ [11] YES giriş=0.515  şimdi=0.515  Δ=+0.000  P&L=+0.00$  kalan=5.2h  Games Total: O/U 2.5
+  ▲ [12] YES giriş=0.745  şimdi=0.750  Δ=+0.005  P&L=+0.07$  kalan=6.7h  Pistons vs. Cavaliers: O/U 201.5
+  ▲ [13] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.09$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  [paper_220] 1 pozisyon kapatıldı
+  ─ [ 4] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 6] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.60$  kalan=7.7h  Will Finland be the best Nordic country 
+  ▲ [10] YES giriş=0.779  şimdi=0.781  Δ=+0.002  P&L=+0.26$  kalan=2.0g  Will the price of Bitcoin be above $78,0
+  💰 TP  [11] YES  +3.4% stake (tp≈0.95% stake)  PnL=$+3.42  Will the price of Ethereum be above $2,2
+  ▲ [12] YES giriş=0.745  şimdi=0.750  Δ=+0.005  P&L=+0.67$  kalan=6.7h  Pistons vs. Cavaliers: O/U 201.5
+  ▲ [13] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.89$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  [paper_2200] 1 pozisyon kapatıldı
+  [tarama #3] 2436 market — 3 senaryoya uygulanıyor…
+  [scan] 2436 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 17?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  ➕ [15] YES @0.520  edge=+0.330  mom=+0.0038  stake=$5.0  Pistons vs. Cavaliers: O/U 209.5
+  ➕ [16] YES @0.585  edge=+0.265  mom=+0.0077  stake=$5.0  Aston Villa FC vs. Liverpool FC: Both Teams to Sco
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_110] +2 yeni pozisyon
+  [scan] 2436 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  ➕ [14] YES @0.705  edge=+0.255  mom=+0.0329  stake=$10.0  Will the price of Ethereum be above $2,200 on May 
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  ➕ [15] YES @0.520  edge=+0.330  mom=+0.0038  stake=$10.0  Pistons vs. Cavaliers: O/U 209.5
+  ➕ [16] YES @0.585  edge=+0.265  mom=+0.0077  stake=$10.0  Aston Villa FC vs. Liverpool FC: Both Teams to Sco
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_220] +3 yeni pozisyon
+  [scan] 2436 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  ➕ [14] YES @0.705  edge=+0.255  mom=+0.0175  stake=$100.0  Will the price of Ethereum be above $2,200 on May 
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  ➕ [15] YES @0.520  edge=+0.330  mom=+0.0038  stake=$100.0  Pistons vs. Cavaliers: O/U 209.5
+  ➕ [16] YES @0.585  edge=+0.265  mom=+0.0077  stake=$100.0  Aston Villa FC vs. Liverpool FC: Both Teams to Sco
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_2200] +3 yeni pozisyon
+  paper_110: açık=7  P&L=$+1.25
+  paper_220: açık=9  P&L=$+1.94
+  paper_2200: açık=8  P&L=$+20.87
+
+[19:17:43] Multi kontrol #4
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ─ [11] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.03$  kalan=7.7h  Will Finland be the best Nordic country 
+  ─ [12] YES giriş=0.779  şimdi=0.784  Δ=+0.005  P&L=+0.03$  kalan=2.0g  Will the price of Bitcoin be above $78,0
+  ─ [13] YES giriş=0.745  şimdi=0.750  Δ=+0.005  P&L=+0.03$  kalan=6.7h  Pistons vs. Cavaliers: O/U 201.5
+  ─ [14] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.04$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  💰 TP  [15] YES  +1.0% stake (tp≈0.95% stake)  PnL=$+0.05  Pistons vs. Cavaliers: O/U 209.5
+  💰 TP  [16] YES  +1.7% stake (tp≈0.95% stake)  PnL=$+0.09  Aston Villa FC vs. Liverpool FC: Both Te
+  [paper_110] 2 pozisyon kapatıldı
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 5] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.06$  kalan=7.7h  Will Finland be the best Nordic country 
+  💰 TP  [9] YES  +1.2% stake (tp≈0.95% stake)  PnL=$+0.12  Will the price of Bitcoin be above $78,0
+  ▼ [11] YES giriş=0.515  şimdi=0.510  Δ=-0.005  P&L=-0.10$  kalan=5.4h  Games Total: O/U 2.5
+  ▲ [12] YES giriş=0.745  şimdi=0.750  Δ=+0.005  P&L=+0.07$  kalan=6.7h  Pistons vs. Cavaliers: O/U 201.5
+  ▲ [13] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.09$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [14] YES giriş=0.705  şimdi=0.705  Δ=+0.000  P&L=+0.00$  kalan=2.0g  Will the price of Ethereum be above $2,2
+  💰 TP  [15] YES  +1.0% stake (tp≈0.95% stake)  PnL=$+0.10  Pistons vs. Cavaliers: O/U 209.5
+  💰 TP  [16] YES  +1.7% stake (tp≈0.95% stake)  PnL=$+0.17  Aston Villa FC vs. Liverpool FC: Both Te
+  [paper_220] 3 pozisyon kapatıldı
+  ─ [ 4] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 6] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.60$  kalan=7.7h  Will Finland be the best Nordic country 
+  ▲ [10] YES giriş=0.779  şimdi=0.783  Δ=+0.004  P&L=+0.51$  kalan=2.0g  Will the price of Bitcoin be above $78,0
+  ▲ [12] YES giriş=0.745  şimdi=0.750  Δ=+0.005  P&L=+0.67$  kalan=6.7h  Pistons vs. Cavaliers: O/U 201.5
+  ▲ [13] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.89$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [14] YES giriş=0.705  şimdi=0.705  Δ=+0.000  P&L=+0.00$  kalan=2.0g  Will the price of Ethereum be above $2,2
+  💰 TP  [15] YES  +1.0% stake (tp≈0.95% stake)  PnL=$+0.96  Pistons vs. Cavaliers: O/U 209.5
+  💰 TP  [16] YES  +1.7% stake (tp≈0.95% stake)  PnL=$+1.71  Aston Villa FC vs. Liverpool FC: Both Te
+  [paper_2200] 2 pozisyon kapatıldı
+  [tarama #4] 2430 market — 3 senaryoya uygulanıyor…
+  [scan] 2430 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 17?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  ➕ [17] YES @0.525  edge=+0.325  mom=+0.0062  stake=$5.0  Pistons vs. Cavaliers: O/U 209.5
+  ➕ [18] NO  @0.595  edge=+0.222  mom=+0.0135  stake=$5.0  Will Liverpool FC win on 2026-05-17?
+  ➕ [19] YES @0.595  edge=+0.255  mom=+0.0135  stake=$5.0  Aston Villa FC vs. Liverpool FC: Both Teams to Sco
+  ➕ [20] NO  @0.585  edge=+0.232  mom=-0.0021  stake=$5.0  New York Yankees vs. New York Mets: O/U 7.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_110] +4 yeni pozisyon
+  [scan] 2430 market (senkron çoklu paper)
+  ➕ [17] YES @0.839  edge=+0.123  mom=-0.0097  stake=$10.0  Will the price of Bitcoin be above $78,000 on May 
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  ➕ [18] YES @0.525  edge=+0.325  mom=+0.0062  stake=$10.0  Pistons vs. Cavaliers: O/U 209.5
+  ➕ [19] NO  @0.595  edge=+0.222  mom=+0.0135  stake=$10.0  Will Liverpool FC win on 2026-05-17?
+  ➕ [20] YES @0.595  edge=+0.255  mom=+0.0135  stake=$10.0  Aston Villa FC vs. Liverpool FC: Both Teams to Sco
+  ➕ [21] NO  @0.585  edge=+0.232  mom=-0.0021  stake=$10.0  New York Yankees vs. New York Mets: O/U 7.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Bulgaria be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_220] +5 yeni pozisyon
+  [scan] 2430 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  ➕ [17] YES @0.505  edge=+0.345  mom=-0.0052  stake=$100.0  Pistons vs. Cavaliers: O/U 210.5
+  ➕ [18] YES @0.525  edge=+0.325  mom=+0.0069  stake=$100.0  Pistons vs. Cavaliers: O/U 209.5
+  ➕ [19] NO  @0.595  edge=+0.222  mom=+0.0135  stake=$100.0  Will Liverpool FC win on 2026-05-17?
+  ➕ [20] YES @0.595  edge=+0.255  mom=+0.0135  stake=$100.0  Aston Villa FC vs. Liverpool FC: Both Teams to Sco
+  ➕ [21] NO  @0.585  edge=+0.232  mom=-0.0021  stake=$100.0  New York Yankees vs. New York Mets: O/U 7.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Bulgaria be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_2200] +5 yeni pozisyon
+  paper_110: açık=9  P&L=$+1.39
+  paper_220: açık=11  P&L=$+2.33
+  paper_2200: açık=11  P&L=$+23.54
+
+[19:19:39] Multi kontrol #5
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ─ [11] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.03$  kalan=7.7h  Will Finland be the best Nordic country 
+  ─ [12] YES giriş=0.779  şimdi=0.782  Δ=+0.003  P&L=+0.02$  kalan=2.0g  Will the price of Bitcoin be above $78,0
+  💰 TP  [13] YES  +1.3% stake (tp≈0.95% stake)  PnL=$+0.07  Pistons vs. Cavaliers: O/U 201.5
+  ─ [14] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.04$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [17] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.7h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [18] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [19] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [20] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.9h  New York Yankees vs. New York Mets: O/U 
+  [paper_110] 1 pozisyon kapatıldı
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 5] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.06$  kalan=7.7h  Will Finland be the best Nordic country 
+  ▼ [11] YES giriş=0.515  şimdi=0.510  Δ=-0.005  P&L=-0.10$  kalan=5.3h  Games Total: O/U 2.5
+  💰 TP  [12] YES  +1.3% stake (tp≈0.95% stake)  PnL=$+0.13  Pistons vs. Cavaliers: O/U 201.5
+  ▲ [13] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.09$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [14] YES giriş=0.705  şimdi=0.705  Δ=+0.000  P&L=+0.00$  kalan=2.0g  Will the price of Ethereum be above $2,2
+  ▼ [17] YES giriş=0.839  şimdi=0.833  Δ=-0.006  P&L=-0.07$  kalan=23.7h  Will the price of Bitcoin be above $78,0
+  ─ [18] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.7h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [19] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [20] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [21] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.9h  New York Yankees vs. New York Mets: O/U 
+  [paper_220] 1 pozisyon kapatıldı
+  ─ [ 4] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 6] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.60$  kalan=7.7h  Will Finland be the best Nordic country 
+  ▲ [10] YES giriş=0.779  şimdi=0.784  Δ=+0.005  P&L=+0.64$  kalan=2.0g  Will the price of Bitcoin be above $78,0
+  💰 TP  [12] YES  +1.3% stake (tp≈0.95% stake)  PnL=$+1.34  Pistons vs. Cavaliers: O/U 201.5
+  ▲ [13] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.89$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [14] YES giriş=0.705  şimdi=0.705  Δ=+0.000  P&L=+0.00$  kalan=2.0g  Will the price of Ethereum be above $2,2
+  ▼ [17] YES giriş=0.505  şimdi=0.495  Δ=-0.010  P&L=-1.98$  kalan=6.7h  Pistons vs. Cavaliers: O/U 210.5
+  ─ [18] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.7h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [19] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [20] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [21] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.9h  New York Yankees vs. New York Mets: O/U 
+  [paper_2200] 1 pozisyon kapatıldı
+  [tarama #5] 2414 market — 3 senaryoya uygulanıyor…
+  [scan] 2414 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 17?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  ➕ [21] YES @0.750  edge=+0.210  mom=+0.0085  stake=$5.0  Pistons vs. Cavaliers: O/U 201.5
+  ➕ [22] YES @0.505  edge=+0.345  mom=-0.0052  stake=$5.0  Pistons vs. Cavaliers: O/U 210.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Bulgaria be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_110] +2 yeni pozisyon
+  [scan] 2414 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Pistons vs. Cavaliers: O/U 201.5
+  ➕ [22] YES @0.505  edge=+0.345  mom=-0.0052  stake=$10.0  Pistons vs. Cavaliers: O/U 210.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Bulgaria be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_220] +1 yeni pozisyon
+  [scan] 2414 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Pistons vs. Cavaliers: O/U 201.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Bulgaria be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  paper_110: açık=10  P&L=$+1.46
+  paper_220: açık=11  P&L=$+2.46
+  paper_2200: açık=10  P&L=$+24.88
+
+[19:21:21] Multi kontrol #6
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ─ [11] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.03$  kalan=7.6h  Will Finland be the best Nordic country 
+  💰 TP  [12] YES  +2.3% stake (tp≈0.95% stake)  PnL=$+0.12  Will the price of Bitcoin be above $78,0
+  ─ [14] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.04$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [17] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.6h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [18] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [19] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [20] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.9h  New York Yankees vs. New York Mets: O/U 
+  ─ [21] YES giriş=0.750  şimdi=0.755  Δ=+0.005  P&L=+0.03$  kalan=6.6h  Pistons vs. Cavaliers: O/U 201.5
+  ▼ [22] YES giriş=0.505  şimdi=0.495  Δ=-0.010  P&L=-0.10$  kalan=6.6h  Pistons vs. Cavaliers: O/U 210.5
+  [paper_110] 1 pozisyon kapatıldı
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 5] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.06$  kalan=7.6h  Will Finland be the best Nordic country 
+  ▼ [11] YES giriş=0.515  şimdi=0.505  Δ=-0.010  P&L=-0.19$  kalan=5.3h  Games Total: O/U 2.5
+  ▲ [13] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.09$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  💰 TP  [14] YES  +3.5% stake (tp≈0.95% stake)  PnL=$+0.35  Will the price of Ethereum be above $2,2
+  💰 TP  [17] YES  +3.2% stake (tp≈0.95% stake)  PnL=$+0.32  Will the price of Bitcoin be above $78,0
+  ─ [18] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.6h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [19] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [20] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [21] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.9h  New York Yankees vs. New York Mets: O/U 
+  ▼ [22] YES giriş=0.505  şimdi=0.495  Δ=-0.010  P&L=-0.20$  kalan=6.6h  Pistons vs. Cavaliers: O/U 210.5
+  [paper_220] 2 pozisyon kapatıldı
+  ─ [ 4] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 6] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.60$  kalan=7.6h  Will Finland be the best Nordic country 
+  💰 TP  [10] YES  +3.1% stake (tp≈0.95% stake)  PnL=$+3.14  Will the price of Bitcoin be above $78,0
+  ▲ [13] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.89$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  💰 TP  [14] YES  +3.5% stake (tp≈0.95% stake)  PnL=$+3.55  Will the price of Ethereum be above $2,2
+  ▼ [17] YES giriş=0.505  şimdi=0.495  Δ=-0.010  P&L=-1.98$  kalan=6.6h  Pistons vs. Cavaliers: O/U 210.5
+  ─ [18] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.6h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [19] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [20] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [21] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.9h  New York Yankees vs. New York Mets: O/U 
+  [paper_2200] 2 pozisyon kapatıldı
+  [tarama #6] 2413 market — 3 senaryoya uygulanıyor…
+  [scan] 2413 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 16?
+  ➕ [23] YES @0.782  edge=+0.178  mom=+0.0044  stake=$5.0  Will the price of Bitcoin be above $78,000 on May 
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 17?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Bulgaria be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_110] +1 yeni pozisyon
+  [scan] 2413 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 16?
+  ➕ [23] YES @0.782  edge=+0.178  mom=+0.0102  stake=$10.0  Will the price of Bitcoin be above $78,000 on May 
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 17?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Pistons vs. Cavaliers: O/U 201.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland win Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Bulgaria be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_220] +1 yeni pozisyon
+  [scan] 2413 market (senkron çoklu paper)
+  ➕ [22] YES @0.832  edge=+0.130  mom=+0.0281  stake=$100.0  Will the price of Bitcoin be above $78,000 on May 
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 17?
+  🚫 UPDN günlük Up/Down (whipsaw), atla: Bitcoin Up or Down on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Pistons vs. Cavaliers: O/U 201.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland win Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Bulgaria be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_2200] +1 yeni pozisyon
+  paper_110: açık=10  P&L=$+1.57
+  paper_220: açık=10  P&L=$+3.14
+  paper_2200: açık=9  P&L=$+31.57
+
+[19:23:08] Multi kontrol #7
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ─ [11] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.03$  kalan=7.6h  Will Finland be the best Nordic country 
+  ─ [14] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.04$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [17] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.6h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [18] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [19] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [20] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.9h  New York Yankees vs. New York Mets: O/U 
+  ─ [21] YES giriş=0.750  şimdi=0.755  Δ=+0.005  P&L=+0.03$  kalan=6.6h  Pistons vs. Cavaliers: O/U 201.5
+  ▼ [22] YES giriş=0.505  şimdi=0.495  Δ=-0.010  P&L=-0.10$  kalan=6.6h  Pistons vs. Cavaliers: O/U 210.5
+  💰 TP  [23] YES  +2.4% stake (tp≈0.95% stake)  PnL=$+0.12  Will the price of Bitcoin be above $78,0
+  [paper_110] 1 pozisyon kapatıldı
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 5] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.06$  kalan=7.6h  Will Finland be the best Nordic country 
+  ▼ [11] YES giriş=0.515  şimdi=0.505  Δ=-0.010  P&L=-0.19$  kalan=5.3h  Games Total: O/U 2.5
+  ▲ [13] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.09$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [18] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.6h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [19] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [20] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [21] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.9h  New York Yankees vs. New York Mets: O/U 
+  ▼ [22] YES giriş=0.505  şimdi=0.495  Δ=-0.010  P&L=-0.20$  kalan=6.6h  Pistons vs. Cavaliers: O/U 210.5
+  💰 TP  [23] YES  +2.4% stake (tp≈0.95% stake)  PnL=$+0.24  Will the price of Bitcoin be above $78,0
+  [paper_220] 1 pozisyon kapatıldı
+  ─ [ 4] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 6] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.60$  kalan=7.6h  Will Finland be the best Nordic country 
+  ▲ [13] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.89$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ▼ [17] YES giriş=0.505  şimdi=0.495  Δ=-0.010  P&L=-1.98$  kalan=6.6h  Pistons vs. Cavaliers: O/U 210.5
+  ─ [18] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.6h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [19] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [20] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [21] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.9h  New York Yankees vs. New York Mets: O/U 
+  💰 TP  [22] YES  +4.1% stake (tp≈0.95% stake)  PnL=$+4.15  Will the price of Bitcoin be above $78,0
+  [paper_2200] 1 pozisyon kapatıldı
+  [tarama #7] 2411 market — 3 senaryoya uygulanıyor…
+  [scan] 2411 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 17?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 17?
+  🚫 UPDN günlük Up/Down (whipsaw), atla: Bitcoin Up or Down on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  ➕ [24] YES @0.535  edge=+0.315  mom=-0.0077  stake=$5.0  Will Málaga CF win on 2026-05-16?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland win Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Ukraine be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_110] +1 yeni pozisyon
+  [scan] 2411 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 17?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 17?
+  🚫 UPDN günlük Up/Down (whipsaw), atla: Bitcoin Up or Down on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Pistons vs. Cavaliers: O/U 201.5
+  ➕ [24] YES @0.535  edge=+0.315  mom=-0.0077  stake=$10.0  Will Málaga CF win on 2026-05-16?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland win Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Ukraine be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_220] +1 yeni pozisyon
+  [scan] 2411 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 16?
+  ➕ [23] YES @0.782  edge=+0.178  mom=+0.0196  stake=$100.0  Will the price of Bitcoin be above $78,000 on May 
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 17?
+  🚫 UPDN günlük Up/Down (whipsaw), atla: Bitcoin Up or Down on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Pistons vs. Cavaliers: O/U 201.5
+  ➕ [24] YES @0.535  edge=+0.315  mom=-0.0077  stake=$100.0  Will Málaga CF win on 2026-05-16?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland win Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Ukraine be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Denmark be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [paper_2200] +2 yeni pozisyon
+  paper_110: açık=10  P&L=$+1.69
+  paper_220: açık=10  P&L=$+3.38
+  paper_2200: açık=10  P&L=$+35.72
+
+[19:24:54] Multi kontrol #8
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ─ [11] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.03$  kalan=7.6h  Will Finland be the best Nordic country 
+  ─ [14] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.04$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [17] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.6h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [18] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [19] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [20] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.8h  New York Yankees vs. New York Mets: O/U 
+  💰 TP  [21] YES  +1.3% stake (tp≈0.95% stake)  PnL=$+0.07  Pistons vs. Cavaliers: O/U 201.5
+  ▼ [22] YES giriş=0.505  şimdi=0.495  Δ=-0.010  P&L=-0.10$  kalan=6.6h  Pistons vs. Cavaliers: O/U 210.5
+  ▼ [24] YES giriş=0.535  şimdi=0.525  Δ=-0.010  P&L=-0.09$  kalan=21.8h  Will Málaga CF win on 2026-05-16?
+  [paper_110] 1 pozisyon kapatıldı
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 5] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.06$  kalan=7.6h  Will Finland be the best Nordic country 
+  ▼ [11] YES giriş=0.515  şimdi=0.505  Δ=-0.010  P&L=-0.19$  kalan=5.3h  Games Total: O/U 2.5
+  ▲ [13] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.09$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [18] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.6h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [19] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [20] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [21] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.8h  New York Yankees vs. New York Mets: O/U 
+  ▼ [22] YES giriş=0.505  şimdi=0.495  Δ=-0.010  P&L=-0.20$  kalan=6.6h  Pistons vs. Cavaliers: O/U 210.5
+  ▼ [24] YES giriş=0.535  şimdi=0.525  Δ=-0.010  P&L=-0.19$  kalan=21.8h  Will Málaga CF win on 2026-05-16?
+  ─ [ 4] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 6] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.60$  kalan=7.6h  Will Finland be the best Nordic country 
+  ▲ [13] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.89$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ▼ [17] YES giriş=0.505  şimdi=0.495  Δ=-0.010  P&L=-1.98$  kalan=6.6h  Pistons vs. Cavaliers: O/U 210.5
+  ─ [18] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.6h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [19] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [20] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [21] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.8h  New York Yankees vs. New York Mets: O/U 
+  💰 TP  [23] YES  +2.7% stake (tp≈0.95% stake)  PnL=$+2.68  Will the price of Bitcoin be above $78,0
+  ▼ [24] YES giriş=0.535  şimdi=0.525  Δ=-0.010  P&L=-1.87$  kalan=21.8h  Will Málaga CF win on 2026-05-16?
+  [paper_2200] 1 pozisyon kapatıldı
+  [tarama #8] 2412 market — 3 senaryoya uygulanıyor…
+  [scan] 2412 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 17?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 17?
+  🚫 UPDN günlük Up/Down (whipsaw), atla: Bitcoin Up or Down on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Pistons vs. Cavaliers: O/U 201.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland win Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Bulgaria be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Ukraine be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [scan] 2412 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 17?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 17?
+  🚫 UPDN günlük Up/Down (whipsaw), atla: Bitcoin Up or Down on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Pistons vs. Cavaliers: O/U 201.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland win Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Bulgaria be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Ukraine be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  [scan] 2412 market (senkron çoklu paper)
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Bitcoin be above $78,000 on May 17?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 16?
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Will the price of Ethereum be above $2,200 on May 17?
+  🚫 UPDN günlük Up/Down (whipsaw), atla: Bitcoin Up or Down on May 16?
+  🚫 NRVT anlatı/haber (yüksek gürültü), atla: Will Elon Musk post 65-89 tweets from May 14 to May 16,
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Games Total: O/U 2.5
+  🚫 DAY  Bugün 2/2x giriş (limit=2)  Pistons vs. Cavaliers: O/U 201.5
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland win Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Bulgaria be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Romania be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Ukraine be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Moldova be in the top 10 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Israel win the televote for Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Greece be in the top 5 at Eurovision 2026?
+  🚫 EURO Eurovision sıralama/televote (SL yoğun), atla: Will Finland be in the top 3 at Eurovision 2026?
+  paper_110: açık=9  P&L=$+1.76
+  paper_220: açık=10  P&L=$+3.38
+  paper_2200: açık=9  P&L=$+38.40
+
+[19:26:39] Multi kontrol #9
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ─ [11] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.03$  kalan=7.6h  Will Finland be the best Nordic country 
+  ─ [14] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.04$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [17] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.6h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [18] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [19] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [20] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.8h  New York Yankees vs. New York Mets: O/U 
+  ▼ [22] YES giriş=0.505  şimdi=0.495  Δ=-0.010  P&L=-0.10$  kalan=6.6h  Pistons vs. Cavaliers: O/U 210.5
+  ▼ [24] YES giriş=0.535  şimdi=0.525  Δ=-0.010  P&L=-0.09$  kalan=21.8h  Will Málaga CF win on 2026-05-16?
+  ─ [ 3] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=1.5g  UFC Fight Night: Arnold Allen vs. Melqui
+  ▲ [ 5] YES giriş=0.840  şimdi=0.845  Δ=+0.005  P&L=+0.06$  kalan=7.6h  Will Finland be the best Nordic country 
+  ▼ [11] YES giriş=0.515  şimdi=0.505  Δ=-0.010  P&L=-0.19$  kalan=5.2h  Games Total: O/U 2.5
+  ▲ [13] NO  giriş=0.560  şimdi=0.565  Δ=+0.005  P&L=+0.09$  kalan=1.3g  Will Spirit win PGL Astana 2026?
+  ─ [18] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=6.6h  Pistons vs. Cavaliers: O/U 209.5
+  ─ [19] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Will Liverpool FC win on 2026-05-17?
+  ─ [20] YES giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=1.8g  Aston Villa FC vs. Liverpool FC: Both Te
+  ─ [21] NO  giriş=0.585  şimdi=0.585  Δ=+0.000  P&L=+0.00$  kalan=6.8h  New York Yankees vs. New York Mets: O/U 
+  ▼ [22] YES giriş=0.505  şimdi=0.495  Δ=-0.010  P&L=-0.20$  kalan=6.6h  Pistons vs. Cavaliers: O/U 210.5
+  ▼ [24] YES giriş=0.535  şimdi=0.525  Δ=-0.010  P&L=-0.19$  kalan=21.8h  Will Málaga CF win on 2026-05-16?

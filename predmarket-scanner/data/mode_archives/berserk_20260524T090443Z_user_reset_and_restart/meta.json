@@ -1,0 +1,26 @@
+{
+  "archive_id": "berserk_20260524T090443Z_user_reset_and_restart",
+  "mode_id": "berserk",
+  "mode_label": "Berserk",
+  "is_live": false,
+  "archived_at": "2026-05-24T09:04:43.804398+00:00",
+  "reason": "user reset and restart",
+  "trigger": "manual_reset",
+  "path": "data/mode_archives/berserk_20260524T090443Z_user_reset_and_restart",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 76151,
+      "open_n": 5,
+      "closed_n": 40
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 87719
+    }
+  ],
+  "closed_trades_count": 40,
+  "open_trades_count": 5
+}

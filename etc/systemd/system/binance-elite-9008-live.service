@@ -1,0 +1,26 @@
+[Unit]
+Description=Binance Elite 9008 MEGA LIVE Trading Bot (Gerçek Emirler)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pro
+Group=pro
+WorkingDirectory=/opt/binancex/predmarket-scanner
+Environment=NO_PROXY=*
+Environment=no_proxy=*
+Environment=PYTHONUNBUFFERED=1
+Environment=ELITE_BIND_HOST=127.0.0.1
+ExecStartPre=/bin/mkdir -p /opt/binancex/predmarket-scanner/logs
+ExecStart=/opt/binancex/predmarket-scanner/run_binance_elite_mega_9008_live.sh
+Restart=always
+RestartSec=10
+LimitNOFILE=65535
+TimeoutStopSec=90
+
+StandardOutput=append:/opt/binancex/predmarket-scanner/logs/binance_elite_mega_9008_live.log
+StandardError=append:/opt/binancex/predmarket-scanner/logs/binance_elite_mega_9008_live.log
+
+[Install]
+WantedBy=multi-user.target

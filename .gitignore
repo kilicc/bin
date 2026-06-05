@@ -1,0 +1,16 @@
+# Kaynak arşivler (zip'te predmarket-scanner zaten var)
+*.tgz
+
+# Gizli anahtarlar — GitHub'a gitmez
+predmarket-scanner/.env
+predmarket-scanner/scenarios/.env.*
+predmarket-scanner/.env.*
+
+# Boyut / gereksiz
+predmarket-scanner/.venv/
+predmarket-scanner/logs/
+predmarket-scanner/.pids/
+predmarket-scanner/.pytest_cache/
+predmarket-scanner/**/__pycache__/
+predmarket-scanner/**/*.pyc
+predmarket-scanner/.DS_Store

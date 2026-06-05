@@ -1,0 +1,15 @@
+{
+  "mode_id": "evren_evrim",
+  "chats": [
+    {
+      "id": "__insights__",
+      "title": "Anlık öneriler ve teklifler",
+      "pinned": true,
+      "permanent": true,
+      "mode_id": "evren_evrim",
+      "created_at": "2026-05-21T22:45:48.957278+00:00",
+      "updated_at": "2026-05-22T13:09:59.122984+00:00"
+    }
+  ],
+  "active_chat_id": "__insights__"
+}

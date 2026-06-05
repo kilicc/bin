@@ -1,0 +1,2528 @@
+{
+  "cross_mode_observations": [
+    {
+      "mode_id": "berserk2",
+      "pnl": 8.3482,
+      "reason": "TP",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.5179,
+      "reason": "TP",
+      "symbol": "TAOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 8.3482,
+      "reason": "TP",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6221,
+      "reason": "TP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6346,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6348,
+      "reason": "TP",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6529,
+      "reason": "TP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7995,
+      "reason": "TP",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6925,
+      "reason": "TP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4555,
+      "reason": "SPIKE-FLASH",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7287,
+      "reason": "TP",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6721,
+      "reason": "SPIKE-FLASH",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6125,
+      "reason": "TP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.7173,
+      "reason": "TP",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7375,
+      "reason": "TP",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7147,
+      "reason": "TP",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.3019,
+      "reason": "TP",
+      "symbol": "SEIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7698,
+      "reason": "SPIKE-FLASH",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.468,
+      "reason": "SPIKE-FLASH",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5524,
+      "reason": "SPIKE-FLASH",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.3663,
+      "reason": "TP",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.626,
+      "reason": "SPIKE-FLASH",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7596,
+      "reason": "TP-RECOVER",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6757,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5645,
+      "reason": "TP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.8077,
+      "reason": "TP",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.499,
+      "reason": "SPIKE-FLASH",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6394,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6394,
+      "reason": "TP",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.0973,
+      "reason": "TP",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7217,
+      "reason": "TP",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.72,
+      "reason": "TP",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5602,
+      "reason": "TP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5894,
+      "reason": "TP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.8069,
+      "reason": "TP",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7177,
+      "reason": "TP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4438,
+      "reason": "SPIKE-FLASH",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4859,
+      "reason": "TP",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.3837,
+      "reason": "TP",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5258,
+      "reason": "TP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4759,
+      "reason": "TP",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4547,
+      "reason": "TP",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.512,
+      "reason": "TP",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5126,
+      "reason": "TP-TIMER",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.601,
+      "reason": "TP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.8748,
+      "reason": "TP",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.2293,
+      "reason": "TP",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.4092,
+      "reason": "TP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7298,
+      "reason": "TP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4574,
+      "reason": "SPIKE-FLASH",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6798,
+      "reason": "TP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5195,
+      "reason": "TP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6437,
+      "reason": "TP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4582,
+      "reason": "SPIKE-FLASH",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 7.3558,
+      "reason": "TP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.9686,
+      "reason": "TP",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.2528,
+      "reason": "TP",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.9686,
+      "reason": "EXCHANGE-SYNC",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6613,
+      "reason": "TP",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.4732,
+      "reason": "TP",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7684,
+      "reason": "TP",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4403,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4517,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7723,
+      "reason": "SPIKE-FLASH",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5912,
+      "reason": "SPIKE-FLASH",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6391,
+      "reason": "TP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5293,
+      "reason": "SPIKE-FLASH",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.38,
+      "reason": "TP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.589,
+      "reason": "TP",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4539,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.9278,
+      "reason": "TP",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5869,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6439,
+      "reason": "TP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4468,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.589,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "mega",
+      "pnl": 2.8903,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "mega",
+      "pnl": 17.2513,
+      "reason": "TP",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7411,
+      "reason": "TP",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "mega",
+      "pnl": 7.456,
+      "reason": "TP",
+      "symbol": "BCHUSDT"
+    },
+    {
+      "mode_id": "mega",
+      "pnl": 2.4861,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "mega",
+      "pnl": 7.5356,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "mega",
+      "pnl": 16.0679,
+      "reason": "TP",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5908,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4477,
+      "reason": "SPIKE-FLASH",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4764,
+      "reason": "SPIKE-FLASH",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "mega",
+      "pnl": 9.0206,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SEIUSDT"
+    },
+    {
+      "mode_id": "mega",
+      "pnl": 107.8734,
+      "reason": "TP",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "mega",
+      "pnl": 5.4821,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5008,
+      "reason": "TP",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5094,
+      "reason": "TP",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4558,
+      "reason": "SPIKE-FLASH",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "mega",
+      "pnl": 8.0831,
+      "reason": "SPIKE-FLASH",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.8071,
+      "reason": "TP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "mega",
+      "pnl": 25.53,
+      "reason": "TP",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.5511,
+      "reason": "TP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5618,
+      "reason": "TP",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.8702,
+      "reason": "TP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.5197,
+      "reason": "TP",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "mega",
+      "pnl": 10.2154,
+      "reason": "SPIKE-FLASH",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5965,
+      "reason": "TP-RECOVER",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.503,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.1811,
+      "reason": "TP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.8517,
+      "reason": "TP",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.9975,
+      "reason": "TP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.9975,
+      "reason": "EXCHANGE-SYNC",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5957,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7818,
+      "reason": "TP-RECOVER",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.441,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5808,
+      "reason": "SPIKE-FLASH",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.9245,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.4863,
+      "reason": "TP",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.4863,
+      "reason": "EXCHANGE-SYNC",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6263,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6444,
+      "reason": "SPIKE-FLASH",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4944,
+      "reason": "EXCHANGE-SYNC",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6116,
+      "reason": "TP",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4478,
+      "reason": "SPIKE-FLASH",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.9136,
+      "reason": "TP",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 7.7845,
+      "reason": "TP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 7.7845,
+      "reason": "EXCHANGE-SYNC",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4861,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4801,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.8918,
+      "reason": "TP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5667,
+      "reason": "SPIKE-FLASH",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4818,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.9533,
+      "reason": "TP",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.9533,
+      "reason": "EXCHANGE-SYNC",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7167,
+      "reason": "TP",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.8887,
+      "reason": "TP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4869,
+      "reason": "TP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4507,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.49,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.9393,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.5849,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.9343,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.6719,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.4475,
+      "reason": "SPIKE-FLASH",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.3443,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.0792,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.9686,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000SHIBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 37.0864,
+      "reason": "TP",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.0378,
+      "reason": "SPIKE-FLASH",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.4745,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6743,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.6548,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.4564,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.3867,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 8.8715,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.24,
+      "reason": "SPIKE-FLASH",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.6101,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.8657,
+      "reason": "SPIKE-FLASH",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 65.5291,
+      "reason": "TP",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.7926,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.9768,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.1856,
+      "reason": "SPIKE-FLASH",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 52.9513,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4645,
+      "reason": "SPIKE-FLASH",
+      "symbol": "AAVEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 18.9142,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.0039,
+      "reason": "SPIKE-FLASH",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.9957,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 6.5682,
+      "reason": "SPIKE-FLASH",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 6.0988,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.2555,
+      "reason": "SPIKE-FLASH",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.4609,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.9604,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.9376,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 18.8523,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.8183,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000FLOKIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.5411,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.479,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.1998,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.1324,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.1844,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 7.5383,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.2058,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.4282,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 12.5298,
+      "reason": "SPIKE-FLASH",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 14.1438,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 8.7684,
+      "reason": "SPIKE-FLASH",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 7.1091,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TRXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 11.3675,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.1062,
+      "reason": "SPIKE-FLASH",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.5062,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.24,
+      "reason": "SPIKE-FLASH",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.2246,
+      "reason": "SPIKE-FLASH",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.166,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.4429,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.8397,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.7217,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 15.0476,
+      "reason": "SPIKE-FLASH",
+      "symbol": "AAVEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 30.1314,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.8921,
+      "reason": "SPIKE-FLASH",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 10.3825,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 7.1058,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.379,
+      "reason": "SPIKE-FLASH",
+      "symbol": "BCHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.2082,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 11.7556,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 23.3062,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.8899,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.4926,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5905,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.1199,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 7.4944,
+      "reason": "SPIKE-FLASH",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.9507,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000SHIBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 13.4453,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.3629,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.1464,
+      "reason": "SPIKE-FLASH",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 8.6846,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 22.5473,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.359,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 8.818,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 9.0661,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.1148,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.8151,
+      "reason": "SPIKE-FLASH",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 11.2931,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 17.2927,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.8492,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.9907,
+      "reason": "SPIKE-FLASH",
+      "symbol": "UNIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.1783,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.1789,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.6205,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.3866,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 18.1432,
+      "reason": "SPIKE-FLASH",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.6022,
+      "reason": "SPIKE-FLASH",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.8121,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.2363,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.4668,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5244,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.443,
+      "reason": "SPIKE-FLASH",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.8441,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 11.8537,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.0358,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.2294,
+      "reason": "SPIKE-FLASH",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.736,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TRXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.0551,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 12.3819,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.31,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.544,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 6.6374,
+      "reason": "SPIKE-FLASH",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 12.4216,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.7317,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.299,
+      "reason": "SPIKE-FLASH",
+      "symbol": "LTCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 8.5243,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.2633,
+      "reason": "SPIKE-FLASH",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.3432,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.5449,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.2788,
+      "reason": "SPIKE-FLASH",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 8.7039,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.4609,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 9.9394,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 12.062,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.1527,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 11.4101,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.183,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.4249,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 6.7071,
+      "reason": "SPIKE-FLASH",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.6445,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.9872,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.554,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.4979,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.4922,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.2567,
+      "reason": "SPIKE-FLASH",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.4148,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.3062,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.3869,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.5615,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 9.5377,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.0555,
+      "reason": "SPIKE-FLASH",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5392,
+      "reason": "SPIKE-FLASH",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.7691,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.0471,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.3257,
+      "reason": "SPIKE-FLASH",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.2413,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.8331,
+      "reason": "SPIKE-FLASH",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 14.4511,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 37.3208,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 6.7718,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 37.2207,
+      "reason": "TP",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 45.1701,
+      "reason": "TP",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 16.9259,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 34.6356,
+      "reason": "TP",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.2323,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.1752,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.0358,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 24.9723,
+      "reason": "TP",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 17.3265,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 19.2045,
+      "reason": "SPIKE-FLASH",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 17.6033,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000FLOKIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.9519,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.1163,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 11.8621,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.5351,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TRXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.6645,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.1714,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 25.0142,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.2091,
+      "reason": "SPIKE-FLASH",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 8.0669,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5339,
+      "reason": "SPIKE-FLASH",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.3571,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.2977,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.2567,
+      "reason": "SPIKE-FLASH",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 10.3959,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 12.0681,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.192,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.8253,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000FLOKIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 6.8866,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.5426,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.4318,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.4439,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.5516,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.6708,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 6.9994,
+      "reason": "SPIKE-FLASH",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.54,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.011,
+      "reason": "SPIKE-FLASH",
+      "symbol": "LTCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.6237,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 25.6851,
+      "reason": "TP",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.4928,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 11.9425,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 28.8386,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.6551,
+      "reason": "SPIKE-FLASH",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 14.9845,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.1406,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 7.3187,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 11.5885,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.5516,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 6.8957,
+      "reason": "SPIKE-FLASH",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.1937,
+      "reason": "SPIKE-FLASH",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.1978,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 8.8696,
+      "reason": "SPIKE-FLASH",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 6.8223,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 14.9952,
+      "reason": "SPIKE-FLASH",
+      "symbol": "AAVEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 46.6349,
+      "reason": "TP",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 42.5124,
+      "reason": "TP",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 14.1438,
+      "reason": "SPIKE-FLASH",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.757,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.3886,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 11.0238,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 7.9589,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 18.7141,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5235,
+      "reason": "SPIKE-FLASH",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.6413,
+      "reason": "SPIKE-FLASH",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 8.7254,
+      "reason": "SPIKE-FLASH",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.3022,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 7.0998,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 16.1294,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 35.2035,
+      "reason": "TP",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 21.2226,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.0503,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 6.6683,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.9687,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 7.3226,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.6051,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.1507,
+      "reason": "SPIKE-FLASH",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.8445,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.4147,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.644,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 10.6712,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.5472,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.7936,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 10.9066,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.9348,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.44,
+      "reason": "SPIKE-FLASH",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.2323,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 6.8527,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.234,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.7504,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.0189,
+      "reason": "SPIKE-FLASH",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 14.5041,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.837,
+      "reason": "SPIKE-FLASH",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.8445,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.171,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 6.5242,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.6022,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000FLOKIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.24,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.6497,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.6234,
+      "reason": "SPIKE-FLASH",
+      "symbol": "BCHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6743,
+      "reason": "SPIKE-FLASH",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.0157,
+      "reason": "SPIKE-FLASH",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.7879,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.4093,
+      "reason": "SPIKE-FLASH",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7895,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.5587,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.1594,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 33.9535,
+      "reason": "TP",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.6759,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.2248,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 15.4098,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5514,
+      "reason": "SPIKE-FLASH",
+      "symbol": "AAVEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.2294,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 13.9628,
+      "reason": "SPIKE-FLASH",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.2789,
+      "reason": "SPIKE-FLASH",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 11.6634,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.3562,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.0166,
+      "reason": "SPIKE-FLASH",
+      "symbol": "LTCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.4659,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.6674,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 8.8261,
+      "reason": "SPIKE-FLASH",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.1715,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 9.8719,
+      "reason": "SPIKE-FLASH",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.194,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.7131,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.8543,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 23.0621,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.6366,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.7138,
+      "reason": "SPIKE-FLASH",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.4122,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.3465,
+      "reason": "SPIKE-FLASH",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 27.3738,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.0252,
+      "reason": "SPIKE-FLASH",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.2784,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.2712,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 5.2513,
+      "reason": "SPIKE-FLASH",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 45.9844,
+      "reason": "TP",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7185,
+      "reason": "SPIKE-FLASH",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 27.7614,
+      "reason": "TP",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.7504,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.4549,
+      "reason": "SPIKE-FLASH",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.576,
+      "reason": "SPIKE-FLASH",
+      "symbol": "AAVEUSDT"
+    }
+  ],
+  "evolution": {
+    "level": 1,
+    "xp": 0,
+    "max_level": 99,
+    "title": "Çırak",
+    "filter_rejects": {},
+    "regime_pnl": {
+      "trend": 0.0,
+      "chop": 0.0,
+      "mixed": 2556.42
+    },
+    "wins_trend": 0,
+    "losses_chop": 0,
+    "trades_total": 416,
+    "rejections_total": 0
+  }
+}

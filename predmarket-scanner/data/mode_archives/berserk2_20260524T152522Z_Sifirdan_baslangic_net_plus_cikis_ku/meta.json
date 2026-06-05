@@ -1,0 +1,26 @@
+{
+  "archive_id": "berserk2_20260524T152522Z_Sifirdan_baslangic_net_plus_cikis_ku",
+  "mode_id": "berserk2",
+  "mode_label": "Brk2",
+  "is_live": false,
+  "archived_at": "2026-05-24T15:25:22.895307+00:00",
+  "reason": "Sifirdan baslangic net-plus cikis kurallari 20260524",
+  "trigger": "preserve_reset",
+  "path": "data/mode_archives/berserk2_20260524T152522Z_Sifirdan_baslangic_net_plus_cikis_ku",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 96490,
+      "open_n": 14,
+      "closed_n": 61
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 12053
+    }
+  ],
+  "closed_trades_count": 61,
+  "open_trades_count": 14
+}

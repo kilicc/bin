@@ -1,0 +1,2501 @@
+{
+  "archives": [
+    {
+      "archive_id": "live_9005_20260521T195551Z_s_f_rlama_ncesi_bakiye_s_f_rlama_de",
+      "mode_id": "live_9005",
+      "mode_label": "Ana Hat",
+      "is_live": true,
+      "archived_at": "2026-05-21T19:55:51.651137+00:00",
+      "reason": "[sıfırlama öncesi] bakiye sıfırlama deney",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/live_9005_20260521T195551Z_s_f_rlama_ncesi_bakiye_s_f_rlama_de",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 11709,
+          "open_n": 0,
+          "closed_n": 12
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 11
+        }
+      ],
+      "closed_trades_count": 12,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evren_avci_20260521T195924Z_s_f_rlama_ncesi_avc_test_restart",
+      "mode_id": "evren_avci",
+      "mode_label": "Avcı",
+      "is_live": false,
+      "archived_at": "2026-05-21T19:59:24.831597+00:00",
+      "reason": "[sıfırlama öncesi] avcı test restart",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/evren_avci_20260521T195924Z_s_f_rlama_ncesi_avc_test_restart",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 417773,
+          "open_n": 11,
+          "closed_n": 415
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1459298
+        }
+      ],
+      "closed_trades_count": 415,
+      "open_trades_count": 11
+    },
+    {
+      "archive_id": "evren_avci_20260521T195945Z_s_f_rlama_ncesi_im_ek_test_restart",
+      "mode_id": "evren_avci",
+      "mode_label": "Avcı",
+      "is_live": false,
+      "archived_at": "2026-05-21T19:59:45.732595+00:00",
+      "reason": "[sıfırlama öncesi] şimşek test restart",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/evren_avci_20260521T195945Z_s_f_rlama_ncesi_im_ek_test_restart",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 2549,
+          "open_n": 2,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 993666
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 2
+    },
+    {
+      "archive_id": "evren_avci_20260521T200013Z_s_f_rlama_ncesi_avc_test_restart",
+      "mode_id": "evren_avci",
+      "mode_label": "Avcı",
+      "is_live": false,
+      "archived_at": "2026-05-21T20:00:13.965303+00:00",
+      "reason": "[sıfırlama öncesi] avcı test restart",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/evren_avci_20260521T200013Z_s_f_rlama_ncesi_avc_test_restart",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 1236,
+          "open_n": 1,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 992201
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 1
+    },
+    {
+      "archive_id": "evren_simsek_20260521T200054Z_s_f_rlama_ncesi_im_ek_test_restart",
+      "mode_id": "evren_simsek",
+      "mode_label": "Şimşek",
+      "is_live": false,
+      "archived_at": "2026-05-21T20:00:54.387255+00:00",
+      "reason": "[sıfırlama öncesi] şimşek test restart",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/evren_simsek_20260521T200054Z_s_f_rlama_ncesi_im_ek_test_restart",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 453759,
+          "open_n": 12,
+          "closed_n": 445
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1000881
+        }
+      ],
+      "closed_trades_count": 445,
+      "open_trades_count": 12
+    },
+    {
+      "archive_id": "evren_kalkan_20260521T200107Z_s_f_rlama_ncesi_kalkan_test_restart",
+      "mode_id": "evren_kalkan",
+      "mode_label": "Kalkan",
+      "is_live": false,
+      "archived_at": "2026-05-21T20:01:07.853685+00:00",
+      "reason": "[sıfırlama öncesi] kalkan test restart",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/evren_kalkan_20260521T200107Z_s_f_rlama_ncesi_kalkan_test_restart",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 430359,
+          "open_n": 1,
+          "closed_n": 443
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 514534
+        }
+      ],
+      "closed_trades_count": 443,
+      "open_trades_count": 1
+    },
+    {
+      "archive_id": "live_9005_20260521T202408Z_s_f_rlama_ncesi_binance_fee_cret_fa",
+      "mode_id": "live_9005",
+      "mode_label": "Ana Hat",
+      "is_live": true,
+      "archived_at": "2026-05-21T20:24:08.695908+00:00",
+      "reason": "[sıfırlama öncesi] binance fee ücret farkı güncellemesi v2",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/live_9005_20260521T202408Z_s_f_rlama_ncesi_binance_fee_cret_fa",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 20407,
+          "open_n": 1,
+          "closed_n": 19
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 18
+        }
+      ],
+      "closed_trades_count": 19,
+      "open_trades_count": 1
+    },
+    {
+      "archive_id": "live_9005_20260521T203544Z_s_f_rlama_ncesi_gercekverilers_f_rl",
+      "mode_id": "live_9005",
+      "mode_label": "Ana Hat",
+      "is_live": true,
+      "archived_at": "2026-05-21T20:35:44.082419+00:00",
+      "reason": "[sıfırlama öncesi] gercekverilersıfırlama",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/live_9005_20260521T203544Z_s_f_rlama_ncesi_gercekverilers_f_rl",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 20434,
+          "open_n": 3,
+          "closed_n": 12
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 11
+        }
+      ],
+      "closed_trades_count": 12,
+      "open_trades_count": 3
+    },
+    {
+      "archive_id": "live_9005_20260521T213912Z_s_f_rlama_ncesi_s_f_rlama_yeni_stak",
+      "mode_id": "live_9005",
+      "mode_label": "Ana Hat",
+      "is_live": true,
+      "archived_at": "2026-05-21T21:39:12.301278+00:00",
+      "reason": "[sıfırlama öncesi] sıfırlama yeni stake ayarı",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/live_9005_20260521T213912Z_s_f_rlama_ncesi_s_f_rlama_yeni_stak",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 38470,
+          "open_n": 0,
+          "closed_n": 37
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 36
+        }
+      ],
+      "closed_trades_count": 37,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "live_9005_20260521T214625Z_s_f_rlama_ncesi_sil",
+      "mode_id": "live_9005",
+      "mode_label": "Ana Hat",
+      "is_live": true,
+      "archived_at": "2026-05-21T21:46:25.249538+00:00",
+      "reason": "[sıfırlama öncesi] sil",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/live_9005_20260521T214625Z_s_f_rlama_ncesi_sil",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 1078,
+          "open_n": 0,
+          "closed_n": 1
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 1
+        }
+      ],
+      "closed_trades_count": 1,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evren_avci_20260521T221024Z_s_f_rlama_ncesi_avc_s_s_f_r",
+      "mode_id": "evren_avci",
+      "mode_label": "Avcı",
+      "is_live": false,
+      "archived_at": "2026-05-21T22:10:24.351605+00:00",
+      "reason": "[sıfırlama öncesi] avcısısıfır",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/evren_avci_20260521T221024Z_s_f_rlama_ncesi_avc_s_s_f_r",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 151648,
+          "open_n": 0,
+          "closed_n": 156
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 444334
+        }
+      ],
+      "closed_trades_count": 156,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evren_avci_20260522T000302Z_s_f_rlama_ncesi_test",
+      "mode_id": "evren_avci",
+      "mode_label": "Avcı",
+      "is_live": false,
+      "archived_at": "2026-05-22T00:03:02.989418+00:00",
+      "reason": "[sıfırlama öncesi] test",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/evren_avci_20260522T000302Z_s_f_rlama_ncesi_test",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 179220,
+          "open_n": 7,
+          "closed_n": 175
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1073248
+        }
+      ],
+      "closed_trades_count": 175,
+      "open_trades_count": 7
+    },
+    {
+      "archive_id": "evren_simsek_20260522T000313Z_s_f_rlama_ncesi_test",
+      "mode_id": "evren_simsek",
+      "mode_label": "Şimşek",
+      "is_live": false,
+      "archived_at": "2026-05-22T00:03:13.379367+00:00",
+      "reason": "[sıfırlama öncesi] test",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/evren_simsek_20260522T000313Z_s_f_rlama_ncesi_test",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 473712,
+          "open_n": 10,
+          "closed_n": 469
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 875961
+        }
+      ],
+      "closed_trades_count": 469,
+      "open_trades_count": 10
+    },
+    {
+      "archive_id": "evren_kalkan_20260522T000322Z_s_f_rlama_ncesi_test",
+      "mode_id": "evren_kalkan",
+      "mode_label": "Kalkan",
+      "is_live": false,
+      "archived_at": "2026-05-22T00:03:22.253155+00:00",
+      "reason": "[sıfırlama öncesi] test",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/evren_kalkan_20260522T000322Z_s_f_rlama_ncesi_test",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 211144,
+          "open_n": 8,
+          "closed_n": 206
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 360379
+        }
+      ],
+      "closed_trades_count": 206,
+      "open_trades_count": 8
+    },
+    {
+      "archive_id": "evren_evrim_20260522T000333Z_s_f_rlama_ncesi_test",
+      "mode_id": "evren_evrim",
+      "mode_label": "Evrim",
+      "is_live": false,
+      "archived_at": "2026-05-22T00:03:33.197271+00:00",
+      "reason": "[sıfırlama öncesi] test",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/evren_evrim_20260522T000333Z_s_f_rlama_ncesi_test",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 98891,
+          "open_n": 0,
+          "closed_n": 101
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 123322
+        }
+      ],
+      "closed_trades_count": 101,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "live_9005_20260522T000346Z_s_f_rlama_ncesi_test",
+      "mode_id": "live_9005",
+      "mode_label": "Ana Hat",
+      "is_live": true,
+      "archived_at": "2026-05-22T00:03:46.727859+00:00",
+      "reason": "[sıfırlama öncesi] test",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/live_9005_20260522T000346Z_s_f_rlama_ncesi_test",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 2102,
+          "open_n": 0,
+          "closed_n": 2
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 2
+        }
+      ],
+      "closed_trades_count": 2,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "live_9005_20260522T005702Z_5_mod_izolasyon_baslangic",
+      "mode_id": "live_9005",
+      "mode_label": "Ana Hat",
+      "is_live": true,
+      "archived_at": "2026-05-22T00:57:02.652305+00:00",
+      "reason": "5_mod_izolasyon_baslangic",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/live_9005_20260522T005702Z_5_mod_izolasyon_baslangic",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 5
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evren_avci_20260522T005702Z_5_mod_izolasyon_baslangic",
+      "mode_id": "evren_avci",
+      "mode_label": "Avcı",
+      "is_live": false,
+      "archived_at": "2026-05-22T00:57:02.701762+00:00",
+      "reason": "5_mod_izolasyon_baslangic",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/evren_avci_20260522T005702Z_5_mod_izolasyon_baslangic",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 164265,
+          "open_n": 3,
+          "closed_n": 165
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 737746
+        }
+      ],
+      "closed_trades_count": 165,
+      "open_trades_count": 3
+    },
+    {
+      "archive_id": "evren_simsek_20260522T005702Z_5_mod_izolasyon_baslangic",
+      "mode_id": "evren_simsek",
+      "mode_label": "Şimşek",
+      "is_live": false,
+      "archived_at": "2026-05-22T00:57:02.735693+00:00",
+      "reason": "5_mod_izolasyon_baslangic",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/evren_simsek_20260522T005702Z_5_mod_izolasyon_baslangic",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 327080,
+          "open_n": 3,
+          "closed_n": 329
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 553248
+        }
+      ],
+      "closed_trades_count": 329,
+      "open_trades_count": 3
+    },
+    {
+      "archive_id": "evren_kalkan_20260522T005702Z_5_mod_izolasyon_baslangic",
+      "mode_id": "evren_kalkan",
+      "mode_label": "Kalkan",
+      "is_live": false,
+      "archived_at": "2026-05-22T00:57:02.750951+00:00",
+      "reason": "5_mod_izolasyon_baslangic",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/evren_kalkan_20260522T005702Z_5_mod_izolasyon_baslangic",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 165151,
+          "open_n": 3,
+          "closed_n": 165
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 186255
+        }
+      ],
+      "closed_trades_count": 165,
+      "open_trades_count": 3
+    },
+    {
+      "archive_id": "evren_evrim_20260522T005702Z_5_mod_izolasyon_baslangic",
+      "mode_id": "evren_evrim",
+      "mode_label": "Evrim",
+      "is_live": false,
+      "archived_at": "2026-05-22T00:57:02.753106+00:00",
+      "reason": "5_mod_izolasyon_baslangic",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/evren_evrim_20260522T005702Z_5_mod_izolasyon_baslangic",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 871
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evren_evrim_20260522T005957Z_s_f_rlama_ncesi_son",
+      "mode_id": "evren_evrim",
+      "mode_label": "Evrim",
+      "is_live": false,
+      "archived_at": "2026-05-22T00:59:57.403099+00:00",
+      "reason": "[sıfırlama öncesi] son",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/evren_evrim_20260522T005957Z_s_f_rlama_ncesi_son",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 5205,
+          "open_n": 0,
+          "closed_n": 5
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 33556
+        }
+      ],
+      "closed_trades_count": 5,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "live_9005_20260522T121715Z_evrim_unified_10_module_merge",
+      "mode_id": "live_9005",
+      "mode_label": "Ana Hat",
+      "is_live": true,
+      "archived_at": "2026-05-22T12:17:15.298776+00:00",
+      "reason": "evrim_unified_10_module_merge",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/live_9005_20260522T121715Z_evrim_unified_10_module_merge",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 93435,
+          "open_n": 0,
+          "closed_n": 89
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 97
+        }
+      ],
+      "closed_trades_count": 89,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evren_avci_20260522T121715Z_evrim_unified_10_module_merge",
+      "mode_id": "evren_avci",
+      "mode_label": "Avcı",
+      "is_live": false,
+      "archived_at": "2026-05-22T12:17:15.300805+00:00",
+      "reason": "evrim_unified_10_module_merge",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/evren_avci_20260522T121715Z_evrim_unified_10_module_merge",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 871
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evren_simsek_20260522T121715Z_evrim_unified_10_module_merge",
+      "mode_id": "evren_simsek",
+      "mode_label": "Şimşek",
+      "is_live": false,
+      "archived_at": "2026-05-22T12:17:15.302417+00:00",
+      "reason": "evrim_unified_10_module_merge",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/evren_simsek_20260522T121715Z_evrim_unified_10_module_merge",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 871
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evren_kalkan_20260522T121715Z_evrim_unified_10_module_merge",
+      "mode_id": "evren_kalkan",
+      "mode_label": "Kalkan",
+      "is_live": false,
+      "archived_at": "2026-05-22T12:17:15.304010+00:00",
+      "reason": "evrim_unified_10_module_merge",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/evren_kalkan_20260522T121715Z_evrim_unified_10_module_merge",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 871
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evren_evrim_20260522T121715Z_evrim_unified_10_module_merge",
+      "mode_id": "evren_evrim",
+      "mode_label": "Evrim",
+      "is_live": false,
+      "archived_at": "2026-05-22T12:17:15.305568+00:00",
+      "reason": "evrim_unified_10_module_merge",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/evren_evrim_20260522T121715Z_evrim_unified_10_module_merge",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 871
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "live_9005_20260522T122719Z_clean_slate_evrim_live_motor",
+      "mode_id": "live_9005",
+      "mode_label": "Ana Hat",
+      "is_live": true,
+      "archived_at": "2026-05-22T12:27:19.643694+00:00",
+      "reason": "clean_slate_evrim_live_motor",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/live_9005_20260522T122719Z_clean_slate_evrim_live_motor",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 100531,
+          "open_n": 3,
+          "closed_n": 92
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 11
+        }
+      ],
+      "closed_trades_count": 92,
+      "open_trades_count": 3
+    },
+    {
+      "archive_id": "evren_avci_20260522T122719Z_clean_slate_evrim_live_motor",
+      "mode_id": "evren_avci",
+      "mode_label": "Avcı",
+      "is_live": false,
+      "archived_at": "2026-05-22T12:27:19.764267+00:00",
+      "reason": "clean_slate_evrim_live_motor",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/evren_avci_20260522T122719Z_clean_slate_evrim_live_motor",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 774744,
+          "open_n": 1,
+          "closed_n": 800
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 2662135
+        }
+      ],
+      "closed_trades_count": 800,
+      "open_trades_count": 1
+    },
+    {
+      "archive_id": "evren_simsek_20260522T122719Z_clean_slate_evrim_live_motor",
+      "mode_id": "evren_simsek",
+      "mode_label": "Şimşek",
+      "is_live": false,
+      "archived_at": "2026-05-22T12:27:19.857207+00:00",
+      "reason": "clean_slate_evrim_live_motor",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/evren_simsek_20260522T122719Z_clean_slate_evrim_live_motor",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 799891,
+          "open_n": 6,
+          "closed_n": 800
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1790825
+        }
+      ],
+      "closed_trades_count": 800,
+      "open_trades_count": 6
+    },
+    {
+      "archive_id": "evren_kalkan_20260522T122719Z_clean_slate_evrim_live_motor",
+      "mode_id": "evren_kalkan",
+      "mode_label": "Kalkan",
+      "is_live": false,
+      "archived_at": "2026-05-22T12:27:19.921208+00:00",
+      "reason": "clean_slate_evrim_live_motor",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/evren_kalkan_20260522T122719Z_clean_slate_evrim_live_motor",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 786031,
+          "open_n": 0,
+          "closed_n": 800
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 892856
+        }
+      ],
+      "closed_trades_count": 800,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evren_evrim_20260522T122719Z_clean_slate_evrim_live_motor",
+      "mode_id": "evren_evrim",
+      "mode_label": "Evrim",
+      "is_live": false,
+      "archived_at": "2026-05-22T12:27:19.934302+00:00",
+      "reason": "clean_slate_evrim_live_motor",
+      "trigger": "reset_all_modes",
+      "path": "data/mode_archives/evren_evrim_20260522T122719Z_clean_slate_evrim_live_motor",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 8277,
+          "open_n": 0,
+          "closed_n": 8
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 10207
+        }
+      ],
+      "closed_trades_count": 8,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evren_evrim_20260522T124833Z_s_f_rlama_ncesi_restart",
+      "mode_id": "evren_evrim",
+      "mode_label": "Evrim",
+      "is_live": false,
+      "archived_at": "2026-05-22T12:48:33.814934+00:00",
+      "reason": "[sıfırlama öncesi] restart",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/evren_evrim_20260522T124833Z_s_f_rlama_ncesi_restart",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 8277,
+          "open_n": 0,
+          "closed_n": 8
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 393894
+        }
+      ],
+      "closed_trades_count": 8,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evrim_20260522T205720Z_Sifirdan_baslangic_ogrenme_korundu",
+      "mode_id": "evrim",
+      "mode_label": "Evrim",
+      "is_live": true,
+      "archived_at": "2026-05-22T20:57:20.070375+00:00",
+      "reason": "Sifirdan baslangic - ogrenme korundu",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/evrim_20260522T205720Z_Sifirdan_baslangic_ogrenme_korundu",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 41953,
+          "open_n": 0,
+          "closed_n": 40
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 0
+        }
+      ],
+      "closed_trades_count": 40,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk_20260522T205720Z_Sifirdan_baslangic_ogrenme_korundu",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-22T20:57:20.295714+00:00",
+      "reason": "Sifirdan baslangic - ogrenme korundu",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk_20260522T205720Z_Sifirdan_baslangic_ogrenme_korundu",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 933541,
+          "open_n": 3,
+          "closed_n": 764
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1808075
+        }
+      ],
+      "closed_trades_count": 764,
+      "open_trades_count": 3
+    },
+    {
+      "archive_id": "hunter_20260522T205720Z_Sifirdan_baslangic_ogrenme_korundu",
+      "mode_id": "hunter",
+      "mode_label": "Hunter",
+      "is_live": false,
+      "archived_at": "2026-05-22T20:57:20.341517+00:00",
+      "reason": "Sifirdan baslangic - ogrenme korundu",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/hunter_20260522T205720Z_Sifirdan_baslangic_ogrenme_korundu",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 328322,
+          "open_n": 1,
+          "closed_n": 271
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1808075
+        }
+      ],
+      "closed_trades_count": 271,
+      "open_trades_count": 1
+    },
+    {
+      "archive_id": "chop_master_20260522T205720Z_Sifirdan_baslangic_ogrenme_korundu",
+      "mode_id": "chop_master",
+      "mode_label": "Chop",
+      "is_live": false,
+      "archived_at": "2026-05-22T20:57:20.380235+00:00",
+      "reason": "Sifirdan baslangic - ogrenme korundu",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/chop_master_20260522T205720Z_Sifirdan_baslangic_ogrenme_korundu",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 332865,
+          "open_n": 0,
+          "closed_n": 269
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1808075
+        }
+      ],
+      "closed_trades_count": 269,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "sentinel_20260522T205720Z_Sifirdan_baslangic_ogrenme_korundu",
+      "mode_id": "sentinel",
+      "mode_label": "Sentinel",
+      "is_live": false,
+      "archived_at": "2026-05-22T20:57:20.387906+00:00",
+      "reason": "Sifirdan baslangic - ogrenme korundu",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/sentinel_20260522T205720Z_Sifirdan_baslangic_ogrenme_korundu",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 16875,
+          "open_n": 0,
+          "closed_n": 14
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1808075
+        }
+      ],
+      "closed_trades_count": 14,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evrim_20260522T210050Z_Kapanmis_islemler_sifirlandi",
+      "mode_id": "evrim",
+      "mode_label": "Evrim",
+      "is_live": true,
+      "archived_at": "2026-05-22T21:00:50.680970+00:00",
+      "reason": "Kapanmis islemler sifirlandi",
+      "trigger": "clear_closed",
+      "path": "data/mode_archives/evrim_20260522T210050Z_Kapanmis_islemler_sifirlandi",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 41953,
+          "open_n": 0,
+          "closed_n": 40
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 0
+        }
+      ],
+      "closed_trades_count": 40,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk_20260522T210050Z_Kapanmis_islemler_sifirlandi",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-22T21:00:50.913408+00:00",
+      "reason": "Kapanmis islemler sifirlandi",
+      "trigger": "clear_closed",
+      "path": "data/mode_archives/berserk_20260522T210050Z_Kapanmis_islemler_sifirlandi",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 951852,
+          "open_n": 3,
+          "closed_n": 779
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1842838
+        }
+      ],
+      "closed_trades_count": 779,
+      "open_trades_count": 3
+    },
+    {
+      "archive_id": "hunter_20260522T210050Z_Kapanmis_islemler_sifirlandi",
+      "mode_id": "hunter",
+      "mode_label": "Hunter",
+      "is_live": false,
+      "archived_at": "2026-05-22T21:00:50.980867+00:00",
+      "reason": "Kapanmis islemler sifirlandi",
+      "trigger": "clear_closed",
+      "path": "data/mode_archives/hunter_20260522T210050Z_Kapanmis_islemler_sifirlandi",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 330635,
+          "open_n": 0,
+          "closed_n": 274
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1842838
+        }
+      ],
+      "closed_trades_count": 274,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "chop_master_20260522T210050Z_Kapanmis_islemler_sifirlandi",
+      "mode_id": "chop_master",
+      "mode_label": "Chop",
+      "is_live": false,
+      "archived_at": "2026-05-22T21:00:51.020408+00:00",
+      "reason": "Kapanmis islemler sifirlandi",
+      "trigger": "clear_closed",
+      "path": "data/mode_archives/chop_master_20260522T210050Z_Kapanmis_islemler_sifirlandi",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 343264,
+          "open_n": 3,
+          "closed_n": 274
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1842838
+        }
+      ],
+      "closed_trades_count": 274,
+      "open_trades_count": 3
+    },
+    {
+      "archive_id": "sentinel_20260522T210051Z_Kapanmis_islemler_sifirlandi",
+      "mode_id": "sentinel",
+      "mode_label": "Sentinel",
+      "is_live": false,
+      "archived_at": "2026-05-22T21:00:51.026237+00:00",
+      "reason": "Kapanmis islemler sifirlandi",
+      "trigger": "clear_closed",
+      "path": "data/mode_archives/sentinel_20260522T210051Z_Kapanmis_islemler_sifirlandi",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 16875,
+          "open_n": 0,
+          "closed_n": 14
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1842838
+        }
+      ],
+      "closed_trades_count": 14,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evrim_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+      "mode_id": "evrim",
+      "mode_label": "Evrim",
+      "is_live": true,
+      "archived_at": "2026-05-22T21:02:48.093954+00:00",
+      "reason": "Tam sifir - sifirdan baslangic",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/evrim_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 0
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-22T21:02:48.219487+00:00",
+      "reason": "Tam sifir - sifirdan baslangic",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 951852,
+          "open_n": 3,
+          "closed_n": 779
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1842838
+        }
+      ],
+      "closed_trades_count": 779,
+      "open_trades_count": 3
+    },
+    {
+      "archive_id": "hunter_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+      "mode_id": "hunter",
+      "mode_label": "Hunter",
+      "is_live": false,
+      "archived_at": "2026-05-22T21:02:48.246850+00:00",
+      "reason": "Tam sifir - sifirdan baslangic",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/hunter_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 330635,
+          "open_n": 0,
+          "closed_n": 274
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1842838
+        }
+      ],
+      "closed_trades_count": 274,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "chop_master_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+      "mode_id": "chop_master",
+      "mode_label": "Chop",
+      "is_live": false,
+      "archived_at": "2026-05-22T21:02:48.345492+00:00",
+      "reason": "Tam sifir - sifirdan baslangic",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/chop_master_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 343264,
+          "open_n": 3,
+          "closed_n": 274
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1842838
+        }
+      ],
+      "closed_trades_count": 274,
+      "open_trades_count": 3
+    },
+    {
+      "archive_id": "sentinel_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+      "mode_id": "sentinel",
+      "mode_label": "Sentinel",
+      "is_live": false,
+      "archived_at": "2026-05-22T21:02:48.350874+00:00",
+      "reason": "Tam sifir - sifirdan baslangic",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/sentinel_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 16875,
+          "open_n": 0,
+          "closed_n": 14
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1842838
+        }
+      ],
+      "closed_trades_count": 14,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk_20260522T215831Z_s_f_rlama_ncesi_restart_yap_d",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-22T21:58:31.533086+00:00",
+      "reason": "[sıfırlama öncesi] restart yapıdı",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/berserk_20260522T215831Z_s_f_rlama_ncesi_restart_yap_d",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 76266,
+          "open_n": 3,
+          "closed_n": 58
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 140106
+        }
+      ],
+      "closed_trades_count": 58,
+      "open_trades_count": 3
+    },
+    {
+      "archive_id": "berserk_20260522T231322Z_s_f_rlama_ncesi_hunter_i_lem_ayar_d",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-22T23:13:22.665334+00:00",
+      "reason": "[sıfırlama öncesi] hunter işlem ayarı düzeni restart",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/berserk_20260522T231322Z_s_f_rlama_ncesi_hunter_i_lem_ayar_d",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 11468,
+          "open_n": 6,
+          "closed_n": 2
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 299207
+        }
+      ],
+      "closed_trades_count": 2,
+      "open_trades_count": 6
+    },
+    {
+      "archive_id": "hunter_20260522T231546Z_s_f_rlama_ncesi_hunter_i_lem_ayar_d",
+      "mode_id": "hunter",
+      "mode_label": "Hunter",
+      "is_live": false,
+      "archived_at": "2026-05-22T23:15:46.518894+00:00",
+      "reason": "[sıfırlama öncesi] hunter işlem ayarı düzeni restart",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/hunter_20260522T231546Z_s_f_rlama_ncesi_hunter_i_lem_ayar_d",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 157721,
+          "open_n": 0,
+          "closed_n": 130
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 352482
+        }
+      ],
+      "closed_trades_count": 130,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evrim_20260523T132917Z_V2_clean_start",
+      "mode_id": "evrim",
+      "mode_label": "Evrim",
+      "is_live": true,
+      "archived_at": "2026-05-23T13:29:17.028916+00:00",
+      "reason": "V2 clean start",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/evrim_20260523T132917Z_V2_clean_start",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 0
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk_20260523T132917Z_V2_clean_start",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-23T13:29:17.156131+00:00",
+      "reason": "V2 clean start",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk_20260523T132917Z_V2_clean_start",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 1087762,
+          "open_n": 8,
+          "closed_n": 800
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 2335398
+        }
+      ],
+      "closed_trades_count": 800,
+      "open_trades_count": 8
+    },
+    {
+      "archive_id": "hunter_20260523T132917Z_V2_clean_start",
+      "mode_id": "hunter",
+      "mode_label": "Hunter",
+      "is_live": false,
+      "archived_at": "2026-05-23T13:29:17.161324+00:00",
+      "reason": "V2 clean start",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/hunter_20260523T132917Z_V2_clean_start",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 2335398
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "chop_master_20260523T132917Z_V2_clean_start",
+      "mode_id": "chop_master",
+      "mode_label": "Chop",
+      "is_live": false,
+      "archived_at": "2026-05-23T13:29:17.229771+00:00",
+      "reason": "V2 clean start",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/chop_master_20260523T132917Z_V2_clean_start",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 994410,
+          "open_n": 0,
+          "closed_n": 800
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 2335398
+        }
+      ],
+      "closed_trades_count": 800,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "sentinel_20260523T132917Z_V2_clean_start",
+      "mode_id": "sentinel",
+      "mode_label": "Sentinel",
+      "is_live": false,
+      "archived_at": "2026-05-23T13:29:17.235231+00:00",
+      "reason": "V2 clean start",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/sentinel_20260523T132917Z_V2_clean_start",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 2430,
+          "open_n": 0,
+          "closed_n": 2
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 2335398
+        }
+      ],
+      "closed_trades_count": 2,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk_20260523T133349Z_s_f_rlama_ncesi_restart_v2",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-23T13:33:49.836253+00:00",
+      "reason": "[sıfırlama öncesi] restart v2",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/berserk_20260523T133349Z_s_f_rlama_ncesi_restart_v2",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 1084495,
+          "open_n": 7,
+          "closed_n": 800
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 2344372
+        }
+      ],
+      "closed_trades_count": 800,
+      "open_trades_count": 7
+    },
+    {
+      "archive_id": "hunter_20260523T133403Z_s_f_rlama_ncesi_restart_v2",
+      "mode_id": "hunter",
+      "mode_label": "Hunter",
+      "is_live": false,
+      "archived_at": "2026-05-23T13:34:03.438485+00:00",
+      "reason": "[sıfırlama öncesi] restart v2",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/hunter_20260523T133403Z_s_f_rlama_ncesi_restart_v2",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1116478
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "chop_master_20260523T133526Z_s_f_rlama_ncesi_restart_v2",
+      "mode_id": "chop_master",
+      "mode_label": "Chop",
+      "is_live": false,
+      "archived_at": "2026-05-23T13:35:26.648430+00:00",
+      "reason": "[sıfırlama öncesi] restart v2",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/chop_master_20260523T133526Z_s_f_rlama_ncesi_restart_v2",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 994410,
+          "open_n": 0,
+          "closed_n": 800
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 1116478
+        }
+      ],
+      "closed_trades_count": 800,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "sentinel_20260523T133536Z_s_f_rlama_ncesi_restart_v2",
+      "mode_id": "sentinel",
+      "mode_label": "Sentinel",
+      "is_live": false,
+      "archived_at": "2026-05-23T13:35:36.438727+00:00",
+      "reason": "[sıfırlama öncesi] restart v2",
+      "trigger": "panel_reset",
+      "path": "data/mode_archives/sentinel_20260523T133536Z_s_f_rlama_ncesi_restart_v2",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 2430,
+          "open_n": 0,
+          "closed_n": 2
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 9442
+        }
+      ],
+      "closed_trades_count": 2,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk_20260523T163514Z_Berserk_s_f_rdan_ba_lang_kullan_c_is",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-23T16:35:14.254688+00:00",
+      "reason": "Berserk sıfırdan başlangıç — kullanıcı isteği",
+      "trigger": "user_fresh_start",
+      "path": "data/mode_archives/berserk_20260523T163514Z_Berserk_s_f_rdan_ba_lang_kullan_c_is",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 293552,
+          "open_n": 4,
+          "closed_n": 199
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 329654
+        }
+      ],
+      "closed_trades_count": 199,
+      "open_trades_count": 4
+    },
+    {
+      "archive_id": "evrim_20260523T204727Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "evrim",
+      "mode_label": "Evrim",
+      "is_live": true,
+      "archived_at": "2026-05-23T20:47:27.689608+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/evrim_20260523T204727Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 131744
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk_20260523T204727Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-23T20:47:27.743785+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk_20260523T204727Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 116731,
+          "open_n": 2,
+          "closed_n": 79
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 131744
+        }
+      ],
+      "closed_trades_count": 79,
+      "open_trades_count": 2
+    },
+    {
+      "archive_id": "hunter_20260523T204727Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "hunter",
+      "mode_label": "Hunter",
+      "is_live": false,
+      "archived_at": "2026-05-23T20:47:27.748684+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/hunter_20260523T204727Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 131744
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "chop_master_20260523T204727Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "chop_master",
+      "mode_label": "Chop",
+      "is_live": false,
+      "archived_at": "2026-05-23T20:47:27.752834+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/chop_master_20260523T204727Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 131744
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "sentinel_20260523T204727Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "sentinel",
+      "mode_label": "Sentinel",
+      "is_live": false,
+      "archived_at": "2026-05-23T20:47:27.757280+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/sentinel_20260523T204727Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 131744
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evrim_20260523T204742Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "evrim",
+      "mode_label": "Evrim",
+      "is_live": true,
+      "archived_at": "2026-05-23T20:47:42.091024+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç (2. tur)",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/evrim_20260523T204742Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 0
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk_20260523T204742Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-23T20:47:42.104388+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç (2. tur)",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk_20260523T204742Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 116731,
+          "open_n": 2,
+          "closed_n": 79
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 131744
+        }
+      ],
+      "closed_trades_count": 79,
+      "open_trades_count": 2
+    },
+    {
+      "archive_id": "hunter_20260523T204742Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "hunter",
+      "mode_label": "Hunter",
+      "is_live": false,
+      "archived_at": "2026-05-23T20:47:42.107621+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç (2. tur)",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/hunter_20260523T204742Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 131744
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "chop_master_20260523T204742Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "chop_master",
+      "mode_label": "Chop",
+      "is_live": false,
+      "archived_at": "2026-05-23T20:47:42.110771+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç (2. tur)",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/chop_master_20260523T204742Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 131744
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "sentinel_20260523T204742Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "sentinel",
+      "mode_label": "Sentinel",
+      "is_live": false,
+      "archived_at": "2026-05-23T20:47:42.115832+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç (2. tur)",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/sentinel_20260523T204742Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 131744
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evrim_20260523T204748Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "evrim",
+      "mode_label": "Evrim",
+      "is_live": true,
+      "archived_at": "2026-05-23T20:47:48.062776+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/evrim_20260523T204748Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "state_db",
+          "file": "binance_elite_8300_9005_state.db",
+          "closed_trades_count": 0
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk_20260523T204748Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-23T20:47:48.073327+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk_20260523T204748Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 116731,
+          "open_n": 2,
+          "closed_n": 79
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 131744
+        }
+      ],
+      "closed_trades_count": 79,
+      "open_trades_count": 2
+    },
+    {
+      "archive_id": "hunter_20260523T204748Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "hunter",
+      "mode_label": "Hunter",
+      "is_live": false,
+      "archived_at": "2026-05-23T20:47:48.076180+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/hunter_20260523T204748Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 131744
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "chop_master_20260523T204748Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "chop_master",
+      "mode_label": "Chop",
+      "is_live": false,
+      "archived_at": "2026-05-23T20:47:48.079257+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/chop_master_20260523T204748Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 131744
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "sentinel_20260523T204748Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "mode_id": "sentinel",
+      "mode_label": "Sentinel",
+      "is_live": false,
+      "archived_at": "2026-05-23T20:47:48.082228+00:00",
+      "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/sentinel_20260523T204748Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 131744
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "evrim_20260523T215603Z_Kullan_c_iste_i_t_m_i_lemler_kapat_s",
+      "mode_id": "evrim",
+      "mode_label": "Evrim",
+      "is_live": true,
+      "archived_at": "2026-05-23T21:56:03.125668+00:00",
+      "reason": "Kullanıcı isteği: tüm işlemler kapat + sıfırdan başlat",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/evrim_20260523T215603Z_Kullan_c_iste_i_t_m_i_lemler_kapat_s",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 331219
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk_20260523T215603Z_Kullan_c_iste_i_t_m_i_lemler_kapat_s",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-23T21:56:03.149942+00:00",
+      "reason": "Kullanıcı isteği: tüm işlemler kapat + sıfırdan başlat",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk_20260523T215603Z_Kullan_c_iste_i_t_m_i_lemler_kapat_s",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 293412,
+          "open_n": 5,
+          "closed_n": 196
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 331219
+        }
+      ],
+      "closed_trades_count": 196,
+      "open_trades_count": 5
+    },
+    {
+      "archive_id": "hunter_20260523T215603Z_Kullan_c_iste_i_t_m_i_lemler_kapat_s",
+      "mode_id": "hunter",
+      "mode_label": "Hunter",
+      "is_live": false,
+      "archived_at": "2026-05-23T21:56:03.154057+00:00",
+      "reason": "Kullanıcı isteği: tüm işlemler kapat + sıfırdan başlat",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/hunter_20260523T215603Z_Kullan_c_iste_i_t_m_i_lemler_kapat_s",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 1562,
+          "open_n": 0,
+          "closed_n": 1
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 331219
+        }
+      ],
+      "closed_trades_count": 1,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "chop_master_20260523T215603Z_Kullan_c_iste_i_t_m_i_lemler_kapat_s",
+      "mode_id": "chop_master",
+      "mode_label": "Chop",
+      "is_live": false,
+      "archived_at": "2026-05-23T21:56:03.157071+00:00",
+      "reason": "Kullanıcı isteği: tüm işlemler kapat + sıfırdan başlat",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/chop_master_20260523T215603Z_Kullan_c_iste_i_t_m_i_lemler_kapat_s",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 331219
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "sentinel_20260523T215603Z_Kullan_c_iste_i_t_m_i_lemler_kapat_s",
+      "mode_id": "sentinel",
+      "mode_label": "Sentinel",
+      "is_live": false,
+      "archived_at": "2026-05-23T21:56:03.160546+00:00",
+      "reason": "Kullanıcı isteği: tüm işlemler kapat + sıfırdan başlat",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/sentinel_20260523T215603Z_Kullan_c_iste_i_t_m_i_lemler_kapat_s",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 33,
+          "open_n": 0,
+          "closed_n": 0
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 331219
+        }
+      ],
+      "closed_trades_count": 0,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk_20260524T012446Z_user_berserk_fresh_start_5000",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-24T01:24:46.229038+00:00",
+      "reason": "user berserk fresh start 5000",
+      "trigger": "manual_reset",
+      "path": "data/mode_archives/berserk_20260524T012446Z_user_berserk_fresh_start_5000",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 390475,
+          "open_n": 10,
+          "closed_n": 246
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 439004
+        }
+      ],
+      "closed_trades_count": 246,
+      "open_trades_count": 10
+    },
+    {
+      "archive_id": "berserk_20260524T085511Z_user_clean_berserk_start_5000",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-24T08:55:11.407020+00:00",
+      "reason": "user clean berserk start 5000",
+      "trigger": "manual_reset",
+      "path": "data/mode_archives/berserk_20260524T085511Z_user_clean_berserk_start_5000",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 356461,
+          "open_n": 11,
+          "closed_n": 219
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 400926
+        }
+      ],
+      "closed_trades_count": 219,
+      "open_trades_count": 11
+    },
+    {
+      "archive_id": "berserk_20260524T090443Z_user_reset_and_restart",
+      "mode_id": "berserk",
+      "mode_label": "Berserk",
+      "is_live": false,
+      "archived_at": "2026-05-24T09:04:43.804398+00:00",
+      "reason": "user reset and restart",
+      "trigger": "manual_reset",
+      "path": "data/mode_archives/berserk_20260524T090443Z_user_reset_and_restart",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 76151,
+          "open_n": 5,
+          "closed_n": 40
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 87719
+        }
+      ],
+      "closed_trades_count": 40,
+      "open_trades_count": 5
+    },
+    {
+      "archive_id": "berserk2_20260524T132439Z_user_reset_net_PnL_restart",
+      "mode_id": "berserk2",
+      "mode_label": "Brk2",
+      "is_live": false,
+      "archived_at": "2026-05-24T13:24:39.955734+00:00",
+      "reason": "user reset — net PnL restart",
+      "trigger": "manual_reset",
+      "path": "data/mode_archives/berserk2_20260524T132439Z_user_reset_net_PnL_restart",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 28168,
+          "open_n": 0,
+          "closed_n": 20
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 37361
+        }
+      ],
+      "closed_trades_count": 20,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk2_20260524T134914Z_Kullan_c_temiz_slate_eski_i_lemler_s",
+      "mode_id": "berserk2",
+      "mode_label": "Brk2",
+      "is_live": false,
+      "archived_at": "2026-05-24T13:49:14.143120+00:00",
+      "reason": "Kullanıcı temiz slate — eski işlemler silindi, net+ çıkış düzeltmesi",
+      "trigger": "user_reset",
+      "path": "data/mode_archives/berserk2_20260524T134914Z_Kullan_c_temiz_slate_eski_i_lemler_s",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 183409,
+          "open_n": 18,
+          "closed_n": 77
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 211034
+        }
+      ],
+      "closed_trades_count": 77,
+      "open_trades_count": 18
+    },
+    {
+      "archive_id": "berserk2_20260524T142133Z_s_f_rlama_ncesi_Negatif_PnL_analizi",
+      "mode_id": "berserk2",
+      "mode_label": "Brk2",
+      "is_live": false,
+      "archived_at": "2026-05-24T14:21:33.170310+00:00",
+      "reason": "[sıfırlama öncesi] Negatif PnL analizi sonrası sıfırdan başlangıç — kullanıcı isteği",
+      "trigger": "user_reset",
+      "path": "data/mode_archives/berserk2_20260524T142133Z_s_f_rlama_ncesi_Negatif_PnL_analizi",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 441812,
+          "open_n": 17,
+          "closed_n": 270
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 501306
+        }
+      ],
+      "closed_trades_count": 270,
+      "open_trades_count": 17
+    },
+    {
+      "archive_id": "berserk2_20260524T144233Z_sifirlama_Sifirdan_baslangic_ogrenm",
+      "mode_id": "berserk2",
+      "mode_label": "Brk2",
+      "is_live": false,
+      "archived_at": "2026-05-24T14:42:33.354891+00:00",
+      "reason": "[sifirlama] Sifirdan baslangic ogrenme korundu demo canli emir",
+      "trigger": "user_reset",
+      "path": "data/mode_archives/berserk2_20260524T144233Z_sifirlama_Sifirdan_baslangic_ogrenm",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 488149,
+          "open_n": 17,
+          "closed_n": 303
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 553219
+        }
+      ],
+      "closed_trades_count": 303,
+      "open_trades_count": 17
+    },
+    {
+      "archive_id": "berserk2_20260524T144524Z_S_f_rdan_ba_lang_renme_korundu_demo",
+      "mode_id": "berserk2",
+      "mode_label": "Brk2",
+      "is_live": false,
+      "archived_at": "2026-05-24T14:45:24.772146+00:00",
+      "reason": "Sıfırdan başlangıç — öğrenme korundu, demo canlı emir açık",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk2_20260524T144524Z_S_f_rdan_ba_lang_renme_korundu_demo",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 486642,
+          "open_n": 17,
+          "closed_n": 302
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 559403
+        }
+      ],
+      "closed_trades_count": 302,
+      "open_trades_count": 17
+    },
+    {
+      "archive_id": "berserk2_20260524T152522Z_Sifirdan_baslangic_net_plus_cikis_ku",
+      "mode_id": "berserk2",
+      "mode_label": "Brk2",
+      "is_live": false,
+      "archived_at": "2026-05-24T15:25:22.895307+00:00",
+      "reason": "Sifirdan baslangic net-plus cikis kurallari 20260524",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk2_20260524T152522Z_Sifirdan_baslangic_net_plus_cikis_ku",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 96490,
+          "open_n": 14,
+          "closed_n": 61
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 12053
+        }
+      ],
+      "closed_trades_count": 61,
+      "open_trades_count": 14
+    },
+    {
+      "archive_id": "berserk2_20260524T155346Z_sifirdan_takip",
+      "mode_id": "berserk2",
+      "mode_label": "Brk2",
+      "is_live": false,
+      "archived_at": "2026-05-24T15:53:46.333140+00:00",
+      "reason": "sifirdan_takip",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk2_20260524T155346Z_sifirdan_takip",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 103768,
+          "open_n": 13,
+          "closed_n": 60
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 125320
+        }
+      ],
+      "closed_trades_count": 60,
+      "open_trades_count": 13
+    },
+    {
+      "archive_id": "berserk2_20260524T160159Z_sifirdan_basla_v2",
+      "mode_id": "berserk2",
+      "mode_label": "Brk2",
+      "is_live": false,
+      "archived_at": "2026-05-24T16:01:59.866123+00:00",
+      "reason": "sifirdan_basla_v2",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk2_20260524T160159Z_sifirdan_basla_v2",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 30656,
+          "open_n": 4,
+          "closed_n": 17
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 40992
+        }
+      ],
+      "closed_trades_count": 17,
+      "open_trades_count": 4
+    },
+    {
+      "archive_id": "berserk2_20260524T160405Z_sifirdan_v2",
+      "mode_id": "berserk2",
+      "mode_label": "Brk2",
+      "is_live": false,
+      "archived_at": "2026-05-24T16:04:05.411141+00:00",
+      "reason": "sifirdan_v2",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk2_20260524T160405Z_sifirdan_v2",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 9418,
+          "open_n": 0,
+          "closed_n": 9
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 16510
+        }
+      ],
+      "closed_trades_count": 9,
+      "open_trades_count": 0
+    },
+    {
+      "archive_id": "berserk2_20260524T160632Z_v3",
+      "mode_id": "berserk2",
+      "mode_label": "Brk2",
+      "is_live": false,
+      "archived_at": "2026-05-24T16:06:32.070570+00:00",
+      "reason": "v3",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk2_20260524T160632Z_v3",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 23891,
+          "open_n": 6,
+          "closed_n": 4
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 33519
+        }
+      ],
+      "closed_trades_count": 4,
+      "open_trades_count": 6
+    },
+    {
+      "archive_id": "berserk2_20260524T161215Z_tp_only_fix",
+      "mode_id": "berserk2",
+      "mode_label": "Brk2",
+      "is_live": false,
+      "archived_at": "2026-05-24T16:12:15.845545+00:00",
+      "reason": "tp_only_fix",
+      "trigger": "preserve_reset",
+      "path": "data/mode_archives/berserk2_20260524T161215Z_tp_only_fix",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 18513,
+          "open_n": 5,
+          "closed_n": 2
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 27397
+        }
+      ],
+      "closed_trades_count": 2,
+      "open_trades_count": 5
+    },
+    {
+      "archive_id": "mega_20260530T121355Z_9007_control_restart",
+      "mode_id": "mega",
+      "mode_label": "Mega",
+      "is_live": false,
+      "archived_at": "2026-05-30T12:13:55.959706+00:00",
+      "reason": "9007_control_restart",
+      "trigger": "panel",
+      "path": "data/mode_archives/mega_20260530T121355Z_9007_control_restart",
+      "files": [
+        {
+          "label": "trades_json",
+          "file": "trades.json",
+          "bytes": 24369,
+          "open_n": 0,
+          "closed_n": 19
+        },
+        {
+          "label": "parallel_snapshot",
+          "file": "parallel_universes_snapshot.json",
+          "bytes": 39398
+        }
+      ],
+      "closed_trades_count": 19,
+      "open_trades_count": 0
+    }
+  ],
+  "updated_at": "2026-05-30T12:13:55.963061+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "archive_id": "berserk_20260522T231322Z_s_f_rlama_ncesi_hunter_i_lem_ayar_d",
+  "mode_id": "berserk",
+  "mode_label": "Berserk",
+  "is_live": false,
+  "archived_at": "2026-05-22T23:13:22.665334+00:00",
+  "reason": "[sıfırlama öncesi] hunter işlem ayarı düzeni restart",
+  "trigger": "panel_reset",
+  "path": "data/mode_archives/berserk_20260522T231322Z_s_f_rlama_ncesi_hunter_i_lem_ayar_d",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 11468,
+      "open_n": 6,
+      "closed_n": 2
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 299207
+    }
+  ],
+  "closed_trades_count": 2,
+  "open_trades_count": 6
+}

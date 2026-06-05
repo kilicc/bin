@@ -1,0 +1,26 @@
+{
+  "archive_id": "berserk_20260522T205720Z_Sifirdan_baslangic_ogrenme_korundu",
+  "mode_id": "berserk",
+  "mode_label": "Berserk",
+  "is_live": false,
+  "archived_at": "2026-05-22T20:57:20.295714+00:00",
+  "reason": "Sifirdan baslangic - ogrenme korundu",
+  "trigger": "preserve_reset",
+  "path": "data/mode_archives/berserk_20260522T205720Z_Sifirdan_baslangic_ogrenme_korundu",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 933541,
+      "open_n": 3,
+      "closed_n": 764
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 1808075
+    }
+  ],
+  "closed_trades_count": 764,
+  "open_trades_count": 3
+}

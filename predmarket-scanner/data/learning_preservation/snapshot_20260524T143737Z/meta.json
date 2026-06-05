@@ -1,0 +1,49 @@
+{
+  "exported_at": "2026-05-24T14:45:08.743818+00:00",
+  "reason": "Sıfırdan başlangıç — öğrenme korundu, demo canlı emir açık",
+  "closed_trades_total": 4560,
+  "closed_by_mode": {
+    "berserk2": 399,
+    "berserk": 2625,
+    "hunter": 406,
+    "evrim": 40,
+    "chop_master": 1074,
+    "sentinel": 16
+  },
+  "bootstrap": {
+    "ingested": 4560,
+    "by_mode": {
+      "berserk2": 399,
+      "berserk": 2625,
+      "hunter": 406,
+      "evrim": 40,
+      "chop_master": 1074,
+      "sentinel": 16
+    },
+    "lessons": {
+      "n": 302,
+      "win_rate": 0.7086092715231788,
+      "avg_win": 0.7842135514018691,
+      "avg_loss": -2.5907943181818176,
+      "best_exit": "SPIKE-QUICK",
+      "spike_share": 0.3576158940397351
+    }
+  },
+  "snapshot_dir": "data/learning_preservation/snapshot_20260524T143737Z",
+  "files": [
+    {
+      "label": "evrim_adaptive_state",
+      "file": "evrim_adaptive_state.json",
+      "bytes": 55975
+    },
+    {
+      "label": "proposals",
+      "file": "elite_9005_proposals.json",
+      "bytes": 933
+    },
+    {
+      "label": "all_closed_trades",
+      "file": "all_closed_trades.json"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "compared_at": "2026-05-17T22:35:01.448628+00:00",
+  "baseline_best": "edu_conservative",
+  "current_best": "gh_freqtrade_bb_rsi_atr",
+  "improved": true,
+  "deltas": {
+    "win_rate": -0.008,
+    "profit_factor": 1.369,
+    "total_pnl_pct": 0.2617,
+    "rank_score": 0.9081
+  },
+  "baseline_summary": {
+    "variant_id": "edu_conservative",
+    "label": "Eğitim: Muhafazakâr (yüksek eşik, düşük risk)",
+    "win_rate": 0.4869,
+    "trades": 306,
+    "total_pnl_pct": -0.186,
+    "profit_factor": 0.336,
+    "max_drawdown_pct": 0.2063,
+    "rank_score": -0.1175
+  },
+  "current_summary": {
+    "variant_id": "gh_freqtrade_bb_rsi_atr",
+    "label": "GitHub/Freqtrade: BB+RSI+ATR mean reversion",
+    "win_rate": 0.4789,
+    "trades": 142,
+    "total_pnl_pct": 0.0757,
+    "profit_factor": 1.705,
+    "max_drawdown_pct": 0.089,
+    "rank_score": 0.7906
+  }
+}

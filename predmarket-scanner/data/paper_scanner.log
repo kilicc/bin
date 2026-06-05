@@ -1,0 +1,324 @@
+=================================================================
+ Calibration Momentum Scanner — Paper Mode
+ DB: /Users/macbook/Downloads/testtt/predmarket-scanner/data/paper.db
+ Edge threshold: 0.042  Kelly: 0.5  Max pos: $1200.0
+ Pozisyon kontrolü: 3s  Market tarama: 20s
+ Zaman penceresi: 1h – 20h  TP katmanları: taban +0.8% | ≤10h → min 0.6% | ≤3h → min 0.4% | |edge|≥0.07 → min 0.5%  (örnek: 0.6% / 0.3% / 0.5%)
+  TP tetik eşiği ×0.985 (hedefin kesri)  |  nano ≤3h → 0.3% stake
+ SL: -4% stake  MaxSpread: 5%  Stale: 30dk
+ Mom: düz çizgi ≤48h  |  CLOB eğimi yok ≤18h  |  veto NRVT/EURO/UPDN: 1/0/0
+=================================================================
+
+[19:47:25] Kontrol #1
+  ✓ [4] NO ✓ PnL=$-5.00  Spread: Cavaliers (-2.5)
+  ✓ [5] YES ✓ PnL=$+2.58  Pistons vs. Cavaliers: O/U 204.5
+  ✓ [6] YES ✓ PnL=$+785.71  Pistons vs. Cavaliers: O/U 208.5
+  ⏰ MAX-HOLD [7] NO  26.4h açık (max=14h)  PnL=$-0.17  UFC Fight Night: Ketlen Vieira vs. Jacqu
+  ✓ [15] NO ✓ PnL=$-5.00  Pistons vs. Cavaliers: O/U 210.5
+  ✓ [18] NO ✓ PnL=$-1000.00  Pistons vs. Cavaliers: O/U 209.5
+  ✓ [21] NO ✓ PnL=$-1000.00  Milwaukee Brewers vs. Minnesota Twins: O/U 8.5
+  💰 TP  [29] YES  +3.8% stake (tp≈0.49% stake)  PnL=$+38.10  UFC Fight Night: Arnold Allen vs. Melqui
+  ⛔ SL  [38] NO  -20.5% stake (hedef -3.8%)  slip≈$167.357  entry=0.560→now=0.445  PnL=$-205.36  Will Spirit win PGL Astana 2026?
+  ✓ [40] NO ✓ PnL=$+680.67  Will Liverpool FC win on 2026-05-17?
+  💰 TP  [41] YES  +90.4% stake (tp≈0.49% stake)  PnL=$+903.81  Will Málaga CF win on 2026-05-16?
+  ✓ [42] NO ✓ PnL=$+739.13  Games Total: O/U 2.5
+  12 pozisyon kapatıldı.
+
+  ──────────────────────────────────────────────────────────────
+  📊 SELF-IMPROVE RAPORU  [42 kapalı, 39 kazanç, 93% win rate]
+  ──────────────────────────────────────────────────────────────
+  Bucket       Prior  Posterior     Live            CI90%  Δ
+  0.0–0.1     0.0098      0.0098         —                —      —  
+  0.1–0.2     0.1265      0.1265         —                —      —  
+  0.2–0.3     0.3466      0.3466         —                —      —  
+  0.3–0.4     0.3604      0.3604         —                —      —  
+  0.4–0.5     0.1828      0.1829      3/15        0.08–0.41  +0.0001
+  0.5–0.6     0.8495      0.8505     13/13        0.83–1.00  +0.0010
+  0.6–0.7     0.9072      0.9074       2/2        0.42–1.00  +0.0002
+  0.7–0.8     0.9603      0.9606       8/8        0.75–1.00  +0.0003
+  0.8–0.9     0.9620      0.9623       4/4        0.60–1.00  +0.0003
+  0.9–1.0     0.9951      0.9951         —                —      —  
+
+  Edge Katmanı Performansı:
+    <0.10        —
+    0.10-0.20     100%  ████████████████████  (8/8)
+    0.20-0.30      95%  ██████████████████    (18/19)
+    0.30+          87%  █████████████████     (13/15)
+
+  Momentum Etkinliği:
+    Onaylı (|mom|>veto/2):   92%  (33/36)
+    Sınır  (|mom|<veto/2):   100%  (6/6)
+
+  Güncel Parametreler:
+    momentum_veto  = 0.0050
+    edge_threshold = 0.0600
+  ──────────────────────────────────────────────────────────────
+
+  📉 Son kayıplar (PnL < -$0.05, en fazla 8):
+     #18 YES edge=+0.32 PnL=$-1000.00  Pistons vs. Cavaliers: O/U 209.5
+     #21 YES edge=+0.31 PnL=$-1000.00  Milwaukee Brewers vs. Minnesota Twins: O/U 8.5
+     #38 NO edge=+0.26 PnL=$-205.36  Will Spirit win PGL Astana 2026?
+     #7 NO edge=+0.23 PnL=$-0.17  UFC Fight Night: Ketlen Vieira vs. Jacqueline Cavalcanti
+     #15 YES edge=+0.33 PnL=$-5.00  Pistons vs. Cavaliers: O/U 210.5
+     #4 YES edge=+0.29 PnL=$-5.00  Spread: Cavaliers (-2.5)
+     #20 NO edge=+0.31 PnL=$-68.63  Games Total: O/U 2.5
+
+  ──────────────────────────────────────────────────────────────
+  📈 İŞLEM RAPORU  (son 42 kapanış)
+  ──────────────────────────────────────────────────────────────
+  Özet: kazanan 35/42  (83%)  ΣPnL=$+1277.39  tutma medyan=5 dk  |  TP medyan=1 dk
+
+  Sebep           n  kzn     WR   ort dk   med dk       ΣPnL
+  TP             31   31  100%      104        1   +1353.45
+  SL              2    0    0%      751      751    -273.98
+  RESOLVED        8    4   50%     1540     1553    +198.09
+  MAX_HOLD        1    0    0%     1587     1587      -0.17
+  ──────────────────────────────────────────────────────────────
+
+
+  ──────────────────────────────────────────────────────────────
+  ⛔ SL ÖZETİ  (son 2 güçlü kayıp / SL)
+  ──────────────────────────────────────────────────────────────
+  Tür dağılımı:  other=1  sports_line=1
+  Örnekler:
+    #38 NO SL  edge=+0.26  PnL=$-205.36  1474dk  [other]  Will Spirit win PGL Astana 2026?
+    #20 NO SL  edge=+0.31  PnL=$-68.63  28dk  [sports_line]  Games Total: O/U 2.5
+  ──────────────────────────────────────────────────────────────
+
+  🔧 momentum_veto → 0.0050
+  🔧 edge_threshold → 0.0600
+
+  ──────────────────────────────────────────────────────────────
+  📈 İŞLEM RAPORU  (son 42 kapanış)
+  ──────────────────────────────────────────────────────────────
+  Özet: kazanan 35/42  (83%)  ΣPnL=$+1277.39  tutma medyan=5 dk  |  TP medyan=1 dk
+
+  Sebep           n  kzn     WR   ort dk   med dk       ΣPnL
+  TP             31   31  100%      104        1   +1353.45
+  SL              2    0    0%      751      751    -273.98
+  RESOLVED        8    4   50%     1540     1553    +198.09
+  MAX_HOLD        1    0    0%     1587     1587      -0.17
+  ──────────────────────────────────────────────────────────────
+
+
+  ──────────────────────────────────────────────────────────────
+  ⛔ SL ÖZETİ  (son 2 güçlü kayıp / SL)
+  ──────────────────────────────────────────────────────────────
+  Tür dağılımı:  other=1  sports_line=1
+  Örnekler:
+    #38 NO SL  edge=+0.26  PnL=$-205.36  1474dk  [other]  Will Spirit win PGL Astana 2026?
+    #20 NO SL  edge=+0.31  PnL=$-68.63  28dk  [sports_line]  Games Total: O/U 2.5
+  ──────────────────────────────────────────────────────────────
+
+  [tarama #1] market aranıyor...
+  [scan] 2477 aktif market tarandı (vol>$5,000)
+  ➕ [43] NO  @0.595  edge=+0.222  mom=+0.0031  stake=$1200.0 [gap cap $1200]  UFC Fight Night: Dooho Choi vs. Daniel Santos (Fea
+  ➕ [44] YES @0.525  edge=+0.326  mom=+0.0104  stake=$1200.0 [gap cap $1200] mid=0.525  UFC Fight Night: Khaos Williams vs. Nikolay Verete
+  Açık: 2  Kapalı: 42  P&L: $+1277.39  Yeni: 2
+
+[19:53:12] Kontrol #2
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:53:15] Kontrol #3
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:53:18] Kontrol #4
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:53:21] Kontrol #5
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:53:24] Kontrol #6
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:53:27] Kontrol #7
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:53:30] Kontrol #8
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:53:33] Kontrol #9
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.1h  UFC Fight Night: Khaos Williams vs. Niko
+  [tarama #2] market aranıyor...
+  [scan] 2485 aktif market tarandı (vol>$5,000)
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:59:19] Kontrol #10
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:59:22] Kontrol #11
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:59:25] Kontrol #12
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Khaos Williams vs. Niko
+
+  ──────────────────────────────────────────────────────────────
+  📈 İŞLEM RAPORU  (son 42 kapanış)
+  ──────────────────────────────────────────────────────────────
+  Özet: kazanan 35/42  (83%)  ΣPnL=$+1277.39  tutma medyan=5 dk  |  TP medyan=1 dk
+
+  Sebep           n  kzn     WR   ort dk   med dk       ΣPnL
+  TP             31   31  100%      104        1   +1353.45
+  SL              2    0    0%      751      751    -273.98
+  RESOLVED        8    4   50%     1540     1553    +198.09
+  MAX_HOLD        1    0    0%     1587     1587      -0.17
+  ──────────────────────────────────────────────────────────────
+
+
+  ──────────────────────────────────────────────────────────────
+  ⛔ SL ÖZETİ  (son 2 güçlü kayıp / SL)
+  ──────────────────────────────────────────────────────────────
+  Tür dağılımı:  other=1  sports_line=1
+  Örnekler:
+    #38 NO SL  edge=+0.26  PnL=$-205.36  1474dk  [other]  Will Spirit win PGL Astana 2026?
+    #20 NO SL  edge=+0.31  PnL=$-68.63  28dk  [sports_line]  Games Total: O/U 2.5
+  ──────────────────────────────────────────────────────────────
+
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:59:28] Kontrol #13
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:59:31] Kontrol #14
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:59:34] Kontrol #15
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:59:37] Kontrol #16
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 2  Kapalı: 42  P&L: $+1277.39
+
+[19:59:40] Kontrol #17
+  ─ [43] NO  giriş=0.595  şimdi=0.595  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=11.0h  UFC Fight Night: Khaos Williams vs. Niko
+  [tarama #3] market aranıyor...
+  [scan] 2484 aktif market tarandı (vol>$5,000)
+  ➕ [45] NO  @0.600  edge=+0.217  mom=+0.0025  stake=$1200.0 [gap cap $1200] mid=0.400  UFC Fight Night: Tuco Tokkos vs. Ivan Erslan (Ligh
+  Açık: 3  Kapalı: 42  P&L: $+1277.39  Yeni: 1
+
+[20:05:18] Kontrol #18
+  💰 TP  [43] NO  +3.4% stake (tp≈0.49% stake)  PnL=$+40.34  UFC Fight Night: Dooho Choi vs. Daniel S
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=10.9h  UFC Fight Night: Khaos Williams vs. Niko
+  ─ [45] NO  giriş=0.600  şimdi=0.600  Δ=+0.000  P&L=+0.00$  kalan=10.9h  UFC Fight Night: Tuco Tokkos vs. Ivan Er
+  1 pozisyon kapatıldı.
+  Açık: 2  Kapalı: 43  P&L: $+1317.73
+
+[20:05:21] Kontrol #19
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=10.9h  UFC Fight Night: Khaos Williams vs. Niko
+  ─ [45] NO  giriş=0.600  şimdi=0.600  Δ=+0.000  P&L=+0.00$  kalan=10.9h  UFC Fight Night: Tuco Tokkos vs. Ivan Er
+  Açık: 2  Kapalı: 43  P&L: $+1317.73
+
+[20:05:24] Kontrol #20
+  ─ [44] YES giriş=0.525  şimdi=0.525  Δ=+0.000  P&L=+0.00$  kalan=10.9h  UFC Fight Night: Khaos Williams vs. Niko
+  ─ [45] NO  giriş=0.600  şimdi=0.600  Δ=+0.000  P&L=+0.00$  kalan=10.9h  UFC Fight Night: Tuco Tokkos vs. Ivan Er
+  Açık: 2  Kapalı: 43  P&L: $+1317.73
+
+[20:05:27] Kontrol #21
+  ▼ [44] YES giriş=0.525  şimdi=0.515  Δ=-0.010  P&L=-22.86$  kalan=10.9h  UFC Fight Night: Khaos Williams vs. Niko
+  ▼ [45] NO  giriş=0.600  şimdi=0.595  Δ=-0.005  P&L=-10.00$  kalan=10.9h  UFC Fight Night: Tuco Tokkos vs. Ivan Er
+  Açık: 2  Kapalı: 43  P&L: $+1317.73
+
+[20:05:30] Kontrol #22
+  ▼ [44] YES giriş=0.525  şimdi=0.515  Δ=-0.010  P&L=-22.86$  kalan=10.9h  UFC Fight Night: Khaos Williams vs. Niko
+  ─ [45] NO  giriş=0.600  şimdi=0.600  Δ=+0.000  P&L=+0.00$  kalan=10.9h  UFC Fight Night: Tuco Tokkos vs. Ivan Er
+  Açık: 2  Kapalı: 43  P&L: $+1317.73
+
+[20:05:34] Kontrol #23
+  ▼ [44] YES giriş=0.525  şimdi=0.515  Δ=-0.010  P&L=-22.86$  kalan=10.9h  UFC Fight Night: Khaos Williams vs. Niko
+  💰 TP  [45] NO  +0.8% stake (tp≈0.49% stake)  PnL=$+10.00  UFC Fight Night: Tuco Tokkos vs. Ivan Er
+  1 pozisyon kapatıldı.
+  Açık: 1  Kapalı: 44  P&L: $+1327.73
+
+[20:05:37] Kontrol #24
+  ▼ [44] YES giriş=0.525  şimdi=0.515  Δ=-0.010  P&L=-22.86$  kalan=10.9h  UFC Fight Night: Khaos Williams vs. Niko
+
+  ──────────────────────────────────────────────────────────────
+  📈 İŞLEM RAPORU  (son 44 kapanış)
+  ──────────────────────────────────────────────────────────────
+  Özet: kazanan 37/44  (84%)  ΣPnL=$+1327.73  tutma medyan=5 dk  |  TP medyan=1 dk
+
+  Sebep           n  kzn     WR   ort dk   med dk       ΣPnL
+  TP             33   33  100%       98        1   +1403.79
+  SL              2    0    0%      751      751    -273.98
+  RESOLVED        8    4   50%     1540     1553    +198.09
+  MAX_HOLD        1    0    0%     1587     1587      -0.17
+  ──────────────────────────────────────────────────────────────
+
+
+  ──────────────────────────────────────────────────────────────
+  ⛔ SL ÖZETİ  (son 2 güçlü kayıp / SL)
+  ──────────────────────────────────────────────────────────────
+  Tür dağılımı:  other=1  sports_line=1
+  Örnekler:
+    #38 NO SL  edge=+0.26  PnL=$-205.36  1474dk  [other]  Will Spirit win PGL Astana 2026?
+    #20 NO SL  edge=+0.31  PnL=$-68.63  28dk  [sports_line]  Games Total: O/U 2.5
+  ──────────────────────────────────────────────────────────────
+
+  Açık: 1  Kapalı: 44  P&L: $+1327.73
+
+[20:05:40] Kontrol #25
+  ▼ [44] YES giriş=0.525  şimdi=0.515  Δ=-0.010  P&L=-22.86$  kalan=10.9h  UFC Fight Night: Khaos Williams vs. Niko
+  [tarama #4] market aranıyor...
+  [scan] 2484 aktif market tarandı (vol>$5,000)
+  Açık: 1  Kapalı: 44  P&L: $+1327.73
+
+[20:11:42] Kontrol #26
+  ▼ [44] YES giriş=0.525  şimdi=0.515  Δ=-0.010  P&L=-22.86$  kalan=10.8h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 1  Kapalı: 44  P&L: $+1327.73
+
+[20:11:45] Kontrol #27
+  ▼ [44] YES giriş=0.525  şimdi=0.515  Δ=-0.010  P&L=-22.86$  kalan=10.8h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 1  Kapalı: 44  P&L: $+1327.73
+
+[20:11:48] Kontrol #28
+  ▼ [44] YES giriş=0.525  şimdi=0.515  Δ=-0.010  P&L=-22.86$  kalan=10.8h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 1  Kapalı: 44  P&L: $+1327.73
+
+[20:11:51] Kontrol #29
+  ▼ [44] YES giriş=0.525  şimdi=0.515  Δ=-0.010  P&L=-22.86$  kalan=10.8h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 1  Kapalı: 44  P&L: $+1327.73
+
+[20:11:54] Kontrol #30
+  ▼ [44] YES giriş=0.525  şimdi=0.515  Δ=-0.010  P&L=-22.86$  kalan=10.8h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 1  Kapalı: 44  P&L: $+1327.73
+
+[20:11:57] Kontrol #31
+  ▼ [44] YES giriş=0.525  şimdi=0.515  Δ=-0.010  P&L=-22.86$  kalan=10.8h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 1  Kapalı: 44  P&L: $+1327.73
+
+[20:12:00] Kontrol #32
+  ▼ [44] YES giriş=0.525  şimdi=0.515  Δ=-0.010  P&L=-22.86$  kalan=10.8h  UFC Fight Night: Khaos Williams vs. Niko
+  Açık: 1  Kapalı: 44  P&L: $+1327.73
+
+[20:12:03] Kontrol #33
+  ▼ [44] YES giriş=0.525  şimdi=0.515  Δ=-0.010  P&L=-22.86$  kalan=10.8h  UFC Fight Night: Khaos Williams vs. Niko
+  [tarama #5] market aranıyor...
+  [scan] 2487 aktif market tarandı (vol>$5,000)

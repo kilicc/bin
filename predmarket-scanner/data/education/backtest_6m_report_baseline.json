@@ -1,0 +1,712 @@
+{
+  "generated_at": "2026-05-17T22:13:57.177766+00:00",
+  "days": 180,
+  "interval": "15m",
+  "coins_tested": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "BNB",
+    "XRP",
+    "DOGE",
+    "AVAX",
+    "LINK"
+  ],
+  "fee_rate": 0.0004,
+  "fg_at_test": 27,
+  "ranking": [
+    {
+      "variant_id": "edu_conservative",
+      "label": "Eğitim: Muhafazakâr (yüksek eşik, düşük risk)",
+      "education_basis": [
+        "risk_rules",
+        "confirmation",
+        "leverage_beginner"
+      ],
+      "win_rate": 0.4869,
+      "trades": 306,
+      "total_pnl_pct": -0.186,
+      "profit_factor": 0.336,
+      "max_drawdown_pct": 0.2063,
+      "rank_score": -0.1175,
+      "per_coin": {
+        "BTC": {
+          "wins": 16,
+          "losses": 17,
+          "trades": 33,
+          "win_rate": 0.48484848484848486,
+          "avg_pnl_pct": -0.00232351259706292,
+          "total_pnl_pct": -0.07667591570307637,
+          "profit_factor": 0.368,
+          "max_drawdown_pct": 0.0935
+        },
+        "ETH": {
+          "wins": 15,
+          "losses": 25,
+          "trades": 40,
+          "win_rate": 0.375,
+          "avg_pnl_pct": -0.0020115299966994805,
+          "total_pnl_pct": -0.08046119986797923,
+          "profit_factor": 0.53,
+          "max_drawdown_pct": 0.1145
+        },
+        "SOL": {
+          "wins": 15,
+          "losses": 22,
+          "trades": 37,
+          "win_rate": 0.40540540540540543,
+          "avg_pnl_pct": -0.0012907704040508207,
+          "total_pnl_pct": -0.04775850494988036,
+          "profit_factor": 0.698,
+          "max_drawdown_pct": 0.064
+        },
+        "BNB": {
+          "wins": 24,
+          "losses": 21,
+          "trades": 45,
+          "win_rate": 0.5333333333333333,
+          "avg_pnl_pct": -3.096538784077335e-05,
+          "total_pnl_pct": -0.0013934424528348009,
+          "profit_factor": 0.989,
+          "max_drawdown_pct": 0.0596
+        },
+        "XRP": {
+          "wins": 26,
+          "losses": 15,
+          "trades": 41,
+          "win_rate": 0.6341463414634146,
+          "avg_pnl_pct": 0.0015276492636510206,
+          "total_pnl_pct": 0.06263361980969184,
+          "profit_factor": 1.472,
+          "max_drawdown_pct": 0.0568
+        },
+        "DOGE": {
+          "wins": 13,
+          "losses": 20,
+          "trades": 33,
+          "win_rate": 0.3939393939393939,
+          "avg_pnl_pct": -0.0014387394778759667,
+          "total_pnl_pct": -0.047478402769906905,
+          "profit_factor": 0.637,
+          "max_drawdown_pct": 0.0499
+        },
+        "AVAX": {
+          "wins": 22,
+          "losses": 20,
+          "trades": 42,
+          "win_rate": 0.5238095238095238,
+          "avg_pnl_pct": 0.0007450726118272054,
+          "total_pnl_pct": 0.031293049696742625,
+          "profit_factor": 1.245,
+          "max_drawdown_pct": 0.0454
+        },
+        "LINK": {
+          "wins": 18,
+          "losses": 17,
+          "trades": 35,
+          "win_rate": 0.5142857142857142,
+          "avg_pnl_pct": -0.0007465940227131743,
+          "total_pnl_pct": -0.026130790794961098,
+          "profit_factor": 0.808,
+          "max_drawdown_pct": 0.0379
+        }
+      }
+    },
+    {
+      "variant_id": "edu_confluence_balanced",
+      "label": "Eğitim: Çoklu teyit (RSI+EMA+BB)",
+      "education_basis": [
+        "confirmation",
+        "RSI",
+        "EMA",
+        "BB"
+      ],
+      "win_rate": 0.404,
+      "trades": 99,
+      "total_pnl_pct": -0.2409,
+      "profit_factor": 0.084,
+      "max_drawdown_pct": 0.2409,
+      "rank_score": -0.3193,
+      "per_coin": {
+        "BTC": {
+          "wins": 0,
+          "losses": 2,
+          "trades": 2,
+          "win_rate": 0.0,
+          "avg_pnl_pct": -0.011346713160745344,
+          "total_pnl_pct": -0.022693426321490687,
+          "profit_factor": 0.0,
+          "max_drawdown_pct": 0.0227
+        },
+        "ETH": {
+          "wins": 2,
+          "losses": 8,
+          "trades": 10,
+          "win_rate": 0.2,
+          "avg_pnl_pct": -0.005734184684166216,
+          "total_pnl_pct": -0.05734184684166216,
+          "profit_factor": 0.375,
+          "max_drawdown_pct": 0.0617
+        },
+        "SOL": {
+          "wins": 7,
+          "losses": 11,
+          "trades": 18,
+          "win_rate": 0.3888888888888889,
+          "avg_pnl_pct": -0.001689684184509742,
+          "total_pnl_pct": -0.030414315321175354,
+          "profit_factor": 0.751,
+          "max_drawdown_pct": 0.0481
+        },
+        "BNB": {
+          "wins": 9,
+          "losses": 5,
+          "trades": 14,
+          "win_rate": 0.6428571428571429,
+          "avg_pnl_pct": -0.00019268199718203602,
+          "total_pnl_pct": -0.0026975479605485042,
+          "profit_factor": 0.948,
+          "max_drawdown_pct": 0.0395
+        },
+        "XRP": {
+          "wins": 7,
+          "losses": 7,
+          "trades": 14,
+          "win_rate": 0.5,
+          "avg_pnl_pct": 0.0015854354002137233,
+          "total_pnl_pct": 0.022196095602992127,
+          "profit_factor": 1.248,
+          "max_drawdown_pct": 0.0512
+        },
+        "DOGE": {
+          "wins": 4,
+          "losses": 9,
+          "trades": 13,
+          "win_rate": 0.3076923076923077,
+          "avg_pnl_pct": -0.005782900828907412,
+          "total_pnl_pct": -0.07517771077579635,
+          "profit_factor": 0.301,
+          "max_drawdown_pct": 0.0873
+        },
+        "AVAX": {
+          "wins": 4,
+          "losses": 6,
+          "trades": 10,
+          "win_rate": 0.4,
+          "avg_pnl_pct": -0.0030652206864065557,
+          "total_pnl_pct": -0.030652206864065557,
+          "profit_factor": 0.51,
+          "max_drawdown_pct": 0.0495
+        },
+        "LINK": {
+          "wins": 7,
+          "losses": 11,
+          "trades": 18,
+          "win_rate": 0.3888888888888889,
+          "avg_pnl_pct": -0.0024497927405402746,
+          "total_pnl_pct": -0.04409626932972494,
+          "profit_factor": 0.655,
+          "max_drawdown_pct": 0.0514
+        }
+      }
+    },
+    {
+      "variant_id": "edu_macd_bb_combo",
+      "label": "Eğitim: MACD + Bollinger kombinasyon",
+      "education_basis": [
+        "MACD",
+        "BB",
+        "confirmation"
+      ],
+      "win_rate": 0.4842,
+      "trades": 2974,
+      "total_pnl_pct": -0.8375,
+      "profit_factor": 0.283,
+      "max_drawdown_pct": 1.014,
+      "rank_score": -1.4349,
+      "per_coin": {
+        "BTC": {
+          "wins": 163,
+          "losses": 182,
+          "trades": 345,
+          "win_rate": 0.47246376811594204,
+          "avg_pnl_pct": -0.0010236823257887516,
+          "total_pnl_pct": -0.35317040239711933,
+          "profit_factor": 0.757,
+          "max_drawdown_pct": 0.441
+        },
+        "ETH": {
+          "wins": 159,
+          "losses": 180,
+          "trades": 339,
+          "win_rate": 0.4690265486725664,
+          "avg_pnl_pct": -0.00038875443978054385,
+          "total_pnl_pct": -0.13178775508560436,
+          "profit_factor": 0.917,
+          "max_drawdown_pct": 0.2371
+        },
+        "SOL": {
+          "wins": 182,
+          "losses": 207,
+          "trades": 389,
+          "win_rate": 0.46786632390745503,
+          "avg_pnl_pct": -0.00026279740041039977,
+          "total_pnl_pct": -0.10222818875964551,
+          "profit_factor": 0.947,
+          "max_drawdown_pct": 0.249
+        },
+        "BNB": {
+          "wins": 175,
+          "losses": 169,
+          "trades": 344,
+          "win_rate": 0.5087209302325582,
+          "avg_pnl_pct": -0.00035564551922802497,
+          "total_pnl_pct": -0.12234205861444059,
+          "profit_factor": 0.906,
+          "max_drawdown_pct": 0.241
+        },
+        "XRP": {
+          "wins": 186,
+          "losses": 213,
+          "trades": 399,
+          "win_rate": 0.46616541353383456,
+          "avg_pnl_pct": -0.0007631001264230976,
+          "total_pnl_pct": -0.304476950442816,
+          "profit_factor": 0.844,
+          "max_drawdown_pct": 0.4534
+        },
+        "DOGE": {
+          "wins": 204,
+          "losses": 204,
+          "trades": 408,
+          "win_rate": 0.5,
+          "avg_pnl_pct": 0.0008096213989601767,
+          "total_pnl_pct": 0.3303255307757521,
+          "profit_factor": 1.19,
+          "max_drawdown_pct": 0.131
+        },
+        "AVAX": {
+          "wins": 191,
+          "losses": 198,
+          "trades": 389,
+          "win_rate": 0.4910025706940874,
+          "avg_pnl_pct": -0.00029624036388581235,
+          "total_pnl_pct": -0.115237501551581,
+          "profit_factor": 0.935,
+          "max_drawdown_pct": 0.247
+        },
+        "LINK": {
+          "wins": 180,
+          "losses": 181,
+          "trades": 361,
+          "win_rate": 0.4986149584487535,
+          "avg_pnl_pct": -0.00010701323193397031,
+          "total_pnl_pct": -0.03863177672816328,
+          "profit_factor": 0.977,
+          "max_drawdown_pct": 0.2558
+        }
+      }
+    },
+    {
+      "variant_id": "edu_mean_reversion_bb_rsi",
+      "label": "Eğitim: Mean reversion (BB+RSI)",
+      "education_basis": [
+        "BB",
+        "RSI",
+        "mean_reversion"
+      ],
+      "win_rate": 0.5218,
+      "trades": 2476,
+      "total_pnl_pct": -1.1566,
+      "profit_factor": 0.14,
+      "max_drawdown_pct": 1.2402,
+      "rank_score": -2.0956,
+      "per_coin": {
+        "BTC": {
+          "wins": 237,
+          "losses": 200,
+          "trades": 437,
+          "win_rate": 0.5423340961098398,
+          "avg_pnl_pct": -0.0009713515454938236,
+          "total_pnl_pct": -0.4244806253808009,
+          "profit_factor": 0.708,
+          "max_drawdown_pct": 0.4826
+        },
+        "ETH": {
+          "wins": 149,
+          "losses": 135,
+          "trades": 284,
+          "win_rate": 0.5246478873239436,
+          "avg_pnl_pct": -0.00033766976736503406,
+          "total_pnl_pct": -0.09589821393166967,
+          "profit_factor": 0.904,
+          "max_drawdown_pct": 0.3018
+        },
+        "SOL": {
+          "wins": 145,
+          "losses": 121,
+          "trades": 266,
+          "win_rate": 0.5451127819548872,
+          "avg_pnl_pct": 0.0003926232256622074,
+          "total_pnl_pct": 0.10443777802614716,
+          "profit_factor": 1.115,
+          "max_drawdown_pct": 0.1889
+        },
+        "BNB": {
+          "wins": 221,
+          "losses": 191,
+          "trades": 412,
+          "win_rate": 0.5364077669902912,
+          "avg_pnl_pct": -0.0005049843708425798,
+          "total_pnl_pct": -0.2080535607871429,
+          "profit_factor": 0.833,
+          "max_drawdown_pct": 0.3647
+        },
+        "XRP": {
+          "wins": 158,
+          "losses": 139,
+          "trades": 297,
+          "win_rate": 0.531986531986532,
+          "avg_pnl_pct": -0.0003719385942314628,
+          "total_pnl_pct": -0.11046576248674445,
+          "profit_factor": 0.903,
+          "max_drawdown_pct": 0.2496
+        },
+        "DOGE": {
+          "wins": 117,
+          "losses": 133,
+          "trades": 250,
+          "win_rate": 0.468,
+          "avg_pnl_pct": -0.0011937282034337232,
+          "total_pnl_pct": -0.29843205085843083,
+          "profit_factor": 0.733,
+          "max_drawdown_pct": 0.3267
+        },
+        "AVAX": {
+          "wins": 134,
+          "losses": 147,
+          "trades": 281,
+          "win_rate": 0.47686832740213525,
+          "avg_pnl_pct": -0.0007377741250449257,
+          "total_pnl_pct": -0.2073145291376241,
+          "profit_factor": 0.802,
+          "max_drawdown_pct": 0.2675
+        },
+        "LINK": {
+          "wins": 131,
+          "losses": 118,
+          "trades": 249,
+          "win_rate": 0.5261044176706827,
+          "avg_pnl_pct": 0.0003357706494611441,
+          "total_pnl_pct": 0.08360689171582487,
+          "profit_factor": 1.098,
+          "max_drawdown_pct": 0.1419
+        }
+      }
+    },
+    {
+      "variant_id": "edu_trend_ema_rsi",
+      "label": "Eğitim: Trend takip (EMA+RSI)",
+      "education_basis": [
+        "EMA",
+        "RSI",
+        "trend_following"
+      ],
+      "win_rate": 0.4676,
+      "trades": 6546,
+      "total_pnl_pct": -3.339,
+      "profit_factor": 0.058,
+      "max_drawdown_pct": 3.5448,
+      "rank_score": -6.4999,
+      "per_coin": {
+        "BTC": {
+          "wins": 437,
+          "losses": 357,
+          "trades": 794,
+          "win_rate": 0.5503778337531486,
+          "avg_pnl_pct": 0.00025910323037641174,
+          "total_pnl_pct": 0.20572796491887094,
+          "profit_factor": 1.065,
+          "max_drawdown_pct": 0.4642
+        },
+        "ETH": {
+          "wins": 391,
+          "losses": 414,
+          "trades": 805,
+          "win_rate": 0.4857142857142857,
+          "avg_pnl_pct": -0.00021382451646340654,
+          "total_pnl_pct": -0.17212873575304227,
+          "profit_factor": 0.954,
+          "max_drawdown_pct": 0.5264
+        },
+        "SOL": {
+          "wins": 383,
+          "losses": 456,
+          "trades": 839,
+          "win_rate": 0.4564958283671037,
+          "avg_pnl_pct": -0.00018092602457335513,
+          "total_pnl_pct": -0.15179693461704497,
+          "profit_factor": 0.966,
+          "max_drawdown_pct": 0.4249
+        },
+        "BNB": {
+          "wins": 416,
+          "losses": 423,
+          "trades": 839,
+          "win_rate": 0.4958283671036949,
+          "avg_pnl_pct": -0.0005391679471062047,
+          "total_pnl_pct": -0.45236190762210576,
+          "profit_factor": 0.859,
+          "max_drawdown_pct": 0.5791
+        },
+        "XRP": {
+          "wins": 390,
+          "losses": 418,
+          "trades": 808,
+          "win_rate": 0.48267326732673266,
+          "avg_pnl_pct": -4.4915144747810925e-05,
+          "total_pnl_pct": -0.03629143695623123,
+          "profit_factor": 0.99,
+          "max_drawdown_pct": 0.4468
+        },
+        "DOGE": {
+          "wins": 307,
+          "losses": 470,
+          "trades": 777,
+          "win_rate": 0.39510939510939513,
+          "avg_pnl_pct": -0.0020035278074428432,
+          "total_pnl_pct": -1.5567411063830892,
+          "profit_factor": 0.659,
+          "max_drawdown_pct": 1.6795
+        },
+        "AVAX": {
+          "wins": 357,
+          "losses": 455,
+          "trades": 812,
+          "win_rate": 0.4396551724137931,
+          "avg_pnl_pct": -0.000658993043308738,
+          "total_pnl_pct": -0.5351023511666952,
+          "profit_factor": 0.871,
+          "max_drawdown_pct": 0.6926
+        },
+        "LINK": {
+          "wins": 380,
+          "losses": 492,
+          "trades": 872,
+          "win_rate": 0.43577981651376146,
+          "avg_pnl_pct": -0.0007343216970469107,
+          "total_pnl_pct": -0.6403285198249061,
+          "profit_factor": 0.852,
+          "max_drawdown_pct": 0.6422
+        }
+      }
+    },
+    {
+      "variant_id": "edu_scalp_fast",
+      "label": "Eğitim: Hızlı scalp (mevcut demo profiline yakın)",
+      "education_basis": [
+        "RSI",
+        "EMA",
+        "BB",
+        "MOM",
+        "scalp"
+      ],
+      "win_rate": 0.4969,
+      "trades": 14445,
+      "total_pnl_pct": -15.2167,
+      "profit_factor": 0.0,
+      "max_drawdown_pct": 15.2167,
+      "rank_score": -30.2595,
+      "per_coin": {
+        "BTC": {
+          "wins": 943,
+          "losses": 861,
+          "trades": 1804,
+          "win_rate": 0.5227272727272727,
+          "avg_pnl_pct": -0.0008886123230089858,
+          "total_pnl_pct": -1.6030566307082104,
+          "profit_factor": 0.734,
+          "max_drawdown_pct": 1.6417
+        },
+        "ETH": {
+          "wins": 871,
+          "losses": 885,
+          "trades": 1756,
+          "win_rate": 0.4960136674259681,
+          "avg_pnl_pct": -0.0011773279069446684,
+          "total_pnl_pct": -2.0673878045948375,
+          "profit_factor": 0.707,
+          "max_drawdown_pct": 2.1364
+        },
+        "SOL": {
+          "wins": 930,
+          "losses": 965,
+          "trades": 1895,
+          "win_rate": 0.49076517150395776,
+          "avg_pnl_pct": -0.0011018480374740674,
+          "total_pnl_pct": -2.0880020310133576,
+          "profit_factor": 0.736,
+          "max_drawdown_pct": 2.0978
+        },
+        "BNB": {
+          "wins": 849,
+          "losses": 829,
+          "trades": 1678,
+          "win_rate": 0.5059594755661502,
+          "avg_pnl_pct": -0.0007587680298488874,
+          "total_pnl_pct": -1.273212754086433,
+          "profit_factor": 0.755,
+          "max_drawdown_pct": 1.2896
+        },
+        "XRP": {
+          "wins": 987,
+          "losses": 895,
+          "trades": 1882,
+          "win_rate": 0.524442082890542,
+          "avg_pnl_pct": -0.0007418432328875615,
+          "total_pnl_pct": -1.3961489642943907,
+          "profit_factor": 0.804,
+          "max_drawdown_pct": 1.4059
+        },
+        "DOGE": {
+          "wins": 847,
+          "losses": 933,
+          "trades": 1780,
+          "win_rate": 0.47584269662921347,
+          "avg_pnl_pct": -0.0014764339280873106,
+          "total_pnl_pct": -2.628052391995413,
+          "profit_factor": 0.659,
+          "max_drawdown_pct": 2.6545
+        },
+        "AVAX": {
+          "wins": 871,
+          "losses": 919,
+          "trades": 1790,
+          "win_rate": 0.48659217877094973,
+          "avg_pnl_pct": -0.001070070877961238,
+          "total_pnl_pct": -1.9154268715506162,
+          "profit_factor": 0.734,
+          "max_drawdown_pct": 1.9836
+        },
+        "LINK": {
+          "wins": 879,
+          "losses": 981,
+          "trades": 1860,
+          "win_rate": 0.47258064516129034,
+          "avg_pnl_pct": -0.0012072097532517844,
+          "total_pnl_pct": -2.245410141048319,
+          "profit_factor": 0.709,
+          "max_drawdown_pct": 2.2498
+        }
+      }
+    },
+    {
+      "variant_id": "edu_momentum_macd_ema",
+      "label": "Eğitim: MACD momentum + EMA filtre",
+      "education_basis": [
+        "MACD",
+        "EMA",
+        "MOM"
+      ],
+      "win_rate": 0.4645,
+      "trades": 32086,
+      "total_pnl_pct": -17.7836,
+      "profit_factor": 0.031,
+      "max_drawdown_pct": 17.7836,
+      "rank_score": -35.3969,
+      "per_coin": {
+        "BTC": {
+          "wins": 1644,
+          "losses": 1942,
+          "trades": 3586,
+          "win_rate": 0.45844952593418853,
+          "avg_pnl_pct": -0.0006901628059903289,
+          "total_pnl_pct": -2.4749238222813195,
+          "profit_factor": 0.853,
+          "max_drawdown_pct": 3.2141
+        },
+        "ETH": {
+          "wins": 1736,
+          "losses": 2223,
+          "trades": 3959,
+          "win_rate": 0.4384945693356908,
+          "avg_pnl_pct": -0.0008780440355236465,
+          "total_pnl_pct": -3.4761763366381166,
+          "profit_factor": 0.829,
+          "max_drawdown_pct": 3.8622
+        },
+        "SOL": {
+          "wins": 1838,
+          "losses": 2288,
+          "trades": 4126,
+          "win_rate": 0.44546776539020844,
+          "avg_pnl_pct": -0.0007279699351511173,
+          "total_pnl_pct": -3.00360395243351,
+          "profit_factor": 0.866,
+          "max_drawdown_pct": 3.6061
+        },
+        "BNB": {
+          "wins": 1847,
+          "losses": 2085,
+          "trades": 3932,
+          "win_rate": 0.469735503560529,
+          "avg_pnl_pct": -0.0011670172884067343,
+          "total_pnl_pct": -4.588711978015279,
+          "profit_factor": 0.733,
+          "max_drawdown_pct": 4.6884
+        },
+        "XRP": {
+          "wins": 1907,
+          "losses": 2151,
+          "trades": 4058,
+          "win_rate": 0.4699359290290784,
+          "avg_pnl_pct": -0.00033107455095124437,
+          "total_pnl_pct": -1.3435005277601497,
+          "profit_factor": 0.93,
+          "max_drawdown_pct": 2.6261
+        },
+        "DOGE": {
+          "wins": 1989,
+          "losses": 2125,
+          "trades": 4114,
+          "win_rate": 0.4834710743801653,
+          "avg_pnl_pct": 0.0001399921132821153,
+          "total_pnl_pct": 0.5759275540426223,
+          "profit_factor": 1.029,
+          "max_drawdown_pct": 1.4693
+        },
+        "AVAX": {
+          "wins": 1884,
+          "losses": 2120,
+          "trades": 4004,
+          "win_rate": 0.47052947052947053,
+          "avg_pnl_pct": -0.000521401045788274,
+          "total_pnl_pct": -2.087689787336249,
+          "profit_factor": 0.896,
+          "max_drawdown_pct": 3.0778
+        },
+        "LINK": {
+          "wins": 2060,
+          "losses": 2247,
+          "trades": 4307,
+          "win_rate": 0.4782911539354539,
+          "avg_pnl_pct": -0.0003215531467513454,
+          "total_pnl_pct": -1.3849294030580448,
+          "profit_factor": 0.934,
+          "max_drawdown_pct": 2.7668
+        }
+      }
+    }
+  ],
+  "best_variant_id": "edu_conservative",
+  "best_summary": {
+    "variant_id": "edu_conservative",
+    "label": "Eğitim: Muhafazakâr (yüksek eşik, düşük risk)",
+    "win_rate": 0.4869,
+    "trades": 306,
+    "total_pnl_pct": -0.186,
+    "profit_factor": 0.336,
+    "max_drawdown_pct": 0.2063,
+    "rank_score": -0.1175
+  }
+}

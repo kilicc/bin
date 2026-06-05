@@ -1,0 +1,1036 @@
+# FINAL RESTART REPORT
+
+- Pipeline run: `2026-05-23T13:29:16.298104+00:00`
+- Reason: `V2 clean start`
+
+
+## 1. System Change Report
+
+```json
+{
+  "created_at": "2026-05-23T13:29:16.329724+00:00",
+  "git_head": "unknown",
+  "git": {
+    "error": "warning: Not a git repository. Use --no-index to compare two paths outside a working tree\nusage: git diff --no-index [<options>] <path> <path>\n\nDiff output format options\n    -p, --patch           generate patch\n    -s, --no-patch        suppress diff output\n    -u                    generate patch\n    -U, --unified[=<n>]   generate diffs with <n> lines context\n    -W, --[no-]function-context\n                          generate diffs with <n> lines context\n    --raw                 generate the diff in raw format\n    --patch-with-raw      synonym for '-p --raw'\n    --patch-with-stat     synonym for '-p --stat'\n    --numstat             machine friendly --stat\n    --shortstat           output only the last line of --stat\n    -X, --dirstat[=<param1>,<param2>...]\n                          output the distribution of relative amount of changes for each sub-directory\n    --cumulative          synonym for --dirstat=cumulative\n    --dirstat-by-file[=<param1>,<param2>...]\n                          synonym for --dirstat=files,<param1>,<param2>...\n    --check               warn if changes introduce conflict markers or whitespace errors\n    --summary             condensed summary such as creations, renames and mode changes\n    --name-only           show only names of changed files\n    --name-status         show only names and status of changed files\n    --stat[=<width>[,<name-width>[,<count>]]]\n                          generate diffstat\n    --stat-width <width>  generate diffstat with a given width\n    --stat-name-width <width>\n                          generate diffstat with a given name width\n    --stat-graph-width <width>\n                          generate diffstat with a given graph width\n    --stat-count <count>  generate diffstat with limited lines\n    --[no-]compact-summary\n                          generate compact summary in diffstat\n    --binary              output a binary diff that can be applied\n    --[no-]full-index     show full pre- and post-image object names on the \"index\" lines\n    --[no-]color[=<when>] show colored diff\n    --ws-error-highlight <kind>\n                          highlight whitespace errors in the 'context', 'old' or 'new' lines in the diff\n    -z                    do not munge pathnames and use NULs as output field terminators in --raw or --numstat\n    --[no-]abbrev[=<n>]   use <n> digits to display object names\n    --src-prefix <prefix> show the given source prefix instead of \"a/\"\n    --dst-prefix <prefix> show the given destination prefix instead of \"b/\"\n    --line-prefix <prefix>\n                          prepend an additional prefix to every line of output\n    --no-prefix           do not show any source or destination prefix\n    --default-prefix      use default prefixes a/ and b/\n    --inter-hunk-context <n>\n                          show context between diff hunks up to the specified number of lines\n    --output-indicator-new <char>\n                          specify the character to indicate a new line instead of '+'\n    --output-indicator-old <char>\n                          specify the character to indicate an old line instead of '-'\n    --output-indicator-context <char>\n                          specify the character to indicate a context instead of ' '\n\nDiff rename options\n    -B, --break-rewrites[=<n>[/<m>]]\n                          break complete rewrite changes into pairs of delete and create\n    -M, --find-renames[=<n>]\n                          detect renames\n    -D, --irreversible-delete\n                          omit the preimage for deletes\n    -C, --find-copies[=<n>]\n                          detect copies\n    --[no-]find-copies-harder\n                          use unmodified files as source to find copies\n    --no-renames          disable rename detection\n    --[no-]rename-empty   use empty blobs as rename source\n    --[no-]follow         continue listing the history of a file beyond renames\n    -l <n>                prevent rename/copy detection if the number of rename/copy targets exceeds given limit\n\nDiff algorithm options\n    --minimal             produce the smallest possible diff\n    -w, --ignore-all-space\n                          ignore whitespace when comparing lines\n    -b, --ignore-space-change\n                          ignore changes in amount of whitespace\n    --ignore-space-at-eol ignore changes in whitespace at EOL\n    --ignore-cr-at-eol    ignore carrier-return at the end of line\n    --ignore-blank-lines  ignore changes whose lines are all blank\n    -I, --[no-]ignore-matching-lines <regex>\n                          ignore changes whose all lines match <regex>\n    --[no-]indent-heuristic\n                          heuristic to shift diff hunk boundaries for easy reading\n    --patience            generate diff using the \"patience diff\" algorithm\n    --histogram           generate diff using the \"histogram diff\" algorithm\n    --diff-algorithm <algorithm>\n                          choose a diff algorithm\n    --anchored <text>     generate diff using the \"anchored diff\" algorithm\n    --word-diff[=<mode>]  show word diff, using <mode> to delimit changed words\n    --word-diff-regex <regex>\n                          use <regex> to decide what a word is\n    --color-words[=<regex>]\n                          equivalent to --word-diff=color --word-diff-regex=<regex>\n    --[no-]color-moved[=<mode>]\n                          moved lines of code are colored differently\n    --[no-]color-moved-ws <mode>\n                          how white spaces are ignored in --color-moved\n\nOther diff options\n    --[no-]relative[=<prefix>]\n                          when run from subdir, exclude changes outside and show relative paths\n    -a, --[no-]text       treat all files as text\n    -R                    swap two inputs, reverse the diff\n    --[no-]exit-code      exit with 1 if there were differences, 0 otherwise\n    --[no-]quiet          disable all output of the program\n    --[no-]ext-diff       allow an external diff helper to be executed\n    --[no-]textconv       run external text conversion filters when comparing binary files\n    --ignore-submodules[=<when>]\n                          ignore changes to submodules in the diff generation\n    --submodule[=<format>]\n                          specify how differences in submodules are shown\n    --ita-invisible-in-index\n                          hide 'git add -N' entries from the index\n    --ita-visible-in-index\n                          treat 'git add -N' entries as real in the index\n    -S <string>           look for differences that change the number of occurrences of the specified string\n    -G <regex>            look for differences that change the number of occurrences of the specified regex\n    --pickaxe-all         show all changes in the changeset with -S or -G\n    --pickaxe-regex       treat <string> in -S as extended POSIX regular expression\n    -O <file>             control the order in which files appear in the output\n    --rotate-to <path>    show the change in the specified path first\n    --skip-to <path>      skip the output to the specified path\n    --find-object <object-id>\n                          look for differences that change the number of occurrences of the specified object\n    --diff-filter [(A|C|D|M|R|T|U|X|B)...[*]]\n                          select files by diff type\n    --output <file>       output to a specific file\n\n",
+    "files": []
+  },
+  "v2_audit": {
+    "evrim": {
+      "role": "v2_live_meta_adaptive_brain",
+      "keys_checked": 14,
+      "missing_from_live": [],
+      "extra_in_live": [],
+      "value_drift": []
+    },
+    "berserk": {
+      "role": "v2_micro_momentum_velocity_lab",
+      "keys_checked": 8,
+      "missing_from_live": [],
+      "extra_in_live": [],
+      "value_drift": []
+    },
+    "hunter": {
+      "role": "v2_breakout_spike_liquidation_hunter",
+      "keys_checked": 12,
+      "missing_from_live": [],
+      "extra_in_live": [],
+      "value_drift": []
+    },
+    "chop_master": {
+      "role": "v2_chop_mean_reversion_lab",
+      "keys_checked": 11,
+      "missing_from_live": [],
+      "extra_in_live": [],
+      "value_drift": []
+    },
+    "sentinel": {
+      "role": "v2_quality_trend_risk_benchmark",
+      "keys_checked": 8,
+      "missing_from_live": [],
+      "extra_in_live": [],
+      "value_drift": []
+    }
+  },
+  "runtime": {
+    "evrim_config": {
+      "active_config_version": "evrim_cfg_active_20260523_131349_42029",
+      "candidate_config_version": "evrim_cfg_candidate_20260523_132718_42838",
+      "pending_approval": true,
+      "candidate_status": "backtest",
+      "last_candidate_config_status": "backtest",
+      "candidate_meta": {
+        "source": "param_validator",
+        "task_type": "backtest",
+        "risk_change": "",
+        "expected_improvement": "",
+        "source_modes": [],
+        "approval_required": true,
+        "backtest_passed": true,
+        "created_at": "2026-05-23T13:27:18.094763+00:00"
+      },
+      "trading_continues_during_learning": true,
+      "learning_blocks_trading": false
+    },
+    "evrim_learning": {
+      "learning_active": true,
+      "learning_blocks_trading": false,
+      "trading_continues_during_learning": true,
+      "learning_task_type": "paper_forward",
+      "last_learning_result": {
+        "ok": true
+      },
+      "last_candidate_config_status": "backtest",
+      "risk_mode_during_learning": "normal",
+      "updated_at": "2026-05-23T13:27:18.095348+00:00"
+    },
+    "cross_mode": {
+      "berserk": {
+        "suggested_min_move_pct": 0.09,
+        "suggested_min_score": 48,
+        "suggested_tp_stake_pct": 0.0042,
+        "suggested_sl_stake_pct": 0.0024,
+        "suggested_spread_limit": 0.12,
+        "best_symbols": [
+          "PHBUSDT",
+          "PORT3USDT",
+          "INUSDT",
+          "YBUSDT",
+          "BEATUSDT"
+        ],
+        "worst_symbols": [
+          "ATAUSDT",
+          "TRUUSDT",
+          "SLERFUSDT",
+          "SXPUSDT",
+          "CATIUSDT"
+        ],
+        "best_micro_signal": "Medium",
+        "worst_micro_signal": "Strong",
+        "fee_damage_score": 0.1989,
+        "spread_damage_score": 0.0,
+        "slippage_damage_score": 0.0,
+        "avg_hold_seconds": 476.5,
+        "trades_per_minute": 0.1259,
+        "confidence": 0.5,
+        "win_rate": 39.0,
+        "profit_factor": 0.615,
+        "avg_win": 4.55,
+        "avg_loss": 4.73,
+        "exit_reasons": {
+          "SL": 59,
+          "TP": 28,
+          "STALE-RELEASE": 10,
+          "SPIKE-QUICK": 3
+        },
+        "spread_risk_distribution": {
+          "none": 100
+        },
+        "min_stake_source_distribution": {
+          "mode_profile": 100
+        }
+      },
+      "hunter": {},
+      "chop_master": {},
+      "sentinel": {
+        "learning": {
+          "quality_signal_rank": [
+            {
+              "symbol": "COIN1USDT",
+              "pnl": 1.0,
+              "n": 1
+            },
+            {
+              "symbol": "COIN3USDT",
+              "pnl": 1.0,
+              "n": 1
+            },
+            {
+              "symbol": "COIN5USDT",
+              "pnl": 1.0,
+              "n": 1
+            },
+            {
+              "symbol": "COIN7USDT",
+              "pnl": 1.0,
+              "n": 1
+            },
+            {
+              "symbol": "COIN9USDT",
+              "pnl": 1.0,
+              "n": 1
+            },
+            {
+              "symbol": "COIN11USDT",
+              "pnl": 1.0,
+              "n": 1
+            },
+            {
+              "symbol": "COIN13USDT",
+              "pnl": 1.0,
+              "n": 1
+            },
+            {
+              "symbol": "COIN15USDT",
+              "pnl": 1.0,
+              "n": 1
+            },
+            {
+              "symbol": "COIN17USDT",
+             
+```
+
+## 2. Backup Report
+
+```json
+{
+  "created_at": "2026-05-23T13:29:16.531675+00:00",
+  "backup_dir": "data/backups/full_reset_before_evrim_restart/20260523_132916",
+  "copied_files": [
+    {
+      "label": "mode_profiles",
+      "source": "data/mode_profiles.json",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/mode_profiles.json",
+      "bytes": 11413,
+      "masked": false
+    },
+    {
+      "label": "parallel_universes",
+      "source": "data/parallel_universes.json",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/parallel_universes.json",
+      "bytes": 2335398,
+      "masked": false
+    },
+    {
+      "label": "panel_strategy_state",
+      "source": "data/panel_strategy_state.json",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/panel_strategy_state.json",
+      "bytes": 222,
+      "masked": false
+    },
+    {
+      "label": "data_lake_db",
+      "source": "data/data_lake.db",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/data_lake.db",
+      "bytes": 15302656,
+      "masked": false
+    },
+    {
+      "label": "state_db",
+      "source": "data/binance_elite_8300_9005_state.db",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/binance_elite_8300_9005_state.db",
+      "bytes": 16384,
+      "masked": false
+    },
+    {
+      "label": "evrim_config_versions",
+      "source": "data/evrim_config_versions.json",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/evrim_config_versions.json",
+      "bytes": 3209,
+      "masked": false
+    },
+    {
+      "label": "evrim_learning_runtime",
+      "source": "data/evrim_learning_runtime.json",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/evrim_learning_runtime.json",
+      "bytes": 338,
+      "masked": false
+    },
+    {
+      "label": "evrim_config_suggestions",
+      "source": "data/evrim_config_suggestions.json",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/evrim_config_suggestions.json",
+      "bytes": 7232,
+      "masked": false
+    },
+    {
+      "label": "evrim_adaptive_state",
+      "source": "data/evrim_adaptive_state.json",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/evrim_adaptive_state.json",
+      "bytes": 85849,
+      "masked": false
+    },
+    {
+      "label": "evrim_training_state",
+      "source": "data/evrim_training_state.json",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/evrim_training_state.json",
+      "bytes": 51274,
+      "masked": false
+    },
+    {
+      "label": "evrim_meta_learning_state",
+      "source": "data/evrim_meta_learning_state.json",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/evrim_meta_learning_state.json",
+      "bytes": 2078,
+      "masked": false
+    },
+    {
+      "label": "elite_9005_learning_registry",
+      "source": "data/elite_9005_learning_registry.json",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/elite_9005_learning_registry.json",
+      "bytes": 359368,
+      "masked": false
+    },
+    {
+      "label": "elite_9005_proposals",
+      "source": "data/elite_9005_proposals.json",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/elite_9005_proposals.json",
+      "bytes": 4166,
+      "masked": false
+    },
+    {
+      "label": "elite_sl_emergency_registry",
+      "source": "data/elite_sl_emergency_registry.json",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/elite_sl_emergency_registry.json",
+      "bytes": 22291,
+      "masked": false
+    },
+    {
+      "label": "scenario_env",
+      "source": "scenarios/binance_elite_8300_9005.env",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/binance_elite_8300_9005.env",
+      "bytes": 3700,
+      "masked": true
+    },
+    {
+      "label": "log_tail",
+      "source": "logs/binance_elite_8300_9005.log",
+      "dest": "data/backups/full_reset_before_evrim_restart/20260523_132916/binance_elite_8300_9005.log",
+      "bytes": 368295,
+      "masked": false
+    }
+  ],
+  "table_counts_before_reset": {
+    "data_lake": {
+      "mode_decisions": {
+        "berserk": 2451,
+        "chop_master": 1981,
+        "evrim": 1934,
+        "hunter": 18742,
+        "sentinel": 6867
+      },
+      "paper_trades": {
+        "BASUSDT": 1,
+        "BEATUSDT": 1,
+        "CATIUSDT": 1,
+        "COLLECTUSDT": 1,
+        "COMPUSDT": 1,
+        "ENAUSDT": 1,
+        "HOMEUSDT": 1,
+        "INJUSDT": 1,
+        "INUSDT": 2,
+        "PTBUSDT": 1,
+        "STRKUSDT": 1,
+        "berserk": 2125,
+        "chop_master": 884,
+        "hunter": 367,
+        "sentinel": 16
+      },
+      "live_trades": {
+        "evrim": 12
+      },
+      "mode_metrics": {
+        "berserk": 84,
+        "chop_master": 83,
+        "evrim": 86,
+        "hunter": 83,
+        "sentinel": 83
+      }
+    },
+    "state_db": {
+      "closed_trades": 0,
+      "meta": 0
+    }
+  },
+  "active_futures_mode_before_reset": "evrim",
+  "config_versions": {
+    "active_config_version": "evrim_cfg_active_20260523_131349_42029",
+    "candidate_config_version": "evrim_cfg_candidate_20260523_132718_42838",
+    "pending_approval": true,
+    "candidate_status": "backtest",
+    "last_candidate_config_status": "backtest",
+    "candidate_meta": {
+      "source": "param_validator",
+      "task_type": "backtest",
+      "risk_change": "",
+      "expected_improvement": "",
+      "source_modes": [],
+      "approval_required": true,
+      "backtest_passed": true,
+      "created_at": "2026-05-23T13:27:18.094763+00:00"
+    },
+    "trading_continues_during_learning": true,
+    "learning_blocks_trading": false
+  },
+  "git_head": "",
+  "report_path": "data/reports/SYSTEM_CHANGE_REPORT_20260523_132916.md",
+  "total_bytes": 18573873,
+  "backup_verified": true,
+  "verification_errors": []
+}
+```
+
+## 3. Training Snapshot
+
+```json
+{
+  "created_at": "2026-05-23T13:29:16.751859+00:00",
+  "source": "pre_reset_all_modes",
+  "reason": "V2 clean start",
+  "active_futures_mode_before_reset": "evrim",
+  "mode_summaries": {
+    "evrim": {
+      "book": {
+        "closed_trades": 0,
+        "open_trades": 0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "realized_pnl": 0,
+        "starting_balance": null
+      },
+      "data_lake": {
+        "mode_id": "evrim",
+        "decisions": 500,
+        "profit_factor": 0.0,
+        "win_rate": 0.0,
+        "trades": 0,
+        "fee_gross_ratio": 0.0,
+        "top_rejects": [
+          [
+            "PHBUSDT: 1 SL-EMERGENCY / 72sa",
+            1
+          ]
+        ]
+      },
+      "config_version": {
+        "active_config_version": "evrim_cfg_active_20260523_131349_42029",
+        "candidate_config_version": "evrim_cfg_candidate_20260523_132718_42838",
+        "pending_approval": true,
+        "candidate_status": "backtest",
+        "last_candidate_config_status": "backtest",
+        "candidate_meta": {
+          "source": "param_validator",
+          "task_type": "backtest",
+          "risk_change": "",
+          "expected_improvement": "",
+          "source_modes": [],
+          "approval_required": true,
+          "backtest_passed": true,
+          "created_at": "2026-05-23T13:27:18.094763+00:00"
+        },
+        "trading_continues_during_learning": true,
+        "learning_blocks_trading": false
+      },
+      "learning_runtime": {
+        "learning_active": true,
+        "learning_blocks_trading": false,
+        "trading_continues_during_learning": true,
+        "learning_task_type": "paper_forward",
+        "last_learning_result": {
+          "ok": true
+        },
+        "last_candidate_config_status": "backtest",
+        "risk_mode_during_learning": "normal",
+        "updated_at": "2026-05-23T13:27:18.095348+00:00"
+      },
+      "metrics": {
+        "evrim_v2": true,
+        "final_score": null,
+        "meta_tier": null,
+        "meta_score_breakdown": {},
+        "mode_contributions": {
+          "berserk_momentum": 39.0,
+          "hunter_breakout": null,
+          "chop_mean_reversion": null,
+          "sentinel_safe": 56.17
+        },
+        "progress": {
+          "daily_start_balance": 5000.0,
+          "current_equity": 5000.0,
+          "target_equity": 10000.0,
+          "progress_to_2x_pct": -50.0,
+          "hourly_required_return": 4.0,
+          "current_hourly_net_return": 0.0,
+          "remaining_gap_to_target": 4.0,
+          "remaining_usd_to_target": 5000.0,
+          "aggression_level": 0.85,
+          "profit_lock_active": false,
+          "realized_pnl": 0
+        },
+        "risk_level": "normal",
+        "risk_veto": false,
+        "recovery_mode": false,
+        "recovery_reason": "",
+        "exploration_mode": false,
+        "exploration_reason": "",
+        "config_suggestions_pending": 18,
+        "config_suggestions": [
+          {
+            "id": "evrim_cfg_1779541533",
+            "created_at": "2026-05-23T13:05:33.456650+00:00",
+            "source": "unittest",
+            "reason": "test",
+            "changes": {
+              "tp_stake_pct": 0.0099
+            },
+            "approval_required": true,
+            "backtest_passed": false,
+            "status": "pending"
+          },
+          {
+            "id": "evrim_cfg_1779541533",
+            "created_at": "2026-05-23T13:05:33.459615+00:00",
+            "source": "unittest",
+            "reason": "root_change_test",
+            "changes": {
+              "max_open": 15,
+              "tp_stake_pct": 0.01
+            },
+            "approval_required": true,
+            "backtest_passed": false,
+            "status": "pending"
+          },
+          {
+            "id": "evrim_cfg_1779541533",
+            "created_at": "2026-05-23T13:05:33.464198+00:00",
+            "source": "unittest",
+            "reason": "no_approval",
+            "changes": {
+              "max_open": 99
+            },
+            "approval_required": true,
+            "backtest_passed": false,
+            "status": "pending"
+          },
+          {
+            "id": "evrim_cfg_1779541567",
+            "created_at": "2026-05-23T13:06:07.318721+00:00",
+            "source": "unittest",
+            "reason": "test",
+            "changes": {
+              "tp_stake_pct": 0.0099
+            },
+            "approval_required": true,
+            "backtest_passed": false,
+            "status": "pending"
+          },
+          {
+            "id": "evrim_cfg_1779541567",
+            "created_at": "2026-05-23T13:06:07.321012+00:00",
+            "source": "unittest",
+            "reason": "root_change_test",
+            "changes": {
+              "max_open": 15,
+              "tp_stake_pct": 0.01
+            },
+            "approval_required": true,
+            "backtest_passed": false,
+            "status": "pending"
+          }
+        ],
+        "sentinel_risk_off": false,
+        "cross_mode_summaries": {
+          "berserk": {
+            "win_rate": 39.0
+          },
+          "hunter": {},
+          "chop_master": {},
+          "sentinel": {
+            "safe_market_score": 56.17,
+            "avoid_market_now": false,
+            "recommended_risk_mode": "normal"
+          }
+        },
+        "learning_active": true,
+        "learning_blocks_trading": false,
+        "trading_continues_during_learning": true,
+        "learning_task_type": "paper_forward",
+        "last_learning_result": {
+          "ok": true
+        },
+        "risk_mode_during_learning": "normal",
+        "active_config_version": "evrim_cfg_active_20260523_131349_42029",
+        "candidate_config_version": "evrim_cfg_candidate_20260523_132718_42838",
+        "pending_approval": true,
+        "last_candidate_config_status": "backtest",
+        "trading_motor_open": true
+      },
+      "progress": {
+        "daily_start_balance": 5000.0,
+        "current_equity": 5000.0,
+        "target_equity": 10000.0,
+        "progress_to_2x_pct": -50.0,
+        "hourly_required_return": 4.0,
+        "current_hourly_net_return": 0.0,
+        "remaining_gap_to_target": 4.0,
+        "remaining_usd_to_target": 5000.0,
+        "aggression_level": 0.85,
+        "profit_lock_active": false,
+        "realized_pnl": 0
+      }
+    },
+    "berserk": {
+      "book": {
+        "closed_trades": 800,
+        "open_trades": 8,
+        "win_rate": 0.3675,
+        "profit_factor": 0.3562,
+        "realized_pnl": -973.7609,
+        "starting_balance": null
+      },
+      "data_lake": {
+        "mode_id": "berserk",
+        "decisions": 500,
+        "profit_factor": 0.509,
+        "win_rate": 0.4,
+        "trades": 200,
+        "fee_gross_ratio": 0.063,
+        "top_rejects": []
+      },
+      "learning": {
+        "berserk_learning_suggestions": {
+          "suggested_min_move_pct": 0.09,
+          "suggested_min_score": 48,
+          "suggested_tp_stake_pct": 0.0042,
+          "suggested_sl_stake_pct": 0.0024,
+          "suggested_spread_limit": 0.12,
+          "best_symbols": [
+            "PHBUSDT",
+            "PORT3USDT",
+            "INUSDT",
+            "YBUSDT",
+            "BEATUSDT"
+          ],
+          "worst_symbols": [
+            "ATAUSDT",
+            "TRUUSDT",
+            "SLERFUSDT",
+            "SXPUSDT",
+            "CATIUSDT"
+          ],
+          "best_micro_signal": "Medium",
+          "worst_micro_signal": "Strong",
+          "fee_damage_score": 0.1989,
+          "spread_damage_score": 0.0,
+          "slippage_damage_score": 0.0,
+          "avg_hold_seconds": 476.5,
+          "trades_per_minute": 0.1259,
+          "confidence": 0.5,
+          "win_rate": 39.0,
+          "profit_factor": 0.615,
+          "avg_win": 4.55,
+          "avg_loss": 4.73,
+          "exit_reasons": {
+            "SL": 59,
+            "TP": 28,
+            "STALE-RELEASE": 10,
+            "SPIKE-QUICK": 3
+          },
+          "spread_risk_distribution": {
+            "none": 100
+          },
+          "min_stake_source_distribution": {
+            "mode_profile": 100
+          }
+        },
+        "trade_count_since": 5777,
+        "next_suggestion_at": 23,
+        "updated_at": "2026-05-23T13:04:28.949662+00:00"
+      }
+    },
+    "hunter": {
+      "book": {
+        "closed_trades": 0,
+        "open_trades": 0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "realized_pnl": 0,
+        "starting_balance": null
+      },
+      "data_lake": {
+        "mode_id": "hunter",
+        "decisions": 500,
+        "profit_factor": 0.268,
+        "win_rate": 0.486,
+        "trades": 183,
+        "fee_gross_ratio": 0.08,
+        "top_rejects": [
+          [
+            "spike_await_confirmation",
+            437
+          ],
+          [
+            "PHBUSDT: 1 SL-EMERGENCY / 72sa",
+            17
+          ],
+          [
+            "NILUSDT: 1 SL-EMERGENCY / 72sa",
+            6
+          ],
+          [
+            "BEATUSDT: 1 SL-EMERGENCY / 72sa",
+            6
+          ],
+          [
+            "GUAUSDT: 1 SL-EMERGENCY / 72sa",
+            5
+          ]
+        ]
+      },
+      "learning": {
+        "hunter_learning_suggestions": {},
+        "trade_count_since": 4,
+        "suggestion_at_trade": null
+      }
+    },
+    "chop_master": {
+      "book": {
+        "closed_trades": 800,
+        "open_trades": 0,
+        "win_rate": 0.43875,
+        "profit_factor": 0.371,
+        "realized_pnl": -1091.0918,
+        "starting_balance": null
+      },
+      "data_lake": {
+        "mode_id": "chop_master",
+        "decisions": 500,
+        "profit_factor": 0.475,
+        "win_rate": 0.385,
+        "trades": 200,
+        "fee_gross_ratio": 0.125,
+        "top_rejects": []
+      },
+      "learning": {
+        "chop_learning_suggestions": {},
+        "trade_count_since": 8,
+        "suggestion_at_trade": null
+      }
+    },
+    "sentinel": {
+      "book": {
+        "closed_trades": 2,
+        "open_trades": 0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "realized_pnl": -9.73,
+        "starting_balance": null
+      },
+      "data_lake": {
+        "mode_id": "sentinel",
+        "decisions": 500,
+        "profit_factor": 1.668,
+        "win_rate": 0.375,
+        "trades": 8,
+        "fee_gross_ratio": 0.096,
+        "top_rejects": [
+          [
+            "sentinel_weak_observation",
+            476
+          ],
+          [
+            "PHBUSDT: SL-EMERGENCY geçmişi — mod temkinli girişi kapalı",
+            15
+          ],
+          [
+            "execution_quality_low",
+            9
+          ]
+        ]
+      },
+      "learning": {
+        "quality_signal_rank": [
+          {
+            "symbol": "COIN1USDT",
+            "pnl": 1.0,
+            "n": 1
+          },
+          {
+            "symbol": "COIN3USDT",
+            "pnl": 1.0,
+            "n": 1
+          },
+          {
+            "symbol": "COIN5USDT",
+            "pnl": 1.0,
+            "n": 1
+          },
+          {
+            "symbol": "COIN7USDT",
+            "pnl": 1.0,
+            "n": 1
+          },
+          {
+            "symbol": "COIN9USDT",
+            "pnl": 1.0,
+            "n": 1
+          },
+          {
+            "symbol": "COIN11USDT",
+            "pnl": 1.0,
+            "n": 1
+          },
+          {
+            "symbol": "COIN13USDT",
+            "pnl": 1.0,
+            "n": 1
+          },
+          {
+            "symbol": "COIN15USDT",
+            "pnl": 1.0,
+            "n": 1
+          },
+          {
+            "symbol": "COIN17USDT",
+            "pnl": 1.0,
+            "n": 1
+          },
+          {
+            "symbol": "COIN19USDT",
+            "pnl": 1.0,
+            "n": 1
+          },
+          {
+            "symbol": "COIN21USDT",
+            "pnl": 1.0,
+            "n": 1
+          },
+          {
+            "symbol": "COIN23USDT",
+            "pnl": 1.0,
+            "n": 1
+          }
+        ],
+        "best_trend_symbols": [
+          "COIN1USDT",
+          "COIN3USDT",
+          "COIN5USDT",
+          "COIN7USDT",
+      
+```
+
+## 4. Reset Report
+
+```json
+{
+  "started_at": "2026-05-23T13:29:17.026216+00:00",
+  "reason": "V2 clean start",
+  "reset": [
+    "parallel_universe paper/open/closed",
+    "evrim_adaptive session metrics",
+    "exploration/recovery caches"
+  ],
+  "preserved": [
+    "mode_profiles.json",
+    "evrim_config_versions.json (active)",
+    "latest_training_snapshot.json",
+    "backup_manifest",
+    "deleted_archives"
+  ],
+  "mode_books": {
+    "archived": [
+      "evrim_20260523T132917Z_V2_clean_start",
+      "berserk_20260523T132917Z_V2_clean_start",
+      "hunter_20260523T132917Z_V2_clean_start",
+      "chop_master_20260523T132917Z_V2_clean_start",
+      "sentinel_20260523T132917Z_V2_clean_start"
+    ],
+    "resets": [
+      {
+        "mode_id": "evrim",
+        "cleared_open": 0,
+        "cleared_closed": 0,
+        "session_start": 5000.0,
+        "db_cleared": 0,
+        "starting_capital": 5000.0
+      },
+      {
+        "mode_id": "berserk",
+        "cleared_open": 8,
+        "cleared_closed": 800,
+        "session_start": 5000.0,
+        "starting_capital": 5000.0
+      },
+      {
+        "mode_id": "hunter",
+        "cleared_open": 0,
+        "cleared_closed": 0,
+        "session_start": 5000.0,
+        "starting_capital": 5000.0
+      },
+      {
+        "mode_id": "chop_master",
+        "cleared_open": 0,
+        "cleared_closed": 800,
+        "session_start": 5000.0,
+        "starting_capital": 5000.0
+      },
+      {
+        "mode_id": "sentinel",
+        "cleared_open": 0,
+        "cleared_closed": 2,
+        "session_start": 5000.0,
+        "starting_capital": 5000.0
+      }
+    ]
+  },
+  "evrim_session": {
+    "evrim_adaptive_state": "session_reset",
+    "preserved_keys": [
+      "cross_mode_bootstrap",
+      "cross_mode_observations",
+      "lessons",
+      "training_snapshot_bias",
+      "pre_reset_meta_bias"
+    ]
+  },
+  "runtime": {
+    "exploration": "reset",
+    "recovery": "reset"
+  },
+  "finished_at": "2026-05-23T13:29:17.239940+00:00"
+}
+```
+
+## 5. Active Motor
+
+```json
+{
+  "previous_mode": "evrim",
+  "new_mode": "evrim",
+  "message": "evrim",
+  "motor_live": {
+    "evrim": false,
+    "berserk": false,
+    "hunter": false,
+    "chop_master": false,
+    "sentinel": false
+  },
+  "berserk_route_paper": true
+}
+```
+
+## 6. Evrim Learning Ready
+
+```json
+{
+  "learning": {
+    "learning_active": true,
+    "learning_blocks_trading": false,
+    "trading_continues_during_learning": true,
+    "learning_task_type": "paper_forward",
+    "last_learning_result": {
+      "ok": true
+    },
+    "last_candidate_config_status": "backtest",
+    "risk_mode_during_learning": "normal",
+    "updated_at": "2026-05-23T13:27:18.095348+00:00"
+  },
+  "config": {
+    "active_config_version": "evrim_cfg_active_20260523_131349_42029",
+    "candidate_config_version": "evrim_cfg_candidate_20260523_132718_42838",
+    "pending_approval": true,
+    "candidate_status": "backtest",
+    "last_candidate_config_status": "backtest",
+    "candidate_meta": {
+      "source": "param_validator",
+      "task_type": "backtest",
+      "risk_change": "",
+      "expected_improvement": "",
+      "source_modes": [],
+      "approval_required": true,
+      "backtest_passed": true,
+      "created_at": "2026-05-23T13:27:18.094763+00:00"
+    },
+    "trading_continues_during_learning": true,
+    "learning_blocks_trading": false
+  },
+  "snapshot_loaded": true,
+  "bootstrap": {
+    "applied": true,
+    "bias_keys": [
+      "loaded_at",
+      "source",
+      "created_at",
+      "active_futures_mode_before_reset",
+      "mode_hints",
+      "cross_mode",
+      "warnings"
+    ]
+  }
+}
+```
+
+## 7. Paper Modes Ready
+
+```json
+{
+  "evrim": {
+    "paper": true,
+    "open": 0
+  },
+  "berserk": {
+    "paper": true,
+    "open": 0
+  },
+  "hunter": {
+    "paper": true,
+    "open": 0
+  },
+  "chop_master": {
+    "paper": true,
+    "open": 0
+  },
+  "sentinel": {
+    "paper": true,
+    "open": 0
+  }
+}
+```
+
+## 8. Restart Checklist
+
+```json
+{
+  "exit_code": 0,
+  "stdout_tail": [
+    " Elite 9005 — yeniden başlat",
+    "  ✓ Geçmiş veri korunuyor (DB, lessons, learner)",
+    "══════════════════════════════════════════════════════════",
+    "  ⏹ Elite 9005 durduruluyor (port 9005)...",
+    "  ✓ Port 9005 boş, süreç yok",
+    "  ✓ Port 9005 durduruldu",
+    "  ✓ Demo borsa: açık pozisyon yok",
+    "  ✓ Binance Futures bakiye: $5,000.00 USDT (kullanılabilir $5,000.00)",
+    "  · State DB / lessons / learner korundu",
+    "    → data/binance_elite_8300_9005_state.db (0 kapanış)",
+    "  ✓ scenarios/binance_elite_8300_9005.env STARTING_BALANCE=5000.00 (Binance Futures)",
+    "",
+    "  Silinen arşiv listesi: python3 scripts/list_9005_deleted_archives.py",
+    "  Başlat: ./run_binance_elite_8300_9005.sh",
+    "══════════════════════════════════════════════════════════"
+  ],
+  "stderr_tail": [],
+  "no_exchange_close": false
+}
+```
+
+## 9. Warnings
+
+```json
+[
+  "One or more HTTP endpoints unreachable"
+]
+```
+
+## 10. Next Actions
+
+```json
+{
+  "dashboard": "http://127.0.0.1:9005/",
+  "config_approve_hint": "http://127.0.0.1:9005/api/evrim/config/pending",
+  "review_reports": [
+    "data/reports/FINAL_RESTART_REPORT_latest.md",
+    "data/reports/RESTART_HEALTH_latest.md"
+  ]
+}
+```

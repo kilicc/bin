@@ -1,0 +1,248 @@
+{
+  "generated_at": "2026-05-16T21:00:06.351695+00:00",
+  "trade_count": 495,
+  "closed_count": 371,
+  "total_pnl": 2880.37,
+  "win_rate": 0.7736,
+  "target": {
+    "target_aspiration_usd_h": 917.0,
+    "target_realistic_usd_h": 0.0,
+    "realized_usd_h": 94.28,
+    "pace_vs_aspiration": 0.1028,
+    "gap_vs_aspiration": 822.72,
+    "gap_vs_realistic": -94.28,
+    "max_stake": 0.0,
+    "tp_usd_per_win_est": 0.0,
+    "note_tr": "Aspirasyon $917/s ile mevcut stake/TP yapısında teorik tavan ~$0/s (WR≈77%, saatte ~4 kapanış varsayımı)."
+  },
+  "market": {
+    "edge_positive_but_loss": 84,
+    "edge_positive_and_win": 287,
+    "low_edge_losses": 0,
+    "market_signal_tr": "edge≥0.05 iken zarar: fiyat/spread/volatilite (piyasa); düşük edge ile zarar: formül/kalibrasyon seçimi.",
+    "by_exit": {
+      "SL": {
+        "n": 79,
+        "pnl": -1152.1
+      },
+      "TP": {
+        "n": 283,
+        "pnl": 3834.54
+      },
+      "RESOLVED": {
+        "n": 8,
+        "pnl": 198.09
+      },
+      "MAX_HOLD": {
+        "n": 1,
+        "pnl": -0.17
+      }
+    }
+  },
+  "formula": {
+    "score_quintiles": [
+      {
+        "quintile": 1,
+        "score_lo": 0.535,
+        "score_hi": 0.588,
+        "n": 34,
+        "wr": 0.559,
+        "pnl": 7.51
+      },
+      {
+        "quintile": 2,
+        "score_lo": 0.588,
+        "score_hi": 0.621,
+        "n": 35,
+        "wr": 0.571,
+        "pnl": 163.54
+      },
+      {
+        "quintile": 3,
+        "score_lo": 0.621,
+        "score_hi": 0.644,
+        "n": 34,
+        "wr": 0.647,
+        "pnl": -124.13
+      },
+      {
+        "quintile": 4,
+        "score_lo": 0.644,
+        "score_hi": 0.677,
+        "n": 35,
+        "wr": 0.657,
+        "pnl": 378.36
+      },
+      {
+        "quintile": 5,
+        "score_lo": 0.684,
+        "score_hi": 0.723,
+        "n": 35,
+        "wr": 0.571,
+        "pnl": 24.06
+      }
+    ],
+    "loaded": true
+  },
+  "themes": {
+    "crypto": {
+      "n": 155,
+      "wr": 0.774,
+      "pnl": 254.99,
+      "avg_stake": 169.47
+    },
+    "other": {
+      "n": 120,
+      "wr": 0.742,
+      "pnl": 2654.89,
+      "avg_stake": 546.95
+    },
+    "sports_ou": {
+      "n": 38,
+      "wr": 0.868,
+      "pnl": -1116.96,
+      "avg_stake": 361.08
+    },
+    "sports_other": {
+      "n": 24,
+      "wr": 0.75,
+      "pnl": 965.24,
+      "avg_stake": 337.3
+    },
+    "sports_match": {
+      "n": 20,
+      "wr": 0.85,
+      "pnl": -3.54,
+      "avg_stake": 483.75
+    },
+    "politics": {
+      "n": 14,
+      "wr": 0.714,
+      "pnl": 125.74,
+      "avg_stake": 181.43
+    }
+  },
+  "score_quintiles": [
+    {
+      "quintile": 1,
+      "score_lo": 0.535,
+      "score_hi": 0.588,
+      "n": 34,
+      "wr": 0.559,
+      "pnl": 7.51
+    },
+    {
+      "quintile": 2,
+      "score_lo": 0.588,
+      "score_hi": 0.621,
+      "n": 35,
+      "wr": 0.571,
+      "pnl": 163.54
+    },
+    {
+      "quintile": 3,
+      "score_lo": 0.621,
+      "score_hi": 0.644,
+      "n": 34,
+      "wr": 0.647,
+      "pnl": -124.13
+    },
+    {
+      "quintile": 4,
+      "score_lo": 0.644,
+      "score_hi": 0.677,
+      "n": 35,
+      "wr": 0.657,
+      "pnl": 378.36
+    },
+    {
+      "quintile": 5,
+      "score_lo": 0.684,
+      "score_hi": 0.723,
+      "n": 35,
+      "wr": 0.571,
+      "pnl": 24.06
+    }
+  ],
+  "by_era": {
+    "v1": {
+      "n": 84,
+      "wr": 0.81,
+      "pnl": 2534.9
+    },
+    "v2": {
+      "n": 253,
+      "wr": 0.739,
+      "pnl": 285.51
+    },
+    "mid": {
+      "n": 34,
+      "wr": 0.941,
+      "pnl": 59.95
+    }
+  },
+  "by_source": {
+    "elite_apex_2x_24h": 0,
+    "elite_formula": 0,
+    "elite_formula_8190_fresh": 0,
+    "elite_formula_cal": 0,
+    "elite_formula_velocity": 0,
+    "elite_global_2x": 0,
+    "live": 2,
+    "paper": 0,
+    "paper_110": 0,
+    "paper_220": 0,
+    "paper_2200": 0,
+    "paper_22k": 0,
+    "paper_22k_insane": 0,
+    "backup/elite_pre_v2_20260516T181352Z/elite_formula.db": 37,
+    "backup/full_reset_20260516T172039Z/crypto_engine.db": 0,
+    "backup/full_reset_20260516T172039Z/live.db": 2,
+    "backup/full_reset_20260516T172039Z/paper.db": 45,
+    "backup/full_reset_20260516T172039Z/paper_110.db": 24,
+    "backup/full_reset_20260516T172039Z/paper_220.db": 24,
+    "backup/full_reset_20260516T172039Z/paper_2200.db": 24,
+    "backup/full_reset_20260516T172039Z/paper_22k.db": 25,
+    "backup/full_reset_20260516T172039Z/paper_22k_insane.db": 22,
+    "backup/reset_20260516T205934Z/crypto_engine.db": 0,
+    "backup/reset_20260516T205934Z/elite_apex_2x_24h.db": 1,
+    "backup/reset_20260516T205934Z/elite_formula.db": 42,
+    "backup/reset_20260516T205934Z/elite_formula_8190_fresh.db": 1,
+    "backup/reset_20260516T205934Z/elite_formula_cal.db": 38,
+    "backup/reset_20260516T205934Z/elite_formula_velocity.db": 43,
+    "backup/reset_20260516T205934Z/elite_global_2x.db": 44,
+    "backup/reset_20260516T205934Z/paper.db": 2,
+    "backup/reset_20260516T205934Z/paper_110.db": 24,
+    "backup/reset_20260516T205934Z/paper_220.db": 24,
+    "backup/reset_20260516T205934Z/paper_2200.db": 24,
+    "backup/reset_20260516T205934Z/paper_22k.db": 25,
+    "backup/reset_20260516T205934Z/paper_22k_insane.db": 22
+  },
+  "calibration": {
+    "available": true,
+    "brier": 0.0578,
+    "n_sampled": 50000,
+    "interpretation": "Düşük daha iyi; >0.25 zayıf kalibrasyon"
+  },
+  "whale_theme_gap": {
+    "other": {
+      "whale_wr": 0.538,
+      "paper_wr": 0.742,
+      "gap": 0.204
+    }
+  },
+  "bottleneck": "formula",
+  "bottleneck_shares_pct": {
+    "target_math": 28.9,
+    "market": 14.2,
+    "formula": 56.8
+  },
+  "improvements_tr": [
+    "Whale theme_wr ile paper WR farkı büyük — tema bazlı min_score kullanın.",
+    "Stake/TP ile $800/saat aspirasyonu gerçekçi tavanın çok üstünde; panelde ikili hedef kullanın.",
+    "Spor O/U ve canlı maç segmentlerini tam veto veya çok yüksek skor eşiği ile sınırlayın.",
+    "Formül skoru kuintilleri — düşük skor bandı negatifse min_score artırın.",
+    "Her işlemde score_parts + giriş YES fiyatı kaydı (shadow) ile attribution doğruluğu.",
+    "Kalibrasyon Brier yüksekse edge tahmini piyasa kaynaklı sapma üretir; calibration yenileyin."
+  ]
+}

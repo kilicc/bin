@@ -1,0 +1,26 @@
+{
+  "archive_id": "berserk_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+  "mode_id": "berserk",
+  "mode_label": "Berserk",
+  "is_live": false,
+  "archived_at": "2026-05-22T21:02:48.219487+00:00",
+  "reason": "Tam sifir - sifirdan baslangic",
+  "trigger": "preserve_reset",
+  "path": "data/mode_archives/berserk_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 951852,
+      "open_n": 3,
+      "closed_n": 779
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 1842838
+    }
+  ],
+  "closed_trades_count": 779,
+  "open_trades_count": 3
+}

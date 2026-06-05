@@ -1,0 +1,124 @@
+[2026-05-14T22:57:09+03:00] run_crypto_engine_forever başlıyor
+[2026-05-14T22:57:09+03:00] crypto_engine.py başlatılıyor
+============================================================================
+ CRYPTO FUTURES ENGINE  —  Çok Kaynaklı, Çok Stratejili, Paper $20
+ DB        : /Users/pro/Documents/Claude/Projects/testtt/predmarket-scanner/data/crypto_engine.db
+ Kilit     : /Users/pro/Documents/Claude/Projects/testtt/predmarket-scanner/data/crypto_engine.lock
+ Heartbeat : /Users/pro/Documents/Claude/Projects/testtt/predmarket-scanner/data/crypto_engine.heartbeat.json
+ Bakiye    : $20.0  Kelly:0.25  Max:$5.0/pos
+ TP/SL     : fiyat %3.5 hareket  MaxSüre:24.0h
+ Kaldıraç  : 2x–20x  (sinyal gücüne göre otomatik)
+ Min Puan  : 1.35/16.0
+ Bot Adres : 10 kayıtlı
+ Kaynaklar : HL + Binance/Bybit/OKX/Gate fiyat + F&G + CoinGecko + CoinGlass
+ Stratejiler: FUNDING RSI COPY FEAR EMA BB LIQ VOL CEX_ARB
+============================================================================
+ Equity: $19.9689  Realize P&L: $-0.0098  Açık: 5
+
+  [backtest] 7 günlük veri testi başlıyor…
+    ✗ BTC    t= 12  W5/L7  WR=42%  avgPnL=-0.50%
+      ETH    t= 13  W6/L7  WR=46%  avgPnL=-0.16%
+    ✗ SOL    t= 19  W5/L14  WR=26%  avgPnL=-0.73%
+    ✗ XRP    t= 27  W12/L15  WR=44%  avgPnL=+0.19%
+      BNB    t= 34  W17/L17  WR=50%  avgPnL=+0.28%
+    ✗ DOGE   t= 23  W10/L13  WR=43%  avgPnL=-0.01%
+    ✗ AVAX   t= 22  W9/L13  WR=41%  avgPnL=-0.46%
+    ✗ LINK   t= 26  W10/L16  WR=38%  avgPnL=-0.54%
+      ADA    t= 38  W20/L18  WR=53%  avgPnL=+0.51%
+    ★ DOT    t= 20  W14/L6  WR=70%  avgPnL=+1.06%
+    ✗ NEAR   t= 16  W5/L11  WR=31%  avgPnL=-1.14%
+    ★ APT    t= 25  W16/L9  WR=64%  avgPnL=+0.54%
+  [backtest] 4/12 coin ≥50% WR
+
+
+[22:57:18] Kontrol #1
+  ▼ [14] AAVE   LONG  2x  @100.9500→99.8600 (-1.08%)  stake:-2.2% ($-0.0119)  kalan=23.1h
+  ▲ [12] APT    LONG  2x  @1.0640→1.0646 (+0.06%)  stake:+0.1% ($+0.0006)  kalan=21.9h
+  ▼ [11] ATOM   LONG  2x  @2.0527→2.0480 (-0.23%)  stake:-0.5% ($-0.0025)  kalan=21.9h
+  ▲ [13] DOGE   LONG  2x  @0.1158→0.1160 (+0.17%)  stake:+0.3% ($+0.0017)  kalan=22.1h
+  ▼ [10] SUI    LONG  3x  @1.2089→1.2046 (-0.35%)  stake:-1.1% ($-0.0087)  kalan=21.8h
+  [scan] Fear&Greed=34  Kullanılabilir=$17.03
+  [cex] HL vs CEX medyan (en yüksek sapma): ATOM:0.083%, DOGE:0.060%, HYPE:0.036%, AVAX:0.035%, LINK:0.033%
+  [scan] 20 aday taranıyor…
+  · BTC    skor=+1.123 (min=1.35) side=—  RSI:-0.43 EMA:+0.75 FEAR:+0.80
+  · ETH    skor=+1.550 (min=1.35) side=LONG  EMA:+0.75 FEAR:+0.80
+  · SOL    skor=+1.548 (min=1.35) side=LONG  EMA:+0.75 FEAR:+0.80
+  ⚠ [SOL] backtest WR=26.3% düşük, atlandı
+  · BNB    skor=+1.458 (min=1.35) side=LONG  RSI:-0.09 EMA:+0.75 FEAR:+0.80
+  · XRP    skor=-0.506 (min=1.35) side=—  FUNDING:-0.47 RSI:-0.66 EMA:+0.75 BB:-0.21 VOL:-0.72 FEAR:+0.80
+  · ADA    skor=+0.350 (min=1.35) side=—  RSI:-0.20 EMA:+0.75 VOL:-1.00 FEAR:+0.80
+  · AVAX   skor=+0.971 (min=1.35) side=—  FUNDING:-0.47 RSI:-0.11 EMA:+0.75 FEAR:+0.80
+  · LINK   skor=+0.863 (min=1.35) side=—  FUNDING:-0.47 RSI:-0.22 EMA:+0.75 FEAR:+0.80
+  · DOT    skor=+0.556 (min=1.35) side=—  RSI:-0.92 EMA:+0.75 BB:-0.07 FEAR:+0.80
+  · NEAR   skor=+1.131 (min=1.35) side=—  FUNDING:-0.42 EMA:+0.75 FEAR:+0.80
+  · INJ    skor=+0.509 (min=1.35) side=—  FUNDING:+0.46 EMA:-0.75 FEAR:+0.80
+  · TIA    skor=+1.550 (min=1.35) side=LONG  EMA:+0.75 FEAR:+0.80
+  · WIF    skor=+1.529 (min=1.35) side=LONG  EMA:+0.75 FEAR:+0.80
+  · ARB    skor=+1.495 (min=1.35) side=LONG  RSI:-0.05 EMA:+0.75 FEAR:+0.80
+  · BCH    skor=+0.755 (min=1.35) side=—  RSI:-0.45 EMA:+0.75 BB:-0.35 FEAR:+0.80
+  · UNI    skor=+0.940 (min=1.35) side=—  RSI:-0.61 EMA:+0.75 FEAR:+0.80
+  · TRUMP  skor=+0.350 (min=1.35) side=—  RSI:-0.67 EMA:+0.75 BB:-0.53 FEAR:+0.80
+  📊 Fear&Greed=34  HL extreme=5  Top3:XRP:+6.8%,DOT:+6.4%,LINK:+4.4%
+  💼 $19.9694(-0.15%)  Kullanılabilir=$17.03  Stake=$2.94  ↑$-0.0098  ~$-0.0208  Açık:5 Kapalı:1
+
+[22:57:53] Kontrol #2
+  ▼ [14] AAVE   LONG  2x  @100.9500→99.8905 (-1.05%)  stake:-2.1% ($-0.0116)  kalan=23.1h
+  ▲ [12] APT    LONG  2x  @1.0640→1.0648 (+0.08%)  stake:+0.2% ($+0.0008)  kalan=21.9h
+  ▼ [11] ATOM   LONG  2x  @2.0527→2.0480 (-0.23%)  stake:-0.5% ($-0.0025)  kalan=21.9h
+  ▲ [13] DOGE   LONG  2x  @0.1158→0.1161 (+0.25%)  stake:+0.5% ($+0.0025)  kalan=22.1h
+  ▼ [10] SUI    LONG  3x  @1.2089→1.2043 (-0.38%)  stake:-1.2% ($-0.0095)  kalan=21.8h
+  💼 $19.9699(-0.15%)  Kullanılabilir=$17.03  Stake=$2.94  ↑$-0.0098  ~$-0.0203  Açık:5 Kapalı:1
+
+[22:58:08] Kontrol #3
+  ▼ [14] AAVE   LONG  2x  @100.9500→99.8840 (-1.06%)  stake:-2.1% ($-0.0116)  kalan=23.1h
+  ▲ [12] APT    LONG  2x  @1.0640→1.0646 (+0.06%)  stake:+0.1% ($+0.0006)  kalan=21.9h
+  ▼ [11] ATOM   LONG  2x  @2.0527→2.0480 (-0.23%)  stake:-0.5% ($-0.0025)  kalan=21.9h
+  ▲ [13] DOGE   LONG  2x  @0.1158→0.1161 (+0.25%)  stake:+0.5% ($+0.0025)  kalan=22.1h
+  ▼ [10] SUI    LONG  3x  @1.2089→1.2041 (-0.40%)  stake:-1.2% ($-0.0099)  kalan=21.8h
+  💼 $19.9692(-0.15%)  Kullanılabilir=$17.03  Stake=$2.94  ↑$-0.0098  ~$-0.0210  Açık:5 Kapalı:1
+[2026-05-14T23:04:28+03:00] run_crypto_engine_forever başlıyor
+[2026-05-14T23:04:28+03:00] crypto_engine.py başlatılıyor
+============================================================================
+ CRYPTO FUTURES ENGINE  —  Çok Kaynaklı, Çok Stratejili, Paper $20
+ DB        : /Users/pro/Documents/Claude/Projects/testtt/predmarket-scanner/data/crypto_engine.db
+ Kilit     : /Users/pro/Documents/Claude/Projects/testtt/predmarket-scanner/data/crypto_engine.lock
+ Heartbeat : /Users/pro/Documents/Claude/Projects/testtt/predmarket-scanner/data/crypto_engine.heartbeat.json
+ Bakiye    : $20.0  Kelly:0.25  Max:$5.0/pos
+ TP/SL     : fiyat %3.5 hareket  MaxSüre:24.0h
+ Kaldıraç  : 2x–20x  (sinyal gücüne göre otomatik)
+ Min Puan  : 1.35/16.0
+ Bot Adres : 10 kayıtlı
+ Kaynaklar : HL + Binance/Bybit/OKX/Gate fiyat + F&G + CoinGecko + CoinGlass
+ Stratejiler: FUNDING RSI COPY FEAR EMA BB LIQ VOL CEX_ARB
+============================================================================
+ Equity: $19.9772  Realize P&L: $-0.0098  Açık: 5
+
+  [backtest] 7 günlük veri testi başlıyor…
+    ✗ BTC    t= 12  W5/L7  WR=42%  avgPnL=-0.54%
+      ETH    t= 13  W7/L6  WR=54%  avgPnL=-0.18%
+    ✗ SOL    t= 19  W5/L14  WR=26%  avgPnL=-0.73%
+      XRP    t= 28  W13/L15  WR=46%  avgPnL=+0.24%
+      BNB    t= 34  W17/L17  WR=50%  avgPnL=+0.27%
+    ✗ DOGE   t= 23  W10/L13  WR=43%  avgPnL=+0.01%
+    ✗ AVAX   t= 21  W9/L12  WR=43%  avgPnL=-0.32%
+    ✗ LINK   t= 25  W10/L15  WR=40%  avgPnL=-0.47%
+      ADA    t= 39  W21/L18  WR=54%  avgPnL=+0.54%
+    ★ DOT    t= 21  W15/L6  WR=71%  avgPnL=+1.03%
+    ✗ NEAR   t= 16  W5/L11  WR=31%  avgPnL=-1.17%
+    ★ APT    t= 25  W15/L10  WR=60%  avgPnL=+0.53%
+  [backtest] 5/12 coin ≥50% WR
+
+
+[23:04:38] Kontrol #1
+  ▼ [14] AAVE   LONG  2x  @100.9500→100.0350 (-0.91%)  stake:-1.8% ($-0.0100)  kalan=23.0h
+  ▲ [12] APT    LONG  2x  @1.0640→1.0668 (+0.26%)  stake:+0.5% ($+0.0027)  kalan=21.8h
+  ▼ [11] ATOM   LONG  2x  @2.0527→2.0479 (-0.23%)  stake:-0.5% ($-0.0026)  kalan=21.8h
+  ▲ [13] DOGE   LONG  2x  @0.1158→0.1162 (+0.40%)  stake:+0.8% ($+0.0040)  kalan=22.0h
+  ▼ [10] SUI    LONG  3x  @1.2089→1.2046 (-0.36%)  stake:-1.1% ($-0.0089)  kalan=21.7h
+  [scan] Fear&Greed=34  Kullanılabilir=$17.03
+  [cex] HL vs CEX medyan (en yüksek sapma): DOGE:0.103%, AVAX:0.065%, LTC:0.058%, TIA:0.045%, ARB:0.041%
+  [scan] 20 aday taranıyor…
+  · BTC    skor=+1.058 (min=1.35) side=—  RSI:-0.49 EMA:+0.75 FEAR:+0.80
+  · ETH    skor=+1.535 (min=1.35) side=LONG  EMA:+0.75 FEAR:+0.80
+  · SOL    skor=+1.546 (min=1.35) side=LONG  EMA:+0.75 FEAR:+0.80
+  ⚠ [SOL] backtest WR=26.3% düşük, atlandı

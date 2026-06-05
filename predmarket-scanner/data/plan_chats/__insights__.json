@@ -1,0 +1,31 @@
+{
+  "id": "__insights__",
+  "title": "Anlık öneriler ve teklifler",
+  "pinned": true,
+  "permanent": true,
+  "mode_id": "live_9005",
+  "messages": [
+    {
+      "role": "user",
+      "content": "açık olan işlemleri kapat yeniden başlat",
+      "at": "2026-05-21T19:15:59.220161+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Gelen mesaj net: açık işlemleri kapatıp sistemi yeniden başlatmak istiyorsunuz. Önce mevcut tabloya bakalım.\n\n**Şu anki durum**\n\nPanel ve motor **Ana Hat**’ta. Oturumda **0 kapanan işlem**, net **0$**, **açık pozisyon yok**. Yani şu anda kapatılacak canlı bir işlem görünmüyor — sistem zaten boşta veya yeni oturum başlamış olabilir.\n\nÖnceki konuşmada oturum **318 işlem, +76$, %82,4 başarı** gösteriyordu; şimdi sıfır görünmesi büyük ihtimalle **panel/motor yeniden başlatıldı** veya **oturum sayacı sıfırlandı** anlamına gelir. Canlı hesapta gerçekten açık pozisyon olup olmadığını Binance tarafından da kontrol etmek iyi olur; panel bazen gecikmeli veya oturum bazlı raporlar.\n\n**Paralel evrenler** (Avcı, Şimşek, Kalkan) kağıt kitap — bunların açık pozisyonları canlı parayı etkilemez. Ana Hat dışındakileri “kapat” demek sadece simülasyonu sıfırlamak olur.\n\n**Ne yapılabilir?**\n\n1. **Açık pozisyon yoksa** — “kapat” adımı atlanır; doğrudan **yeniden başlatma** yeterli.\n2. **Binance’te açık pozisyon varsa** — önce emirler/pozisyonlar kapatılır, sonra motor yeniden başlatılır. Bu canlı para içindir; acele etmeyin.\n3. Bu sohbet **Ask modunda** — ben buradan emir gönderemem veya servisi yeniden başlatamam. Bunu sizin onayınızla (panelden veya terminalden) yapmanız gerekir.\n\n**Risk uyarısı**\n\nCanlı Ana Hat’ta zorla kapatma, piyasa fiyatından çıkış ve gereksiz kayıp anlamına gelebilir. Açık pozisyon gerçekten yoksa sadece yeniden başlatma daha güvenli.\n\n---\n\n**Yapılacaklar**\n\n1. **Kontrol** — Binance uygulamasından veya web’den Ana Hat’ta gerçekten açık pozisyon var mı bakın.\n2. **Açık yoksa** — Paneli/motoru yeniden başlatmanız yeterli; kapatılacak işlem yok.\n3. **Açık varsa** — Önce pozisyonu kapatın, sonra yeniden başlatın; canlı işlem olduğu için acele etmeyin.\n4. **Benden uygulama** — Agent moduna geçip «Uygula» + PIN ile onay verirseniz adımları sizin adınıza koordine edebilirim; şu an sadece yönlendirme yapabiliyorum.\n\nBinance tarafında açık pozisyon görüyor musunuz, yoksa panel de “boş” mu? Ona göre net adım söyleyebilirim.",
+      "at": "2026-05-21T19:15:59.220162+00:00"
+    },
+    {
+      "role": "user",
+      "content": "agent moduna geçip uygula pin 0346",
+      "at": "2026-05-21T19:17:18.355882+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Panelden «Agent moduna geç, Uygula, PIN 0346» yazdınız — niyet net: açık işlemleri kapatıp sistemi yeniden başlatmak.\n\n**Şu an buradan uygulayamıyorum.** Bu sohbet hâlâ **Ask (sadece danışman)** modunda; emir gönderme, servis yeniden başlatma veya ayar dosyasına dokunma bu modda kapalı. PIN yazmanız tek başına yeterli değil; Cursor tarafında **Agent moduna** geçmeniz ve aynı isteği oradan tekrarlamanız gerekiyor.\n\n**Güvenlik:** PIN’i sohbette paylaştınız. İşlem bittikten sonra PIN’i değiştirmenizi öneririm; bir daha panel mesajına yazmayın.\n\n**Mevcut tablo (uygulama öncesi)**\n\n- Ana Hat: **açık pozisyon yok**, oturum **0 kapanan**, net **+1$**\n- Kapatılacak canlı işlem panelde görünmüyor — büyük ihtimalle sadece **yeniden başlatma** yeterli\n- Önceki oturumdaki 318 işlem / +76$ sayacı sıfırlanmış; bu normal bir yeniden başlatma sonrası görünüm olabilir\n\n**Agent modunda ne yapılır (onayınızla)**\n\n1. Binance tarafında gerçekten açık pozisyon var mı son kez kontrol edilir  \n2. Varsa güvenli şekilde kapatılır; yoksa bu adım atlanır  \n3. Motor ve panel yeniden başlatılır  \n4. Canlı strateji ayarlarına ve açık pozisyon kurallarına **dokunulmaz** — sadece kapat + restart\n\n**Paralel evrenler** (Avcı, Şimşek, Kalkan) kağıt kitap; onları “kapat” demek canlı parayı etkilemez. İsterseniz Agent modunda sadece Ana Hat restart da yapılabilir — netleştirmek için sorabilirsiniz.\n\n---\n\n**Yapılacaklar**\n\n1. **Mod değiştir** — Cursor’da Agent moduna geçin, aynı isteği tekrar yazın (PIN’i tekrar yazmayın; zaten kayıtlı/onay akışında kullanılır)\n2. **Binance kontrol** — Uygulama öncesi uygulama/web’den gerçekten açık pozisyon var mı bakın\n3. **Beklenen sonuç** — Açık yoksa doğrudan restart; sistem temiz oturumla devam eder\n4. **PIN güvenliği** — İşlem sonrası PIN’i yenileyin\n\nAgent moduna geçip «açık işlemleri kapat, yeniden başlat — Uygula» yazdığınızda uygulama tarafı devreye girebilir; burada sadece yönlendirme yapabiliyorum.",
+      "at": "2026-05-21T19:17:18.355886+00:00"
+    }
+  ],
+  "created_at": "2026-05-21T19:15:59.220151+00:00",
+  "updated_at": "2026-05-21T19:17:18.355888+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "archive_id": "chop_master_20260523T133526Z_s_f_rlama_ncesi_restart_v2",
+  "mode_id": "chop_master",
+  "mode_label": "Chop",
+  "is_live": false,
+  "archived_at": "2026-05-23T13:35:26.648430+00:00",
+  "reason": "[sıfırlama öncesi] restart v2",
+  "trigger": "panel_reset",
+  "path": "data/mode_archives/chop_master_20260523T133526Z_s_f_rlama_ncesi_restart_v2",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 994410,
+      "open_n": 0,
+      "closed_n": 800
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 1116478
+    }
+  ],
+  "closed_trades_count": 800,
+  "open_trades_count": 0
+}

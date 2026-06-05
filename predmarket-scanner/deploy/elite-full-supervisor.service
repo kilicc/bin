@@ -1,0 +1,22 @@
+[Unit]
+Description=Elite full stack health supervisor (9005/9006/9007)
+After=binance-elite-9005-mainnet.service binance-elite-9006-mainnet.service binance-elite-9007-mainnet.service
+Wants=binance-elite-9005-mainnet.service binance-elite-9006-mainnet.service binance-elite-9007-mainnet.service
+
+[Service]
+Type=simple
+User=pro
+Group=pro
+WorkingDirectory=/opt/binancex/predmarket-scanner
+Environment=ELITE_FULL_MAINNET=1
+Environment=ELITE_9007_MAINNET=1
+Environment=NO_PROXY=*
+ExecStart=/bin/bash /opt/binancex/predmarket-scanner/scripts/elite_full_supervisor.sh run
+Restart=always
+RestartSec=15
+
+StandardOutput=append:/opt/binancex/predmarket-scanner/logs/elite_full_supervisor.log
+StandardError=append:/opt/binancex/predmarket-scanner/logs/elite_full_supervisor.log
+
+[Install]
+WantedBy=multi-user.target

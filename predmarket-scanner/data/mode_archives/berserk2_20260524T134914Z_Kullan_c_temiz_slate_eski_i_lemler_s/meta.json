@@ -1,0 +1,26 @@
+{
+  "archive_id": "berserk2_20260524T134914Z_Kullan_c_temiz_slate_eski_i_lemler_s",
+  "mode_id": "berserk2",
+  "mode_label": "Brk2",
+  "is_live": false,
+  "archived_at": "2026-05-24T13:49:14.143120+00:00",
+  "reason": "Kullanıcı temiz slate — eski işlemler silindi, net+ çıkış düzeltmesi",
+  "trigger": "user_reset",
+  "path": "data/mode_archives/berserk2_20260524T134914Z_Kullan_c_temiz_slate_eski_i_lemler_s",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 183409,
+      "open_n": 18,
+      "closed_n": 77
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 211034
+    }
+  ],
+  "closed_trades_count": 77,
+  "open_trades_count": 18
+}

@@ -1,0 +1,84 @@
+{
+  "base_variant": "adv_mtf_bb_rsi_atr",
+  "grid_size": 9,
+  "best": {
+    "total_return_pct": -1.05,
+    "win_rate": 0.3099,
+    "trades": 71,
+    "profit_factor": 0.969,
+    "max_drawdown_pct": 10.77,
+    "end_equity": 4947.5,
+    "params": {
+      "risk_pct": 0.025,
+      "leverage": 4.0,
+      "atr_tp_mult": 4.0
+    }
+  },
+  "top5": [
+    {
+      "total_return_pct": -1.05,
+      "win_rate": 0.3099,
+      "trades": 71,
+      "profit_factor": 0.969,
+      "max_drawdown_pct": 10.77,
+      "end_equity": 4947.5,
+      "params": {
+        "risk_pct": 0.025,
+        "leverage": 4.0,
+        "atr_tp_mult": 4.0
+      }
+    },
+    {
+      "total_return_pct": -1.05,
+      "win_rate": 0.3099,
+      "trades": 71,
+      "profit_factor": 0.969,
+      "max_drawdown_pct": 10.77,
+      "end_equity": 4947.5,
+      "params": {
+        "risk_pct": 0.035,
+        "leverage": 4.0,
+        "atr_tp_mult": 4.0
+      }
+    },
+    {
+      "total_return_pct": -1.05,
+      "win_rate": 0.3099,
+      "trades": 71,
+      "profit_factor": 0.969,
+      "max_drawdown_pct": 10.77,
+      "end_equity": 4947.5,
+      "params": {
+        "risk_pct": 0.045,
+        "leverage": 4.0,
+        "atr_tp_mult": 4.0
+      }
+    },
+    {
+      "total_return_pct": -1.86,
+      "win_rate": 0.3099,
+      "trades": 71,
+      "profit_factor": 0.969,
+      "max_drawdown_pct": 15.75,
+      "end_equity": 4907.06,
+      "params": {
+        "risk_pct": 0.025,
+        "leverage": 6.0,
+        "atr_tp_mult": 4.0
+      }
+    },
+    {
+      "total_return_pct": -1.86,
+      "win_rate": 0.3099,
+      "trades": 71,
+      "profit_factor": 0.969,
+      "max_drawdown_pct": 15.75,
+      "end_equity": 4907.06,
+      "params": {
+        "risk_pct": 0.035,
+        "leverage": 6.0,
+        "atr_tp_mult": 4.0
+      }
+    }
+  ]
+}

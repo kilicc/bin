@@ -1,0 +1,26 @@
+{
+  "archive_id": "berserk2_20260524T132439Z_user_reset_net_PnL_restart",
+  "mode_id": "berserk2",
+  "mode_label": "Brk2",
+  "is_live": false,
+  "archived_at": "2026-05-24T13:24:39.955734+00:00",
+  "reason": "user reset — net PnL restart",
+  "trigger": "manual_reset",
+  "path": "data/mode_archives/berserk2_20260524T132439Z_user_reset_net_PnL_restart",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 28168,
+      "open_n": 0,
+      "closed_n": 20
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 37361
+    }
+  ],
+  "closed_trades_count": 20,
+  "open_trades_count": 0
+}

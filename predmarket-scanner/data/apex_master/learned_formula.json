@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "updated_at": "",
+  "target_equity_mult": 2.0,
+  "target_hours": 24.0,
+  "active_capital_pct": 0.5,
+  "min_edge": 0.045,
+  "min_formula_score": 0.52,
+  "avg_trader_wr": 0.58,
+  "symbol_bias": {},
+  "side_weights": {},
+  "trades_analyzed": 0
+}

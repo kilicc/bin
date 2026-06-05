@@ -1,0 +1,26 @@
+{
+  "archive_id": "hunter_20260523T132917Z_V2_clean_start",
+  "mode_id": "hunter",
+  "mode_label": "Hunter",
+  "is_live": false,
+  "archived_at": "2026-05-23T13:29:17.161324+00:00",
+  "reason": "V2 clean start",
+  "trigger": "preserve_reset",
+  "path": "data/mode_archives/hunter_20260523T132917Z_V2_clean_start",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 33,
+      "open_n": 0,
+      "closed_n": 0
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 2335398
+    }
+  ],
+  "closed_trades_count": 0,
+  "open_trades_count": 0
+}

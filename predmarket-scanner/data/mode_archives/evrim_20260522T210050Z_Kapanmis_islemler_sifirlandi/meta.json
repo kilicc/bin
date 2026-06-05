@@ -1,0 +1,26 @@
+{
+  "archive_id": "evrim_20260522T210050Z_Kapanmis_islemler_sifirlandi",
+  "mode_id": "evrim",
+  "mode_label": "Evrim",
+  "is_live": true,
+  "archived_at": "2026-05-22T21:00:50.680970+00:00",
+  "reason": "Kapanmis islemler sifirlandi",
+  "trigger": "clear_closed",
+  "path": "data/mode_archives/evrim_20260522T210050Z_Kapanmis_islemler_sifirlandi",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 41953,
+      "open_n": 0,
+      "closed_n": 40
+    },
+    {
+      "label": "state_db",
+      "file": "binance_elite_8300_9005_state.db",
+      "closed_trades_count": 0
+    }
+  ],
+  "closed_trades_count": 40,
+  "open_trades_count": 0
+}

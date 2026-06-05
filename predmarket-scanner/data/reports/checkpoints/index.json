@@ -1,0 +1,6010 @@
+{
+  "checkpoints": [
+    {
+      "file": "20260524_103307__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T10:33:07.598474+00:00",
+      "bytes": 51321,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_104631__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T10:46:31.312222+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_110314__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T11:03:14.497451+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_111951__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T11:19:51.810190+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_112841__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T11:28:41.586281+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_113027__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T11:30:27.118740+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_113224__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T11:32:24.063763+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_114613__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T11:46:13.025607+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_121840__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T12:18:40.588093+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_132402__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T13:24:02.129933+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_132521__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T13:25:21.927874+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_132644__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T13:26:44.296545+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_133012__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T13:30:12.557415+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_133550__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T13:35:50.819773+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_133736__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T13:37:36.695642+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_134350__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T13:43:50.275250+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_135022__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T13:50:22.913105+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_135143__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T13:51:43.027400+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_135329__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T13:53:29.875127+00:00",
+      "bytes": 51315,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_140352__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T14:03:52.436720+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_141814__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T14:18:14.753912+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_142222__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T14:22:22.167037+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_144339__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T14:43:39.064828+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_145347__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T14:53:47.999898+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_145700__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T14:57:00.026186+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_150105__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T15:01:05.276890+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_151358__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T15:13:58.248914+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_151525__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T15:15:25.311119+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_152136__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T15:21:36.401367+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_153221__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T15:32:21.894020+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_153935__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T15:39:35.369278+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_154919__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T15:49:19.326263+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_155132__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T15:51:32.387513+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_155350__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T15:53:50.166714+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_160203__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T16:02:03.659631+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_160410__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T16:04:10.525282+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_160638__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T16:06:38.843240+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_161219__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T16:12:19.973364+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_161751__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T16:17:51.524404+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_164154__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T16:41:54.834261+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_165116__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T16:51:16.501785+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_165409__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T16:54:09.991248+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_165636__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T16:56:36.200555+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_165925__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T16:59:25.784176+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_170948__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T17:09:48.065559+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_172141__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T17:21:41.014012+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_194514__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T19:45:14.101414+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_194744__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T19:47:44.960215+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_195157__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T19:51:57.057334+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_195514__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T19:55:14.135372+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_195654__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T19:56:55.000414+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_200348__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T20:03:48.029786+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_201058__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T20:10:58.260500+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_201232__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T20:12:32.577355+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_201302__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T20:13:02.982518+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_201351__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T20:13:51.981203+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_201537__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T20:15:37.049151+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_203359__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T20:33:59.178694+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_203553__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T20:35:53.954248+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_203731__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T20:37:31.577543+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_204154__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T20:41:54.546054+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_205203__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T20:52:03.096633+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_210958__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T21:09:58.663466+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_211036__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T21:10:36.172757+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_211550__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T21:15:50.529359+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_212439__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T21:24:39.864404+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_212945__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T21:29:45.125491+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_213056__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T21:30:56.836686+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_213631__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T21:36:31.699179+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_214619__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T21:46:19.592864+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_214756__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T21:47:56.636429+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_214918__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T21:49:18.067210+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_215601__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T21:56:01.522272+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_220520__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:05:20.017500+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_220805__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:08:05.161261+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_220957__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:09:57.950966+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_221544__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:15:44.463415+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_221604__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:16:04.339907+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_221633__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:16:33.512006+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_221733__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:17:33.158271+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_221755__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:17:55.435824+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_221850__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:18:50.230324+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_221921__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:19:21.514554+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_222308__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:23:08.658006+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_222412__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:24:12.738498+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_222522__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:25:22.675391+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_222613__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:26:13.496034+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_222835__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:28:35.593333+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_222958__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:29:58.567233+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_223236__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:32:36.732848+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_223643__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:36:43.321467+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_223704__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:37:04.379564+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_224014__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:40:14.826784+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_224254__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:42:54.786383+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_224741__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T22:47:41.617505+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_230452__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T23:04:52.981214+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_231744__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T23:17:44.376758+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_231853__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T23:18:53.375221+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_233854__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T23:38:54.171191+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_234348__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T23:43:48.792895+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_234409__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T23:44:09.116057+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_234649__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T23:46:49.409941+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_234921__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T23:49:21.528955+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_235018__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T23:50:18.045225+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260524_235131__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-24T23:51:31.597098+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_000723__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T00:07:23.341786+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_080301__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T08:03:01.426791+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_080525__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T08:05:25.777422+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_080600__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T08:06:00.004891+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_081744__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T08:17:44.489540+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_082455__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T08:24:55.278498+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_083533__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T08:35:33.989775+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_084654__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T08:46:54.047448+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_085917__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T08:59:17.428066+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_101942__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T10:19:42.062394+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_134222__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T13:42:22.855435+00:00",
+      "bytes": 34647,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_134252__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T13:42:52.653037+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_134922__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T13:49:22.421079+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_135628__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T13:56:28.803436+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_135748__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T13:57:48.723875+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_142437__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T14:24:37.628975+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_153333__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T15:33:33.095297+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_163531__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T16:35:31.243564+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_163725__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T16:37:25.198650+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_165039__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T16:50:39.606157+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_170528__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T17:05:28.628854+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_172145__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T17:21:45.305173+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_173157__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T17:31:57.448988+00:00",
+      "bytes": 51311,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_173408__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T17:34:08.190126+00:00",
+      "bytes": 1710,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_173544__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T17:35:44.259449+00:00",
+      "bytes": 1710,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_173841__view_mode_view_berserk2.md",
+      "event_type": "view_mode",
+      "label": "Görünüm evrim → berserk2",
+      "slug": "view_mode_view_berserk2",
+      "created_at": "2026-05-25T17:38:41.514413+00:00",
+      "bytes": 51226,
+      "details_preview": {
+        "old_view": "evrim",
+        "new_view": "berserk2",
+        "view_mode": "berserk2"
+      }
+    },
+    {
+      "file": "20260525_173846__motor_execution_motor_berserk2_from_evrim.md",
+      "event_type": "motor_execution",
+      "label": "Emir motoru evrim → berserk2",
+      "slug": "motor_execution_motor_berserk2_from_evrim",
+      "created_at": "2026-05-25T17:38:46.751874+00:00",
+      "bytes": 51449,
+      "details_preview": {
+        "old_mode": "evrim",
+        "new_mode": "berserk2",
+        "note": ""
+      }
+    },
+    {
+      "file": "20260525_173947__motor_execution_motor_berserk2_from_evrim.md",
+      "event_type": "motor_execution",
+      "label": "Emir motoru evrim → berserk2",
+      "slug": "motor_execution_motor_berserk2_from_evrim",
+      "created_at": "2026-05-25T17:39:47.130198+00:00",
+      "bytes": 51449,
+      "details_preview": {
+        "old_mode": "evrim",
+        "new_mode": "berserk2",
+        "note": ""
+      }
+    },
+    {
+      "file": "20260525_174117__motor_execution_motor_berserk2_from_evrim.md",
+      "event_type": "motor_execution",
+      "label": "Emir motoru evrim → berserk2",
+      "slug": "motor_execution_motor_berserk2_from_evrim",
+      "created_at": "2026-05-25T17:41:17.432586+00:00",
+      "bytes": 51449,
+      "details_preview": {
+        "old_mode": "evrim",
+        "new_mode": "berserk2",
+        "note": ""
+      }
+    },
+    {
+      "file": "20260525_174234__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T17:42:34.129603+00:00",
+      "bytes": 51335,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_174436__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T17:44:36.155287+00:00",
+      "bytes": 51030,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_174649__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T17:46:49.501517+00:00",
+      "bytes": 48876,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_175454__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T17:54:54.522255+00:00",
+      "bytes": 1710,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_175653__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T17:56:53.937456+00:00",
+      "bytes": 51030,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_180244__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T18:02:44.607654+00:00",
+      "bytes": 51030,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_180739__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T18:07:39.661494+00:00",
+      "bytes": 1413,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_182302__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T18:23:02.069991+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_182610__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T18:26:10.325542+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_183055__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T18:30:55.058914+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_183712__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T18:37:12.995190+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_184622__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T18:46:22.182462+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_184659__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T18:46:59.947981+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_185035__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T18:50:35.054336+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_185649__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T18:56:49.707930+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_185801__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T18:58:01.824555+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_190042__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T19:00:42.195359+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_190457__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T19:04:57.929203+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_190814__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T19:08:14.896836+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_191119__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T19:11:19.511149+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_191425__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T19:14:25.265155+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260525_192038__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-25T19:20:38.116826+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_090924__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T09:09:24.773711+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_091303__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T09:13:03.333685+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_202757__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T20:27:57.129370+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_203443__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T20:34:43.709448+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_204201__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T20:42:01.147104+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_204909__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T20:49:09.133997+00:00",
+      "bytes": 51002,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_205512__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T20:55:12.665943+00:00",
+      "bytes": 51200,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_210026__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T21:00:26.460172+00:00",
+      "bytes": 8516,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_211028__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T21:10:28.666241+00:00",
+      "bytes": 12125,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_212332__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T21:23:32.873265+00:00",
+      "bytes": 12110,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_214018__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T21:40:18.347876+00:00",
+      "bytes": 22565,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_214423__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T21:44:23.412680+00:00",
+      "bytes": 46614,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_214928__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T21:49:28.260164+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_215504__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T21:55:04.117048+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_215631__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T21:56:31.455109+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_220708__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T22:07:08.011683+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_221301__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T22:13:01.471775+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_222204__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T22:22:04.135885+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_222716__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T22:27:16.896385+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_223051__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T22:30:51.675747+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_223123__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T22:31:23.299487+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_223804__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T22:38:04.838999+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_224430__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T22:44:30.267196+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_230151__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T23:01:51.302852+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_230733__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T23:07:33.347711+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_230905__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T23:09:05.083012+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260526_235253__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-26T23:52:53.373698+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_000611__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T00:06:11.685098+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_001039__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T00:10:39.793681+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_001209__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T00:12:09.436358+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_001325__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T00:13:25.687557+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_001511__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T00:15:11.308977+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_001625__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T00:16:25.768784+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_101913__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T10:19:13.266548+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_134007__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T13:40:07.792444+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_163127__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T16:31:27.519626+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_164309__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T16:43:09.799257+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_165402__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T16:54:02.678518+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_165855__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T16:58:55.151769+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_165956__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T16:59:56.079419+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_170445__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T17:04:45.971138+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_171248__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T17:12:48.443554+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_171948__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T17:19:48.011250+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_173732__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T17:37:32.298699+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_174202__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T17:42:02.651963+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_175713__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T17:57:13.002901+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_180027__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T18:00:27.357278+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_181719__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T18:17:19.324064+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_182426__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T18:24:26.766247+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_182618__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T18:26:18.183415+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_182842__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T18:28:42.511206+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_183629__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T18:36:29.661279+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_185030__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T18:50:30.523753+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_185710__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T18:57:10.688615+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_185920__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T18:59:20.909815+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_191101__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T19:11:01.541646+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_202858__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T20:28:58.224956+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_204032__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T20:40:32.347964+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_204453__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T20:44:53.742797+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_204832__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T20:48:32.655940+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_211017__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T21:10:17.417754+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_211241__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T21:12:41.855703+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_212109__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T21:21:09.935774+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_212629__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T21:26:29.176869+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_212938__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T21:29:38.234950+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_213056__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T21:30:56.850742+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_213200__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T21:32:00.036235+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_231436__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T23:14:36.985130+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_231931__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T23:19:31.346325+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260527_232206__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-27T23:22:06.804282+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_104915__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T10:49:15.398859+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_114016__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T11:40:16.197865+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_114802__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T11:48:02.827285+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_121025__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T12:10:25.954192+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_121111__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T12:11:11.122148+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_130111__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T13:01:11.065217+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_130233__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T13:02:33.490345+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_130836__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T13:08:36.266860+00:00",
+      "bytes": 51002,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_130927__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T13:09:27.138742+00:00",
+      "bytes": 51002,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_131056__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T13:10:56.196396+00:00",
+      "bytes": 51002,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_131707__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T13:17:07.672038+00:00",
+      "bytes": 51002,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_132418__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T13:24:18.547635+00:00",
+      "bytes": 51002,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_133440__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T13:34:40.700038+00:00",
+      "bytes": 51002,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_134224__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T13:42:24.685894+00:00",
+      "bytes": 51002,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_135913__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T13:59:13.451047+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_140442__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T14:04:42.970904+00:00",
+      "bytes": 36316,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_140543__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T14:05:43.580425+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_140649__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T14:06:49.488238+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_180753__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T18:07:53.429469+00:00",
+      "bytes": 16878,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_181256__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T18:12:56.474690+00:00",
+      "bytes": 16878,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_210715__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T21:07:15.545454+00:00",
+      "bytes": 29063,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_214710__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T21:47:10.191145+00:00",
+      "bytes": 30681,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_221601__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T22:16:01.287735+00:00",
+      "bytes": 46771,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_230951__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T23:09:51.616114+00:00",
+      "bytes": 10801,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260528_235932__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-28T23:59:32.324644+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_020219__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T02:02:19.252346+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_022659__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T02:26:59.546821+00:00",
+      "bytes": 50999,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_022827__view_mode_view_mega.md",
+      "event_type": "view_mode",
+      "label": "Görünüm berserk2 → mega",
+      "slug": "view_mode_view_mega",
+      "created_at": "2026-05-29T02:28:27.307377+00:00",
+      "bytes": 51177,
+      "details_preview": {
+        "old_view": "berserk2",
+        "new_view": "mega",
+        "view_mode": "mega"
+      }
+    },
+    {
+      "file": "20260529_082735__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T08:27:35.686628+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_082856__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T08:28:56.365257+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_082905__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T08:29:05.102648+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_083556__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T08:35:56.088842+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_084233__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T08:42:33.755688+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_084926__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T08:49:26.705790+00:00",
+      "bytes": 32435,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_091345__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T09:13:45.168289+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_100226__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T10:02:26.230633+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_102616__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T10:26:16.617011+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_103139__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T10:31:39.183081+00:00",
+      "bytes": 10738,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_154248__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T15:42:48.975549+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_154418__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T15:44:18.362898+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_162503__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T16:25:03.819691+00:00",
+      "bytes": 38480,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_162927__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T16:29:27.071954+00:00",
+      "bytes": 40027,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_163337__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T16:33:37.913488+00:00",
+      "bytes": 32978,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_164146__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T16:41:46.101176+00:00",
+      "bytes": 26414,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_164149__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T16:41:49.901218+00:00",
+      "bytes": 26414,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_164257__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T16:42:57.298957+00:00",
+      "bytes": 18639,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_164302__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T16:43:02.722096+00:00",
+      "bytes": 18979,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_164521__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T16:45:21.364581+00:00",
+      "bytes": 25711,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_164849__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T16:48:49.900563+00:00",
+      "bytes": 25972,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_164855__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T16:48:55.920432+00:00",
+      "bytes": 26117,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_164959__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T16:49:59.877368+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_165005__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T16:50:05.761072+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_165404__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T16:54:04.236403+00:00",
+      "bytes": 21514,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_170455__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T17:04:55.942660+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_171044__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T17:10:44.922405+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_171419__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T17:14:20.000462+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_171606__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T17:16:06.493433+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_171753__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T17:17:53.612724+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_171943__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T17:19:43.435637+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_172030__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T17:20:30.748005+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_172421__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T17:24:21.934226+00:00",
+      "bytes": 39950,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_172948__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T17:29:48.507488+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_173202__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T17:32:02.757275+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_173543__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T17:35:43.689577+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_180139__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T18:01:39.695273+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_180729__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T18:07:29.316737+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_180902__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T18:09:02.033942+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_181655__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T18:16:55.173290+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_181718__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T18:17:18.757173+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_181747__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T18:17:47.541540+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_182001__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T18:20:01.653176+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_183231__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T18:32:31.441436+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_183632__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T18:36:32.143353+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_183901__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T18:39:01.678910+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_184235__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T18:42:35.949020+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_185200__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T18:52:00.202469+00:00",
+      "bytes": 46975,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_190558__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T19:05:58.231589+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_191453__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T19:14:53.197071+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_191813__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T19:18:13.643178+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_192144__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T19:21:44.228008+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_192341__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T19:23:41.957180+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_192949__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T19:29:49.258061+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_194000__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T19:40:00.695825+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_194648__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T19:46:48.837889+00:00",
+      "bytes": 13968,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_195051__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T19:50:51.454915+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_195909__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T19:59:09.104658+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_200101__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T20:01:01.559697+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_200436__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T20:04:36.145488+00:00",
+      "bytes": 27451,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_201136__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T20:11:36.228677+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_201701__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T20:17:01.534045+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_201957__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T20:19:57.885101+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_202822__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T20:28:22.741932+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_203308__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T20:33:08.165218+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_203740__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T20:37:40.149902+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_204306__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T20:43:06.113467+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_204618__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T20:46:18.476813+00:00",
+      "bytes": 19266,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_205318__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T20:53:18.469329+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_210234__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T21:02:34.327882+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_211035__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T21:10:35.099786+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_211156__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T21:11:56.082516+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_211311__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T21:13:11.104515+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_211727__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T21:17:27.028003+00:00",
+      "bytes": 25585,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_211857__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T21:18:57.090017+00:00",
+      "bytes": 50331,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_212241__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T21:22:41.076995+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_212359__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T21:23:59.896122+00:00",
+      "bytes": 42820,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_213803__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T21:38:03.267223+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_214413__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T21:44:13.036847+00:00",
+      "bytes": 27687,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_214535__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T21:45:35.007785+00:00",
+      "bytes": 36828,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_214805__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T21:48:05.892290+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_214914__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T21:49:14.643068+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_220856__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T22:08:56.510088+00:00",
+      "bytes": 46499,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_222206__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T22:22:06.712010+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_223325__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T22:33:25.513337+00:00",
+      "bytes": 46013,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260529_231231__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-29T23:12:31.212479+00:00",
+      "bytes": 34736,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_093547__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T09:35:47.084168+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_094048__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T09:40:48.752875+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_094052__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T09:40:52.569708+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_094155__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T09:41:55.357733+00:00",
+      "bytes": 8826,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_094217__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T09:42:17.265629+00:00",
+      "bytes": 13143,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_094255__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T09:42:55.379533+00:00",
+      "bytes": 7031,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_094259__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T09:42:59.283933+00:00",
+      "bytes": 7354,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_094401__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T09:44:01.092365+00:00",
+      "bytes": 17702,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_094405__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T09:44:05.325105+00:00",
+      "bytes": 18025,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_094426__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T09:44:26.172227+00:00",
+      "bytes": 21961,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_095024__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T09:50:24.331912+00:00",
+      "bytes": 41197,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_095046__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T09:50:46.976380+00:00",
+      "bytes": 48236,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_100509__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T10:05:09.376137+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_101101__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T10:11:01.274214+00:00",
+      "bytes": 24068,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_101202__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T10:12:02.789129+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_101238__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T10:12:38.452651+00:00",
+      "bytes": 23447,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_101506__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T10:15:06.339903+00:00",
+      "bytes": 47853,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_120219__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T12:02:19.708956+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_122743__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T12:27:43.576204+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_122834__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T12:28:34.560603+00:00",
+      "bytes": 7361,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_123844__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T12:38:44.817132+00:00",
+      "bytes": 13514,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_123907__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T12:39:07.924654+00:00",
+      "bytes": 19962,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_125205__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T12:52:05.011627+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_130130__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T13:01:30.224051+00:00",
+      "bytes": 24545,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_130412__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T13:04:12.531574+00:00",
+      "bytes": 19546,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_130413__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T13:04:13.705966+00:00",
+      "bytes": 19903,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_130743__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T13:07:43.684541+00:00",
+      "bytes": 42836,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_132348__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T13:23:48.507925+00:00",
+      "bytes": 22995,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_132736__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T13:27:36.727222+00:00",
+      "bytes": 13850,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_134741__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T13:47:41.308575+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_134920__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T13:49:20.410728+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_135149__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T13:51:49.733095+00:00",
+      "bytes": 48885,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_135240__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T13:52:40.708152+00:00",
+      "bytes": 33117,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_135425__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T13:54:25.891295+00:00",
+      "bytes": 37349,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_135724__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T13:57:24.870697+00:00",
+      "bytes": 35642,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_140818__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T14:08:18.249173+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_141417__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T14:14:17.683506+00:00",
+      "bytes": 22074,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_141704__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T14:17:04.464450+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_142752__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T14:27:52.802619+00:00",
+      "bytes": 33086,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260530_182644__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-05-30T18:26:44.607795+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260602_000757__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-02T00:07:57.873769+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260603_233600__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-03T23:36:00.878445+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260603_234055__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-03T23:40:55.584922+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_160840__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T16:08:40.579270+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_165339__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T16:53:39.197237+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_170405__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T17:04:05.473264+00:00",
+      "bytes": 39993,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_170939__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T17:09:39.484416+00:00",
+      "bytes": 45516,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_171328__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T17:13:28.362750+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_172119__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T17:21:19.645354+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_172258__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T17:22:58.914055+00:00",
+      "bytes": 38458,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_173404__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T17:34:04.574426+00:00",
+      "bytes": 38870,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_174716__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T17:47:16.750671+00:00",
+      "bytes": 49272,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_180209__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T18:02:09.066857+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_180925__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T18:09:25.265899+00:00",
+      "bytes": 48121,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_184320__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T18:43:20.304896+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_185712__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T18:57:12.620718+00:00",
+      "bytes": 39987,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_190114__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T19:01:14.476894+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_191420__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T19:14:20.327624+00:00",
+      "bytes": 37599,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_192211__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T19:22:11.468362+00:00",
+      "bytes": 35052,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_193821__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T19:38:21.388638+00:00",
+      "bytes": 38295,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_200250__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T20:02:50.839354+00:00",
+      "bytes": 45236,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_200915__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T20:09:15.896337+00:00",
+      "bytes": 40211,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_202751__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T20:27:51.944611+00:00",
+      "bytes": 49013,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_203446__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T20:34:46.481672+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_204405__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T20:44:05.545769+00:00",
+      "bytes": 38926,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_205930__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T20:59:30.532873+00:00",
+      "bytes": 44811,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_210643__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T21:06:43.797079+00:00",
+      "bytes": 43669,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_212051__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T21:20:51.923231+00:00",
+      "bytes": 36686,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_213036__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T21:30:36.673682+00:00",
+      "bytes": 49417,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_214355__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T21:43:55.819126+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_215255__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T21:52:55.559054+00:00",
+      "bytes": 48256,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_215506__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T21:55:06.912065+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_221638__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T22:16:38.416840+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_222503__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T22:25:03.147681+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_223416__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T22:34:16.868396+00:00",
+      "bytes": 41997,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_224737__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T22:47:37.860253+00:00",
+      "bytes": 39774,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_225301__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T22:53:01.312093+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_230019__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T23:00:19.199455+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_230357__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T23:03:57.928677+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_231327__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T23:13:27.532129+00:00",
+      "bytes": 44336,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_231859__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T23:18:59.190497+00:00",
+      "bytes": 48314,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_232350__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T23:23:50.106801+00:00",
+      "bytes": 35153,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_232905__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T23:29:05.724585+00:00",
+      "bytes": 37571,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_233916__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T23:39:16.113817+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_234927__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T23:49:27.129271+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260604_235648__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-04T23:56:48.359418+00:00",
+      "bytes": 49147,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_000050__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:00:50.603341+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_000600__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:06:00.783916+00:00",
+      "bytes": 39563,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_001012__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:10:12.695347+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_001228__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:12:28.156202+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_001740__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:17:40.295196+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_002309__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:23:09.747611+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_002534__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:25:34.548054+00:00",
+      "bytes": 39310,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_003053__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:30:53.726430+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_003346__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:33:46.564323+00:00",
+      "bytes": 37917,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_004128__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:41:28.775978+00:00",
+      "bytes": 44784,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_004329__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:43:30.005380+00:00",
+      "bytes": 42722,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_004609__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:46:09.722426+00:00",
+      "bytes": 50744,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_004922__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:49:22.253899+00:00",
+      "bytes": 42555,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_005227__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:52:27.681106+00:00",
+      "bytes": 42938,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_005335__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:53:35.491641+00:00",
+      "bytes": 36861,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_005642__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:56:42.281345+00:00",
+      "bytes": 41429,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_005741__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T00:57:41.489451+00:00",
+      "bytes": 38941,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_010158__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T01:01:58.368229+00:00",
+      "bytes": 51178,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_010350__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T01:03:50.661799+00:00",
+      "bytes": 43096,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_010518__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T01:05:18.602932+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_011042__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T01:10:42.938762+00:00",
+      "bytes": 39859,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_133307__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T13:33:07.358545+00:00",
+      "bytes": 39792,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_133722__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T13:37:22.383495+00:00",
+      "bytes": 41162,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_134013__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T13:40:13.527399+00:00",
+      "bytes": 43830,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_142018__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T14:20:18.033540+00:00",
+      "bytes": 41518,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_145525__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T14:55:25.686336+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_150227__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T15:02:27.559568+00:00",
+      "bytes": 38918,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_151940__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T15:19:40.650892+00:00",
+      "bytes": 33369,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_153328__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T15:33:28.662033+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_161107__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:11:07.066362+00:00",
+      "bytes": 37588,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_161120__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:11:20.767495+00:00",
+      "bytes": 44684,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_161134__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:11:34.289736+00:00",
+      "bytes": 50840,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_161147__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:11:47.490683+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_161200__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:12:00.229966+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_161213__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:12:13.137500+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_161226__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:12:26.122381+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_161238__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:12:39.021989+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_162418__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:24:18.835383+00:00",
+      "bytes": 15504,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_162709__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:27:09.291734+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_162754__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:27:54.399905+00:00",
+      "bytes": 4644,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_162832__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:28:32.345357+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_163409__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:34:09.415655+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_163503__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:35:03.738092+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_163603__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:36:03.065364+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_163751__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:37:51.894795+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_164543__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:45:43.170900+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_164835__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:48:35.402889+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_164913__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:49:14.014125+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_165003__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:50:03.881703+00:00",
+      "bytes": 17385,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_165225__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:52:25.484581+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_165313__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:53:13.359389+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_165504__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:55:04.724317+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_165800__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T16:58:00.761791+00:00",
+      "bytes": 35536,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_170606__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T17:06:06.562137+00:00",
+      "bytes": 26204,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_171010__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T17:10:10.224016+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_171917__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T17:19:17.254658+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_172148__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T17:21:48.490532+00:00",
+      "bytes": 5915,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_172916__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T17:29:16.810268+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_175228__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T17:52:28.034260+00:00",
+      "bytes": 17327,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_175603__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T17:56:03.635490+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_181116__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T18:11:16.566417+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_181410__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T18:14:10.363782+00:00",
+      "bytes": 6235,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_181926__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T18:19:26.468438+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_183635__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T18:36:35.073035+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_190155__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T19:01:55.383970+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_191620__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T19:16:20.304651+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_192745__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T19:27:45.753614+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_193826__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T19:38:26.598102+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_194122__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T19:41:22.210602+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_195201__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T19:52:01.201980+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_195919__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T19:59:19.210491+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_200636__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T20:06:36.222997+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_202147__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T20:21:47.130529+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    },
+    {
+      "file": "20260605_202349__restart_boot_boot_9005.md",
+      "event_type": "restart_boot",
+      "label": "Bot açılış (startup)",
+      "slug": "restart_boot_boot_9005",
+      "created_at": "2026-06-05T20:23:49.880095+00:00",
+      "bytes": 51176,
+      "details_preview": {
+        "pid": null,
+        "phase": "application_startup"
+      }
+    }
+  ],
+  "updated_at": "2026-06-05T20:23:49.882047+00:00"
+}

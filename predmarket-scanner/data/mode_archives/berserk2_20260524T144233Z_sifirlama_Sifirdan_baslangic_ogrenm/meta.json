@@ -1,0 +1,26 @@
+{
+  "archive_id": "berserk2_20260524T144233Z_sifirlama_Sifirdan_baslangic_ogrenm",
+  "mode_id": "berserk2",
+  "mode_label": "Brk2",
+  "is_live": false,
+  "archived_at": "2026-05-24T14:42:33.354891+00:00",
+  "reason": "[sifirlama] Sifirdan baslangic ogrenme korundu demo canli emir",
+  "trigger": "user_reset",
+  "path": "data/mode_archives/berserk2_20260524T144233Z_sifirlama_Sifirdan_baslangic_ogrenm",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 488149,
+      "open_n": 17,
+      "closed_n": 303
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 553219
+    }
+  ],
+  "closed_trades_count": 303,
+  "open_trades_count": 17
+}

@@ -1,0 +1,12 @@
+{
+  "regime": "normal",
+  "since": 0.0,
+  "samples": [],
+  "history": [],
+  "last_open_at": 0.0,
+  "transition_active": false,
+  "transition_since": 0.0,
+  "transition_reason": "",
+  "regime_locked": false,
+  "updated_at": 1780690544.6040285
+}

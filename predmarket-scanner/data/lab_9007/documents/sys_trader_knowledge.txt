@@ -1,0 +1,413 @@
+# Source: data/education/trader_knowledge.json
+{
+  "version": 2,
+  "source": "cursor_education_report_2026-05-18 + github_public_projects_2026-05-18",
+  "policy": {
+    "external_sources_change_system": false,
+    "user_sources_conflict_ask_before_change": true,
+    "inferences_only_from_this_store": true
+  },
+  "learning_path": [
+    {
+      "phase": 1,
+      "topic": "crypto_blockchain_wallet_security",
+      "hours": "3-8"
+    },
+    {
+      "phase": 2,
+      "topic": "spot_trading_no_leverage",
+      "hours": "5-10"
+    },
+    {
+      "phase": 3,
+      "topic": "exchange_orders_fees",
+      "hours": "2-5"
+    },
+    {
+      "phase": 4,
+      "topic": "risk_management_psychology",
+      "hours": "3-6"
+    },
+    {
+      "phase": 5,
+      "topic": "technical_analysis",
+      "hours": "10-20"
+    },
+    {
+      "phase": 6,
+      "topic": "futures_leverage",
+      "hours": "5-15",
+      "warning": "highest_risk_last"
+    }
+  ],
+  "official_resources": [
+    {
+      "name": "Binance Academy",
+      "url": "https://academy.binance.com",
+      "lang": [
+        "en",
+        "tr"
+      ]
+    },
+    {
+      "name": "Binance Futures FAQ",
+      "url": "https://www.binance.com/en/support/faq/detail/360039304272"
+    },
+    {
+      "name": "Coinbase Learn",
+      "url": "https://www.coinbase.com/learn"
+    },
+    {
+      "name": "Kraken Learn",
+      "url": "https://www.kraken.com/learn"
+    },
+    {
+      "name": "CEX.IO University TR",
+      "url": "https://university.cex.io/tr/"
+    }
+  ],
+  "ta_concepts": {
+    "RSI": {
+      "education": "Relative Strength Index — aşırı alım/satım momentumu",
+      "long_below": 35,
+      "short_above": 65,
+      "scalp_long_below": 40,
+      "scalp_short_above": 60,
+      "module": "RSI"
+    },
+    "EMA": {
+      "education": "Exponential Moving Average — trend yönü, golden/death cross",
+      "fast_slow_standard": [
+        9,
+        21
+      ],
+      "fast_slow_scalp": [
+        5,
+        13
+      ],
+      "module": "EMA"
+    },
+    "BB": {
+      "education": "Bollinger Bands — volatilite, mean reversion",
+      "std_standard": 2.0,
+      "std_scalp": 1.8,
+      "module": "BB"
+    },
+    "MACD": {
+      "education": "Moving Average Convergence Divergence — momentum ve trend dönüşü",
+      "fast": 12,
+      "slow": 26,
+      "signal": 9,
+      "module": "MACD"
+    },
+    "MOM": {
+      "education": "Fiyat momentumu — kısa vadeli yön",
+      "bars_standard": 5,
+      "bars_scalp": 3,
+      "module": "MOM"
+    },
+    "VOL": {
+      "education": "Hacim spike — kırılım teyidi",
+      "spike_mult_standard": 1.8,
+      "spike_mult_scalp": 1.5,
+      "module": "VOL"
+    },
+    "FG": {
+      "education": "Fear & Greed — piyasa duyarlılığı (makro filtre)",
+      "extreme_fear": 25,
+      "extreme_greed": 75,
+      "module": "FG"
+    },
+    "FUND": {
+      "education": "Funding rate — perpetual maliyet / kalabalık yönü",
+      "module": "FUND"
+    },
+    "ATR": {
+      "education": "Average True Range — volatiliteye göre SL",
+      "period": 14,
+      "module": "ATR"
+    },
+    "ADX": {
+      "education": "Trend gücü — GitHub/freqtrade: ADX>25 trend, <20 yatay",
+      "trend_min": 22,
+      "chop_max": 18,
+      "module": "ADX"
+    },
+    "STOCH": {
+      "education": "Stochastic — GitHub/freqtrade Strategy003 teyit",
+      "oversold": 20,
+      "overbought": 80,
+      "module": "STOCH"
+    },
+    "EMA200": {
+      "education": "Uzun vade rejim filtresi — GitHub/Nostalgia, Strategy001",
+      "period": 200,
+      "module": "EMA200"
+    },
+    "TRIPLE_EMA": {
+      "education": "EMA9>21>50 hizası — Binance-Futures-Trading-Bot",
+      "periods": [
+        9,
+        21,
+        50
+      ],
+      "module": "EMA"
+    }
+  },
+  "github_projects_ref": "data/education/github_projects.json",
+  "github_synthesized_rules": [
+    "gh_adx_trend",
+    "gh_ema200_regime",
+    "gh_bb_rsi_atr",
+    "gh_triple_ema",
+    "gh_stoch_rsi",
+    "gh_high_confluence"
+  ],
+  "risk_rules": [
+    {
+      "id": "max_risk_per_trade",
+      "rule": "Tek işlemde portföyün %1-2'sinden fazla riske girme"
+    },
+    {
+      "id": "leverage_beginner",
+      "rule": "Yeni başlayan max 5x; likidasyon riski"
+    },
+    {
+      "id": "isolated_margin",
+      "rule": "Pozisyon riskini diğerlerinden ayır"
+    },
+    {
+      "id": "fees_matter",
+      "rule": "Maker/taker + funding net PnL'den düşülür"
+    },
+    {
+      "id": "confirmation",
+      "rule": "Birden fazla bağımsız sinyal ailesi hizalanmadan giriş yapma"
+    },
+    {
+      "id": "no_guarantee_groups",
+      "rule": "Garanti kâr gruplarından kaçın"
+    }
+  ],
+  "futures_concepts": {
+    "long": "Fiyat yükselirken kâr",
+    "short": "Fiyat düşerken kâr",
+    "leverage": "Kâr ve zararı çarpan; likidasyon riski",
+    "margin_cross_vs_isolated": "Cross paylaşımlı; isolated pozisyon başına",
+    "funding": "Perpetual açık tutma maliyeti",
+    "taker_fee_typical": 0.0004,
+    "maker_fee_typical": 0.0002
+  },
+  "inferences_log": [
+    {
+      "ts": "2026-05-17T22:13:08.203878+00:00",
+      "topic": "best_strategy_selection",
+      "conclusion": "Seçilen varyant: edu_conservative",
+      "evidence_ids": [
+        "edu_conservative"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T22:13:08.204699+00:00",
+      "topic": "backtest_6m_complete",
+      "conclusion": "En iyi: edu_conservative WR=0.4869 PF=0.336",
+      "evidence_ids": [
+        "edu_conservative"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T22:13:57.179064+00:00",
+      "topic": "best_strategy_selection",
+      "conclusion": "Seçilen varyant: edu_conservative",
+      "evidence_ids": [
+        "edu_conservative"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T22:13:57.180126+00:00",
+      "topic": "backtest_6m_complete",
+      "conclusion": "En iyi: edu_conservative WR=0.4869 PF=0.336",
+      "evidence_ids": [
+        "edu_conservative"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T22:32:16.851341+00:00",
+      "topic": "backtest_improvement_after_github",
+      "conclusion": "Gelişim: {'win_rate': -0.008, 'profit_factor': 1.369, 'total_pnl_pct': 0.2617, 'rank_score': 0.9081} | yeni en iyi: gh_freqtrade_bb_rsi_atr",
+      "evidence_ids": [
+        "gh_freqtrade_bb_rsi_atr"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T22:32:16.852482+00:00",
+      "topic": "best_strategy_selection",
+      "conclusion": "Seçilen varyant: gh_freqtrade_bb_rsi_atr",
+      "evidence_ids": [
+        "gh_freqtrade_bb_rsi_atr"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T22:32:16.852869+00:00",
+      "topic": "backtest_6m_complete",
+      "conclusion": "En iyi: gh_freqtrade_bb_rsi_atr WR=0.4789 PF=1.705",
+      "evidence_ids": [
+        "gh_freqtrade_bb_rsi_atr"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T22:35:01.449210+00:00",
+      "topic": "backtest_improvement_after_github",
+      "conclusion": "Gelişim: {'win_rate': -0.008, 'profit_factor': 1.369, 'total_pnl_pct': 0.2617, 'rank_score': 0.9081} | yeni en iyi: gh_freqtrade_bb_rsi_atr",
+      "evidence_ids": [
+        "gh_freqtrade_bb_rsi_atr"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T22:35:01.450592+00:00",
+      "topic": "best_strategy_selection",
+      "conclusion": "Seçilen varyant: gh_freqtrade_bb_rsi_atr",
+      "evidence_ids": [
+        "gh_freqtrade_bb_rsi_atr"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T22:35:01.451050+00:00",
+      "topic": "backtest_6m_complete",
+      "conclusion": "En iyi: gh_freqtrade_bb_rsi_atr WR=0.4789 PF=1.705",
+      "evidence_ids": [
+        "gh_freqtrade_bb_rsi_atr"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T22:44:10.843323+00:00",
+      "topic": "best_strategy_selection",
+      "conclusion": "Seçilen varyant: adv_mtf_bb_rsi_atr",
+      "evidence_ids": [
+        "adv_mtf_bb_rsi_atr"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T22:44:10.844512+00:00",
+      "topic": "portfolio_backtest_6m",
+      "conclusion": "En iyi portföy: adv_mtf_bb_rsi_atr getiri=3.18%",
+      "evidence_ids": [
+        "adv_mtf_bb_rsi_atr"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T22:50:02.117398+00:00",
+      "topic": "best_strategy_selection",
+      "conclusion": "Seçilen varyant: adv_mtf_bb_rsi_atr",
+      "evidence_ids": [
+        "adv_mtf_bb_rsi_atr"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T22:50:02.118405+00:00",
+      "topic": "portfolio_backtest_6m",
+      "conclusion": "En iyi portföy: adv_mtf_bb_rsi_atr getiri=1.21%",
+      "evidence_ids": [
+        "adv_mtf_bb_rsi_atr"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T23:02:56.725809+00:00",
+      "topic": "best_strategy_selection",
+      "conclusion": "Seçilen varyant: adv_mtf_bb_rsi_atr",
+      "evidence_ids": [
+        "adv_mtf_bb_rsi_atr"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T23:02:56.726977+00:00",
+      "topic": "portfolio_backtest_6m",
+      "conclusion": "En iyi portföy: adv_mtf_bb_rsi_atr getiri=1.21%",
+      "evidence_ids": [
+        "adv_mtf_bb_rsi_atr"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T23:16:00.258787+00:00",
+      "topic": "best_strategy_selection",
+      "conclusion": "Seçilen varyant: adv_alpha_max",
+      "evidence_ids": [
+        "adv_alpha_max"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T23:16:00.260020+00:00",
+      "topic": "portfolio_backtest_6m",
+      "conclusion": "En iyi portföy: adv_alpha_max getiri=139.52%",
+      "evidence_ids": [
+        "adv_alpha_max"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T23:25:28.724551+00:00",
+      "topic": "portfolio_per_coin_optimized",
+      "conclusion": "getiri=-4858.1% WR=0.5491 coin=18",
+      "evidence_ids": [
+        "adv_per_coin_optimized"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T23:39:15.086054+00:00",
+      "topic": "best_strategy_selection",
+      "conclusion": "Seçilen varyant: adv_alpha_max",
+      "evidence_ids": [
+        "adv_alpha_max"
+      ],
+      "blocked": false,
+      "reason": ""
+    },
+    {
+      "ts": "2026-05-17T23:39:15.087371+00:00",
+      "topic": "portfolio_backtest_6m",
+      "conclusion": "En iyi portföy: adv_alpha_max getiri=273.69%",
+      "evidence_ids": [
+        "adv_alpha_max"
+      ],
+      "blocked": false,
+      "reason": ""
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "symbols": {
+    "SOLUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SL",
+      "last_pnl": -1.0,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779546665.456987
+    },
+    "SXPUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "TP",
+      "last_pnl": 3.28,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779552403.5351
+    },
+    "PHBUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "SL",
+      "last_pnl": -3.44,
+      "last_won": false,
+      "fail_streak": 0,
+      "closed_at": 1779553998.948648
+    },
+    "MEUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SPIKE-QUICK",
+      "last_pnl": 0.46,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779548566.2941198
+    },
+    "GMTUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "manual_close_user_request",
+      "last_pnl": -0.29,
+      "last_won": false,
+      "fail_streak": 2,
+      "closed_at": 1779550483.1208
+    },
+    "AIUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "SL",
+      "last_pnl": -1.51,
+      "last_won": false,
+      "fail_streak": 0,
+      "closed_at": 1779548840.291488
+    },
+    "BANANAS31USDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SL",
+      "last_pnl": -6.03,
+      "last_won": false,
+      "fail_streak": 2,
+      "closed_at": 1779548452.005004
+    },
+    "LPTUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "SL",
+      "last_pnl": -2.57,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779547983.737259
+    },
+    "COSUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "TP",
+      "last_pnl": 0.39,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779548712.7098281
+    },
+    "FLOCKUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SL",
+      "last_pnl": -6.98,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779548020.948394
+    },
+    "USELESSUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SL",
+      "last_pnl": -1.58,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779548030.8987021
+    },
+    "MELANIAUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SL",
+      "last_pnl": -1.5,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779548120.3534951
+    },
+    "MYXUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "manual_close_user_request",
+      "last_pnl": -0.29,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779552021.181802
+    },
+    "DODOXUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "SL",
+      "last_pnl": -1.03,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779548230.07306
+    },
+    "QUICKUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SL",
+      "last_pnl": -4.44,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779548283.30572
+    },
+    "GUAUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "TP",
+      "last_pnl": 2.96,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779549074.031191
+    },
+    "PROVEUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SL",
+      "last_pnl": -1.49,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779548344.4547489
+    },
+    "TAGUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SL",
+      "last_pnl": -7.02,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779548390.9116669
+    },
+    "MLNUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SL",
+      "last_pnl": -2.08,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779548450.392173
+    },
+    "DASHUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SL",
+      "last_pnl": -1.56,
+      "last_won": false,
+      "fail_streak": 2,
+      "closed_at": 1779548822.365254
+    },
+    "BOBUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "SL",
+      "last_pnl": -1.1,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779553306.443181
+    },
+    "PARTIUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "SL",
+      "last_pnl": -1.08,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779549252.18919
+    },
+    "STABLEUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "STALE-RELEASE",
+      "last_pnl": 0.32,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779548557.643627
+    },
+    "SYSUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SL",
+      "last_pnl": -4.46,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779548612.594676
+    },
+    "ATAUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "STALE-RELEASE",
+      "last_pnl": 0.11,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779554051.346976
+    },
+    "PONKEUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "SPIKE-QUICK",
+      "last_pnl": 0.16,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779548728.6009338
+    },
+    "GPSUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "TP",
+      "last_pnl": 0.54,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779548815.51283
+    },
+    "BEATUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "TP",
+      "last_pnl": 0.61,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779553924.5558982
+    },
+    "GTCUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "SL",
+      "last_pnl": -2.37,
+      "last_won": false,
+      "fail_streak": 0,
+      "closed_at": 1779549236.5740988
+    },
+    "BULLAUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "SL",
+      "last_pnl": -5.56,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779549084.846275
+    },
+    "ATHUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "TP",
+      "last_pnl": 2.25,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779549098.2914188
+    },
+    "NEARUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SL",
+      "last_pnl": -1.99,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779549109.8200781
+    },
+    "币安人生USDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "TP",
+      "last_pnl": 1.14,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779549178.568924
+    },
+    "1000CATUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "SL",
+      "last_pnl": -0.65,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779549239.8835158
+    },
+    "TRUUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "manual_close_user_request",
+      "last_pnl": -0.42,
+      "last_won": false,
+      "fail_streak": 2,
+      "closed_at": 1779550483.0905778
+    },
+    "42USDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "manual_close_all_modes_user_requ",
+      "last_pnl": -0.29,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779553467.0717041
+    },
+    "NTRNUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "manual_close_all_modes_user_requ",
+      "last_pnl": -0.59,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779553467.0989451
+    },
+    "DMCUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "manual_close_all_modes_user_requ",
+      "last_pnl": -0.59,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779553467.1086159
+    },
+    "1000XUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "manual_close_all_modes_user_requ",
+      "last_pnl": -0.6,
+      "last_won": false,
+      "fail_streak": 0,
+      "closed_at": 1779553211.0973701
+    },
+    "RDNTUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "manual_close_all_modes_user_requ",
+      "last_pnl": -0.6,
+      "last_won": false,
+      "fail_streak": 0,
+      "closed_at": 1779553211.107532
+    },
+    "HANAUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "manual_close_all_modes_user_requ",
+      "last_pnl": -0.29,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779553211.131687
+    },
+    "PORT3USDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "SL",
+      "last_pnl": -32.31,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779552423.6146162
+    },
+    "HIPPOUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "manual_close_all_modes_user_requ",
+      "last_pnl": -0.6,
+      "last_won": false,
+      "fail_streak": 1,
+      "closed_at": 1779553211.121119
+    },
+    "DEGENUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "SPIKE-QUICK",
+      "last_pnl": 0.12,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779553875.15239
+    },
+    "DUSKUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "STALE-RELEASE",
+      "last_pnl": 0.12,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779553876.73204
+    },
+    "NAORISUSDT": {
+      "last_side": "SHORT",
+      "last_exit_reason": "SPIKE-QUICK",
+      "last_pnl": 0.18,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779553883.531113
+    },
+    "QUSDT": {
+      "last_side": "LONG",
+      "last_exit_reason": "TP",
+      "last_pnl": 1.21,
+      "last_won": true,
+      "fail_streak": 0,
+      "closed_at": 1779554053.2402189
+    }
+  },
+  "reentry_attempts": 34,
+  "reentry_success": 0
+}

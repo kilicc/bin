@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MEGA Paper Desk — Port 9007</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/panel-assets/css/dashboard.css">
+  <link rel="stylesheet" href="/panel-assets/css/paper.css">
+  <link rel="stylesheet" href="/panel-assets/css/admin.css">
+  <script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
+</head>
+<body class="paper-page mega-live-page mega-desk-9007">
+  <div id="conn-alert-bar"></div>
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="loader" aria-label="Yükleniyor"></div>
+    <p class="loader-caption">MEGA paper desk yükleniyor…</p>
+  </div>
+
+  <div class="app mega-app">
+    <header class="topbar mega-topbar">
+      <div class="mega-brand-row">
+        <div class="brand">
+          <div class="logo-mark paper-mark">M</div>
+          <div>
+            <h1>MEGA <span class="mega-title-accent">Paper Desk</span></h1>
+            <p id="display-note">Ayrı API (korhan) · demo-fapi canlı emir · port 9007</p>
+          </div>
+        </div>
+        <div id="motor-timing-strip" class="mega-motor-strip" aria-label="Motor süreleri"></div>
+        <div id="health-strip" class="mega-health-strip" aria-label="Sistem sağlığı"></div>
+      </div>
+      <div class="badges mega-badges">
+        <span id="badge-live" class="badge live">CANLI</span>
+        <span id="badge-mode" class="badge mode">MEGA 9007</span>
+        <span id="badge-control" class="badge mega-badge-muted">RUNNING</span>
+      </div>
+      <div class="topbar-right">
+        <a href="http://127.0.0.1:9006/paper" class="btn nav-live">MEGA Canlı 9006</a>
+        <a href="/admin" class="btn nav-live">⚙ Yönetim</a>
+        <a href="/lab" class="btn nav-live">🧪 Lab</a>
+        <span id="snapshot-latency" class="snapshot-lat-pill off" title="Hub mark tick (80ms)">
+          <span class="lbl">Mark</span>
+          <span id="poll-latency" class="val">—</span>
+        </span>
+        <div id="live-clock" class="clock">00:00:00</div>
+      </div>
+    </header>
+
+    <section class="mega-control-bar" aria-label="Desk kontrol">
+      <div class="mega-control-left">
+        <span id="control-state-label" class="mega-control-state">RUNNING</span>
+        <span id="control-pause-hint" class="mega-control-hint muted"></span>
+      </div>
+      <div class="mega-control-actions">
+        <button type="button" id="btn-pause" class="btn mega-btn-warn">Durdur</button>
+        <button type="button" id="btn-start" class="btn mega-btn-primary" disabled>Başlat</button>
+        <button type="button" id="btn-restart" class="btn mega-btn-danger">Restart</button>
+      </div>
+    </section>
+
+    <section class="mega-kpi-grid" aria-label="MEGA özet">
+      <article class="mega-kpi" data-tone="balance">
+        <div class="mega-kpi-head"><span class="mega-kpi-label">Equity</span><span class="mega-kpi-icon">◆</span></div>
+        <div id="kpi-balance" class="mega-kpi-value num-usd neutral">—</div>
+        <div id="kpi-balance-sub" class="mega-kpi-sub"></div>
+      </article>
+      <article class="mega-kpi" data-tone="pnl">
+        <div class="mega-kpi-head"><span class="mega-kpi-label">Oturum PnL</span><span class="mega-kpi-icon">△</span></div>
+        <div id="kpi-pnl" class="mega-kpi-value num-usd neutral">—</div>
+        <div id="kpi-pnl-sub" class="mega-kpi-sub"></div>
+      </article>
+      <article class="mega-kpi" data-tone="upnl">
+        <div class="mega-kpi-head"><span class="mega-kpi-label">uPnL (mark)</span><span class="mega-kpi-icon">◎</span></div>
+        <div id="kpi-upnl" class="mega-kpi-value num-usd neutral">—</div>
+        <div id="kpi-upnl-sub" class="mega-kpi-sub"></div>
+      </article>
+      <article class="mega-kpi" data-tone="open">
+        <div class="mega-kpi-head"><span class="mega-kpi-label">Açık slot</span><span class="mega-kpi-icon">▣</span></div>
+        <div id="kpi-open" class="mega-kpi-value num-slot neutral">—</div>
+        <div id="kpi-open-sub" class="mega-kpi-sub"></div>
+      </article>
+      <article class="mega-kpi" data-tone="win">
+        <div class="mega-kpi-head"><span class="mega-kpi-label">Win rate</span><span class="mega-kpi-icon">%</span></div>
+        <div id="kpi-winrate" class="mega-kpi-value num-pct neutral">—</div>
+        <div id="kpi-winrate-sub" class="mega-kpi-sub"></div>
+      </article>
+      <article class="mega-kpi" data-tone="queue">
+        <div class="mega-kpi-head"><span class="mega-kpi-label">Motor</span><span class="mega-kpi-icon">⏱</span></div>
+        <div id="kpi-stake" class="mega-kpi-value num-queue neutral">—</div>
+        <div id="kpi-stake-sub" class="mega-kpi-sub">Berserk2 → MEGA</div>
+      </article>
+    </section>
+
+    <section id="exchange-sync-bar" class="mega-exchange-sync-bar hidden" aria-live="polite"
+      title="Demo Binance API — komisyon ve income sonrası net değerler"></section>
+
+    <nav class="mega-desk-tabs" aria-label="Desk sekmeleri">
+      <a href="#mega-open-section" class="mega-desk-tab">Açık</a>
+      <a href="#mega-scan-section" class="mega-desk-tab">Tarama</a>
+      <a href="#mega-closed-section" class="mega-desk-tab" id="tab-closed">
+        Kapalı
+        <span id="closed-unread-badge" class="mega-tab-badge hidden" aria-live="polite"></span>
+      </a>
+    </nav>
+
+    <section id="mega-open-section" class="mega-full-row mega-open-section panel mega-panel mega-positions-col">
+      <div class="panel-head mega-panel-head">
+        <div>
+          <h2 class="panel-title">Açık <span>pozisyonlar</span></h2>
+          <p class="hero-sub">Satıra tıklayın — grafik altta açılır</p>
+        </div>
+        <span id="open-count-pill" class="mega-count-pill">0 / 4</span>
+      </div>
+      <div class="table-wrap mega-table-wrap mega-open-table-wrap">
+        <table class="data-table mega-table" id="open-table">
+          <colgroup>
+            <col class="col-sym" />
+            <col class="col-side" />
+            <col class="col-lev" />
+            <col class="col-stake" />
+            <col class="col-entry" />
+            <col class="col-mark" />
+            <col class="col-upnl" />
+            <col class="col-tp" />
+            <col class="col-dur" />
+            <col class="col-close" />
+          </colgroup>
+            <thead>
+              <tr>
+                <th>Sembol</th>
+                <th>Yön</th>
+                <th>Lev</th>
+                <th>Stake</th>
+                <th>Giriş</th>
+                <th>Mark</th>
+                <th>uPnL</th>
+                <th>TP</th>
+                <th>Süre</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="open-body">
+              <tr><td colspan="10" class="mega-empty-cell">Henüz açık sim pozisyon yok</td></tr>
+            </tbody>
+          </table>
+        </div>
+    </section>
+
+    <section class="mega-full-row mega-chart-section panel mega-panel mega-chart-panel mega-chart-col">
+        <div id="position-hero" class="mega-position-hero hidden">
+          <div class="mega-hero-left">
+            <span id="hero-symbol" class="mega-hero-symbol">—</span>
+            <span id="hero-side" class="mega-hero-side">—</span>
+          </div>
+          <div class="mega-hero-stats">
+            <div class="mega-hero-stat">
+              <span class="lbl">uPnL</span>
+              <span id="hero-upnl" class="val">—</span>
+            </div>
+            <div class="mega-hero-stat">
+              <span class="lbl">TP ilerleme</span>
+              <span id="hero-tp-pct" class="val">—</span>
+            </div>
+            <div class="mega-hero-stat">
+              <span class="lbl">Net TP hedef</span>
+              <span id="hero-tp-usd" class="val">—</span>
+            </div>
+            <div class="mega-hero-stat">
+              <span class="lbl">Süre</span>
+              <span id="hero-duration" class="val">—</span>
+            </div>
+          </div>
+          <div class="mega-tp-track" aria-hidden="true"><div id="hero-tp-bar" class="mega-tp-fill"></div></div>
+        </div>
+        <div id="chart-ohlc-bar" class="chart-ohlc-bar hidden"></div>
+        <div id="chart-hero" class="chart-hero mega-chart-hero"></div>
+        <p id="chart-hint" class="mega-chart-hint">Tablodan bir pozisyon seçin — grafik ve detay burada görünür</p>
+        <div id="position-detail" class="mega-position-detail hidden"></div>
+    </section>
+
+    <section id="mega-scan-section" class="mega-full-row mega-scan-section panel mega-panel mega-scan-panel">
+        <div class="panel-head mega-panel-head">
+          <div>
+            <h2 class="panel-title">Tarama <span>&amp; adaylar</span></h2>
+            <p id="scan-meta" class="hero-sub">Berserk2 motor → MEGA giriş filtresi</p>
+          </div>
+        </div>
+        <div id="scan-stats" class="mega-scan-stats"></div>
+        <div class="mega-vol-head">
+          <span class="mega-vol-title">Volatil coinler</span>
+          <span id="vol-meta" class="mega-vol-meta">hot / warm tier</span>
+        </div>
+        <div id="vol-chips" class="mega-vol-chips">
+          <span class="mega-scan-empty">Volatilite taraması bekleniyor…</span>
+        </div>
+        <div id="scan-chips" class="mega-scan-chips">
+          <span class="mega-scan-empty">Tarama bekleniyor…</span>
+        </div>
+        <div id="lab-sim-panel" class="mega-lab-sim-panel hidden">
+          <h3 class="mega-lab-sim-title">Counterfactual sim</h3>
+          <table class="data-table mega-table" id="lab-sim-table">
+            <thead><tr><th>Preset</th><th>TP net</th><th>SL net</th><th>Fee</th></tr></thead>
+            <tbody id="lab-sim-body"></tbody>
+          </table>
+        </div>
+        <div class="table-wrap mega-table-wrap mega-scan-table-wrap">
+          <table class="data-table mega-table" id="scan-table">
+            <thead>
+              <tr>
+                <th>Saat</th>
+                <th>Sembol</th>
+                <th>Yön</th>
+                <th>Δ%</th>
+                <th>Skor</th>
+                <th>Durum</th>
+                <th>Not</th>
+              </tr>
+            </thead>
+            <tbody id="scan-body">
+              <tr><td colspan="7" class="mega-empty-cell">Henüz tarama kaydı yok</td></tr>
+            </tbody>
+          </table>
+        </div>
+    </section>
+
+    <section id="mega-closed-section" class="mega-full-row mega-closed-section panel mega-panel mega-closed-panel">
+        <div class="panel-head mega-panel-head">
+          <div>
+            <h2 class="panel-title">Kapanan <span>işlemler</span></h2>
+            <p class="hero-sub">Demo Binance — net cüzdan PnL (komisyon düşülmüş)</p>
+          </div>
+          <span id="closed-count-pill" class="mega-count-pill muted">0</span>
+        </div>
+        <div class="table-wrap mega-table-wrap mega-closed-table-wrap">
+          <table class="data-table mega-table mega-closed-table" id="closed-table">
+            <colgroup>
+              <col class="col-c-sym" />
+              <col class="col-c-side" />
+              <col class="col-c-lev" />
+              <col class="col-c-stake" />
+              <col class="col-c-entry" />
+              <col class="col-c-exit" />
+              <col class="col-c-gross" />
+              <col class="col-c-fee" />
+              <col class="col-c-net" />
+              <col class="col-c-npct" />
+              <col class="col-c-src" />
+              <col class="col-c-reason" />
+              <col class="col-c-dur" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Sembol</th>
+                <th>Yön</th>
+                <th>Lev</th>
+                <th>Stake</th>
+                <th>Giriş</th>
+                <th>Çıkış</th>
+                <th>Brüt</th>
+                <th>Komisyon</th>
+                <th>Net (cüzdan)</th>
+                <th>Net %</th>
+                <th>Kaynak</th>
+                <th>Sebep</th>
+                <th>Kapanış</th>
+              </tr>
+            </thead>
+            <tbody id="closed-body">
+              <tr><td colspan="13" class="mega-empty-cell">Bu oturumda kapanan işlem yok</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="mega-live-log-panel" id="mega-live-log-panel">
+          <div class="mega-live-log-head">
+            <div>
+              <h3 class="mega-live-log-title">Canlı <span>log</span></h3>
+              <p class="mega-live-log-sub mono" id="mega-log-path">—</p>
+            </div>
+            <div class="mega-live-log-actions">
+              <span id="mega-log-count" class="mega-log-count muted">0 satır</span>
+              <label class="mega-log-toggle">
+                <input type="checkbox" id="mega-log-autoscroll" checked />
+                <span>Otomatik kaydır</span>
+              </label>
+              <button type="button" id="mega-log-pause" class="btn mega-log-btn">Duraklat</button>
+              <button type="button" id="mega-log-clear" class="btn mega-log-btn">Temizle</button>
+            </div>
+          </div>
+          <div class="mega-live-log-view-wrap" id="mega-log-view-wrap">
+            <pre id="mega-log-view" class="mega-live-log-view" aria-live="polite"></pre>
+          </div>
+        </div>
+    </section>
+
+    <footer class="footer mega-footer">
+      <span>Son sync <span id="footer-ts" class="mono">—</span> · MEGA 9007 paper · <a href="http://127.0.0.1:9005/">Berserk2 9005</a></span>
+      <div class="footer-actions">
+        <button type="button" id="btn-refresh" class="btn mega-btn-primary">↻ Yenile</button>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/panel-assets/js/closed-trade-utils.js"></script>
+  <script src="/panel-assets/js/trading-charts.js"></script>
+  <script src="/panel-assets/js/connection-banner.js"></script>
+  <script src="/panel-assets/js/paper-9007-dashboard.js"></script>
+</body>
+</html>

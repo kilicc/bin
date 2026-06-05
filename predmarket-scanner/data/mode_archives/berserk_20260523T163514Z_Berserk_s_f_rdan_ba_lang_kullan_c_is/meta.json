@@ -1,0 +1,26 @@
+{
+  "archive_id": "berserk_20260523T163514Z_Berserk_s_f_rdan_ba_lang_kullan_c_is",
+  "mode_id": "berserk",
+  "mode_label": "Berserk",
+  "is_live": false,
+  "archived_at": "2026-05-23T16:35:14.254688+00:00",
+  "reason": "Berserk sıfırdan başlangıç — kullanıcı isteği",
+  "trigger": "user_fresh_start",
+  "path": "data/mode_archives/berserk_20260523T163514Z_Berserk_s_f_rdan_ba_lang_kullan_c_is",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 293552,
+      "open_n": 4,
+      "closed_n": 199
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 329654
+    }
+  ],
+  "closed_trades_count": 199,
+  "open_trades_count": 4
+}

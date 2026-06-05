@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MEGA 9007 — Yönetim</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/panel-assets/css/paper.css">
+  <link rel="stylesheet" href="/panel-assets/css/admin.css">
+  <link rel="stylesheet" href="/panel-assets/css/control-hub.css">
+</head>
+<body class="hub-shell admin-shell">
+  <div id="conn-alert-bar"></div>
+  <header class="hub-header">
+    <div class="hub-header-inner">
+      <div class="hub-brand">
+        <span class="hub-logo">MEGA Control Hub</span>
+        <span id="hub-conn-pill" class="hub-conn-pill ok">Bağlantı kontrol…</span>
+      </div>
+      <nav class="hub-nav" id="hub-nav"></nav>
+    </div>
+  </header>
+
+  <main class="hub-main">
+    <h1 class="hub-page-title">Yönetim</h1>
+    <p class="hub-page-sub">Env ayarları, profiller ve checkpoint — değişiklikler restart gerektirebilir.</p>
+    <div id="hub-context-strip" class="hub-context-strip"></div>
+
+    <div id="login-gate" class="hub-login">
+      <h2>Admin girişi</h2>
+      <p>Ortam değişkenlerini düzenlemek için şifre gerekli</p>
+      <input type="password" id="admin-password" class="hub-input" placeholder="Şifre" autocomplete="current-password" />
+      <button type="button" id="btn-admin-login" class="btn mega-btn-primary hub-btn-block">Giriş yap</button>
+    </div>
+
+    <div id="admin-app" class="hidden">
+      <div class="admin-tabs" id="admin-tabs">
+        <button type="button" data-tab="env" class="active">Env</button>
+        <button type="button" data-tab="profiles">Profiller</button>
+        <button type="button" data-tab="checkpoints">Checkpoints</button>
+        <button type="button" data-tab="lab">Lab ayarları</button>
+      </div>
+      <div id="restart-banner" class="admin-restart-banner hidden">Restart gerekli — değişiklikler tam etki için yeniden başlatın.</div>
+      <div class="admin-grid">
+        <nav class="admin-nav hub-card" id="admin-nav"></nav>
+        <main id="admin-main" class="hub-card">
+          <input type="search" id="admin-search" class="admin-search hidden" placeholder="Env anahtarı ara…" />
+          <div id="admin-fields"></div>
+          <div id="checkpoint-panel" class="hidden">
+            <div id="checkpoint-list" class="admin-checkpoint-list"></div>
+            <pre id="checkpoint-preview" class="hub-pre admin-checkpoint-preview"></pre>
+            <button type="button" id="btn-rollback" class="btn mega-btn-danger" disabled>Geri al</button>
+          </div>
+        </main>
+        <aside class="impact-panel hub-card-glow" id="impact-panel">
+          <h3>Etki / depends_on</h3>
+          <p id="impact-text" class="hub-muted">Bir ayar seçin</p>
+          <ul id="depends-list"></ul>
+        </aside>
+      </div>
+      <footer class="admin-footer">
+        <pre id="diff-panel" class="admin-diff">Değişiklik yok</pre>
+        <button type="button" id="btn-preview" class="btn">Önizle</button>
+        <button type="button" id="btn-apply" class="btn mega-btn-primary">Uygula</button>
+        <button type="button" id="btn-checkpoint" class="btn">Checkpoint oluştur</button>
+        <span id="apply-status" class="hub-muted"></span>
+      </footer>
+    </div>
+  </main>
+
+  <div id="rollback-modal" class="hub-modal-backdrop hidden">
+    <div class="hub-modal">
+      <h3>Checkpoint geri al</h3>
+      <label><input type="checkbox" name="scope" value="panel_strategy_state" checked /> panel_strategy_state</label>
+      <label><input type="checkbox" name="scope" value="mode_profiles" checked /> mode_profiles</label>
+      <label><input type="checkbox" name="scope" value="scenario_env" /> scenario_env</label>
+      <label><input type="checkbox" name="scope" value="mega_meta" /> mega_meta</label>
+      <input type="text" id="rollback-reason" class="hub-input" placeholder="Sebep" />
+      <div class="hub-modal-actions">
+        <button type="button" id="btn-rollback-confirm" class="btn mega-btn-danger">Onayla</button>
+        <button type="button" id="btn-rollback-cancel" class="btn">İptal</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/panel-assets/js/control-nav.js"></script>
+  <script src="/panel-assets/js/connection-banner.js"></script>
+  <script src="/panel-assets/js/hub-context.js"></script>
+  <script src="/panel-assets/js/admin-gate.js"></script>
+  <script src="/panel-assets/js/admin.js"></script>
+  <script>EliteControlNav.render(document.getElementById("hub-nav"));</script>
+</body>
+</html>

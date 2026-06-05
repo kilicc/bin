@@ -1,0 +1,50 @@
+{
+  "DEMO_BTC_MASTER": {
+    "uid": "DEMO_BTC_MASTER",
+    "nickname": "BTC Master (DEMO)",
+    "rank": 12,
+    "pnl": 58420.5,
+    "roi": 127.3,
+    "win_rate": 0.68,
+    "follower_count": 8540,
+    "last_update": 1779120994284,
+    "is_active": true,
+    "min_position_usd": 200.0,
+    "max_position_usd": 1000.0,
+    "copy_multiplier": 1.0,
+    "auto_discovered": false,
+    "description": "BTC uzmanı, trend takibi stratejisi"
+  },
+  "DEMO_ETH_TRADER": {
+    "uid": "DEMO_ETH_TRADER",
+    "nickname": "ETH Whale (DEMO)",
+    "rank": 25,
+    "pnl": 42180.3,
+    "roi": 89.5,
+    "win_rate": 0.61,
+    "follower_count": 5230,
+    "last_update": 1779120994284,
+    "is_active": true,
+    "min_position_usd": 150.0,
+    "max_position_usd": 800.0,
+    "copy_multiplier": 1.0,
+    "auto_discovered": false,
+    "description": "ETH ve altcoin uzmanı"
+  },
+  "DEMO_SCALPER": {
+    "uid": "DEMO_SCALPER",
+    "nickname": "Quick Scalper (DEMO)",
+    "rank": 45,
+    "pnl": 28950.75,
+    "roi": 72.1,
+    "win_rate": 0.74,
+    "follower_count": 3120,
+    "last_update": 1779120994284,
+    "is_active": true,
+    "min_position_usd": 100.0,
+    "max_position_usd": 500.0,
+    "copy_multiplier": 0.5,
+    "auto_discovered": false,
+    "description": "Hızlı scalping stratejisi"
+  }
+}

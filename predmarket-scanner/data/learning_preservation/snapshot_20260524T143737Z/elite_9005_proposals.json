@@ -1,0 +1,28 @@
+{
+  "proposals": [
+    {
+      "id": "3b38c3a3",
+      "rule_id": "spike_quick_scalp",
+      "status": "pending",
+      "created_at": "2026-05-23T23:01:08.329156+00:00",
+      "title": "Spike hızlı scalp (ücret+marj sonrası erken çıkış)",
+      "detail": "Fee sonrası kısa yeşil pencerede SPIKE-QUICK ile çık; pozisyon kontrolü 0.5sn.",
+      "suggested_env": {
+        "ELITE_SPIKE_QUICK_TP_ENABLED": "1",
+        "ELITE_SPIKE_QUICK_TP_MIN_AGE_SEC": "40",
+        "ELITE_SPIKE_QUICK_TP_FEE_MULT": "1.08",
+        "ELITE_SPIKE_QUICK_TP_MAX_FRAC": "0.72",
+        "ELITE_POSITION_CHECK_SEC": "0.5",
+        "ELITE_STALE_TP_ENABLED": "1",
+        "ELITE_STALE_TP_MIN_AGE_MIN": "0.75",
+        "ELITE_STALE_MODE": "flat_release"
+      },
+      "evidence": {
+        "source": "user_spike_scalp_request"
+      },
+      "priority": 9,
+      "auto_apply": true
+    }
+  ],
+  "updated_at": "2026-05-24T14:43:39.073299+00:00"
+}

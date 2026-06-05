@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+# Elite APEX 8300 tekniği → Binance Futures Demo canlı emir — port 9005
+# Tercih: ./scripts/elite_9005_process_ctl.sh restart
+set -euo pipefail
+cd "$(dirname "$0")"
+PY="${PY:-./.venv/bin/python}"
+PID_DIR=".pids"
+PORT=9005
+LOG="logs/binance_elite_8300_9005.log"
+PID_FILE="$PID_DIR/binance_elite_8300_9005.pid"
+
+[[ -x "$PY" ]] || { echo "venv yok: $PY"; exit 1; }
+mkdir -p "$PID_DIR" logs
+
+# Güvenli durdurma — zombie + LISTEN-only (ctl fonksiyonları)
+# shellcheck disable=SC1091
+source scripts/elite_9005_process_ctl.sh
+elite_9005_stop 0 || elite_9005_stop 1
+
+if cert="$("$PY" -c "import certifi; print(certifi.where())" 2>/dev/null)"; then
+  export SSL_CERT_FILE="$cert"
+  export REQUESTS_CA_BUNDLE="$cert"
+fi
+
+unset HTTP_PROXY HTTPS_PROXY http_proxy https_proxy ALL_PROXY all_proxy \
+      SOCKS_PROXY SOCKS5_PROXY socks_proxy socks5_proxy \
+      GIT_HTTP_PROXY GIT_HTTPS_PROXY 2>/dev/null || true
+export NO_PROXY="*"
+export no_proxy="*"
+
+set -a
+# shellcheck disable=SC1091
+source .env 2>/dev/null || true
+# shellcheck disable=SC1091
+source scenarios/binance_elite_8300_9005.env
+export BN_FUT_MODE=testnet
+export BINANCE_FUTURES_TESTNET=1
+export BINANCE_FUTURES_DEMO=1
+export BINANCE_LIVE_ORDERS=1
+export STARTING_BALANCE=5000
+set +a
+export PYTHONUNBUFFERED=1
+
+echo "══════════════════════════════════════════════════════════"
+echo " ELITE 8300 → Binance Demo CANLI EMİR — http://127.0.0.1:${PORT}"
+echo "  TP ${ELITE_TP_STAKE_PCT}×${ELITE_TP_TRIGGER_FRAC} | SL ${ELITE_SL_STAKE_PCT}"
+echo "  Cooldown ${ELITE_MARKET_COOLDOWN_MIN}dk | STALE ${ELITE_STALE_TP_MIN_AGE_MIN}dk"
+echo "  Stake \$${ELITE_MIN_STAKE_USD} @ ${BINANCE_DEFAULT_LEVERAGE:-?}x | max open ${ELITE_MAX_OPEN}"
+echo "  REST: demo-fapi.binance.com"
+echo "══════════════════════════════════════════════════════════"
+
+nohup "$PY" binance_elite_pro_9005.py >>"$LOG" 2>&1 &
+echo $! >"$PID_FILE"
+sleep 3
+new_pid=$(cat "$PID_FILE")
+if ! kill -0 "$new_pid" 2>/dev/null; then
+  echo "✗ Bot başlamadı — log: $LOG" >&2
+  tail -20 "$LOG" >&2 || true
+  exit 1
+fi
+echo "✅ PID $new_pid | log: $LOG"
+echo "   Panel: http://127.0.0.1:${PORT}"
+echo "   Durdur: ./stop_binance_elite_8300_9005.sh"
+echo "   Durum:  ./status_binance_elite_8300_9005.sh"

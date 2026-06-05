@@ -1,0 +1,26 @@
+[Unit]
+Description=Binance Elite 9005 Mainnet Trading Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pro
+Group=pro
+WorkingDirectory=/opt/binancex/predmarket-scanner
+Environment=NO_PROXY=*
+Environment=no_proxy=*
+Environment=PYTHONUNBUFFERED=1
+Environment=ELITE_BIND_HOST=127.0.0.1
+ExecStartPre=/bin/mkdir -p /opt/binancex/predmarket-scanner/logs
+ExecStart=/opt/binancex/predmarket-scanner/.venv/bin/python /opt/binancex/predmarket-scanner/binance_elite_pro_9005_mainnet.py
+Restart=always
+RestartSec=10
+LimitNOFILE=65535
+TimeoutStopSec=30
+
+StandardOutput=append:/opt/binancex/predmarket-scanner/logs/binance_elite_9005_mainnet.log
+StandardError=append:/opt/binancex/predmarket-scanner/logs/binance_elite_9005_mainnet.log
+
+[Install]
+WantedBy=multi-user.target

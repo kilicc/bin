@@ -1,0 +1,26 @@
+{
+  "archive_id": "hunter_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+  "mode_id": "hunter",
+  "mode_label": "Hunter",
+  "is_live": false,
+  "archived_at": "2026-05-22T21:02:48.246850+00:00",
+  "reason": "Tam sifir - sifirdan baslangic",
+  "trigger": "preserve_reset",
+  "path": "data/mode_archives/hunter_20260522T210248Z_Tam_sifir_sifirdan_baslangic",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 330635,
+      "open_n": 0,
+      "closed_n": 274
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 1842838
+    }
+  ],
+  "closed_trades_count": 274,
+  "open_trades_count": 0
+}

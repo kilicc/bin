@@ -1,0 +1,15 @@
+{
+  "mode_id": "chop_master",
+  "chats": [
+    {
+      "id": "__insights__",
+      "title": "Anlık öneriler ve teklifler",
+      "pinned": true,
+      "permanent": true,
+      "mode_id": "chop_master",
+      "created_at": "2026-05-22T14:15:24.638096+00:00",
+      "updated_at": "2026-05-22T22:44:52.001376+00:00"
+    }
+  ],
+  "active_chat_id": "__insights__"
+}

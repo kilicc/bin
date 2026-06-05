@@ -1,0 +1,55 @@
+{
+  "trade_count_since": 5998,
+  "suggestions": {
+    "suggested_min_move_pct": 0.09,
+    "suggested_min_score": 48,
+    "suggested_tp_stake_pct": 0.0042,
+    "suggested_sl_stake_pct": 0.0024,
+    "suggested_spread_limit": 0.12,
+    "best_symbols": [
+      "BUSDT",
+      "PHBUSDT",
+      "GUAUSDT",
+      "STABLEUSDT",
+      "FXSUSDT"
+    ],
+    "worst_symbols": [
+      "SXPUSDT",
+      "ATAUSDT",
+      "AIUSDT",
+      "BOBUSDT",
+      "TAGUSDT"
+    ],
+    "best_micro_signal": "Strong",
+    "worst_micro_signal": "Strong",
+    "fee_damage_score": 0.3397,
+    "spread_damage_score": 0.0,
+    "slippage_damage_score": 0.0,
+    "avg_hold_seconds": 57.0,
+    "trades_per_minute": 1.0535,
+    "confidence": 0.5,
+    "win_rate": 48.0,
+    "profit_factor": 0.513,
+    "avg_win": 2.05,
+    "avg_loss": 3.69,
+    "exit_reasons": {
+      "TP": 38,
+      "SL": 52,
+      "SPIKE-QUICK": 6,
+      "STALE-RELEASE": 4
+    },
+    "spread_risk_distribution": {
+      "none": 100
+    },
+    "min_stake_source_distribution": {
+      "mode_profile": 100
+    }
+  },
+  "last_closed": {
+    "symbol": "QUSDT",
+    "pnl": 1.21,
+    "reason": "TP"
+  },
+  "updated_at": "2026-05-23T16:34:13.245879+00:00",
+  "suggestion_at_trade": 5900
+}

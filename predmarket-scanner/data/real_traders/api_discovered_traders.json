@@ -1,0 +1,9 @@
+{
+  "code": "000000",
+  "message": "success",
+  "data": {
+    "isLeadTrader": false,
+    "time": 1779122893486
+  },
+  "success": true
+}

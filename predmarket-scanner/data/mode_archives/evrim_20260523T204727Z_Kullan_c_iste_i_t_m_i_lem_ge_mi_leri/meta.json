@@ -1,0 +1,26 @@
+{
+  "archive_id": "evrim_20260523T204727Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+  "mode_id": "evrim",
+  "mode_label": "Evrim",
+  "is_live": true,
+  "archived_at": "2026-05-23T20:47:27.689608+00:00",
+  "reason": "Kullanıcı isteği: tüm işlem geçmişleri silindi, temiz başlangıç",
+  "trigger": "preserve_reset",
+  "path": "data/mode_archives/evrim_20260523T204727Z_Kullan_c_iste_i_t_m_i_lem_ge_mi_leri",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 33,
+      "open_n": 0,
+      "closed_n": 0
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 131744
+    }
+  ],
+  "closed_trades_count": 0,
+  "open_trades_count": 0
+}

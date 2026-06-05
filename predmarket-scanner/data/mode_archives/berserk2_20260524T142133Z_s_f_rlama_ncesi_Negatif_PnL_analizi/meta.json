@@ -1,0 +1,26 @@
+{
+  "archive_id": "berserk2_20260524T142133Z_s_f_rlama_ncesi_Negatif_PnL_analizi",
+  "mode_id": "berserk2",
+  "mode_label": "Brk2",
+  "is_live": false,
+  "archived_at": "2026-05-24T14:21:33.170310+00:00",
+  "reason": "[sıfırlama öncesi] Negatif PnL analizi sonrası sıfırdan başlangıç — kullanıcı isteği",
+  "trigger": "user_reset",
+  "path": "data/mode_archives/berserk2_20260524T142133Z_s_f_rlama_ncesi_Negatif_PnL_analizi",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 441812,
+      "open_n": 17,
+      "closed_n": 270
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 501306
+    }
+  ],
+  "closed_trades_count": 270,
+  "open_trades_count": 17
+}

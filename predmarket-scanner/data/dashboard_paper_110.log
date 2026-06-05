@@ -1,0 +1,42 @@
+scenarios/paper_110.env: line 2: paper_110.env10: command not found
+scenarios/paper_110.env: line 2: 110: command not found
+INFO:     Started server process [50548]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8010 (Press CTRL+C to quit)
+Dashboard [paper_110]: http://127.0.0.1:8010  (paper_110.db)
+[market_feed] 441 trade → recent_trades.pkl
+[16:09:41] ✅ 5/5 fiyat güncellendi
+INFO:     127.0.0.1:51196 - "GET /api/data HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [50548]
+INFO:     Started server process [50787]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8010 (Press CTRL+C to quit)
+Dashboard [paper_110]: http://127.0.0.1:8010  (paper_110.db)
+[market_feed] 308 trade → recent_trades.pkl
+[16:12:04] ✅ 4/4 fiyat güncellendi
+INFO:     127.0.0.1:51543 - "GET /api/data HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [50787]
+INFO:     Started server process [52046]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8010 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [52046]
+INFO:     Started server process [54235]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8010 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [54235]

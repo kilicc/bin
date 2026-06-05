@@ -1,0 +1,15 @@
+{
+  "mode_id": "sentinel",
+  "chats": [
+    {
+      "id": "__insights__",
+      "title": "Anlık öneriler ve teklifler",
+      "pinned": true,
+      "permanent": true,
+      "mode_id": "sentinel",
+      "created_at": "2026-05-22T14:15:44.971255+00:00",
+      "updated_at": "2026-05-22T22:45:11.486870+00:00"
+    }
+  ],
+  "active_chat_id": "__insights__"
+}

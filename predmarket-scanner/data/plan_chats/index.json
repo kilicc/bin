@@ -1,0 +1,13 @@
+{
+  "chats": [
+    {
+      "id": "__insights__",
+      "title": "Anlık öneriler ve teklifler",
+      "pinned": true,
+      "permanent": true,
+      "created_at": "2026-05-21T19:15:59.220356+00:00",
+      "updated_at": "2026-05-21T19:17:18.355888+00:00"
+    }
+  ],
+  "active_chat_id": "__insights__"
+}

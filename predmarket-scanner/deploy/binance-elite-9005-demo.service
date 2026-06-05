@@ -1,0 +1,25 @@
+[Unit]
+Description=Binance Elite 9005 Demo Bot (demo-fapi.binance.com)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/binancex/predmarket-scanner
+Environment=NO_PROXY=*
+Environment=no_proxy=*
+Environment=PYTHONUNBUFFERED=1
+Environment=ELITE_BIND_HOST=127.0.0.1
+ExecStart=/opt/binancex/predmarket-scanner/.venv/bin/python /opt/binancex/predmarket-scanner/binance_elite_pro_9005.py
+Restart=always
+RestartSec=10
+LimitNOFILE=65535
+TimeoutStopSec=30
+
+StandardOutput=append:/opt/binancex/predmarket-scanner/logs/binance_elite_8300_9005.log
+StandardError=append:/opt/binancex/predmarket-scanner/logs/binance_elite_8300_9005.log
+
+[Install]
+WantedBy=multi-user.target

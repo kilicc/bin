@@ -1,0 +1,38 @@
+{
+  "evolution": {
+    "level": 1,
+    "xp": 4,
+    "max_level": 99,
+    "title": "Çırak",
+    "filter_rejects": {},
+    "regime_pnl": {
+      "trend": 0.0,
+      "chop": 0.0,
+      "mixed": -36.23
+    },
+    "wins_trend": 0,
+    "losses_chop": 0,
+    "trades_total": 32,
+    "rejections_total": 0,
+    "last_xp_reason": "win"
+  },
+  "cross_mode_bootstrap": {
+    "ingested": 1344,
+    "by_mode": {
+      "evrim": 40,
+      "berserk": 758,
+      "hunter": 266,
+      "chop_master": 266,
+      "sentinel": 14
+    },
+    "lessons_n": 1304
+  },
+  "lessons": {
+    "n": 1304,
+    "win_rate": 0.5076687116564417,
+    "avg_win": 1.8315449157043935,
+    "avg_loss": -4.822903176428265,
+    "best_exit": "SL",
+    "spike_share": 0.032975460122699383
+  }
+}

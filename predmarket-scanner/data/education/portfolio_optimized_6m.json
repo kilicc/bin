@@ -1,0 +1,181 @@
+{
+  "variant_id": "adv_per_coin_optimized",
+  "label": "Per-coin optimize + Alpha Max",
+  "coins_allowed": [
+    "WIF",
+    "INJ",
+    "APT",
+    "LINK",
+    "AVAX",
+    "OP",
+    "TRX",
+    "NEAR",
+    "FIL",
+    "ATOM",
+    "ARB",
+    "ADA",
+    "BNB",
+    "SUI",
+    "DOGE",
+    "SOL",
+    "ETH",
+    "LTC"
+  ],
+  "coin_params": {
+    "BTC": {
+      "atr_tp_mult": 3.5,
+      "rsi_lo": 32.0,
+      "rsi_hi": 68.0,
+      "train_pnl": -1.7524267069622632,
+      "train_wr": 0.2534351145038168
+    },
+    "ETH": {
+      "atr_tp_mult": 6.5,
+      "rsi_lo": 32.0,
+      "rsi_hi": 68.0,
+      "train_pnl": -1.0887979375036525,
+      "train_wr": 0.1970899470899471
+    },
+    "SOL": {
+      "atr_tp_mult": 3.5,
+      "rsi_lo": 32.0,
+      "rsi_hi": 68.0,
+      "train_pnl": -1.0467722211512769,
+      "train_wr": 0.21673003802281368
+    },
+    "BNB": {
+      "atr_tp_mult": 8.0,
+      "rsi_lo": 32.0,
+      "rsi_hi": 68.0,
+      "train_pnl": -0.7940420692763935,
+      "train_wr": 0.19767441860465115
+    },
+    "XRP": {
+      "atr_tp_mult": 3.5,
+      "rsi_lo": 32.0,
+      "rsi_hi": 68.0,
+      "train_pnl": -1.4821699821490506,
+      "train_wr": 0.27578215527230593
+    },
+    "DOGE": {
+      "atr_tp_mult": 3.5,
+      "rsi_lo": 32.0,
+      "rsi_hi": 68.0,
+      "train_pnl": -0.8594331999902666,
+      "train_wr": 0.2784653465346535
+    },
+    "AVAX": {
+      "atr_tp_mult": 6.5,
+      "rsi_lo": 28.0,
+      "rsi_hi": 72.0,
+      "train_pnl": 0.21367675520434343,
+      "train_wr": 0.25773195876288657
+    },
+    "LINK": {
+      "atr_tp_mult": 6.5,
+      "rsi_lo": 32.0,
+      "rsi_hi": 68.0,
+      "train_pnl": 0.234894161915846,
+      "train_wr": 0.24
+    },
+    "APT": {
+      "atr_tp_mult": 8.0,
+      "rsi_lo": 32.0,
+      "rsi_hi": 68.0,
+      "train_pnl": 0.4252590453756547,
+      "train_wr": 0.2289156626506024
+    },
+    "ARB": {
+      "atr_tp_mult": 3.5,
+      "rsi_lo": 28.0,
+      "rsi_hi": 72.0,
+      "train_pnl": -0.7730710427777868,
+      "train_wr": 0.24815119145439607
+    },
+    "OP": {
+      "atr_tp_mult": 3.5,
+      "rsi_lo": 30.0,
+      "rsi_hi": 70.0,
+      "train_pnl": -0.09900839286218353,
+      "train_wr": 0.2727272727272727
+    },
+    "INJ": {
+      "atr_tp_mult": 8.0,
+      "rsi_lo": 28.0,
+      "rsi_hi": 72.0,
+      "train_pnl": 0.4761095386107461,
+      "train_wr": 0.22771317829457363
+    },
+    "SUI": {
+      "atr_tp_mult": 5.0,
+      "rsi_lo": 32.0,
+      "rsi_hi": 68.0,
+      "train_pnl": -0.8053220582335857,
+      "train_wr": 0.22289156626506024
+    },
+    "NEAR": {
+      "atr_tp_mult": 8.0,
+      "rsi_lo": 32.0,
+      "rsi_hi": 68.0,
+      "train_pnl": -0.14706619061812204,
+      "train_wr": 0.20923656927426956
+    },
+    "FIL": {
+      "atr_tp_mult": 3.5,
+      "rsi_lo": 28.0,
+      "rsi_hi": 72.0,
+      "train_pnl": -0.19173561008650955,
+      "train_wr": 0.2832369942196532
+    },
+    "ATOM": {
+      "atr_tp_mult": 3.5,
+      "rsi_lo": 32.0,
+      "rsi_hi": 68.0,
+      "train_pnl": -0.5622811749895893,
+      "train_wr": 0.2609915809167446
+    },
+    "LTC": {
+      "atr_tp_mult": 6.5,
+      "rsi_lo": 32.0,
+      "rsi_hi": 68.0,
+      "train_pnl": -1.1454419799876774,
+      "train_wr": 0.18607181719260066
+    },
+    "ADA": {
+      "atr_tp_mult": 8.0,
+      "rsi_lo": 30.0,
+      "rsi_hi": 70.0,
+      "train_pnl": -0.785563912879139,
+      "train_wr": 0.20335195530726258
+    },
+    "TRX": {
+      "atr_tp_mult": 8.0,
+      "rsi_lo": 32.0,
+      "rsi_hi": 68.0,
+      "train_pnl": -0.12260824055155423,
+      "train_wr": 0.3212669683257919
+    },
+    "MATIC": {
+      "atr_tp_mult": 3.5,
+      "rsi_lo": 28.0,
+      "rsi_hi": 72.0,
+      "train_pnl": -1.7486798246096364,
+      "train_wr": 0.05555555555555555
+    },
+    "WIF": {
+      "atr_tp_mult": 8.0,
+      "rsi_lo": 30.0,
+      "rsi_hi": 70.0,
+      "train_pnl": 0.9313806404457534,
+      "train_wr": 0.21624173748819642
+    }
+  },
+  "start_balance": 5000.0,
+  "end_equity": -237907.03,
+  "total_return_pct": -4858.14,
+  "win_rate": 0.5491,
+  "trades": 1670,
+  "profit_factor": 1.421,
+  "max_drawdown_pct": 128.28,
+  "leverage": 10.0
+}

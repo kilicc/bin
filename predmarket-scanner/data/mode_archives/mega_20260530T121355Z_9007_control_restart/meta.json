@@ -1,0 +1,26 @@
+{
+  "archive_id": "mega_20260530T121355Z_9007_control_restart",
+  "mode_id": "mega",
+  "mode_label": "Mega",
+  "is_live": false,
+  "archived_at": "2026-05-30T12:13:55.959706+00:00",
+  "reason": "9007_control_restart",
+  "trigger": "panel",
+  "path": "data/mode_archives/mega_20260530T121355Z_9007_control_restart",
+  "files": [
+    {
+      "label": "trades_json",
+      "file": "trades.json",
+      "bytes": 24369,
+      "open_n": 0,
+      "closed_n": 19
+    },
+    {
+      "label": "parallel_snapshot",
+      "file": "parallel_universes_snapshot.json",
+      "bytes": 39398
+    }
+  ],
+  "closed_trades_count": 19,
+  "open_trades_count": 0
+}

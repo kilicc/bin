@@ -1,0 +1,49 @@
+{
+  "exported_at": "2026-05-24T15:25:22.710359+00:00",
+  "reason": "Sifirdan baslangic net-plus cikis kurallari 20260524",
+  "closed_trades_total": 4621,
+  "closed_by_mode": {
+    "berserk2": 460,
+    "berserk": 2625,
+    "hunter": 406,
+    "evrim": 40,
+    "chop_master": 1074,
+    "sentinel": 16
+  },
+  "bootstrap": {
+    "ingested": 4621,
+    "by_mode": {
+      "berserk2": 460,
+      "berserk": 2625,
+      "hunter": 406,
+      "evrim": 40,
+      "chop_master": 1074,
+      "sentinel": 16
+    },
+    "lessons": {
+      "n": 61,
+      "win_rate": 0.18032786885245902,
+      "avg_win": 0.9645727272727271,
+      "avg_loss": -1.9465379999999999,
+      "best_exit": "SYNC-EXCHANGE",
+      "spike_share": 0.08196721311475409
+    }
+  },
+  "snapshot_dir": "data/learning_preservation/snapshot_20260524T151750Z",
+  "files": [
+    {
+      "label": "evrim_adaptive_state",
+      "file": "evrim_adaptive_state.json",
+      "bytes": 63307
+    },
+    {
+      "label": "proposals",
+      "file": "elite_9005_proposals.json",
+      "bytes": 933
+    },
+    {
+      "label": "all_closed_trades",
+      "file": "all_closed_trades.json"
+    }
+  ]
+}

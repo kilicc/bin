@@ -1,0 +1,3059 @@
+{
+  "session_started_at": "2026-05-24T15:21:29.188845+00:00",
+  "tune_history": [
+    {
+      "at": "2026-05-24T11:54:23.197383+00:00",
+      "pace_ratio": 0.96,
+      "pnl_per_min": 0.0,
+      "patch": {
+        "evrim_min_total_score": 52,
+        "evrim_max_tier": "aggressive",
+        "evrim_pa_fake_veto_threshold": 0.72,
+        "evrim_vo_spread_veto_pct": 0.12,
+        "regime_overrides": {
+          "chop": {
+            "min_score_delta": 5,
+            "stake_mult": 0.5
+          }
+        }
+      },
+      "config_pipeline": {
+        "applied": false,
+        "auto_apply": false,
+        "suggestion": {
+          "id": "evrim_cfg_1779623663",
+          "created_at": "2026-05-24T11:54:23.195095+00:00",
+          "source": "maybe_tune",
+          "reason": "maybe_tune",
+          "changes": {
+            "evrim_min_total_score": 52,
+            "evrim_max_tier": "aggressive",
+            "evrim_pa_fake_veto_threshold": 0.72,
+            "evrim_vo_spread_veto_pct": 0.12,
+            "regime_overrides": {
+              "chop": {
+                "min_score_delta": 5,
+                "stake_mult": 0.5
+              }
+            }
+          },
+          "approval_required": false,
+          "backtest_passed": null,
+          "risk_change": "",
+          "expected_improvement": "",
+          "source_modes": [
+            "berserk",
+            "hunter",
+            "chop_master",
+            "sentinel"
+          ],
+          "candidate_config_version": "evrim_cfg_candidate_20260524_115423_23663",
+          "status": "pending"
+        },
+        "approval_required": false,
+        "candidate_config_version": "evrim_cfg_candidate_20260524_115423_23663",
+        "active_config_version": "evrim_cfg_active_20260524_012329_85809",
+        "pending_approval": true,
+        "learning_blocks_trading": false
+      }
+    },
+    {
+      "at": "2026-05-24T12:02:25.095791+00:00",
+      "pace_ratio": 0.96,
+      "pnl_per_min": 0.0,
+      "patch": {
+        "evrim_min_total_score": 52,
+        "evrim_max_tier": "aggressive",
+        "evrim_pa_fake_veto_threshold": 0.72,
+        "evrim_vo_spread_veto_pct": 0.12,
+        "regime_overrides": {
+          "chop": {
+            "min_score_delta": 5,
+            "stake_mult": 0.5
+          }
+        }
+      },
+      "config_pipeline": {
+        "applied": false,
+        "auto_apply": false,
+        "suggestion": {
+          "id": "evrim_cfg_1779624145",
+          "created_at": "2026-05-24T12:02:25.092109+00:00",
+          "source": "maybe_tune",
+          "reason": "maybe_tune",
+          "changes": {
+            "evrim_min_total_score": 52,
+            "evrim_max_tier": "aggressive",
+            "evrim_pa_fake_veto_threshold": 0.72,
+            "evrim_vo_spread_veto_pct": 0.12,
+            "regime_overrides": {
+              "chop": {
+                "min_score_delta": 5,
+                "stake_mult": 0.5
+              }
+            }
+          },
+          "approval_required": false,
+          "backtest_passed": null,
+          "risk_change": "",
+          "expected_improvement": "",
+          "source_modes": [
+            "berserk",
+            "hunter",
+            "chop_master",
+            "sentinel"
+          ],
+          "candidate_config_version": "evrim_cfg_candidate_20260524_120225_24145",
+          "status": "pending"
+        },
+        "approval_required": false,
+        "candidate_config_version": "evrim_cfg_candidate_20260524_120225_24145",
+        "active_config_version": "evrim_cfg_active_20260524_012329_85809",
+        "pending_approval": true,
+        "learning_blocks_trading": false
+      }
+    },
+    {
+      "at": "2026-05-24T12:10:27.048768+00:00",
+      "pace_ratio": 0.96,
+      "pnl_per_min": 0.0,
+      "patch": {
+        "evrim_min_total_score": 52,
+        "evrim_max_tier": "aggressive",
+        "evrim_pa_fake_veto_threshold": 0.72,
+        "evrim_vo_spread_veto_pct": 0.12,
+        "regime_overrides": {
+          "chop": {
+            "min_score_delta": 5,
+            "stake_mult": 0.5
+          }
+        }
+      },
+      "config_pipeline": {
+        "applied": false,
+        "auto_apply": false,
+        "suggestion": {
+          "id": "evrim_cfg_1779624627",
+          "created_at": "2026-05-24T12:10:27.045496+00:00",
+          "source": "maybe_tune",
+          "reason": "maybe_tune",
+          "changes": {
+            "evrim_min_total_score": 52,
+            "evrim_max_tier": "aggressive",
+            "evrim_pa_fake_veto_threshold": 0.72,
+            "evrim_vo_spread_veto_pct": 0.12,
+            "regime_overrides": {
+              "chop": {
+                "min_score_delta": 5,
+                "stake_mult": 0.5
+              }
+            }
+          },
+          "approval_required": false,
+          "backtest_passed": null,
+          "risk_change": "",
+          "expected_improvement": "",
+          "source_modes": [
+            "berserk",
+            "hunter",
+            "chop_master",
+            "sentinel"
+          ],
+          "candidate_config_version": "evrim_cfg_candidate_20260524_121027_24627",
+          "status": "pending"
+        },
+        "approval_required": false,
+        "candidate_config_version": "evrim_cfg_candidate_20260524_121027_24627",
+        "active_config_version": "evrim_cfg_active_20260524_012329_85809",
+        "pending_approval": true,
+        "learning_blocks_trading": false
+      }
+    },
+    {
+      "at": "2026-05-24T12:18:28.710247+00:00",
+      "pace_ratio": 0.96,
+      "pnl_per_min": 0.0,
+      "patch": {
+        "evrim_min_total_score": 52,
+        "evrim_max_tier": "aggressive",
+        "evrim_pa_fake_veto_threshold": 0.72,
+        "evrim_vo_spread_veto_pct": 0.12,
+        "regime_overrides": {
+          "chop": {
+            "min_score_delta": 5,
+            "stake_mult": 0.5
+          }
+        },
+        "expectancy_overrides": {
+          "stake_mult": 0.7,
+          "min_score_delta": 2
+        },
+        "entry_stake_mult": 0.5
+      },
+      "config_pipeline": {
+        "applied": false,
+        "auto_apply": false,
+        "suggestion": {
+          "id": "evrim_cfg_1779625108",
+          "created_at": "2026-05-24T12:18:28.706814+00:00",
+          "source": "maybe_tune",
+          "reason": "maybe_tune",
+          "changes": {
+            "evrim_min_total_score": 52,
+            "evrim_max_tier": "aggressive",
+            "evrim_pa_fake_veto_threshold": 0.72,
+            "evrim_vo_spread_veto_pct": 0.12,
+            "regime_overrides": {
+              "chop": {
+                "min_score_delta": 5,
+                "stake_mult": 0.5
+              }
+            },
+            "expectancy_overrides": {
+              "stake_mult": 0.7,
+              "min_score_delta": 2
+            },
+            "entry_stake_mult": 0.5
+          },
+          "approval_required": false,
+          "backtest_passed": null,
+          "risk_change": "",
+          "expected_improvement": "",
+          "source_modes": [
+            "berserk",
+            "hunter",
+            "chop_master",
+            "sentinel"
+          ],
+          "candidate_config_version": "evrim_cfg_candidate_20260524_121828_25108",
+          "status": "pending"
+        },
+        "approval_required": false,
+        "candidate_config_version": "evrim_cfg_candidate_20260524_121828_25108",
+        "active_config_version": "evrim_cfg_active_20260524_012329_85809",
+        "pending_approval": true,
+        "learning_blocks_trading": false
+      }
+    }
+  ],
+  "cross_mode_bootstrap": {
+    "ingested": 4621,
+    "by_mode": {
+      "berserk2": 460,
+      "berserk": 2625,
+      "hunter": 406,
+      "evrim": 40,
+      "chop_master": 1074,
+      "sentinel": 16
+    },
+    "lessons_n": 61
+  },
+  "cross_mode_observations": [
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.52,
+      "reason": "SPIKE-PEAK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.44,
+      "reason": "STALE-DIP",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.05,
+      "reason": "SPIKE-PEAK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.47,
+      "reason": "STALE-DIP",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.47,
+      "reason": "STALE-DIP",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.24,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.05,
+      "reason": "SPIKE-PEAK",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.11,
+      "reason": "SPIKE-PEAK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.29,
+      "reason": "STALE-DIP",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.53,
+      "reason": "STALE-DIP",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.37,
+      "reason": "TP",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.38,
+      "reason": "SPIKE-PEAK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.49,
+      "reason": "STALE-DIP",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.05,
+      "reason": "SPIKE-PEAK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.38,
+      "reason": "TP",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.34,
+      "reason": "STALE-DIP",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.01,
+      "reason": "SPIKE-QUICK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.29,
+      "reason": "STALE-DIP",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.55,
+      "reason": "STALE-DIP",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.27,
+      "reason": "SPIKE-PEAK",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.25,
+      "reason": "SPIKE-PEAK",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.24,
+      "reason": "SPIKE-PEAK",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.26,
+      "reason": "SPIKE-PEAK",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.47,
+      "reason": "STALE-DIP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.24,
+      "reason": "SPIKE-PEAK",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.25,
+      "reason": "SPIKE-PEAK",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.21,
+      "reason": "STALE-DIP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.19,
+      "reason": "STALE-DIP",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.25,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.46,
+      "reason": "STALE-DIP",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.46,
+      "reason": "STALE-DIP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.1,
+      "reason": "STALE-DIP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.03,
+      "reason": "STALE-DIP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.12,
+      "reason": "STALE-RELEASE",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.01,
+      "reason": "STALE-DIP",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.08,
+      "reason": "STALE-DIP",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3,
+      "reason": "STALE-DIP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3,
+      "reason": "STALE-DIP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.44,
+      "reason": "STALE-DIP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.18,
+      "reason": "STALE-DIP",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.1,
+      "reason": "STALE-DIP",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.33,
+      "reason": "STALE-DIP",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.34,
+      "reason": "STALE-DIP",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.36,
+      "reason": "STALE-DIP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.18,
+      "reason": "STALE-DIP",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.16,
+      "reason": "STALE-RELEASE",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.22,
+      "reason": "TP-RECOVER",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.52,
+      "reason": "SPIKE-PEAK",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.25,
+      "reason": "SPIKE-PEAK",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.24,
+      "reason": "SPIKE-PEAK",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.26,
+      "reason": "TP-RECOVER",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.26,
+      "reason": "SPIKE-PEAK",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.24,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.52,
+      "reason": "SPIKE-PEAK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.08,
+      "reason": "STALE-DIP",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.36,
+      "reason": "STALE-DIP",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.33,
+      "reason": "STALE-DIP",
+      "symbol": "LTCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.78,
+      "reason": "STALE-DIP",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.29,
+      "reason": "STALE-DIP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.97,
+      "reason": "STALE-DIP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.12,
+      "reason": "STALE-DIP",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.57,
+      "reason": "STALE-DIP",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.8,
+      "reason": "STALE-DIP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.37,
+      "reason": "STALE-DIP",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.06,
+      "reason": "STALE-DIP",
+      "symbol": "TRXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.1,
+      "reason": "STALE-DIP",
+      "symbol": "SEIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.24,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.27,
+      "reason": "STALE-DIP",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.25,
+      "reason": "SPIKE-PEAK",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.23,
+      "reason": "STALE-RELEASE",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.09,
+      "reason": "SPIKE-QUICK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.08,
+      "reason": "SPIKE-QUICK",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.13,
+      "reason": "TP-RECOVER",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.37,
+      "reason": "STALE-DIP",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.13,
+      "reason": "STALE-RELEASE",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.09,
+      "reason": "SPIKE-QUICK",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.48,
+      "reason": "STALE-DIP",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.29,
+      "reason": "STALE-DIP",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.33,
+      "reason": "SPIKE-PEAK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.46,
+      "reason": "STALE-DIP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.24,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.31,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.16,
+      "reason": "STALE-DIP",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.26,
+      "reason": "SPIKE-PEAK",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.25,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.46,
+      "reason": "STALE-DIP",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.11,
+      "reason": "STALE-DIP",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.24,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.27,
+      "reason": "STALE-DIP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.22,
+      "reason": "STALE-DIP",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.01,
+      "reason": "STALE-DIP",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.49,
+      "reason": "STALE-DIP",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.26,
+      "reason": "STALE-DIP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.23,
+      "reason": "STALE-DIP",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.29,
+      "reason": "STALE-DIP",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.01,
+      "reason": "STALE-DIP",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3013,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3216,
+      "reason": "SPIKE-PEAK",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.288,
+      "reason": "SPIKE-PEAK",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0934,
+      "reason": "SPIKE-QUICK",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.9511,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4919,
+      "reason": "TP",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0933,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4697,
+      "reason": "TP",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4668,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1422,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5481,
+      "reason": "TP",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4,
+      "reason": "TP",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1806,
+      "reason": "TP-RECOVER",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0875,
+      "reason": "SPIKE-QUICK",
+      "symbol": "UNIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5795,
+      "reason": "TP",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5235,
+      "reason": "TP",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1004,
+      "reason": "TP-RECOVER",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1152,
+      "reason": "SPIKE-QUICK",
+      "symbol": "TAOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.24,
+      "reason": "SPIKE-PEAK",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1821,
+      "reason": "SPIKE-QUICK",
+      "symbol": "1000FLOKIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2513,
+      "reason": "SPIKE-QUICK",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.2806,
+      "reason": "SPIKE-PEAK",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0895,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.2409,
+      "reason": "SPIKE-PEAK",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3355,
+      "reason": "SPIKE-PEAK",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.569,
+      "reason": "SPIKE-PEAK",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.2475,
+      "reason": "SPIKE-PEAK",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.2517,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.2566,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.3227,
+      "reason": "SPIKE-QUICK",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.2909,
+      "reason": "SPIKE-PEAK",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1819,
+      "reason": "TP-RECOVER",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0805,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.0186,
+      "reason": "STALE-DIP",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1255,
+      "reason": "TP-RECOVER",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3385,
+      "reason": "SPIKE-PEAK",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.4542,
+      "reason": "STALE-DIP",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.2421,
+      "reason": "STALE-DIP",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.082,
+      "reason": "STALE-DIP",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1075,
+      "reason": "SPIKE-QUICK",
+      "symbol": "BCHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1551,
+      "reason": "STALE-RELEASE",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5622,
+      "reason": "TP",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0883,
+      "reason": "SPIKE-QUICK",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1117,
+      "reason": "STALE-RELEASE",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.0344,
+      "reason": "STALE-DIP",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.4998,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0924,
+      "reason": "SPIKE-QUICK",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0893,
+      "reason": "SPIKE-QUICK",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.24,
+      "reason": "SPIKE-PEAK",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0844,
+      "reason": "SPIKE-QUICK",
+      "symbol": "SEIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.506,
+      "reason": "TP",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1398,
+      "reason": "SPIKE-QUICK",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5118,
+      "reason": "TP",
+      "symbol": "TAOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.24,
+      "reason": "SPIKE-PEAK",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.092,
+      "reason": "SPIKE-QUICK",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1349,
+      "reason": "SPIKE-QUICK",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0815,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.24,
+      "reason": "SPIKE-PEAK",
+      "symbol": "1000SHIBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.5957,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3277,
+      "reason": "SPIKE-PEAK",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.3974,
+      "reason": "TP",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0923,
+      "reason": "SPIKE-QUICK",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2566,
+      "reason": "STALE-RELEASE",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0926,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3704,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.2493,
+      "reason": "SPIKE-PEAK",
+      "symbol": "TAOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.505,
+      "reason": "STALE-DIP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.4671,
+      "reason": "STALE-DIP",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.9662,
+      "reason": "STALE-DIP",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0858,
+      "reason": "SPIKE-QUICK",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.2412,
+      "reason": "SPIKE-PEAK",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3199,
+      "reason": "SPIKE-PEAK",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1341,
+      "reason": "SPIKE-QUICK",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.266,
+      "reason": "SPIKE-PEAK",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.5111,
+      "reason": "STALE-DIP",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3952,
+      "reason": "SPIKE-PEAK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.0321,
+      "reason": "STALE-DIP",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1865,
+      "reason": "STALE-DIP",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.0853,
+      "reason": "STALE-DIP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1057,
+      "reason": "SPIKE-QUICK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4759,
+      "reason": "TP-RECOVER",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.421,
+      "reason": "STALE-DIP",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0673,
+      "reason": "STALE-DIP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.4506,
+      "reason": "STALE-DIP",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1007,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.0319,
+      "reason": "STALE-DIP",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2241,
+      "reason": "SPIKE-QUICK",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.9174,
+      "reason": "STALE-DIP",
+      "symbol": "TAOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.5565,
+      "reason": "STALE-DIP",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.4499,
+      "reason": "STALE-DIP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.6647,
+      "reason": "STALE-DIP",
+      "symbol": "1000SHIBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.4267,
+      "reason": "STALE-DIP",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3877,
+      "reason": "STALE-DIP",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.2752,
+      "reason": "STALE-DIP",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3396,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.0616,
+      "reason": "STALE-DIP",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0874,
+      "reason": "SPIKE-QUICK",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1268,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.0087,
+      "reason": "TP",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.3025,
+      "reason": "SPIKE-QUICK",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1273,
+      "reason": "SPIKE-QUICK",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1299,
+      "reason": "SPIKE-QUICK",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.8353,
+      "reason": "SPIKE-PEAK",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.1076,
+      "reason": "STALE-DIP",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.2732,
+      "reason": "STALE-DIP",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.4443,
+      "reason": "STALE-DIP",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1174,
+      "reason": "TP-RECOVER",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.8328,
+      "reason": "STALE-DIP",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.2613,
+      "reason": "SPIKE-PEAK",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.2566,
+      "reason": "SPIKE-PEAK",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.1071,
+      "reason": "STALE-DIP",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.3839,
+      "reason": "TP",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3385,
+      "reason": "SPIKE-PEAK",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0802,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0838,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.0585,
+      "reason": "SPIKE-PEAK",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0895,
+      "reason": "SPIKE-QUICK",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1183,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1012,
+      "reason": "STALE-RELEASE",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2062,
+      "reason": "STALE-RELEASE",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1016,
+      "reason": "TP-RECOVER",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1157,
+      "reason": "TP-RECOVER",
+      "symbol": "1000FLOKIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -6.8434,
+      "reason": "SL",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2307,
+      "reason": "STALE-RELEASE",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1455,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1033,
+      "reason": "SPIKE-QUICK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.099,
+      "reason": "STALE-RELEASE",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1309,
+      "reason": "TP-RECOVER",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1117,
+      "reason": "TP-RECOVER",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.099,
+      "reason": "TP-RECOVER",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0896,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1106,
+      "reason": "TP-RECOVER",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4798,
+      "reason": "TP",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1328,
+      "reason": "TP-RECOVER",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6649,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1739,
+      "reason": "TP-RECOVER",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1367,
+      "reason": "TP-RECOVER",
+      "symbol": "1000SHIBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1545,
+      "reason": "SPIKE-QUICK",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1083,
+      "reason": "TP-RECOVER",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5829,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1621,
+      "reason": "TP-RECOVER",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1037,
+      "reason": "TP-RECOVER",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.155,
+      "reason": "TP-RECOVER",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2627,
+      "reason": "TP-RECOVER",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0886,
+      "reason": "SPIKE-QUICK",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2739,
+      "reason": "TP-RECOVER",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0827,
+      "reason": "SPIKE-QUICK",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0968,
+      "reason": "TP-RECOVER",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0904,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1329,
+      "reason": "SPIKE-QUICK",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0924,
+      "reason": "SPIKE-QUICK",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4612,
+      "reason": "TP",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1818,
+      "reason": "SPIKE-QUICK",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1858,
+      "reason": "SPIKE-QUICK",
+      "symbol": "TAOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0901,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -15.3016,
+      "reason": "SL",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.3734,
+      "reason": "TP-RECOVER",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1786,
+      "reason": "TP-RECOVER",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4459,
+      "reason": "TP",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1447,
+      "reason": "SPIKE-QUICK",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4408,
+      "reason": "TP",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7334,
+      "reason": "TP-RECOVER",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2131,
+      "reason": "TP-RECOVER",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.3447,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1753,
+      "reason": "STALE-RELEASE",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4297,
+      "reason": "TP",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1889,
+      "reason": "TP-RECOVER",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -12.5402,
+      "reason": "SL",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -3.3596,
+      "reason": "SL",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -2.9258,
+      "reason": "SL",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5513,
+      "reason": "TP",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6073,
+      "reason": "TP",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6571,
+      "reason": "TP",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2083,
+      "reason": "TP-RECOVER",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1094,
+      "reason": "TP-RECOVER",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.4763,
+      "reason": "TP",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0884,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1572,
+      "reason": "TP-RECOVER",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1581,
+      "reason": "SPIKE-QUICK",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2295,
+      "reason": "TP-RECOVER",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.113,
+      "reason": "TP-RECOVER",
+      "symbol": "LTCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1278,
+      "reason": "TP-RECOVER",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.3654,
+      "reason": "SPIKE-QUICK",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.085,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0914,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4443,
+      "reason": "TP",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.0051,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4975,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4696,
+      "reason": "TP",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -5.9395,
+      "reason": "SL",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1205,
+      "reason": "TP-RECOVER",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -6.4646,
+      "reason": "SL",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1213,
+      "reason": "TP-RECOVER",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1743,
+      "reason": "TP-RECOVER",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5179,
+      "reason": "TP",
+      "symbol": "UNIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -2.7829,
+      "reason": "SL",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1739,
+      "reason": "TP-RECOVER",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1115,
+      "reason": "TP-RECOVER",
+      "symbol": "TAOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2395,
+      "reason": "TP-RECOVER",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1902,
+      "reason": "TP-RECOVER",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1455,
+      "reason": "TP-RECOVER",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4491,
+      "reason": "TP",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5669,
+      "reason": "TP",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2289,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -13.9294,
+      "reason": "SL",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2534,
+      "reason": "TP-RECOVER",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4768,
+      "reason": "TP",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1984,
+      "reason": "TP-RECOVER",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5803,
+      "reason": "TP",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4425,
+      "reason": "TP",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4338,
+      "reason": "TP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6796,
+      "reason": "TP",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.3931,
+      "reason": "TP-RECOVER",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.199,
+      "reason": "TP-RECOVER",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5341,
+      "reason": "TP",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -13.5291,
+      "reason": "SL",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5012,
+      "reason": "TP",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.3744,
+      "reason": "TP-RECOVER",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0869,
+      "reason": "SPIKE-QUICK",
+      "symbol": "BCHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.1092,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1165,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1923,
+      "reason": "TP-RECOVER",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.931,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0949,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0841,
+      "reason": "SPIKE-QUICK",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1814,
+      "reason": "TP-RECOVER",
+      "symbol": "TAOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -7.7905,
+      "reason": "SL",
+      "symbol": "1000SHIBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -7.0008,
+      "reason": "SL",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -13.134,
+      "reason": "SL",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.553,
+      "reason": "TP",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6542,
+      "reason": "TP",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0858,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.6612,
+      "reason": "TP",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5623,
+      "reason": "TP",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5198,
+      "reason": "TP",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5215,
+      "reason": "TP",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4818,
+      "reason": "TP",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4473,
+      "reason": "TP",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.0284,
+      "reason": "TP",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4328,
+      "reason": "TP",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4444,
+      "reason": "TP",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.4492,
+      "reason": "TP",
+      "symbol": "AAVEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0919,
+      "reason": "SPIKE-QUICK",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.4715,
+      "reason": "TP",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.6129,
+      "reason": "TP",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 55.3868,
+      "reason": "TP",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -10.0564,
+      "reason": "SL",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -10.3723,
+      "reason": "SL",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 4.0542,
+      "reason": "TP",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.8045,
+      "reason": "TP",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 28.9393,
+      "reason": "TP",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -4.2206,
+      "reason": "SL",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -5.0795,
+      "reason": "SL",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -5.6217,
+      "reason": "SL",
+      "symbol": "UNIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -4.3764,
+      "reason": "SL",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -6.7023,
+      "reason": "SL",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -5.9295,
+      "reason": "SL",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -4.5849,
+      "reason": "SL",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -4.8023,
+      "reason": "SL",
+      "symbol": "APTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -4.1959,
+      "reason": "SL",
+      "symbol": "SEIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0815,
+      "reason": "SPIKE-QUICK",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0879,
+      "reason": "SPIKE-QUICK",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0883,
+      "reason": "SPIKE-QUICK",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1364,
+      "reason": "SPIKE-QUICK",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5358,
+      "reason": "TP",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1017,
+      "reason": "SPIKE-QUICK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2651,
+      "reason": "TP-RECOVER",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2154,
+      "reason": "SPIKE-QUICK",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -2.7646,
+      "reason": "SL",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0888,
+      "reason": "SPIKE-QUICK",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0969,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2716,
+      "reason": "TP-RECOVER",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.6776,
+      "reason": "TP",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.7245,
+      "reason": "TP",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.882,
+      "reason": "TP-RECOVER",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.9533,
+      "reason": "TP",
+      "symbol": "STXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 3.9523,
+      "reason": "TP",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.0721,
+      "reason": "TP",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -2.7843,
+      "reason": "SL",
+      "symbol": "TAOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0967,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.658,
+      "reason": "TP-RECOVER",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.5145,
+      "reason": "TP-RECOVER",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2682,
+      "reason": "TP-RECOVER",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.287,
+      "reason": "TP-RECOVER",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.096,
+      "reason": "TP-RECOVER",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1001,
+      "reason": "TP-RECOVER",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0833,
+      "reason": "SPIKE-QUICK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2058,
+      "reason": "TP-RECOVER",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1804,
+      "reason": "TP-RECOVER",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -2.8669,
+      "reason": "SL",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1543,
+      "reason": "TP-RECOVER",
+      "symbol": "FETUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0949,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -8.6492,
+      "reason": "SL",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1036,
+      "reason": "SPIKE-QUICK",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0879,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2007,
+      "reason": "TP-RECOVER",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.2085,
+      "reason": "TP-RECOVER",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1833,
+      "reason": "TP-RECOVER",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -8.6472,
+      "reason": "SL",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1041,
+      "reason": "STALE-RELEASE",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.1263,
+      "reason": "TP-RECOVER",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.9251,
+      "reason": "TP-RECOVER",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.0617,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 1.28,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3197,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.6349,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "OPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.6343,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -3.9769,
+      "reason": "FEE-GATE",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.0534,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.5814,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.0529,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.5819,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3469,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.3801,
+      "reason": "FEE-GATE",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.8385,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.88,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.6941,
+      "reason": "SPIKE-QUICK",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -2.7617,
+      "reason": "FEE-GATE",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.1839,
+      "reason": "TP",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 2.1098,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.6239,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -3.901,
+      "reason": "FEE-GATE",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -4.4894,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.5108,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.4001,
+      "reason": "FEE-GATE",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.8218,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -3.4671,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.341,
+      "reason": "SPIKE-QUICK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -13.4609,
+      "reason": "FEE-GATE",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -2.4948,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.9768,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.696,
+      "reason": "SPIKE-QUICK",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.3126,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "INJUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.0612,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.4058,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -2.9954,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.399,
+      "reason": "FEE-GATE",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -3.6837,
+      "reason": "FEE-GATE",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3199,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.645,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -2.261,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.004,
+      "reason": "FEE-GATE",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.8144,
+      "reason": "STALE-RELEASE",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.6754,
+      "reason": "TP-RECOVER",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -2.5101,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.6734,
+      "reason": "TP-RECOVER",
+      "symbol": "FILUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -4.669,
+      "reason": "TP",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -3.522,
+      "reason": "SL",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -3.522,
+      "reason": "SL",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.6226,
+      "reason": "FEE-GATE",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.407,
+      "reason": "FEE-GATE",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.7793,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -5.5665,
+      "reason": "FEE-GATE",
+      "symbol": "TONUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.8136,
+      "reason": "FEE-GATE",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.3122,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -2.581,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -2.0743,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": 0.3443,
+      "reason": "SPIKE-QUICK",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.3474,
+      "reason": "SPIKE-QUICK",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -0.4251,
+      "reason": "FEE-GATE",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -2.2602,
+      "reason": "SYNC-EXCHANGE",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "mode_id": "berserk2",
+      "pnl": -1.7007,
+      "reason": "FEE-GATE",
+      "symbol": "WIFUSDT"
+    }
+  ],
+  "lessons": {
+    "n": 61,
+    "win_rate": 0.18032786885245902,
+    "avg_win": 0.9645727272727271,
+    "avg_loss": -1.9465379999999999,
+    "best_exit": "SYNC-EXCHANGE",
+    "spike_share": 0.08196721311475409
+  },
+  "evolution": {
+    "level": 1,
+    "xp": 0,
+    "max_level": 99,
+    "title": "Çırak",
+    "filter_rejects": {
+      "spread_halt": 622,
+      "spread_hard": 37,
+      "score_below_threshold": 2901,
+      "negative_expectancy": 3912,
+      "regime_fake_pump_dump": 1064,
+      "regime_against_trend": 740,
+      "fake_breakout": 370
+    },
+    "regime_pnl": {
+      "trend": 0.0,
+      "chop": 0.0,
+      "mixed": -17086.57
+    },
+    "wins_trend": 0,
+    "losses_chop": 0,
+    "trades_total": 9638,
+    "rejections_total": 9646
+  },
+  "last_metrics": {
+    "daily_start_balance": 5000.0,
+    "current_equity": 5000.0,
+    "target_equity": 10000.0,
+    "progress_to_2x_pct": -50.0,
+    "hourly_required_return": 4.0,
+    "current_hourly_net_return": 0.0,
+    "remaining_gap_to_target": 4.0,
+    "remaining_usd_to_target": 5000.0,
+    "aggression_level": 0.85,
+    "profit_lock_active": false,
+    "realized_pnl": 0,
+    "starting_balance": 5000.0,
+    "equity": 5000.0,
+    "realized": 0.0,
+    "unrealized": 0.0,
+    "hours_elapsed": 1.0,
+    "target_now_usd": 5208.33,
+    "pace_ratio": 0.96,
+    "pnl_per_min": 0.0,
+    "pnl_1h_usd": 0,
+    "needed_per_hour_usd": 9.06,
+    "recent_wr": null,
+    "open_n": 0,
+    "closed_n": 0
+  }
+}

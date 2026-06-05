@@ -1,0 +1,14 @@
+[Unit]
+Description=Multi-source crypto engine (crypto_engine.py)
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/ABS/PATH/TO/predmarket-scanner
+ExecStart=/ABS/PATH/TO/predmarket-scanner/.venv/bin/python /ABS/PATH/TO/predmarket-scanner/crypto_engine.py
+Restart=always
+RestartSec=15
+User=YOUR_USER
+
+[Install]
+WantedBy=multi-user.target

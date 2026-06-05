@@ -1,0 +1,8 @@
+scenarios/.env.mega_9006
+.env.mega_9006
+scenarios/.env.telegram_9006
+scenarios/.env.telegram*
+.env.telegram*
+*.pyc
+__pycache__/
+.venv/
